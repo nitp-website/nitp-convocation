@@ -7,8 +7,8 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
       {/* Sidebar */}
       <aside className="w-64 bg-primary text-white flex flex-col shadow-xl z-10 hidden md:flex">
         <div className="p-6 flex items-center space-x-3 border-b border-white/10">
-          <div className="w-8 h-8 bg-white text-primary font-bold flex items-center justify-center rounded-full text-xs">
-            NP
+          <div className="w-9 h-9 bg-white rounded-full p-0.5 flex items-center justify-center shadow-md shrink-0">
+            <img src="/logo.png" alt="NIT Patna Logo" className="w-full h-full object-contain" />
           </div>
           <span className="font-serif text-xl font-bold tracking-wider">Admin Panel</span>
         </div>

@@ -7,8 +7,8 @@ export default function StudentLayout({ children }: { children: React.ReactNode 
       {/* Top Navbar */}
       <header className="h-16 bg-primary text-white shadow-md flex items-center justify-between px-6 shrink-0">
         <div className="flex items-center space-x-4">
-          <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center font-bold text-primary text-xs shadow-inner">
-            NITP
+          <div className="w-9 h-9 bg-white rounded-full p-0.5 flex items-center justify-center shadow-inner shrink-0">
+            <img src="/logo.png" alt="NIT Patna Logo" className="w-full h-full object-contain" />
           </div>
           <h1 className="text-lg font-serif tracking-wide hidden sm:block">
             Student Portal - XIV Convocation
