@@ -1,0 +1,155 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String     @id @default(uuid())
+  email         String     @unique
+  passwordHash  String
+  role          String     // e.g., SUPER_ADMIN, REGISTRATION_ADMIN
+  isActive      Boolean    @default(true)
+  createdAt     DateTime   @default(now())
+  updatedAt     DateTime   @updatedAt
+  auditLogs     AuditLog[]
+}
+
+model Convocation {
+  id             String     @id @default(uuid())
+  editionNumber  String     // e.g., "XIV"
+  year           Int        @unique
+  ceremonyDate   DateTime
+  venue          String
+  status         String     // "UPCOMING", "ACTIVE", "ARCHIVED"
+  
+  recipients     DegreeRecipient[]
+  awards         Award[]
+  createdAt      DateTime   @default(now())
+  updatedAt      DateTime   @updatedAt
+}
+
+model Department {
+  id        String    @id @default(uuid())
+  name      String    @unique
+  code      String    @unique
+  students  Student[]
+}
+
+model Programme {
+  id            String    @id @default(uuid())
+  name          String
+  level         String    // "UG", "PG", "PhD"
+  durationYears Int
+  students      Student[]
+}
+
+model Student {
+  id             String    @id @default(uuid())
+  rollNumber     String    @unique
+  fullName       String
+  email          String?   @unique
+  phone          String?
+  
+  departmentId   String
+  department     Department @relation(fields: [departmentId], references: [id])
+  
+  programmeId    String
+  programme      Programme  @relation(fields: [programmeId], references: [id])
+  
+  degrees        DegreeRecipient[]
+  awardsReceived AwardRecipient[]
+
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+}
+
+model DegreeRecipient {
+  id             String      @id @default(uuid())
+  studentId      String
+  student        Student     @relation(fields: [studentId], references: [id])
+  
+  convocationId  String
+  convocation    Convocation @relation(fields: [convocationId], references: [id])
+  
+  cgpa           Float?
+  passingYear    Int
+  
+  registration   Registration?
+
+  @@unique([studentId, convocationId])
+}
+
+model Registration {
+  id                String          @id @default(uuid())
+  degreeRecipientId String          @unique
+  degreeRecipient   DegreeRecipient @relation(fields: [degreeRecipientId], references: [id])
+  
+  status            String          // "DRAFT", "SUBMITTED", "APPROVED", "REJECTED"
+  attendingInPerson Boolean         @default(false)
+  guestCount        Int             @default(0)
+  dispatchAddress   String?         @db.Text
+  adminRemarks      String?         @db.Text
+  
+  pass              Pass?
+
+  createdAt         DateTime        @default(now())
+  updatedAt         DateTime        @updatedAt
+}
+
+model Pass {
+  id             String       @id @default(uuid())
+  registrationId String       @unique
+  registration   Registration @relation(fields: [registrationId], references: [id])
+  
+  qrCodeHash     String       @unique
+  blockName      String?
+  rowNumber      String?
+  seatNumber     String?
+  
+  isScanned      Boolean      @default(false)
+  scannedAt      DateTime?
+
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+}
+
+model Award {
+  id            String       @id @default(uuid())
+  convocationId String
+  convocation   Convocation  @relation(fields: [convocationId], references: [id])
+  
+  name          String
+  type          String       // "GOLD_MEDAL", "CERTIFICATE"
+  
+  recipients    AwardRecipient[]
+}
+
+model AwardRecipient {
+  id          String   @id @default(uuid())
+  awardId     String
+  award       Award    @relation(fields: [awardId], references: [id])
+  
+  studentId   String
+  student     Student  @relation(fields: [studentId], references: [id])
+  
+  remarks     String?
+}
+
+model AuditLog {
+  id         String   @id @default(uuid())
+  userId     String
+  user       User     @relation(fields: [userId], references: [id])
+  actionType String
+  tableName  String
+  recordId   String
+  oldValues  String?  @db.Text
+  newValues  String?  @db.Text
+  timestamp  DateTime @default(now())
+}
