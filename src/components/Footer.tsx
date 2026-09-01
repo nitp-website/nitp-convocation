@@ -6,7 +6,7 @@ import { MapPin, Mail, Phone, ExternalLink } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-slate-950 text-slate-300 pt-16 pb-12 border-t-4 border-amber-500">
+    <footer className="bg-[#0F172A] text-slate-300 pt-16 pb-12 border-t-[4px] border-blue-600">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Main Grid */}
@@ -23,95 +23,70 @@ export default function Footer() {
                 />
               </div>
               <div>
-                <h4 className="font-serif font-bold text-white text-base leading-tight">
+                <h4 className="font-sans font-bold text-white text-base leading-tight tracking-wide">
                   National Institute of Technology Patna
                 </h4>
-                <p className="text-[11px] text-amber-400/90 font-medium">
+                <p className="text-[11px] text-blue-400 font-bold tracking-widest uppercase mt-0.5">
                   NIT Patna
                 </p>
               </div>
             </div>
-            <p className="text-xs text-slate-400 leading-relaxed">
+            <p className="text-[13px] text-slate-400 leading-relaxed font-sans">
               An Institution of National Importance under the Ministry of Education, Government of India.
             </p>
           </div>
 
           {/* Column 2: Convocation Links */}
-          <div className="space-y-3">
-            <h5 className="text-white font-serif font-bold text-sm uppercase tracking-wider">
+          <div className="space-y-4">
+            <h5 className="text-white font-sans font-bold text-sm uppercase tracking-widest">
               Convocation
             </h5>
-            <ul className="space-y-2 text-xs text-slate-400">
+            <ul className="space-y-2.5 text-[13px] text-slate-400 font-medium">
               <li>
-                <Link href="/" className="hover:text-amber-400 transition-colors">
+                <Link href="/" className="hover:text-white transition-colors duration-200">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/#schedule" className="hover:text-amber-400 transition-colors">
-                  Programme
-                </Link>
-              </li>
-              <li>
-                <Link href="/#awardees" className="hover:text-amber-400 transition-colors">
-                  Awardees
-                </Link>
-              </li>
-              <li>
-                <Link href="/graduates" className="hover:text-amber-400 transition-colors">
-                  Graduates
-                </Link>
-              </li>
-              <li>
-                <Link href="/#gallery" className="hover:text-amber-400 transition-colors">
-                  Gallery
+                <Link href="/graduates" className="hover:text-white transition-colors duration-200">
+                  Search Graduate Directory
                 </Link>
               </li>
             </ul>
           </div>
 
           {/* Column 3: Resources */}
-          <div className="space-y-3">
-            <h5 className="text-white font-serif font-bold text-sm uppercase tracking-wider">
+          <div className="space-y-4">
+            <h5 className="text-white font-sans font-bold text-sm uppercase tracking-widest">
               Resources
             </h5>
-            <ul className="space-y-2 text-xs text-slate-400">
+            <ul className="space-y-2.5 text-[13px] text-slate-400 font-medium">
               <li>
-                <Link href="/#downloads" className="hover:text-amber-400 transition-colors">
-                  Downloads
-                </Link>
-              </li>
-              <li>
-                <Link href="/#helpdesk" className="hover:text-amber-400 transition-colors">
-                  Help Desk
-                </Link>
-              </li>
-              <li>
-                <a href="https://www.nitp.ac.in" target="_blank" rel="noopener noreferrer" className="hover:text-amber-400 transition-colors inline-flex items-center space-x-1">
+                <a href="https://www.nitp.ac.in" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors duration-200 inline-flex items-center space-x-1.5 group">
                   <span>Official Institute Website</span>
-                  <ExternalLink className="w-3 h-3" />
+                  <ExternalLink className="w-3.5 h-3.5 text-slate-500 group-hover:text-white transition-colors" />
                 </a>
               </li>
             </ul>
           </div>
 
           {/* Column 4: Contact */}
-          <div className="space-y-3">
-            <h5 className="text-white font-serif font-bold text-sm uppercase tracking-wider">
+          <div className="space-y-4">
+            <h5 className="text-white font-sans font-bold text-sm uppercase tracking-widest">
               Contact
             </h5>
-            <div className="space-y-2 text-xs text-slate-400">
-              <p className="flex items-center space-x-2">
-                <Mail className="w-3.5 h-3.5" />
-                <a href="mailto:convocation@nitp.ac.in" className="hover:text-amber-400">convocation@nitp.ac.in</a>
+            <div className="space-y-3 text-[13px] text-slate-400">
+              <p className="flex items-center space-x-3">
+                <Mail className="w-4 h-4 text-blue-500" />
+                <a href="mailto:convocation@nitp.ac.in" className="hover:text-white transition-colors duration-200 font-medium">convocation@nitp.ac.in</a>
               </p>
-              <p className="flex items-center space-x-2">
-                <Phone className="w-3.5 h-3.5" />
-                <span>+91 612 237 1715</span>
+              <p className="flex items-center space-x-3">
+                <Phone className="w-4 h-4 text-blue-500" />
+                <span className="font-medium">+91 612 237 1715</span>
               </p>
-              <div className="flex items-start space-x-2">
-                <MapPin className="w-3.5 h-3.5 shrink-0 mt-0.5" />
-                <span>
+              <div className="flex items-start space-x-3">
+                <MapPin className="w-4 h-4 text-blue-500 shrink-0 mt-0.5" />
+                <span className="leading-relaxed">
                   Ashok Rajpath, Mahendru<br />
                   Patna, Bihar — 800005, India
                 </span>
@@ -122,12 +97,18 @@ export default function Footer() {
         </div>
 
         {/* Bottom Credits & Copyright */}
-        <div className="pt-8 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-500 gap-4">
+        <div className="pt-8 flex flex-col sm:flex-row justify-between items-center text-[11px] sm:text-xs text-slate-500 gap-4 font-medium tracking-wide">
           <p>
             &copy; {new Date().getFullYear()} National Institute of Technology Patna. All Rights Reserved.
           </p>
           <p className="text-slate-400">
-            Designed &amp; Developed by Web Development Cell, NIT Patna
+            Developed by{" "}
+            <Link 
+              href="/wdc" 
+              className="text-slate-200 hover:text-white font-semibold underline underline-offset-4 decoration-blue-500/40 hover:decoration-blue-400 transition-colors"
+            >
+              WDC, NIT Patna
+            </Link>
           </p>
         </div>
 

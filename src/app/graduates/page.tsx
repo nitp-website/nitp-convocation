@@ -72,28 +72,12 @@ export default function GraduatesDirectory() {
   });
 
   return (
-    <div className="min-h-screen flex flex-col font-sans bg-[#FBF9F5] text-slate-900">
+    <div className="min-h-screen flex flex-col font-sans bg-[#F8FAFC] text-slate-900">
       {/* Official Unified Navbar */}
       <Navbar />
 
-      {/* Page Header */}
-      <div className="bg-gradient-to-r from-slate-900 via-blue-950 to-slate-900 text-white py-14 px-4 sm:px-6 lg:px-8 border-b border-slate-800">
-        <div className="max-w-7xl mx-auto space-y-3">
-          <div className="inline-flex items-center space-x-2 text-amber-400 font-bold text-xs uppercase tracking-wider bg-white/10 px-3 py-1 rounded-full border border-white/10">
-            <GraduationCap className="w-4 h-4" />
-            <span>OFFICIAL RECIPIENT REGISTER (XIV CONVOCATION)</span>
-          </div>
-          <h1 className="text-3xl sm:text-5xl font-serif font-extrabold text-white tracking-tight">
-            Graduate Directory
-          </h1>
-          <p className="text-slate-300 max-w-3xl text-sm sm:text-base leading-relaxed">
-            Official directory of doctoral, postgraduate, and undergraduate degree recipients for the 14th Convocation Ceremony of NIT Patna. Filter by department, degree level, or search directly.
-          </p>
-        </div>
-      </div>
-
       {/* Search & Filters Area */}
-      <main className="flex-1 py-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full space-y-8">
+      <main className="flex-1 pt-28 sm:pt-32 pb-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full space-y-8">
         <div className="bg-white p-5 rounded-3xl shadow-sm border border-slate-200 grid grid-cols-1 md:grid-cols-4 gap-4 items-center">
           <div className="relative md:col-span-2">
             <Search className="w-4 h-4 absolute left-3.5 top-3.5 text-slate-400" />

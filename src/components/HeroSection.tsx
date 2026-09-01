@@ -12,7 +12,6 @@ import {
   ShieldAlert, 
   FileText,
   ChevronRight,
-  Sparkles,
   RotateCw
 } from "lucide-react";
 import { INSTITUTE_INFO } from "@/lib/souvenirData";
@@ -22,96 +21,79 @@ export default function HeroSection() {
   const [isFlipped, setIsFlipped] = useState(false);
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-[#FFFDF9] via-[#FAF6EE] to-[#F5EFE4] text-slate-900 pt-8 sm:pt-14 pb-0 border-b border-amber-900/10">
-      {/* Background Soft Ambient Glows */}
-      <div className="absolute top-0 right-1/4 w-96 h-96 bg-amber-200/40 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute top-1/3 left-10 w-80 h-80 bg-orange-200/30 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute bottom-10 right-10 w-96 h-96 bg-blue-100/40 rounded-full blur-3xl pointer-events-none" />
+    <section className="relative overflow-hidden bg-[#F8FAFC] text-slate-900 pt-28 sm:pt-36 pb-0 border-b border-slate-200/50">
+      {/* Soft Ambient Glows for Modern Depth */}
+      <div className="absolute top-0 right-1/4 w-[500px] h-[500px] bg-blue-400/10 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute top-1/3 left-10 w-[400px] h-[400px] bg-amber-400/10 rounded-full blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-8 items-center pb-12 lg:pb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center pb-16 lg:pb-20">
           
           {/* Left Column: Heading, Subtitle & Stat Cards */}
-          <div className="lg:col-span-7 space-y-6 sm:space-y-8 text-left">
-            {/* Top Label */}
-            <div className="inline-block">
-              <span className="text-2xl sm:text-3xl font-serif font-bold text-amber-800 tracking-tight">
-                Convocation <span className="text-amber-900">2025</span>
-              </span>
-            </div>
-
+          <div className="lg:col-span-7 space-y-8 text-left">
             {/* Giant Display Title */}
-            <div className="space-y-2">
-              <h1 className="text-4xl sm:text-6xl lg:text-7xl font-serif font-extrabold tracking-tight leading-[1.1] text-slate-900">
-                Celebrating{" "}
-                <span className="bg-gradient-to-r from-orange-500 via-amber-500 to-yellow-600 bg-clip-text text-transparent drop-shadow-xs">
+            <div className="space-y-4">
+              <h1 className="text-5xl sm:text-7xl font-sans font-extrabold tracking-tight leading-[1.05] text-slate-900">
+                Celebrating<br/>
+                <span className="bg-gradient-to-r from-blue-700 via-indigo-600 to-blue-800 bg-clip-text text-transparent">
                   Excellence
                 </span>
               </h1>
-              <p className="text-lg sm:text-xl font-serif italic text-slate-700 pt-1">
-                &ldquo;The Stage is set for the <span className="font-semibold text-amber-800">Leaders of Tomorrow</span>&rdquo;
-              </p>
-              <p className="text-xs sm:text-sm text-slate-600 max-w-xl font-sans">
-                Honouring the scholarly perseverance of doctoral, postgraduate, and undergraduate candidates at India&apos;s 6th oldest engineering institution (Ranked 53rd in NIRF 2025).
+              <p className="text-lg sm:text-xl font-sans font-medium text-slate-500 max-w-lg leading-relaxed">
+                Honouring the scholarly perseverance of doctoral, postgraduate, and undergraduate candidates at India&apos;s 6th oldest engineering institution.
               </p>
             </div>
 
             {/* Three Metric / Stat Cards in a row */}
-            <div className="grid grid-cols-3 gap-3 sm:gap-5 pt-2 max-w-xl">
+            <div className="grid grid-cols-3 gap-4 max-w-xl">
               {/* Card 1 */}
-              <div className="bg-white/85 backdrop-blur-md rounded-2xl p-4 sm:p-5 text-center shadow-sm border border-white/80 hover:shadow-md transition-all hover:-translate-y-0.5">
-                <div className="w-8 h-8 mx-auto mb-2 text-blue-700 flex items-center justify-center">
-                  <Award className="w-6 h-6 stroke-[1.75]" />
+              <div className="bg-white/70 backdrop-blur-xl rounded-2xl p-5 text-center shadow-sm border border-slate-200/60 hover:shadow-md transition-all duration-300 hover:-translate-y-1">
+                <div className="w-10 h-10 mx-auto mb-3 bg-blue-50 text-blue-700 rounded-xl flex items-center justify-center">
+                  <Award className="w-5 h-5" />
                 </div>
-                <div className="text-2xl sm:text-3xl font-bold font-serif text-slate-900">
+                <div className="text-2xl sm:text-3xl font-extrabold text-slate-900">
                   14th
                 </div>
-                <div className="text-xs sm:text-sm text-slate-500 font-medium">
+                <div className="text-xs sm:text-sm font-semibold text-slate-500 uppercase tracking-wider mt-1">
                   Edition
                 </div>
               </div>
 
               {/* Card 2 */}
-              <div className="bg-white/85 backdrop-blur-md rounded-2xl p-4 sm:p-5 text-center shadow-sm border border-white/80 hover:shadow-md transition-all hover:-translate-y-0.5">
-                <div className="w-8 h-8 mx-auto mb-2 text-blue-700 flex items-center justify-center">
-                  <GraduationCap className="w-6 h-6 stroke-[1.75]" />
+              <div className="bg-white/70 backdrop-blur-xl rounded-2xl p-5 text-center shadow-sm border border-slate-200/60 hover:shadow-md transition-all duration-300 hover:-translate-y-1">
+                <div className="w-10 h-10 mx-auto mb-3 bg-blue-50 text-blue-700 rounded-xl flex items-center justify-center">
+                  <GraduationCap className="w-5 h-5" />
                 </div>
-                <div className="text-2xl sm:text-3xl font-bold font-serif text-slate-900">
+                <div className="text-2xl sm:text-3xl font-extrabold text-slate-900">
                   {INSTITUTE_INFO.totalGraduates}
                 </div>
-                <div className="text-xs sm:text-sm text-slate-500 font-medium">
+                <div className="text-xs sm:text-sm font-semibold text-slate-500 uppercase tracking-wider mt-1">
                   Graduates
                 </div>
               </div>
 
               {/* Card 3 */}
-              <div className="bg-white/85 backdrop-blur-md rounded-2xl p-4 sm:p-5 text-center shadow-sm border border-white/80 hover:shadow-md transition-all hover:-translate-y-0.5">
-                <div className="w-8 h-8 mx-auto mb-2 text-blue-700 flex items-center justify-center">
-                  <Users className="w-6 h-6 stroke-[1.75]" />
+              <div className="bg-white/70 backdrop-blur-xl rounded-2xl p-5 text-center shadow-sm border border-slate-200/60 hover:shadow-md transition-all duration-300 hover:-translate-y-1">
+                <div className="w-10 h-10 mx-auto mb-3 bg-blue-50 text-blue-700 rounded-xl flex items-center justify-center">
+                  <Users className="w-5 h-5" />
                 </div>
-                <div className="text-2xl sm:text-3xl font-bold font-serif text-slate-900">
+                <div className="text-2xl sm:text-3xl font-extrabold text-slate-900">
                   {INSTITUTE_INFO.goldMedals}
                 </div>
-                <div className="text-xs sm:text-sm text-slate-500 font-medium">
+                <div className="text-xs sm:text-sm font-semibold text-slate-500 uppercase tracking-wider mt-1">
                   Medalists
                 </div>
               </div>
             </div>
 
             {/* Quick Action Links */}
-            <div className="flex flex-wrap gap-3 pt-2">
+            <div className="flex flex-wrap gap-4 pt-4">
               <Link
                 href="/graduates"
-                className="inline-flex items-center space-x-2 bg-slate-900 hover:bg-slate-800 text-white font-semibold px-5 py-3 rounded-xl text-sm shadow-md transition-all"
+                className="inline-flex items-center space-x-2 bg-[#0F172A] hover:bg-slate-800 text-white font-semibold px-6 py-3.5 rounded-xl shadow-lg shadow-slate-900/20 transition-all duration-200 cursor-pointer"
               >
                 <span>Search Graduate Directory</span>
                 <ChevronRight className="w-4 h-4" />
-              </Link>
-              <Link
-                href="/awards"
-                className="inline-flex items-center space-x-2 bg-white hover:bg-amber-50 text-amber-900 font-semibold px-5 py-3 rounded-xl text-sm border border-amber-300/80 shadow-sm transition-all"
-              >
-                <span>View 2024–25 Medalists</span>
               </Link>
             </div>
           </div>
@@ -198,71 +180,71 @@ export default function HeroSection() {
       </div>
 
       {/* 4-Segment Full Width Announcement Strip matching Souvenir */}
-      <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 shadow-xl">
-        {/* Segment 1: Orange - Important Announcement */}
-        <div className="bg-gradient-to-r from-amber-700 to-amber-600 text-white p-4 sm:p-5 flex items-center justify-between space-x-3 border-r border-amber-600/30">
+      <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 shadow-xl relative z-20">
+        {/* Segment 1: Deep Blue - Important Announcement */}
+        <div className="bg-gradient-to-r from-blue-900 to-blue-800 text-white p-4 sm:p-5 flex items-center justify-between space-x-3 border-r border-blue-700/50">
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 rounded-xl bg-white/20 flex items-center justify-center shrink-0">
-              <ShieldAlert className="w-5 h-5 text-white" />
+            <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center shrink-0">
+              <ShieldAlert className="w-5 h-5 text-blue-300" />
             </div>
             <div>
-              <div className="text-[10px] font-bold uppercase tracking-wider text-amber-200">
+              <div className="text-[10px] font-bold uppercase tracking-wider text-blue-300">
                 IMPORTANT
               </div>
-              <div className="text-sm font-bold leading-tight">
+              <div className="text-sm font-bold leading-tight text-white">
                 Announcement
               </div>
             </div>
           </div>
           <button 
             onClick={() => setShowPdfModal(true)}
-            className="inline-flex items-center space-x-1.5 bg-white text-amber-900 font-bold px-3 py-1.5 rounded-lg text-xs hover:bg-amber-100 transition-colors shadow-sm"
+            className="inline-flex items-center space-x-1.5 bg-white/10 hover:bg-white/20 text-white font-bold px-3 py-1.5 rounded-lg text-xs transition-colors border border-white/10 cursor-pointer"
           >
             <FileText className="w-3.5 h-3.5" />
             <span>View PDF</span>
           </button>
         </div>
 
-        {/* Segment 2: Crimson/Red - Full Dress Rehearsal */}
-        <div className="bg-gradient-to-r from-rose-800 to-rose-700 text-white p-4 sm:p-5 flex items-center space-x-3 border-r border-rose-600/30">
-          <div className="w-10 h-10 rounded-xl bg-white/20 flex items-center justify-center shrink-0">
-            <Calendar className="w-5 h-5 text-white" />
+        {/* Segment 2: Indigo - Full Dress Rehearsal */}
+        <div className="bg-gradient-to-r from-indigo-900 to-indigo-800 text-white p-4 sm:p-5 flex items-center space-x-3 border-r border-indigo-700/50">
+          <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center shrink-0">
+            <Calendar className="w-5 h-5 text-indigo-300" />
           </div>
           <div>
-            <div className="text-[10px] font-bold uppercase tracking-wider text-rose-200">
+            <div className="text-[10px] font-bold uppercase tracking-wider text-indigo-300">
               FULL DRESS REHEARSAL
             </div>
-            <div className="text-sm font-bold leading-tight">
+            <div className="text-sm font-bold leading-tight text-white">
               Saturday, December 27, 2025
             </div>
           </div>
         </div>
 
-        {/* Segment 3: Deep Maroon/Purple - Reporting Time */}
-        <div className="bg-gradient-to-r from-purple-900 to-purple-800 text-white p-4 sm:p-5 flex items-center space-x-3 border-r border-purple-700/30">
-          <div className="w-10 h-10 rounded-xl bg-white/20 flex items-center justify-center shrink-0">
-            <Clock className="w-5 h-5 text-white" />
+        {/* Segment 3: Slate - Reporting Time */}
+        <div className="bg-gradient-to-r from-slate-900 to-slate-800 text-white p-4 sm:p-5 flex items-center space-x-3 border-r border-slate-700/50">
+          <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center shrink-0">
+            <Clock className="w-5 h-5 text-slate-300" />
           </div>
           <div>
-            <div className="text-[10px] font-bold uppercase tracking-wider text-purple-200">
+            <div className="text-[10px] font-bold uppercase tracking-wider text-slate-300">
               REPORTING TIME
             </div>
-            <div className="text-sm font-bold leading-tight">
+            <div className="text-sm font-bold leading-tight text-white">
               08:00 AM Sharp
             </div>
           </div>
         </div>
 
-        {/* Segment 4: Deep Navy/Indigo - Venue */}
-        <div className="bg-gradient-to-r from-indigo-950 to-slate-900 text-white p-4 sm:p-5 flex items-center space-x-3">
-          <div className="w-10 h-10 rounded-xl bg-white/20 flex items-center justify-center shrink-0">
-            <MapPin className="w-5 h-5 text-white" />
+        {/* Segment 4: Navy - Venue */}
+        <div className="bg-gradient-to-r from-slate-950 to-black text-white p-4 sm:p-5 flex items-center space-x-3">
+          <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center shrink-0">
+            <MapPin className="w-5 h-5 text-slate-400" />
           </div>
           <div>
-            <div className="text-[10px] font-bold uppercase tracking-wider text-indigo-300">
+            <div className="text-[10px] font-bold uppercase tracking-wider text-slate-400">
               VENUE
             </div>
-            <div className="text-sm font-bold leading-tight">
+            <div className="text-sm font-bold leading-tight text-white">
               Main Campus, NIT Patna
             </div>
           </div>

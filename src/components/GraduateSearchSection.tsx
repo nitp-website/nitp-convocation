@@ -33,8 +33,8 @@ export default function GraduateSearchSection() {
     
     return GRADUATES_LIST.filter(grad => 
       grad.name.toLowerCase().includes(lowerSearch) ||
-      grad.rollNumber.toLowerCase().includes(lowerSearch) ||
-      grad.department.toLowerCase().includes(lowerSearch)
+      grad.roll.toLowerCase().includes(lowerSearch) ||
+      grad.dept.toLowerCase().includes(lowerSearch)
     ).slice(0, 10); // Limit to 10 for performance in UI
   }, [debouncedSearch]);
 
@@ -92,14 +92,14 @@ export default function GraduateSearchSection() {
                   <div>
                     <h3 className="font-bold text-lg text-slate-900">{grad.name}</h3>
                     <div className="text-sm font-medium text-slate-500 mt-1 flex flex-wrap gap-x-4 gap-y-1">
-                      <span>Roll: {grad.rollNumber}</span>
-                      <span>{grad.programme}</span>
+                      <span>Roll: {grad.roll}</span>
+                      <span>{grad.prog}</span>
                     </div>
-                    <p className="text-sm text-slate-600 mt-1">{grad.department}</p>
+                    <p className="text-sm text-slate-600 mt-1">{grad.dept}</p>
                   </div>
-                  {grad.award && (
+                  {grad.honor && (
                     <div className="shrink-0 bg-amber-50 border border-amber-200 text-amber-800 text-xs font-bold px-3 py-1.5 rounded-lg text-center">
-                      {grad.award}
+                      {grad.honor}
                     </div>
                   )}
                 </div>

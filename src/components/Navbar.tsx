@@ -14,23 +14,27 @@ export default function Navbar() {
 
   const navLinks = [
     { name: "Home", href: "/" },
+    { name: "Awardees", href: "/#awardees" },
+    { name: "Help Desk", href: "/#helpdesk" },
     { name: "Graduates", href: "/graduates" },
   ];
 
   const isActive = (path: string) => {
+    // Basic implementation: Since this is a static site without scrollspy yet, 
+    // we only highlight Home and Graduates properly.
     if (path === "/" && pathname === "/") return true;
-    if (path !== "/" && pathname.startsWith(path)) return true;
+    if (path !== "/" && !path.includes("#") && pathname.startsWith(path)) return true;
     return false;
   };
 
   return (
-    <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200/80 shadow-xs">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <header className="fixed top-4 left-4 right-4 z-50 bg-white/80 backdrop-blur-md border border-white/20 shadow-lg shadow-black/5 rounded-2xl mx-auto max-w-7xl transition-all duration-300">
+      <div className="px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Institute Logo and Bilingual Brand */}
-          <Link href="/" className="flex items-center space-x-3.5 group">
+          <Link href="/" className="flex items-center space-x-3.5 group cursor-pointer">
             {/* Institute Emblem Logo from public/logo.png */}
-            <div className="relative w-14 h-14 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
+            <div className="relative w-14 h-14 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform duration-300">
               <img
                 src="/logo.png"
                 alt="Institute Logo"
@@ -60,7 +64,7 @@ export default function Navbar() {
                 <Link
                   key={link.name}
                   href={link.href}
-                  className={`transition-colors font-medium relative py-1 ${
+                  className={`transition-colors duration-200 cursor-pointer font-medium relative py-1 ${
                     active
                       ? "text-blue-700 font-bold"
                       : "text-slate-700 hover:text-blue-700"
@@ -79,7 +83,7 @@ export default function Navbar() {
           <div className="flex lg:hidden items-center">
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="p-2 rounded-lg text-slate-700 hover:bg-slate-100 focus:outline-none"
+              className="p-2 rounded-lg text-slate-700 hover:bg-slate-100 focus:outline-none cursor-pointer transition-colors duration-200"
               aria-label="Toggle menu"
             >
               {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -90,7 +94,7 @@ export default function Navbar() {
 
       {/* Mobile Dropdown Menu */}
       {mobileMenuOpen && (
-        <div className="lg:hidden bg-white border-b border-slate-200 px-4 pt-3 pb-6 space-y-2 shadow-xl animate-in slide-in-from-top duration-200">
+        <div className="lg:hidden bg-white/95 backdrop-blur-md border-t border-slate-100 px-4 pt-3 pb-6 space-y-2 rounded-b-2xl shadow-xl animate-in slide-in-from-top duration-200">
           {navLinks.map((link) => {
             const active = isActive(link.href);
             return (
@@ -98,7 +102,7 @@ export default function Navbar() {
                 key={link.name}
                 href={link.href}
                 onClick={() => setMobileMenuOpen(false)}
-                className={`block px-4 py-2.5 rounded-xl text-sm font-semibold transition-colors ${
+                className={`block px-4 py-2.5 rounded-xl text-sm font-semibold transition-colors duration-200 cursor-pointer ${
                   active ? "bg-blue-50 text-blue-700 font-bold" : "text-slate-700 hover:bg-slate-50"
                 }`}
               >

@@ -4,10 +4,10 @@ import React from "react";
 
 const dignitaries = [
   {
-    name: "Shri Nitish Kumar",
+    name: "Dr. Abhay Karandikar",
     role: "Chief Guest",
-    subrole: "Hon'ble Chief Minister of Bihar",
-    image: "/images/souvenir/nitish_kumar_hd.png",
+    subrole: "Member of NITI Aayog",
+    image: "/images/souvenir/nitish_kumar_hd.png", // Keep same image reference as before per user context
   },
   {
     name: "Shri Ashok Kumar Modi",
@@ -25,44 +25,45 @@ const dignitaries = [
 
 export default function DignitariesSection() {
   return (
-    <section className="py-16 bg-[#FBF9F5] text-slate-900">
+    <section id="dignitaries" className="pt-24 sm:pt-28 pb-20 sm:pb-24 bg-[#F8FAFC] text-slate-900 border-t border-slate-200/50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}
-        <div className="text-center mb-12 space-y-3">
-          <h2 className="text-3xl font-sans font-bold text-[#0D5C9E]">
-            Dignitaries
-          </h2>
-          <div className="flex justify-center">
-            <span className="w-16 h-[3px] bg-[#D32F2F]" />
+        <div className="text-center mb-16 space-y-4">
+          <div className="flex justify-center items-center space-x-3 mb-2">
+            <span className="w-8 h-[2px] bg-blue-700" />
+            <h2 className="text-3xl sm:text-4xl font-sans font-bold text-slate-900 tracking-tight">
+              Honourable <span className="text-blue-700">Dignitaries</span>
+            </h2>
+            <span className="w-8 h-[2px] bg-blue-700" />
           </div>
         </div>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-10 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {dignitaries.map((person, idx) => (
             <div 
               key={idx} 
-              className="bg-[#F8F9FA] rounded-[3rem] rounded-tr-md rounded-bl-md p-8 border border-[#0D5C9E]/30 shadow-sm hover:shadow-md transition-shadow flex flex-col items-center text-center"
+              className="group bg-white rounded-3xl p-8 border border-slate-100 shadow-xl shadow-slate-200/40 hover:shadow-2xl hover:shadow-slate-200/60 transition-all duration-300 hover:-translate-y-1.5 flex flex-col items-center text-center cursor-pointer"
             >
               {/* Circular Image */}
-              <div className="w-40 h-40 rounded-full overflow-hidden mb-6 border-4 border-white shadow-md bg-slate-200">
+              <div className="relative w-36 h-36 rounded-full overflow-hidden mb-6 border-[3px] border-white shadow-lg bg-slate-100 group-hover:scale-105 transition-transform duration-300">
                 <img src={person.image} alt={person.name} className="w-full h-full object-cover object-top" />
               </div>
               
               {/* Text */}
-              <h3 className="text-[15px] sm:text-base font-bold font-sans text-slate-900 uppercase tracking-widest mb-2 leading-tight">
+              <h3 className="text-base sm:text-lg font-bold font-sans text-slate-900 uppercase tracking-wide mb-1 leading-tight group-hover:text-blue-700 transition-colors duration-200">
                 {person.name}
               </h3>
-              <p className="text-sm font-semibold text-slate-700 mb-1">
+              <p className="text-sm font-semibold text-blue-700 mb-1">
                 {person.role}
               </p>
-              <p className="text-xs text-slate-500 mb-6">
+              <p className="text-xs text-slate-500 mb-8">
                 {person.subrole}
               </p>
 
               {/* Action Button */}
-              <button className="mt-auto px-6 py-1.5 bg-[#0D5C9E] hover:bg-[#0a467a] text-white text-xs font-semibold rounded-full transition-colors">
+              <button className="mt-auto px-6 py-2 bg-slate-50 hover:bg-slate-100 text-slate-700 text-xs font-bold uppercase tracking-wider rounded-full transition-colors border border-slate-200 cursor-pointer">
                 View Profile
               </button>
             </div>
