@@ -324,3 +324,14 @@ export const PROGRAMME_EVENTS = [
     description: 'Departmental group photographs with Chief Guest and dignitaries, followed by celebratory reception.'
   }
 ];
+
+export const GRADUATES_LIST: Graduate[] = [
+  { name: 'Aditya Kumar', roll: '2106001', prog: 'B.Tech', dept: 'Computer Science & Engineering' },
+  { name: 'Priya Sharma', roll: '2106002', prog: 'B.Tech', dept: 'Computer Science & Engineering' },
+  { name: 'Rahul Verma', roll: '2102005', prog: 'B.Tech', dept: 'Electrical Engineering' },
+  { name: 'Neha Singh', roll: '2323001', prog: 'M.Tech', dept: 'Civil Engineering' },
+  { name: 'Ritika Kumari', roll: '2103049', prog: 'B.Tech', dept: 'Civil Engineering', honor: 'Triple Gold Medalist' },
+  { name: 'Harsh Nandan Verma', roll: '2106216', prog: 'B.Tech', dept: 'Computer Science & Engineering', honor: 'President & Director Gold Medal' },
+  { name: 'Ravi Kumar', roll: '2354010', prog: 'M.Tech', dept: 'Computer Science & Engineering' },
+  { name: 'Anjali Das', roll: '2005011', prog: 'B.Arch', dept: 'Architecture & Planning' },
+];

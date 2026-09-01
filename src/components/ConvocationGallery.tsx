@@ -83,20 +83,20 @@ export default function ConvocationGallery() {
   ];
 
   return (
-    <section className="py-20 bg-white text-slate-900 relative">
+    <section id="gallery" className="py-20 bg-white text-slate-900 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header matching Image 6 */}
         <div className="text-center max-w-2xl mx-auto mb-14 space-y-3">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-sans font-bold text-[#0D5C9E] tracking-tight">
-            Glimpse of XIV Convocation
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-slate-900 tracking-tight uppercase">
+            Convocation Moments
           </h2>
-          {/* Red Accent Underline Bar matching Image 6 */}
+          {/* Accent Underline Bar */}
           <div className="flex justify-center">
-            <span className="w-24 h-1 bg-[#D32F2F] rounded-full" />
+            <span className="w-24 h-1 bg-amber-500 rounded-full" />
           </div>
           <p className="text-sm sm:text-base text-slate-600 pt-2">
-            Cherished moments of pride, academic celebration, and ceremonial glory from our convocation archive.
+            Memorable moments from the convocation ceremony.
           </p>
         </div>
 

@@ -116,7 +116,7 @@ export default function HeroSection() {
             </div>
           </div>
 
-          {/* Right Column: 3D Flipping NIT Patna Chief Guest Card */}
+          {/* Right Column: 3D Flipping Chief Guest Card */}
           <div className="lg:col-span-5 flex justify-center lg:justify-end">
             <div className="relative w-full max-w-sm sm:max-w-md perspective-1000 group cursor-pointer"
                  onClick={() => setIsFlipped(!isFlipped)}
@@ -131,12 +131,12 @@ export default function HeroSection() {
                   }`}
                 >
                   
-                  {/* FRONT FACE: NIT Patna Chief Guest Photo & Title */}
+                  {/* FRONT FACE: Chief Guest Photo & Title */}
                   <div className="absolute inset-0 backface-hidden rounded-[2rem] overflow-hidden bg-gradient-to-b from-slate-200 to-slate-300 shadow-inner">
                     <div className="w-full h-full relative flex items-center justify-center overflow-hidden">
                       <img
                         src="/images/souvenir/nitish_kumar_hd.png"
-                        alt="Shri Nitish Kumar - Chief Guest"
+                        alt="Dr. Abhay Karandikar - Chief Guest"
                         className="w-full h-full object-cover object-top scale-102"
                       />
 
@@ -149,11 +149,8 @@ export default function HeroSection() {
                           CHIEF GUEST
                         </span>
                         <h3 className="text-xl sm:text-2xl font-bold font-sans text-white leading-tight">
-                          Shri Nitish Kumar
+                          Dr. Abhay Karandikar
                         </h3>
-                        <p className="text-xs text-amber-200/90 font-medium">
-                          Hon’ble Chief Minister of Bihar
-                        </p>
                       </div>
 
                       {/* Subtle flip hint button */}
@@ -164,38 +161,31 @@ export default function HeroSection() {
                   </div>
 
                   {/* BACK FACE: Chief Guest Biography & Vision */}
-                  <div className="absolute inset-0 backface-hidden rotate-y-180 rounded-[2rem] overflow-hidden bg-gradient-to-b from-[#0E204E] via-[#0B1A3E] to-[#07112B] text-white p-6 sm:p-7 flex flex-col justify-between shadow-2xl border border-blue-500/20">
-                    <div className="space-y-3">
+                  <div className="absolute inset-0 backface-hidden rotate-y-180 rounded-[2rem] overflow-hidden bg-gradient-to-b from-[#0E204E] via-[#0B1A3E] to-[#07112B] text-white p-6 sm:p-7 flex flex-col shadow-2xl border border-blue-500/20">
+                    <div className="flex-1 space-y-4">
                       <div>
-                        <h3 className="text-xl sm:text-2xl font-serif font-bold text-white leading-tight">
-                          Leader &amp; Statesman,
+                        <h3 className="text-xl font-serif font-bold text-white leading-tight">
+                          Visionary Educator,
                         </h3>
-                        <h3 className="text-xl sm:text-2xl font-serif font-bold bg-gradient-to-r from-orange-400 via-rose-400 to-red-500 bg-clip-text text-transparent leading-tight">
-                          Champion of Education &amp; Growth
+                        <h3 className="text-xl font-serif font-bold bg-gradient-to-r from-orange-400 via-rose-400 to-red-500 bg-clip-text text-transparent leading-tight">
+                          Innovator &amp; Administrator
                         </h3>
                       </div>
 
-                      <ul className="space-y-3 pt-2 text-xs sm:text-[13px] text-slate-200/95 leading-relaxed font-sans">
+                      <ul className="space-y-3 pt-2 text-[13px] text-slate-200/95 leading-relaxed font-sans">
                         <li className="flex items-start">
-                          <span className="text-amber-400 mr-2 text-base leading-none">&bull;</span>
-                          <span>Hon’ble Chief Minister of Bihar and Chief Guest of the 14th Convocation Ceremony of NIT Patna.</span>
+                          <span className="text-slate-400 mr-2 text-base leading-none">&bull;</span>
+                          <span>Indian Educator, Engineer, Innovator, and Administrator best known for his contributions to the Telecommunications and Technology Ecosystem in India.</span>
                         </li>
                         <li className="flex items-start">
-                          <span className="text-amber-400 mr-2 text-base leading-none">&bull;</span>
-                          <span>Key visionary behind the expansion of technical education and higher learning institutions across Bihar, including NIT Patna&apos;s new 125-acre Bihta Campus.</span>
+                          <span className="text-slate-400 mr-2 text-base leading-none">&bull;</span>
+                          <span>Serving as a full-time Member of NITI Aayog, the Government of India's premier policy think tank since May 2026.</span>
                         </li>
                         <li className="flex items-start">
-                          <span className="text-amber-400 mr-2 text-base leading-none">&bull;</span>
-                          <span>Spearheading progressive youth empowerment, engineering excellence, and infrastructural transformation across the state.</span>
+                          <span className="text-slate-400 mr-2 text-base leading-none">&bull;</span>
+                          <span>Served as the Secretary, Department of Science and Technology, Government of India from October 2023 to May 2026.</span>
                         </li>
                       </ul>
-                    </div>
-
-                    <div className="pt-3 border-t border-white/10 flex items-center justify-between text-[11px] text-amber-300/80 font-medium">
-                      <span>Chief Guest &bull; 14th Convocation</span>
-                      <span className="flex items-center text-white/60">
-                        <RotateCw className="w-3 h-3 mr-1" /> Tap to flip back
-                      </span>
                     </div>
                   </div>
 

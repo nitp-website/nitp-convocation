@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import AwardeesOrbit from "@/components/AwardeesOrbit";
+import AwardeesSection from "@/components/AwardeesSection";
 import { Award, Medal, Trophy, Star, Search, Filter, Sparkles } from "lucide-react";
 import { UG_GOLD_MEDALISTS, PG_GOLD_MEDALISTS, BEST_GRADUATES } from "@/lib/souvenirData";
 
@@ -30,8 +30,8 @@ export default function AwardsPage() {
         </div>
       </section>
 
-      {/* Interactive Constellation Orbit Section */}
-      <AwardeesOrbit />
+      {/* Clean Grid Section */}
+      <AwardeesSection />
 
       {/* Main Detailed Award Directory with Real Photographs */}
       <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-16 flex-1 w-full">

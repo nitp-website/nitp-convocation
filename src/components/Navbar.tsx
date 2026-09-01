@@ -5,8 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { 
   Menu, 
-  X, 
-  ShieldCheck
+  X
 } from "lucide-react";
 
 export default function Navbar() {
@@ -15,10 +14,7 @@ export default function Navbar() {
 
   const navLinks = [
     { name: "Home", href: "/" },
-    { name: "Schedule", href: "/programme" },
-    { name: "Awardees", href: "/awards" },
-    { name: "Graduates List", href: "/graduates" },
-    { name: "Help Desk", href: "/#helpdesk" },
+    { name: "Graduates", href: "/graduates" },
   ];
 
   const isActive = (path: string) => {
@@ -51,7 +47,7 @@ export default function Navbar() {
                 National Institute of Technology Patna
               </span>
               <span className="text-[10px] text-amber-700 font-semibold tracking-wider uppercase">
-                14th Annual Convocation Ceremony
+                Convocation 2025
               </span>
             </div>
           </Link>
@@ -78,17 +74,6 @@ export default function Navbar() {
               );
             })}
           </nav>
-
-          {/* Right Action Button: Student Portal / Pass */}
-          <div className="hidden sm:flex items-center space-x-3">
-            <Link
-              href="/student"
-              className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-700 to-indigo-800 text-white font-semibold px-4 py-2 rounded-xl text-xs sm:text-sm shadow-sm hover:shadow-md hover:from-blue-800 hover:to-indigo-900 transition-all"
-            >
-              <ShieldCheck className="w-4 h-4 text-amber-300" />
-              <span>Student Pass</span>
-            </Link>
-          </div>
 
           {/* Mobile Menu Toggle Button */}
           <div className="flex lg:hidden items-center">
@@ -121,16 +106,6 @@ export default function Navbar() {
               </Link>
             );
           })}
-          <div className="pt-3 border-t border-slate-100">
-            <Link
-              href="/student"
-              onClick={() => setMobileMenuOpen(false)}
-              className="flex items-center justify-center space-x-2 bg-gradient-to-r from-blue-700 to-indigo-800 text-white font-semibold px-4 py-2.5 rounded-xl text-sm shadow-sm w-full"
-            >
-              <ShieldCheck className="w-4 h-4 text-amber-300" />
-              <span>Student Portal & Pass</span>
-            </Link>
-          </div>
         </div>
       )}
     </header>
