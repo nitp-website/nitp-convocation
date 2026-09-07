@@ -5,7 +5,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { 
   Menu, 
-  X
+  X,
+  Sparkles
 } from "lucide-react";
 
 export default function Navbar() {
@@ -14,30 +15,28 @@ export default function Navbar() {
 
   const navLinks = [
     { name: "Home", href: "/" },
-    { name: "Awardees", href: "/#awardees" },
-    { name: "Help Desk", href: "/#helpdesk" },
-    { name: "Graduates", href: "/graduates" },
+    { name: "Dignitaries", href: "/dignitaries" },
+    { name: "Medals & Honours", href: "/awards" },
+    { name: "Graduate Directory", href: "/graduates" },
   ];
 
   const isActive = (path: string) => {
-    // Basic implementation: Since this is a static site without scrollspy yet, 
-    // we only highlight Home and Graduates properly.
     if (path === "/" && pathname === "/") return true;
     if (path !== "/" && !path.includes("#") && pathname.startsWith(path)) return true;
     return false;
   };
 
   return (
-    <header className="fixed top-4 left-4 right-4 z-50 bg-white/80 backdrop-blur-md border border-white/20 shadow-lg shadow-black/5 rounded-2xl mx-auto max-w-7xl transition-all duration-300">
+    <header className="fixed top-4 left-4 right-4 z-50 bg-white/90 backdrop-blur-md border border-white/60 shadow-lg shadow-black/5 rounded-2xl mx-auto max-w-7xl transition-all duration-300">
       <div className="px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Institute Logo and Bilingual Brand */}
           <Link href="/" className="flex items-center space-x-3.5 group cursor-pointer">
-            {/* Institute Emblem Logo from public/logo.png */}
+            {/* Institute Emblem Logo */}
             <div className="relative w-14 h-14 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform duration-300">
               <img
                 src="/logo.png"
-                alt="Institute Logo"
+                alt="NIT Patna Crest"
                 className="w-full h-full object-contain"
               />
             </div>
@@ -50,21 +49,21 @@ export default function Navbar() {
               <span className="text-base sm:text-lg font-serif font-bold text-slate-900 leading-tight">
                 National Institute of Technology Patna
               </span>
-              <span className="text-[10px] text-amber-700 font-semibold tracking-wider uppercase">
-                Convocation 2025
+              <span className="text-[10px] text-amber-800 font-bold tracking-wider uppercase flex items-center space-x-1">
+                <span>XIV Convocation 2025</span>
               </span>
             </div>
           </Link>
 
           {/* Desktop Navigation Links */}
-          <nav className="hidden lg:flex items-center space-x-8 text-[15px] font-medium text-slate-700">
+          <nav className="hidden lg:flex items-center space-x-6 text-[14px] font-semibold text-slate-700">
             {navLinks.map((link) => {
               const active = isActive(link.href);
               return (
                 <Link
                   key={link.name}
                   href={link.href}
-                  className={`transition-colors duration-200 cursor-pointer font-medium relative py-1 ${
+                  className={`transition-colors duration-200 cursor-pointer relative py-1 ${
                     active
                       ? "text-blue-700 font-bold"
                       : "text-slate-700 hover:text-blue-700"

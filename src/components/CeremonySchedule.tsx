@@ -24,11 +24,8 @@ export default function CeremonySchedule() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
-        {/* Section Header matching Image 5 */}
+        {/* Section Header */}
         <div className="max-w-3xl space-y-3 mb-14 text-left">
-          <div className="text-xs font-bold uppercase tracking-[0.25em] text-amber-400">
-            PROGRAMME • {INSTITUTE_INFO.date.toUpperCase()}
-          </div>
           <h2 className="text-4xl sm:text-6xl font-serif font-bold text-white tracking-tight">
             Day of the <span className="bg-gradient-to-r from-amber-400 via-orange-400 to-rose-400 bg-clip-text text-transparent">Ceremony</span>
           </h2>
@@ -114,7 +111,7 @@ export default function CeremonySchedule() {
               {PROGRAMME_EVENTS.slice(0, 7).map((item, idx) => (
                 <div key={idx} className="relative group">
                   {/* Glowing Marker Dot */}
-                  <div className="absolute -left-[23px] sm:-left-[27px] top-1.5 w-3.5 h-3.5 rounded-full bg-amber-400 ring-4 ring-amber-400/30 group-hover:scale-125 transition-transform" />
+                  <div className="absolute -left-[19px] sm:-left-[23px] top-1.5 w-3.5 h-3.5 rounded-full bg-amber-400 ring-4 ring-amber-400/30 group-hover:scale-125 transition-transform" />
 
                   {/* Time Badge */}
                   <div className="text-xs font-mono font-bold text-amber-400 tracking-wider mb-0.5">

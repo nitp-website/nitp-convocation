@@ -6,6 +6,7 @@ import DignitariesSection from "@/components/DignitariesSection";
 import AwardeesSection from "@/components/AwardeesSection";
 import DegreeRecipientsSection from "@/components/DegreeRecipientsSection";
 import ConvocationGallery from "@/components/ConvocationGallery";
+import CeremonySchedule from "@/components/CeremonySchedule";
 import DownloadsSection from "@/components/DownloadsSection";
 import HelpDeskSection from "@/components/HelpDeskSection";
 import Footer from "@/components/Footer";
@@ -32,11 +33,14 @@ export default function Home() {
         {/* Degree Recipients Stats */}
         <DegreeRecipientsSection />
 
-        {/* 9. Convocation Moments Gallery Section */}
-        <ConvocationGallery />
+        {/* Ceremony Schedule */}
+        <CeremonySchedule />
 
         {/* 10. Downloads Section */}
-        <DownloadsSection />
+        {/* <DownloadsSection /> */}
+
+        {/* 9. Convocation Moments Gallery Section */}
+        <ConvocationGallery />
 
         {/* 11. Help Desk & FAQ Section */}
         <HelpDeskSection />

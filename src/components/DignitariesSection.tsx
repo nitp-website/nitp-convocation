@@ -1,42 +1,46 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
+import { UserCheck, ArrowRight } from "lucide-react";
 
 const dignitaries = [
   {
-    name: "Dr. Abhay Karandikar",
+    name: "Shri Nitish Kumar",
     role: "Chief Guest",
-    subrole: "Member of NITI Aayog",
-    image: "/images/souvenir/nitish_kumar_hd.png", // Keep same image reference as before per user context
+    subrole: "Hon’ble Chief Minister of Bihar",
+    image: "/images/souvenir/nitish_kumar.jpg",
+    badge: "Chief Guest"
   },
   {
     name: "Shri Ashok Kumar Modi",
     role: "Chairperson, Board of Governors",
-    subrole: "NIT Patna",
-    image: "/images/souvenir/ashok_modi.png",
+    subrole: "NIT Patna & Eden Group",
+    image: "/images/souvenir/ashok_modi.jpg",
+    badge: "Presiding Officer"
   },
   {
     name: "Prof. Pradip Kumar Jain",
     role: "Director",
     subrole: "NIT Patna",
-    image: "/images/souvenir/pradip_jain.png",
+    image: "/images/souvenir/pradip_jain.jpg",
+    badge: "Chief Academic Officer"
   }
 ];
 
 export default function DignitariesSection() {
   return (
-    <section id="dignitaries" className="pt-24 sm:pt-28 pb-20 sm:pb-24 bg-[#F8FAFC] text-slate-900 border-t border-slate-200/50">
+    <section id="dignitaries" className="pt-20 sm:pt-24 pb-20 sm:pb-24 bg-[#F8FAFC] text-slate-900 border-t border-slate-200/50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}
-        <div className="text-center mb-16 space-y-4">
-          <div className="flex justify-center items-center space-x-3 mb-2">
-            <span className="w-8 h-[2px] bg-blue-700" />
-            <h2 className="text-3xl sm:text-4xl font-sans font-bold text-slate-900 tracking-tight">
-              Honourable <span className="text-blue-700">Dignitaries</span>
-            </h2>
-            <span className="w-8 h-[2px] bg-blue-700" />
-          </div>
+        <div className="text-center mb-16 space-y-3">
+          <h2 className="text-3xl sm:text-5xl font-sans font-extrabold tracking-tight text-slate-900">
+            Honourable <span className="text-blue-700">Dignitaries</span>
+          </h2>
+          <p className="text-xs sm:text-sm text-slate-500 font-medium max-w-xl mx-auto">
+            Presiding leadership and esteemed guests for the 14th Convocation Ceremony of NIT Patna.
+          </p>
         </div>
 
         {/* Cards */}
@@ -44,30 +48,48 @@ export default function DignitariesSection() {
           {dignitaries.map((person, idx) => (
             <div 
               key={idx} 
-              className="group bg-white rounded-3xl p-8 border border-slate-100 shadow-xl shadow-slate-200/40 hover:shadow-2xl hover:shadow-slate-200/60 transition-all duration-300 hover:-translate-y-1.5 flex flex-col items-center text-center cursor-pointer"
+              className="group bg-white rounded-3xl p-8 border border-slate-200/80 shadow-xl shadow-slate-200/40 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1.5 flex flex-col items-center text-center cursor-pointer relative overflow-hidden justify-between"
             >
-              {/* Circular Image */}
-              <div className="relative w-36 h-36 rounded-full overflow-hidden mb-6 border-[3px] border-white shadow-lg bg-slate-100 group-hover:scale-105 transition-transform duration-300">
-                <img src={person.image} alt={person.name} className="w-full h-full object-cover object-top" />
+              <div className="w-full flex flex-col items-center">
+
+
+                {/* Circular Image */}
+                <div className="relative w-36 h-36 rounded-2xl overflow-hidden mb-5 border-2 border-amber-300/80 shadow-lg bg-slate-100 group-hover:scale-105 transition-transform duration-300">
+                  <img src={person.image} alt={person.name} className="w-full h-full object-cover object-top" />
+                </div>
+                
+                {/* Text */}
+                <h3 className="text-xl font-bold font-serif text-slate-900 mb-1 leading-snug group-hover:text-blue-700 transition-colors duration-200">
+                  {person.name}
+                </h3>
+                <p className="text-xs font-bold text-amber-800 mb-1">
+                  {person.role}
+                </p>
+                <p className="text-xs text-slate-500 mb-6">
+                  {person.subrole}
+                </p>
               </div>
-              
-              {/* Text */}
-              <h3 className="text-base sm:text-lg font-bold font-sans text-slate-900 uppercase tracking-wide mb-1 leading-tight group-hover:text-blue-700 transition-colors duration-200">
-                {person.name}
-              </h3>
-              <p className="text-sm font-semibold text-blue-700 mb-1">
-                {person.role}
-              </p>
-              <p className="text-xs text-slate-500 mb-8">
-                {person.subrole}
-              </p>
 
               {/* Action Button */}
-              <button className="mt-auto px-6 py-2 bg-slate-50 hover:bg-slate-100 text-slate-700 text-xs font-bold uppercase tracking-wider rounded-full transition-colors border border-slate-200 cursor-pointer">
-                View Profile
-              </button>
+              <Link 
+                href="/dignitaries" 
+                className="w-full py-2.5 bg-slate-50 hover:bg-blue-50 hover:text-blue-700 text-slate-700 text-xs font-bold uppercase tracking-wider rounded-xl transition-colors border border-slate-200 cursor-pointer block"
+              >
+                View Dignitary Profile
+              </Link>
             </div>
           ))}
+        </div>
+
+        {/* Link to Full Dignitaries Page */}
+        <div className="mt-12 text-center">
+          <Link
+            href="/dignitaries"
+            className="inline-flex items-center space-x-2 text-sm font-bold text-blue-700 hover:text-blue-800 transition-colors group cursor-pointer"
+          >
+            <span>View All National Patrons, Deans &amp; Convocation Committees</span>
+            <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+          </Link>
         </div>
         
       </div>

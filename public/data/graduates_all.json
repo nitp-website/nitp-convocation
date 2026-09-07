@@ -1,0 +1,7882 @@
+[
+  {
+    "name": "Rahul Kumar",
+    "roll": "195PH02",
+    "dept": "Applied Physics and Materials Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Sibasish Mandal",
+    "roll": "205PH002",
+    "dept": "Applied Physics and Materials Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Deepti",
+    "roll": "205PH003",
+    "dept": "Applied Physics and Materials Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Somnath Das",
+    "roll": "205PH012",
+    "dept": "Applied Physics and Materials Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Swetika Porwal",
+    "roll": "205AR007",
+    "dept": "Architecture & Planning",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Smita Rashmi",
+    "roll": "205AR009",
+    "dept": "Architecture & Planning",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Anushri Barman",
+    "roll": "205AR011",
+    "dept": "Architecture & Planning",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Ruma Kalla",
+    "roll": "205AR017",
+    "dept": "Architecture & Planning",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Anushree Bhagat",
+    "roll": "205AR018",
+    "dept": "Architecture & Planning",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Kirti Gupta",
+    "roll": "205AR032",
+    "dept": "Architecture & Planning",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Pooja Mishra",
+    "roll": "215AR008",
+    "dept": "Architecture & Planning",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Shanu Raina",
+    "roll": "215AR009",
+    "dept": "Architecture & Planning",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Vineet Shrivastava",
+    "roll": "215AR011",
+    "dept": "Architecture & Planning",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Ruchi",
+    "roll": "215AR017",
+    "dept": "Architecture & Planning",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Ambedkar Kumar Verma",
+    "roll": "195PH03",
+    "dept": "Applied Physics and Materials Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Nazish Abid",
+    "roll": "215AR021",
+    "dept": "Architecture & Planning",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Krishna Kumar Mahto",
+    "roll": "195CH08",
+    "dept": "Chemistry",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Prabodh Ch. Paul",
+    "roll": "195PH05",
+    "dept": "Applied Physics and Materials Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Sanyukta Mayuri",
+    "roll": "205CH004",
+    "dept": "Chemistry",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Aatka Mehar",
+    "roll": "205CH007",
+    "dept": "Chemistry",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Beauty Kumari",
+    "roll": "205CH012",
+    "dept": "Chemistry",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Azmat Raja",
+    "roll": "185CE03",
+    "dept": "Civil Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Shivangi Mishra",
+    "roll": "185CE15",
+    "dept": "Civil Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Abhishek Kumar Choudhary",
+    "roll": "185CE16",
+    "dept": "Civil Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Santosh Kumar",
+    "roll": "185CE30",
+    "dept": "Civil Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Jayanti Prabha Bharti",
+    "roll": "185CE38",
+    "dept": "Civil Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Pranav Kumar",
+    "roll": "185CE44",
+    "dept": "Civil Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Ujjwal Bharadwaj",
+    "roll": "185CE49",
+    "dept": "Civil Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Subhash Chandra",
+    "roll": "185CE51",
+    "dept": "Civil Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Sachin Kumar",
+    "roll": "18CE003",
+    "dept": "Civil Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Suraj Kushwaha",
+    "roll": "195CE07",
+    "dept": "Civil Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Md. Arman Ali",
+    "roll": "195CE25",
+    "dept": "Civil Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Rajesh Ranjan",
+    "roll": "195CE34",
+    "dept": "Civil Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Abhinav Bharat",
+    "roll": "195CE49",
+    "dept": "Civil Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Krishna Neeti",
+    "roll": "195CE54",
+    "dept": "Civil Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Amit Dipankar",
+    "roll": "195CE66",
+    "dept": "Civil Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Subodh Kumar Suman",
+    "roll": "195CE67",
+    "dept": "Civil Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Ankit Ranjan",
+    "roll": "205CE007",
+    "dept": "Civil Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Deepak Kumar Raj",
+    "roll": "205CE009",
+    "dept": "Civil Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Ambuj Kumar Shukla",
+    "roll": "205CE046",
+    "dept": "Civil Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Shubhm Dwivedi",
+    "roll": "205CE049",
+    "dept": "Civil Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Arun Prasun",
+    "roll": "205CE051",
+    "dept": "Civil Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Anil Kumar",
+    "roll": "205CE065",
+    "dept": "Civil Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Furquan Ahmad",
+    "roll": "215CE001",
+    "dept": "Civil Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Pramod Kumar",
+    "roll": "215CE003",
+    "dept": "Civil Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Rajiv Kumar",
+    "roll": "215CE009",
+    "dept": "Civil Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Asif Ansari",
+    "roll": "215CE015",
+    "dept": "Civil Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Shweta Kandpal",
+    "roll": "215CE020",
+    "dept": "Civil Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Pawan Kishor Sah",
+    "roll": "215CE031",
+    "dept": "Civil Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Punam Prabha",
+    "roll": "185CS06",
+    "dept": "Computer Science & Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Aditya Kaushal Ranjan",
+    "roll": "185CS27",
+    "dept": "Computer Science & Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Suresh Kumar",
+    "roll": "185CS29",
+    "dept": "Computer Science & Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Sunil Dalal",
+    "roll": "185CS34",
+    "dept": "Computer Science & Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Bhaskar Prince",
+    "roll": "185CS39",
+    "dept": "Computer Science & Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Chandra Bhushan Kumar Yadav",
+    "roll": "195CS03",
+    "dept": "Computer Science & Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Prashant Priyadarshi",
+    "roll": "195CS16",
+    "dept": "Computer Science & Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Shiv Shankar Prasad Shukla",
+    "roll": "195CS21",
+    "dept": "Computer Science & Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Sonu Kumar Jha",
+    "roll": "195CS35",
+    "dept": "Computer Science & Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Rajeev Ranjan",
+    "roll": "195CS40",
+    "dept": "Computer Science & Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Hera Shaheen",
+    "roll": "195CS42",
+    "dept": "Computer Science & Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Sudhir Kumar Pandey",
+    "roll": "195CS47",
+    "dept": "Computer Science & Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Gunjan Kumar",
+    "roll": "205CS001",
+    "dept": "Computer Science & Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Pragya Hari",
+    "roll": "205CS002",
+    "dept": "Computer Science & Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Milan Kumar Dholey",
+    "roll": "205CS015",
+    "dept": "Computer Science & Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Lavkush Sharma",
+    "roll": "205CS025",
+    "dept": "Computer Science & Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Amit Rawat",
+    "roll": "205CS031",
+    "dept": "Computer Science & Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Mandeep Kumar",
+    "roll": "205CS041",
+    "dept": "Computer Science & Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Vikash Kumar",
+    "roll": "205CS044",
+    "dept": "Computer Science & Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Banti Kumar",
+    "roll": "205CS046",
+    "dept": "Computer Science & Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Kaushal Kumar",
+    "roll": "205CS049",
+    "dept": "Computer Science & Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Devisha Arunadevi Tiwari",
+    "roll": "205CS058",
+    "dept": "Computer Science & Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Nitish Raj",
+    "roll": "215CS026",
+    "dept": "Computer Science & Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Harsh Wardhan Pandey",
+    "roll": "185EE09",
+    "dept": "Electrical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Saket Saurabh",
+    "roll": "185EE12",
+    "dept": "Electrical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Naveen Kumar",
+    "roll": "185EE13",
+    "dept": "Electrical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Sweta Kumari",
+    "roll": "185EE19",
+    "dept": "Electrical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Ram Krishan Kumar",
+    "roll": "18EE001",
+    "dept": "Electrical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Niraj Kumar",
+    "roll": "18EE004",
+    "dept": "Electrical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Nishi Bala",
+    "roll": "195EE05",
+    "dept": "Electrical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Vikash Kumar",
+    "roll": "195EE07",
+    "dept": "Electrical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Mohammed Hasmat Ali",
+    "roll": "195EE09",
+    "dept": "Electrical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Purnima Verma",
+    "roll": "195EE13",
+    "dept": "Electrical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Priyanshu Kumar",
+    "roll": "195EE14",
+    "dept": "Electrical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Jayant Mani Tripathi",
+    "roll": "195EE20",
+    "dept": "Electrical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Ravi Kant Yadav",
+    "roll": "195EE29",
+    "dept": "Electrical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Dudhe Suraj Satyawan",
+    "roll": "205EE025",
+    "dept": "Electrical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Sanjay Kumar",
+    "roll": "205EE030",
+    "dept": "Electrical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Zafar Ayub Ansari",
+    "roll": "205EE032",
+    "dept": "Electrical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Zeeshan Sarwer",
+    "roll": "215EE019",
+    "dept": "Electrical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Abhinav Kumar Singh",
+    "roll": "185EC25",
+    "dept": "Electronics & Communication Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Amish Ranjan",
+    "roll": "185EC26",
+    "dept": "Electronics & Communication Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Anshu Kumari",
+    "roll": "195EC12",
+    "dept": "Electronics & Communication Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Anushka Pradhan",
+    "roll": "195EC13",
+    "dept": "Electronics & Communication Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Sundaram",
+    "roll": "195EC25",
+    "dept": "Electronics & Communication Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Gopal Chandra Das",
+    "roll": "195EC36",
+    "dept": "Electronics & Communication Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Ravinder Singh",
+    "roll": "205EC018",
+    "dept": "Electronics & Communication Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Neelesh Pratap Singh",
+    "roll": "205EC020",
+    "dept": "Electronics & Communication Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Shahid Aziz",
+    "roll": "205EC021",
+    "dept": "Electronics & Communication Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Shambhu Kumar",
+    "roll": "205EC036",
+    "dept": "Electronics & Communication Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Vishal Singh",
+    "roll": "205EC045",
+    "dept": "Electronics & Communication Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Ankita",
+    "roll": "205EC046",
+    "dept": "Electronics & Communication Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Priyanka",
+    "roll": "205EC052",
+    "dept": "Electronics & Communication Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Anand Shankar",
+    "roll": "205EC054",
+    "dept": "Electronics & Communication Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Prithick Saha",
+    "roll": "205EC067",
+    "dept": "Electronics & Communication Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Vikrant Verma",
+    "roll": "205EC068",
+    "dept": "Electronics & Communication Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Khilawan Choudhary",
+    "roll": "215EC008",
+    "dept": "Electronics & Communication Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Ashwini Kumar Upadhyay",
+    "roll": "215EC018",
+    "dept": "Electronics & Communication Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Preity",
+    "roll": "215EC036",
+    "dept": "Electronics & Communication Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Biroju Papa Chary",
+    "roll": "215EC038",
+    "dept": "Electronics & Communication Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Saurabh Chandra",
+    "roll": "225EC015",
+    "dept": "Electronics & Communication Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Tippireddy Srinivasa Reddy",
+    "roll": "225EC016",
+    "dept": "Electronics & Communication Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Shardul Vikram",
+    "roll": "205HS010",
+    "dept": "Humanities & Social Sciences",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Rama Shankar Sahu",
+    "roll": "205HS012",
+    "dept": "Humanities & Social Sciences",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Dhruvee Sinha",
+    "roll": "205HS013",
+    "dept": "Humanities & Social Sciences",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Sneha Das",
+    "roll": "215HS002",
+    "dept": "Humanities & Social Sciences",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Kishun Kumar Sah",
+    "roll": "205MA003",
+    "dept": "Mathematics",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Vikash Vimal",
+    "roll": "205MA008",
+    "dept": "Mathematics",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Nagendra Kumar Yadav",
+    "roll": "205MA013",
+    "dept": "Mathematics",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Bipin Kumar",
+    "roll": "215MA003",
+    "dept": "Mathematics",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Manoj Kumar Dubey",
+    "roll": "185ME07",
+    "dept": "Mechanical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Rahul Chaurasia",
+    "roll": "185ME22",
+    "dept": "Mechanical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Vinod Kumar Varma",
+    "roll": "195ME27",
+    "dept": "Mechanical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Raman Kumar Singh",
+    "roll": "195ME28",
+    "dept": "Mechanical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Mukesh Kumar",
+    "roll": "195ME31",
+    "dept": "Mechanical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Prakash Kumar",
+    "roll": "195ME33",
+    "dept": "Mechanical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Ajay Kumar",
+    "roll": "195ME37",
+    "dept": "Mechanical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Rohit Vikrant",
+    "roll": "195ME43",
+    "dept": "Mechanical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Satyajeet Kumar",
+    "roll": "205ME003",
+    "dept": "Mechanical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Abhishek Kashyap",
+    "roll": "205ME004",
+    "dept": "Mechanical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Alok Kumar",
+    "roll": "205ME006",
+    "dept": "Mechanical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Nisha Kumari",
+    "roll": "205ME027",
+    "dept": "Mechanical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Suraj",
+    "roll": "205ME054",
+    "dept": "Mechanical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Sandeep Kumar",
+    "roll": "205ME059",
+    "dept": "Mechanical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Manish Maurya",
+    "roll": "205ME060",
+    "dept": "Mechanical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Ambuj Kumar",
+    "roll": "205ME068",
+    "dept": "Mechanical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Sakeel Ahamad",
+    "roll": "215ME042",
+    "dept": "Mechanical Engineering",
+    "prog": "Ph.D",
+    "honor": "Doctor of Philosophy",
+    "image": null
+  },
+  {
+    "name": "Ajaya Indrani",
+    "roll": "2330001",
+    "prog": "M.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vivek Kumar Vivek",
+    "roll": "2330002",
+    "prog": "M.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shipra Verma",
+    "roll": "2330003",
+    "prog": "M.Arch",
+    "dept": "Architecture & Planning",
+    "honor": "Director\u2019s Gold Medal (Architecture & Planning)",
+    "image": null
+  },
+  {
+    "name": "Adrish Kundu",
+    "roll": "2330004",
+    "prog": "M.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shruti",
+    "roll": "2330005",
+    "prog": "M.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Subham Kumar",
+    "roll": "2330007",
+    "prog": "M.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Md Hamza Ali Hassan",
+    "roll": "2345001",
+    "prog": "MURP",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shubham Prakash",
+    "roll": "2233005",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sudhanshu Narayan",
+    "roll": "2323001",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Saurav Kumar",
+    "roll": "2323002",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rajan Kumar",
+    "roll": "2323003",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Goutam Kumar",
+    "roll": "2323005",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ved Prakash",
+    "roll": "2323006",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "M.D. Yahya Alam",
+    "roll": "2323007",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Md. Aquib Raja",
+    "roll": "2323008",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sachin Deo Singh",
+    "roll": "2323009",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Dhiresh Kumar",
+    "roll": "2323010",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": "President\u2019s Gold Medal & Director\u2019s Gold Medal (Overall PG Topper)",
+    "image": null
+  },
+  {
+    "name": "Satish Kumar",
+    "roll": "2323011",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Amarket Singh",
+    "roll": "2323012",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Farhan Fatmi",
+    "roll": "2323013",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Amit Kumar",
+    "roll": "2323014",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shyamnandan Kumar",
+    "roll": "2323015",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Adarsh Kumar",
+    "roll": "2323016",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sumit Kashyap",
+    "roll": "2323017",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Manish Kumar",
+    "roll": "2323018",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Himanshu Ranjan",
+    "roll": "2323019",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sarvesh Kumar",
+    "roll": "2323020",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Yogendra Bihare",
+    "roll": "2323021",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shalabh Kumar",
+    "roll": "2324001",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Suman Kumar",
+    "roll": "2324002",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ansh Raj",
+    "roll": "2324003",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sweta Bharti",
+    "roll": "2324004",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Amrendra Kumar Kushwaha",
+    "roll": "2324005",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Arnav Singh",
+    "roll": "2324006",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ranjeet Kumar",
+    "roll": "2324007",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Kajol Kumari",
+    "roll": "2324008",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Uttam Kumar",
+    "roll": "2324009",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vikash Kumar",
+    "roll": "2324010",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Nitish Kumar",
+    "roll": "2324011",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aishwarya Kumari",
+    "roll": "2324012",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anamika Kumari",
+    "roll": "2324013",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Piyush Ranjan",
+    "roll": "2324014",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rajan Kumar Singh",
+    "roll": "2324015",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Gautam Kumar",
+    "roll": "2324016",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Saksham Raj",
+    "roll": "2324017",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Afsana Parween",
+    "roll": "2324018",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Priyanshu Kumar",
+    "roll": "2324019",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Pawan Piyush",
+    "roll": "2324020",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ankit Ranjan",
+    "roll": "2325001",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Jayprakash Kumar",
+    "roll": "2325002",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Himanshu Kumar",
+    "roll": "2325003",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Prabhakar Bharatiya",
+    "roll": "2325004",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Naveen Kumar",
+    "roll": "2325005",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Asmit Kumar",
+    "roll": "2331002",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anushikha Kumari",
+    "roll": "2331003",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shabnam Kumari",
+    "roll": "2331004",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vishwajeet Prashant",
+    "roll": "2331005",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Gaurav Kumar",
+    "roll": "2331006",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhishek Kumar Mohan",
+    "roll": "2333001",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Dinkar Kumar",
+    "roll": "2333002",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhishek Kumar",
+    "roll": "2333003",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Deepu Kumar",
+    "roll": "2333004",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shivam Kumar Sharma",
+    "roll": "2333005",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Panchanand Kumar",
+    "roll": "2333006",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Nikhil Anand",
+    "roll": "2333007",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sudarshan Kumar Chaudhary",
+    "roll": "2333008",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Om Narayan Prasad",
+    "roll": "2333009",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Raju Kumar",
+    "roll": "2333010",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Avanish",
+    "roll": "2333011",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Khushboo Singh",
+    "roll": "2333013",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Purushotam Kumar Gautam",
+    "roll": "2333012",
+    "prog": "M.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Mohini Singh",
+    "roll": "2354001",
+    "prog": "M.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sadiya Yasmeen",
+    "roll": "2354003",
+    "prog": "M.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Nikhil Kumar",
+    "roll": "2354004",
+    "prog": "M.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Md Nazish Sarfraz",
+    "roll": "2354005",
+    "prog": "M.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anurag Prakash",
+    "roll": "2354006",
+    "prog": "M.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Phool Kumari",
+    "roll": "2354007",
+    "prog": "M.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Arunish Kumar",
+    "roll": "2354008",
+    "prog": "M.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": "Certificate of Excellence (Computer Science & Engineering)",
+    "image": null
+  },
+  {
+    "name": "Abhishek Kushwaha",
+    "roll": "2354009",
+    "prog": "M.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Md Ishfaque Ahmed",
+    "roll": "2354010",
+    "prog": "M.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Asim Ray",
+    "roll": "2354011",
+    "prog": "M.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Harshjeet Raj",
+    "roll": "2354012",
+    "prog": "M.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Piyush Katyayan",
+    "roll": "2355001",
+    "prog": "M.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Gaurav Kumar",
+    "roll": "2355002",
+    "prog": "M.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Chandan Kumar",
+    "roll": "2355003",
+    "prog": "M.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Preeti Sinha",
+    "roll": "2355005",
+    "prog": "M.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Yateesh Pandey",
+    "roll": "2355008",
+    "prog": "M.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Mohammad Arsh",
+    "roll": "2322001",
+    "prog": "M.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aakash Prabhat Kumar",
+    "roll": "2322005",
+    "prog": "M.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Gautam Singh",
+    "roll": "2322002",
+    "prog": "M.Tech",
+    "dept": "Electrical Engineering",
+    "honor": "Certificate of Excellence (Electrical Engineering)",
+    "image": null
+  },
+  {
+    "name": "Kumar Gaurav",
+    "roll": "2322003",
+    "prog": "M.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Kumari Suman",
+    "roll": "2229004",
+    "prog": "M.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aftab Alam",
+    "roll": "2329001",
+    "prog": "M.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ritesh Kumar Tiwari",
+    "roll": "2340001",
+    "prog": "M.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Prachi Maurya",
+    "roll": "2340002",
+    "prog": "M.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": "Director\u2019s Gold Medal (Electronics & Communication Engineering)",
+    "image": null
+  },
+  {
+    "name": "Niraj Kumar",
+    "roll": "2340003",
+    "prog": "M.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shrish Tripathi",
+    "roll": "2340004",
+    "prog": "M.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aayush Kumar",
+    "roll": "2340005",
+    "prog": "M.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Deepshikha Raj",
+    "roll": "2340006",
+    "prog": "M.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Jeet Prakash",
+    "roll": "2334001",
+    "prog": "M.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Manish Kumar",
+    "roll": "2334002",
+    "prog": "M.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Raja Babu",
+    "roll": "2334004",
+    "prog": "M.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vidhina Pranayak",
+    "roll": "2334005",
+    "prog": "M.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Priyanshu Bharti",
+    "roll": "2334006",
+    "prog": "M.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Gaurav Kumar",
+    "roll": "2334007",
+    "prog": "M.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Amit Kumar",
+    "roll": "2334008",
+    "prog": "M.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": "Director\u2019s Gold Medal (Mechanical Engineering)",
+    "image": null
+  },
+  {
+    "name": "Nishikant Kumar",
+    "roll": "2335001",
+    "prog": "M.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rambabu Kumar",
+    "roll": "2336001",
+    "prog": "M.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhishek Kumar",
+    "roll": "2336002",
+    "prog": "M.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rishi Kumar Sah",
+    "roll": "2336004",
+    "prog": "M.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sonu Kumar",
+    "roll": "2336005",
+    "prog": "M.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Pratibha Saroj",
+    "roll": "2005001",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Urmila Mehta",
+    "roll": "2005002",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Tapan Kumar",
+    "roll": "2005003",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Annu Akanksha",
+    "roll": "2005004",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Subhashi Singh",
+    "roll": "2005006",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Kritika Shreyanshu",
+    "roll": "2005007",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Roshani Kumari",
+    "roll": "2005008",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Pranav Kumar",
+    "roll": "2005009",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Tanya Kumari",
+    "roll": "2005010",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Varsha",
+    "roll": "2005012",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shubham Anand",
+    "roll": "2005013",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Tanush",
+    "roll": "2005014",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sikha Kumari",
+    "roll": "2005015",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Prashant Poddar",
+    "roll": "2005016",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Yashaswi Harsh",
+    "roll": "2005017",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhijeet Kumar",
+    "roll": "2005018",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Devang Negi",
+    "roll": "2005019",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Dhiraj Kumar Tejasvi",
+    "roll": "2005020",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anand Setu",
+    "roll": "2005021",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": "Best Graduate (Girl)",
+    "image": null
+  },
+  {
+    "name": "Pritam Kumar Bhowmick",
+    "roll": "2005022",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Bhavya Sri Ontaru",
+    "roll": "2005023",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Suraj Kumar",
+    "roll": "2005024",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Gokul",
+    "roll": "2005025",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aman Kumar Sahu",
+    "roll": "2005026",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Priya Mishra",
+    "roll": "2005028",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": "Director\u2019s Gold Medal (Architecture & Planning)",
+    "image": null
+  },
+  {
+    "name": "Kirti Vishwakarma",
+    "roll": "2005029",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Gaurav Chauhan",
+    "roll": "2005030",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Manisha Kumari",
+    "roll": "2005031",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Nazia Manal",
+    "roll": "2005032",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anagha Narayanan",
+    "roll": "2005033",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ankesh Kumar",
+    "roll": "2005034",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Gouru Krishna Mohan Reddy",
+    "roll": "2005036",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rahulxavier T",
+    "roll": "2005038",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Gunana Sai Anusha",
+    "roll": "2005039",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sazid Raja",
+    "roll": "2005040",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Zaid Ahzam",
+    "roll": "2005041",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Balangouda Mahantesh Patil",
+    "roll": "2005042",
+    "prog": "B.Arch",
+    "dept": "Architecture & Planning",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ankit",
+    "roll": "1903071",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ojasvi Suman",
+    "roll": "2103001",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Bhupendra Kumar Chandoliya",
+    "roll": "2103002",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ankit Anand",
+    "roll": "2103003",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Harsh Raj",
+    "roll": "2103004",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shlok Shekhar",
+    "roll": "2103005",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Akash Kumar",
+    "roll": "2103006",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Prakhar Krishna",
+    "roll": "2103008",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ashish Ranjan",
+    "roll": "2103009",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Chandraprakash Kahar",
+    "roll": "2103010",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shashi Jaiswal",
+    "roll": "2103011",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Satya Prakash",
+    "roll": "2103012",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Atul Kumar",
+    "roll": "2103013",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Dipendra Kumar Sharma",
+    "roll": "2103014",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shalini Singh",
+    "roll": "2103015",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Subi Kumari",
+    "roll": "2103016",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shubham Gupta",
+    "roll": "2103017",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vaibhav Kumar",
+    "roll": "2103018",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Pravind Puskar",
+    "roll": "2103019",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anurag Kumar",
+    "roll": "2103020",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "S Abbas Haider",
+    "roll": "2103021",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Kunal Raj",
+    "roll": "2103022",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ashish Kumar Jha",
+    "roll": "2103023",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Mayank Raj",
+    "roll": "2103024",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sandeep Singh Yadav",
+    "roll": "2103025",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shubham Kumar Singh",
+    "roll": "2103026",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Saurav Kumar",
+    "roll": "2103027",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aryan Aman",
+    "roll": "2103028",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Suraj Mishra",
+    "roll": "2103029",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Priya Kanaujia",
+    "roll": "2103030",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Saurav Kumar Sharma",
+    "roll": "2103031",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Lovekush",
+    "roll": "2103032",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Suman Kumar",
+    "roll": "2103033",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Bhumika Sonkar",
+    "roll": "2103034",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vivek Ranjan",
+    "roll": "2103035",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Priyanshu Kumar",
+    "roll": "2103037",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ranjesh Kumar",
+    "roll": "2103038",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ajit Kumar",
+    "roll": "2103041",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Keshav Parsoya",
+    "roll": "2103042",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Saresh",
+    "roll": "2103043",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Nalluri Deepika",
+    "roll": "2103044",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Heeraram",
+    "roll": "2103045",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ankit Kumar",
+    "roll": "2103046",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Arun Dhawan",
+    "roll": "2103047",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Suman Kumar",
+    "roll": "2103048",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ritika Kumari",
+    "roll": "2103049",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": "Director\u2019s Gold Medal, K.N. Rohatgi Gold Medal & BCE-NITP Alumni Gold Medal (Triple Gold Medalist)",
+    "image": null
+  },
+  {
+    "name": "Suraj Kumar",
+    "roll": "2103050",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhishek Kumar",
+    "roll": "2103051",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sonu Kumar",
+    "roll": "2103052",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Adarsh Deep Goyal",
+    "roll": "2103053",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Dhananjay Yadav",
+    "roll": "2103054",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Bittu Raj Verma",
+    "roll": "2103055",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Kumari Paridhi",
+    "roll": "2103056",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ramkripal Meena",
+    "roll": "2103057",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Pankaj Kumar",
+    "roll": "2103058",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rajkamal Meena",
+    "roll": "2103059",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Priyanshu Singh",
+    "roll": "2103061",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Keshav Kumar",
+    "roll": "2103064",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shrijan Pandey",
+    "roll": "2103065",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rajendra Kumar",
+    "roll": "2103066",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Harshali",
+    "roll": "2103067",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aalok Arun",
+    "roll": "2103068",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anisha Raj",
+    "roll": "2103069",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Riya Vishwakarma",
+    "roll": "2103070",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aditya Jaiswal",
+    "roll": "2103071",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Suraj Kumar",
+    "roll": "2103075",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Robin Singh Meena",
+    "roll": "2103077",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rishav Raj",
+    "roll": "2103078",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhash Kumar",
+    "roll": "2103079",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anjali Kumari",
+    "roll": "2103080",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Prince Kumar Gautam",
+    "roll": "2103081",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Muskan Kumari",
+    "roll": "2103082",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shubham Kumar",
+    "roll": "2103084",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sameer Kumar",
+    "roll": "2103085",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Raushan Kumar",
+    "roll": "2103086",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Munna Kumar",
+    "roll": "2103087",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Santosh Kumar",
+    "roll": "2103088",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vishal Kumar",
+    "roll": "2103089",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhay Jaiswal",
+    "roll": "2103090",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Md Aryan Reza",
+    "roll": "2103091",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Chandra Kant Amar",
+    "roll": "2103092",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sonu Chauhan",
+    "roll": "2103093",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Mohd Shakir Khan",
+    "roll": "2103094",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Yesh Raj Singh",
+    "roll": "2103095",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Mahtab Alam",
+    "roll": "2103096",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Prakriti Raj",
+    "roll": "2103097",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anjali Kumari",
+    "roll": "2103098",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Amartya Kumar Bhardwaj",
+    "roll": "2103099",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aditya Prakash Pal",
+    "roll": "2103101",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sourav Khan",
+    "roll": "2103102",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sunil Pandey",
+    "roll": "2103103",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Suyash Krishna",
+    "roll": "2103104",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sonakshi Singh",
+    "roll": "2103105",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Satyam",
+    "roll": "2103106",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Akash Saurav",
+    "roll": "2103107",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shailendra Yadav",
+    "roll": "2103108",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Harshita Akanksha",
+    "roll": "2103109",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Neha Kumari",
+    "roll": "2103110",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhijeet Sinha",
+    "roll": "2103111",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ritesh Kumar Yadav",
+    "roll": "2103112",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Mehul",
+    "roll": "2103113",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhishek Kumar",
+    "roll": "2103114",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Yadav Suraj Umashankar",
+    "roll": "2103115",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aman Kumar Sharma",
+    "roll": "2103117",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rajpal Kumar",
+    "roll": "2103118",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Saurabh Kumar",
+    "roll": "2103119",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhishek Jindal",
+    "roll": "2103120",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Arnav Shahi",
+    "roll": "2103121",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Tushar Kumar",
+    "roll": "2103122",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Omi Srivastava",
+    "roll": "2103123",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Premjeet Kumar",
+    "roll": "2103125",
+    "prog": "B.Tech",
+    "dept": "Civil Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Prakhar Atulya",
+    "roll": "2006042",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Adarsh Sathian",
+    "roll": "2006141",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sweeti Kumari",
+    "roll": "2106001",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Chowhan Vamshi Krishna",
+    "roll": "2106002",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sindhuja Gaur",
+    "roll": "2106003",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ujjwal Kumar",
+    "roll": "2106004",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rupesh",
+    "roll": "2106005",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Akshat Srivastava",
+    "roll": "2106006",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Siddharth Gautam",
+    "roll": "2106007",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rohini Kumari",
+    "roll": "2106008",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aniket Kumar",
+    "roll": "2106009",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aditya Kumar",
+    "roll": "2106011",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Kushagra Sharma",
+    "roll": "2106012",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aman Kumar Thakur",
+    "roll": "2106013",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Riya Sanvi",
+    "roll": "2106015",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ramanuj Yadav",
+    "roll": "2106016",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shubhendra Pratap",
+    "roll": "2106017",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rishikesh Vaishnavi",
+    "roll": "2106018",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vineet Raj",
+    "roll": "2106019",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Manish Kumar",
+    "roll": "2106020",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Nikhil Achale",
+    "roll": "2106022",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Manish Bharti",
+    "roll": "2106023",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anshumali Suri",
+    "roll": "2106024",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Gaurav Kumar",
+    "roll": "2106025",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sachin Kumar",
+    "roll": "2106026",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Tarun Meena",
+    "roll": "2106027",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sameer Choudhary",
+    "roll": "2106029",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Roshni Kumari",
+    "roll": "2106030",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Piyush Kumar Das",
+    "roll": "2106031",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Tilak Katyayan",
+    "roll": "2106032",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhishek Sharma",
+    "roll": "2106033",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sneh Prabha Raj",
+    "roll": "2106036",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Bhola Das",
+    "roll": "2106038",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sujeet Kumar Gupta",
+    "roll": "2106040",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Gokarakonda Nikhil Sri Sai Teja",
+    "roll": "2106041",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Tulsi Kumari",
+    "roll": "2106042",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sriram Singh",
+    "roll": "2106044",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Navneet Kumar",
+    "roll": "2106045",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Kartikeya Singh",
+    "roll": "2106046",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ayush Mishra",
+    "roll": "2106047",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Siddharth Kumar",
+    "roll": "2106048",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aman Mishra",
+    "roll": "2106049",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ashish Patel",
+    "roll": "2106050",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhishek Kumar",
+    "roll": "2106051",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Gaurav Kumar",
+    "roll": "2106052",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ayush Agrawal",
+    "roll": "2106053",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ravi Ranjan",
+    "roll": "2106054",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anuj Kumar Kushwaha",
+    "roll": "2106055",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aryan Raj",
+    "roll": "2106056",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Bhukya Dayanand",
+    "roll": "2106057",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vikash Kumar",
+    "roll": "2106058",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vijay Kumar",
+    "roll": "2106059",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Somya Jha",
+    "roll": "2106060",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhishek Kumar",
+    "roll": "2106062",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Avinash Verma",
+    "roll": "2106063",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Thandava Purandeswar Reddy",
+    "roll": "2106064",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": "Best Graduate (Boy)",
+    "image": null
+  },
+  {
+    "name": "Harshit Kumar",
+    "roll": "2106067",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Mayank Kumar",
+    "roll": "2106068",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Devatraj Bhattacharjee",
+    "roll": "2106069",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Piyush Krishna Ojha",
+    "roll": "2106070",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Kartik Kumar",
+    "roll": "2106072",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Nikita Kumari",
+    "roll": "2106073",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Saurabh Kumar",
+    "roll": "2106074",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rakshit Sinha",
+    "roll": "2106075",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Diksha Solanki",
+    "roll": "2106076",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shaurya Shubham",
+    "roll": "2106078",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aryansh Gupta",
+    "roll": "2106079",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Md Tabish Raza Khan",
+    "roll": "2106080",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Chotu Paswan",
+    "roll": "2106081",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anand Kumar",
+    "roll": "2106083",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aniket Kumar",
+    "roll": "2106084",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Utkarsh",
+    "roll": "2106085",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Tanish Kumar Barick",
+    "roll": "2106086",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Md Adil",
+    "roll": "2106087",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vikash Rajput",
+    "roll": "2106088",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anshu Gupta",
+    "roll": "2106089",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Saurav Kumar",
+    "roll": "2106090",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sandesh Bandu Prabhavale",
+    "roll": "2106091",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rahul Kumar",
+    "roll": "2106092",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sambhuni Srisubhash Bharadwaj",
+    "roll": "2106093",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Prashant Kumar",
+    "roll": "2106094",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Bikcrom Biswas",
+    "roll": "2106095",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Trisha Halder",
+    "roll": "2106096",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Khushboo Kumari",
+    "roll": "2106097",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rishikesh Bhardwaj",
+    "roll": "2106098",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Dwarapureddy Sivasai",
+    "roll": "2106099",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Kushwaha Amankumar Sanjay",
+    "roll": "2106100",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Deepak Kumar Ram",
+    "roll": "2106101",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Alankrit Sharma",
+    "roll": "2106102",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Kanchan Kumari",
+    "roll": "2106104",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Muvvala Manoj Kumar",
+    "roll": "2106105",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Bhushan Kumar",
+    "roll": "2106106",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Bhukya Shalini",
+    "roll": "2106107",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Kapish Kumar Varshney",
+    "roll": "2106108",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shivani",
+    "roll": "2106109",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Nitesh Kumar",
+    "roll": "2106110",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Chodeboina Manoj Kumar",
+    "roll": "2106111",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Danish Hussain Dar",
+    "roll": "2106112",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Kshitiz Upadhyay",
+    "roll": "2106113",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anmol Raj",
+    "roll": "2106114",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Pendur Yogeshwar",
+    "roll": "2106115",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Manisha",
+    "roll": "2106116",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Tripti Rani",
+    "roll": "2106117",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Gourav Kumar",
+    "roll": "2106118",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rounak Kumar",
+    "roll": "2106119",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rahul Kumar Mishra",
+    "roll": "2106120",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sweety Kumari",
+    "roll": "2106121",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Priya Singh",
+    "roll": "2106122",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shruti Mishra",
+    "roll": "2106123",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shubham Kumar",
+    "roll": "2106124",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Chinthada Bala Krishna Sai",
+    "roll": "2106125",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anuj Kumar Shivam",
+    "roll": "2106126",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shashi Kumar",
+    "roll": "2106127",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Arun Singh",
+    "roll": "2106128",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhinav Kumar",
+    "roll": "2106130",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Priyanshu Raj",
+    "roll": "2106131",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Piyush Raj",
+    "roll": "2106132",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Harshit Gupta",
+    "roll": "2106133",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhinandan Raj",
+    "roll": "2106134",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ayush Kumar Shaw",
+    "roll": "2106135",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Padala Venkata Rama Reddy",
+    "roll": "2106136",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Asukumar",
+    "roll": "2106137",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Alok Kumar",
+    "roll": "2106138",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhishek",
+    "roll": "2106139",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ganipudi Yugesh",
+    "roll": "2106140",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Harsh Vardhan",
+    "roll": "2106141",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aman Harsh",
+    "roll": "2106142",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vishal Kumar",
+    "roll": "2106143",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Kundan Kumar",
+    "roll": "2106144",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ravi Chaudhary",
+    "roll": "2106146",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Venkatesh Tomar",
+    "roll": "2106147",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Praveen Kumar Dhusia",
+    "roll": "2106148",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aditya Gupta",
+    "roll": "2106149",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shweta Shringar",
+    "roll": "2106150",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Bind Ashutosh Parasnath",
+    "roll": "2106151",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Jaspal Singh",
+    "roll": "2106152",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Adarsh Kumar Dubey",
+    "roll": "2106153",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Kakde Shubham Babasaheb",
+    "roll": "2106154",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Harendra Chaudhary",
+    "roll": "2106156",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Mrinal Kumar",
+    "roll": "2106157",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Satyam Burnwal",
+    "roll": "2106158",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Varsha",
+    "roll": "2106159",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vishal Kumar",
+    "roll": "2106160",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Nisha Kumari",
+    "roll": "2106161",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Munquab Anwer",
+    "roll": "2106162",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Utkarsh Raj",
+    "roll": "2106164",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Muskan",
+    "roll": "2106165",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vikas Kumar",
+    "roll": "2106168",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Gopal Ji",
+    "roll": "2106171",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Student",
+    "roll": "2106170",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vishnu Raj",
+    "roll": "2106172",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Badveli Sridhar Reddy",
+    "roll": "2106173",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ritik Raushan",
+    "roll": "2106174",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shivam",
+    "roll": "2106176",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Tushar Gadwani",
+    "roll": "2106177",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ajit Kumar Mandal",
+    "roll": "2106178",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vivek Singh",
+    "roll": "2106179",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Deepak Kumar",
+    "roll": "2106182",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shivam Yadav",
+    "roll": "2106183",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ashutosh Singh",
+    "roll": "2106184",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Pratham Shalya",
+    "roll": "2106186",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Bharath Veera Matta",
+    "roll": "2106187",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Chatarasupalli Venkata Sumanth",
+    "roll": "2106188",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ganesh Kumar",
+    "roll": "2106189",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ravi Pratap Verma",
+    "roll": "2106190",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Patel Nisarg",
+    "roll": "2106191",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhinay Kumar",
+    "roll": "2106198",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Arya Raj",
+    "roll": "2106199",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shrey Kashyap",
+    "roll": "2106200",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Virat Kumar",
+    "roll": "2106201",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aman Kumar",
+    "roll": "2106202",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Prabhav Kaila",
+    "roll": "2106203",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Chand Sahil Subhash",
+    "roll": "2106204",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sampathi Naman Narayana Swamy",
+    "roll": "2106205",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aman Kumar",
+    "roll": "2106206",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shazeb Khan",
+    "roll": "2106208",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ravi",
+    "roll": "2106209",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rajesh Kumawat",
+    "roll": "2106210",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Kumar Nishant",
+    "roll": "2106211",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Jha Bhavesh Jayshankar",
+    "roll": "2106212",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shubham Raj",
+    "roll": "2106213",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aditya Mishra",
+    "roll": "2106214",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Karnika Khandelwal",
+    "roll": "2106215",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Harsh Nandan Verma",
+    "roll": "2106216",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": "President\u2019s Gold Medal & Director\u2019s Gold Medal (Overall UG Topper)",
+    "image": null
+  },
+  {
+    "name": "Shivam",
+    "roll": "2106217",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Nishant Kumar Jha",
+    "roll": "2106218",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Divyansh Jain",
+    "roll": "2106219",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ram Shankar Kumar",
+    "roll": "2106220",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ayushi",
+    "roll": "2106221",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Soumya Singh",
+    "roll": "2106222",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ananya Bajpayi",
+    "roll": "2106223",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Satyam Prakash Singh",
+    "roll": "2106224",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rohan Kumar Choudhary",
+    "roll": "2106225",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aniket Sharma",
+    "roll": "2106226",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sagar Kumar",
+    "roll": "2106227",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Saurabh Prabhat",
+    "roll": "2106228",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shivam Chaturvedi",
+    "roll": "2106229",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ayush Shubham",
+    "roll": "2106230",
+    "prog": "B.Tech",
+    "dept": "Computer Science & Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rishi Kumar",
+    "roll": "2002013",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Arun Kumar",
+    "roll": "2002040",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sumit Kumar",
+    "roll": "2102002",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Amrit Anand",
+    "roll": "2102003",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Utsav Kumar",
+    "roll": "2102004",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Nashte Shivprasad Dattatray",
+    "roll": "2102005",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ritik Jha",
+    "roll": "2102006",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vishwajeet Kumar",
+    "roll": "2102007",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shubham Priya",
+    "roll": "2102008",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Annu Thakur",
+    "roll": "2102009",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Manish Kumar Rout Jaysingh",
+    "roll": "2102010",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ayush Raj",
+    "roll": "2102011",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Saurabh Singh",
+    "roll": "2102012",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Tanay Pandey",
+    "roll": "2102015",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aditya Kumar",
+    "roll": "2102016",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Amit Kumar Singh",
+    "roll": "2102017",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shivangi Singh",
+    "roll": "2102018",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anupam Singh",
+    "roll": "2102019",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Saurav Kumar",
+    "roll": "2102020",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ayush Raj",
+    "roll": "2102021",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Akanksha Jha",
+    "roll": "2102022",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aditya Manna",
+    "roll": "2102024",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Praveen Kumar Sharma",
+    "roll": "2102025",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Zainab Amin",
+    "roll": "2102026",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ankur Kumar",
+    "roll": "2102027",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhishek Tiwari",
+    "roll": "2102028",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhijeet Kumar",
+    "roll": "2102030",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sarika Kumari",
+    "roll": "2102032",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Krishna Kant Verma",
+    "roll": "2102033",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Pallavi Rani",
+    "roll": "2102034",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Harsh Pratap Singh",
+    "roll": "2102036",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Suchitra Singh",
+    "roll": "2102037",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Suraj Kumar",
+    "roll": "2102038",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vanshika Singh",
+    "roll": "2102040",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vishwajeet",
+    "roll": "2102041",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ravi Ratnakar",
+    "roll": "2102042",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Tushar Singh",
+    "roll": "2102043",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ankur Narayan Singh",
+    "roll": "2102045",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ratan Deep",
+    "roll": "2102046",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Saurabh Suman",
+    "roll": "2102047",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vinod Kumar",
+    "roll": "2102048",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Saurav Kumar Bharti",
+    "roll": "2102049",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anshu Mishra",
+    "roll": "2102051",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sakshi Kumari",
+    "roll": "2102052",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Raman Vishwakarma",
+    "roll": "2102053",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Surbhi Choudhary",
+    "roll": "2102054",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shruti Rani",
+    "roll": "2102055",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhishek Maurya",
+    "roll": "2102056",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Manish Kumar",
+    "roll": "2102057",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Mohammad Sakib",
+    "roll": "2102058",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shatrughan Kasaudhan",
+    "roll": "2102059",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Kumar Vaibhav",
+    "roll": "2102060",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Kush Raj",
+    "roll": "2102061",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Hareram Singh",
+    "roll": "2102064",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Himanshu Raj",
+    "roll": "2102065",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Samrin Fatima",
+    "roll": "2102066",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shashank Tripathi",
+    "roll": "2102067",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Diwin Kushwaha",
+    "roll": "2102068",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "L Harshavardhan",
+    "roll": "2102069",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Alok Kumar",
+    "roll": "2102070",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Buradakavi Teja Swapna Sri",
+    "roll": "2102071",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Jaynish Mehta",
+    "roll": "2102072",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Adarsh Mishra",
+    "roll": "2102073",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anurag Kumar Bharti",
+    "roll": "2102075",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Himansh Kumar Sahu",
+    "roll": "2102076",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": "Director\u2019s Gold Medal (Electrical Engineering)",
+    "image": null
+  },
+  {
+    "name": "Divyansh Srivastava",
+    "roll": "2102077",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vishal Kushwaha",
+    "roll": "2102078",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Praveen Kumar",
+    "roll": "2102079",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Suraj",
+    "roll": "2102080",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Prince Verma",
+    "roll": "2102081",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhishek Kumar Prajapati",
+    "roll": "2102083",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Mayank Kumar",
+    "roll": "2102084",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Puneet Mishra",
+    "roll": "2102085",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aditya Kunwar",
+    "roll": "2102086",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Surjeet Kumar",
+    "roll": "2102087",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Annu Yadav",
+    "roll": "2102088",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Pritam Raj",
+    "roll": "2102089",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shubhangi Binay Kumar Singh",
+    "roll": "2102090",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Awe Kumar Jha",
+    "roll": "2102091",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Muskan Agrawal",
+    "roll": "2102092",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rahbar E Islam",
+    "roll": "2102093",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shubhi Kumari",
+    "roll": "2102094",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Mahesh Pandey",
+    "roll": "2102096",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhishek Kumar Sudhanshu",
+    "roll": "2102097",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vedansh Kumar Srivastava",
+    "roll": "2102098",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Raushan Kumar",
+    "roll": "2102099",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vimlesh Meena",
+    "roll": "2102100",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rajneesh Yadav",
+    "roll": "2102101",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ritik Meena",
+    "roll": "2102102",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhishek Kumar",
+    "roll": "2102103",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ritul Singh",
+    "roll": "2102105",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Nandani Kumari",
+    "roll": "2102106",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ayush Kumar",
+    "roll": "2102107",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Mitali Dwivedi",
+    "roll": "2102108",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Harshit Jajoo",
+    "roll": "2102109",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Bhosale Rishabh Rahul",
+    "roll": "2102110",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Naresh Kumar",
+    "roll": "2102111",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Mohit Kumar Singh",
+    "roll": "2102112",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Avaneesh Kumar Yadav",
+    "roll": "2102113",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Prakash Kumar Upadhyay",
+    "roll": "2102114",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Praveen Kumar Singh",
+    "roll": "2102116",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vivek Anand",
+    "roll": "2102118",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Asmita Kulvant",
+    "roll": "2102119",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rohit Chand",
+    "roll": "2102120",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Satish Kumar",
+    "roll": "2102121",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Navin Suman",
+    "roll": "2102122",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ujjwal Verma",
+    "roll": "2102123",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Raja Kumar",
+    "roll": "2102124",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anubhav Kumar",
+    "roll": "2102125",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Prarthnesh Bharti",
+    "roll": "2102126",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Palaparthi Vamsi",
+    "roll": "2102127",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Mayank Kumar",
+    "roll": "2102128",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Prashant Yadav",
+    "roll": "2102129",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Mohammad Anas Ansari",
+    "roll": "2102130",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Mohit Sharma",
+    "roll": "2102131",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Megha Kumari",
+    "roll": "2102132",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Keshav Kumar Jha",
+    "roll": "2102133",
+    "prog": "B.Tech",
+    "dept": "Electrical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rahul Sharma",
+    "roll": "2004046",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Akash Kumar Chaudhary",
+    "roll": "2104001",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Nitesh Sharma",
+    "roll": "2104002",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Deepam Naresh",
+    "roll": "2104003",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Priyanshu Kumar",
+    "roll": "2104004",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Himanshu Kumar",
+    "roll": "2104005",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Indrajeet Singh Gautam",
+    "roll": "2104006",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhit Pandey",
+    "roll": "2104007",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anisha Choubey",
+    "roll": "2104008",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Pankhuri Kumari",
+    "roll": "2104009",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Reeya Kumari",
+    "roll": "2104010",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vanjarapu Ravi Teja",
+    "roll": "2104011",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rudrakshala Harsha Sai",
+    "roll": "2104012",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Alok Raj",
+    "roll": "2104013",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aishwarya Jaiswal",
+    "roll": "2104014",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Kalugotla Vinay Kumar",
+    "roll": "2104015",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rajeev",
+    "roll": "2104016",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rahul Goswami",
+    "roll": "2104017",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ritik Ranjan",
+    "roll": "2104018",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Md Muzammil Imam",
+    "roll": "2104019",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Nitin Manoj",
+    "roll": "2104020",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Raju Gorai",
+    "roll": "2104021",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Md Danish",
+    "roll": "2104022",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vedant Agrawal",
+    "roll": "2104023",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Susajjit Kumar Singh",
+    "roll": "2104024",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Amit Kumar",
+    "roll": "2104025",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ratan Kumar Singh",
+    "roll": "2104026",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sujal Arya",
+    "roll": "2104027",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Dilip Kumar",
+    "roll": "2104028",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Roshan Tirkey",
+    "roll": "2104029",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Kanhaiya Kumar",
+    "roll": "2104030",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vikash Kumar",
+    "roll": "2104031",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhishek Ranjan",
+    "roll": "2104032",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anisha Kashyap",
+    "roll": "2104033",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Robins Kumar",
+    "roll": "2104034",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rishi Shankar",
+    "roll": "2104035",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vikash Kumar Thakur",
+    "roll": "2104036",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Amit Kumar Saroj",
+    "roll": "2104037",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Mohd Shadab",
+    "roll": "2104038",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ramesh",
+    "roll": "2104039",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Raja Kumar",
+    "roll": "2104040",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Dwibhashyam Sai Buchi Surya Pawan",
+    "roll": "2104041",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": "Director\u2019s Gold Medal (Electronics & Communication Engineering)",
+    "image": null
+  },
+  {
+    "name": "Abhishek Kumar",
+    "roll": "2104043",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anant Vikram Singh",
+    "roll": "2104044",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shivam Pandey",
+    "roll": "2104045",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Mehul Raj",
+    "roll": "2104046",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Angel Jain",
+    "roll": "2104047",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Md Asad Nehal",
+    "roll": "2104049",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ayushi Shukla",
+    "roll": "2104051",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Jatin Mathur",
+    "roll": "2104053",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Atul Kaushik",
+    "roll": "2104054",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shambhavi",
+    "roll": "2104055",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Om Raj",
+    "roll": "2104056",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Raman Raj",
+    "roll": "2104057",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Uday Kumar",
+    "roll": "2104058",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rani Kumari",
+    "roll": "2104059",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Jangam Tarun Kumar",
+    "roll": "2104060",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Suprabhat Kumar",
+    "roll": "2104061",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anand Prakash Singh",
+    "roll": "2104062",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shashank Kumar",
+    "roll": "2104064",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sakshi Singh",
+    "roll": "2104065",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vijesh Kumar",
+    "roll": "2104066",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aman Kumar Kesari",
+    "roll": "2104067",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sajan Kumar",
+    "roll": "2104068",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Katari Sajana",
+    "roll": "2104069",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shakti Prakash Gandhi",
+    "roll": "2104070",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Harsh Gupta",
+    "roll": "2104071",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shalini Sharma",
+    "roll": "2104072",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Purbasha Rajani Kanta Mandal",
+    "roll": "2104073",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhishek Kumar",
+    "roll": "2104074",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rishi Raj Monu",
+    "roll": "2104075",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Atyam Hari Shankar",
+    "roll": "2104076",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Prince Pandey",
+    "roll": "2104077",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Yash Kumar Singh",
+    "roll": "2104078",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sonali Raj",
+    "roll": "2104079",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Amrit Raj",
+    "roll": "2104080",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ayush Anand",
+    "roll": "2104081",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Akula Santosh Karteek",
+    "roll": "2104082",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shreeyansh Kumar",
+    "roll": "2104084",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhishek Kumar",
+    "roll": "2104085",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shaik Khaja Hussain",
+    "roll": "2104086",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Banoth Tharun",
+    "roll": "2104087",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Mutyam Narasimha Reddy",
+    "roll": "2104088",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhishek Kumar",
+    "roll": "2104089",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Chaitanya",
+    "roll": "2104090",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Chandani Kumari",
+    "roll": "2104091",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aman Kumar",
+    "roll": "2104092",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shaik Suhel",
+    "roll": "2104093",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shahil Kumar",
+    "roll": "2104094",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aditya Raj",
+    "roll": "2104095",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vemulapalli Jnana Gowtham",
+    "roll": "2104096",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Om Tiwari",
+    "roll": "2104097",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Raushan Kumar",
+    "roll": "2104098",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Karunesh Kumar Singh",
+    "roll": "2104100",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Atul Toppo",
+    "roll": "2104101",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Jaydeep",
+    "roll": "2104102",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Neeraj Kumar",
+    "roll": "2104103",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Kanwar Zoraawar Singh Pathania",
+    "roll": "2104104",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Maram Harsha Vardhan",
+    "roll": "2104106",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anjali Kumari",
+    "roll": "2104108",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ritu Raj",
+    "roll": "2104109",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ujjaval Beniwal",
+    "roll": "2104110",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shalvee Kumari",
+    "roll": "2104111",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "R Bhargav Sai Ved",
+    "roll": "2104112",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shubham Maurya",
+    "roll": "2104113",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Badavath Bhavana",
+    "roll": "2104115",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ayush Jain",
+    "roll": "2104116",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Versha Yadav",
+    "roll": "2104117",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vishesh Verma",
+    "roll": "2104118",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ritesh Yadav",
+    "roll": "2104119",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Alankrita Singh",
+    "roll": "2104120",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Mude Guna Sreeharsha Naik",
+    "roll": "2104121",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Manshi Shreya",
+    "roll": "2104122",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sunil Kumar",
+    "roll": "2104123",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ritesh Kumar Singh",
+    "roll": "2104124",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shashank Yadav",
+    "roll": "2104125",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anish Prem",
+    "roll": "2104126",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Meghna Singh Rajput",
+    "roll": "2104127",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Harsh Kumar",
+    "roll": "2104128",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sumant Kumar Chaudhary",
+    "roll": "2104129",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Saurabh Pandey",
+    "roll": "2104130",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Harsh Singh",
+    "roll": "2104131",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Hithyshi Kandula",
+    "roll": "2104132",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Challa Aruna Sri Kowmudi",
+    "roll": "2104133",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Harikesh Kumar",
+    "roll": "2104134",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Roshan Birla",
+    "roll": "2104135",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aman Anand",
+    "roll": "2104139",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Eepu Veera Bhadrarao",
+    "roll": "2104140",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Amisha Kumari",
+    "roll": "2104141",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sudhanshu Singh",
+    "roll": "2104142",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aman Kumar Singh",
+    "roll": "2104143",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Kundan Mishra",
+    "roll": "2104145",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Pritesh Utkarsh",
+    "roll": "2104146",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vaibhav Kumar Jha",
+    "roll": "2104147",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Subodh Kumar",
+    "roll": "2104149",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shiv Pratap",
+    "roll": "2104150",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ajit Kumar Pandey",
+    "roll": "2104152",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sakshi Kumari",
+    "roll": "2104153",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sakshi",
+    "roll": "2104155",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Adwitiya Gupta",
+    "roll": "2104157",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Yash Gupta",
+    "roll": "2104158",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhishek Mishra",
+    "roll": "2104159",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Achyut Singh",
+    "roll": "2104160",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ajay Kumar",
+    "roll": "2104161",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Girdhari Lal",
+    "roll": "2104162",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Satwant Kumar",
+    "roll": "2104163",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vikash Kumar Tiwari",
+    "roll": "2104164",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Himanshu",
+    "roll": "2104165",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Mansi Kumari",
+    "roll": "2104166",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rohan Nagraj Shetty",
+    "roll": "2104167",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Akash Singh",
+    "roll": "2104168",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ifra Ali",
+    "roll": "2104169",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Progati Das",
+    "roll": "2104170",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rishabh Kumar Singh",
+    "roll": "2104171",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Samar Raj",
+    "roll": "2104172",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Mohd Sibtain Raza",
+    "roll": "2104173",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anuj Tiwari",
+    "roll": "2104174",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Komal Kumari",
+    "roll": "2104175",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rishav Agrawal",
+    "roll": "2104176",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Yugank Kumar Singh",
+    "roll": "2104177",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Mirza Yawar Salehin Baig",
+    "roll": "2104178",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ratnesh Singh",
+    "roll": "2104179",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sanya Kumari",
+    "roll": "2104180",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhishek Kumar Singh",
+    "roll": "2104181",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Raag Ranjan",
+    "roll": "2104182",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anushka Dubey",
+    "roll": "2104183",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aman Raj",
+    "roll": "2104186",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sandali Rathore",
+    "roll": "2104184",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ayush Kumar",
+    "roll": "2104185",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Alok Soni",
+    "roll": "2104187",
+    "prog": "B.Tech",
+    "dept": "Electronics & Communication Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Pranav Kumar",
+    "roll": "2001008",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Milan Kumar",
+    "roll": "2101001",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Himanshu Shukla",
+    "roll": "2101002",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ankit Kumar",
+    "roll": "2101003",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aditya Raj",
+    "roll": "2101004",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sahil Kumar",
+    "roll": "2101006",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Pranjal Kumar",
+    "roll": "2101007",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rishav Raj",
+    "roll": "2101008",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Md Faisal",
+    "roll": "2101009",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aman Sinha",
+    "roll": "2101011",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aditya Raj",
+    "roll": "2101012",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Karra Rohith",
+    "roll": "2101013",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Akash Kumar",
+    "roll": "2101014",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ronit Kumar",
+    "roll": "2101015",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Harsh Raj",
+    "roll": "2101016",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Khushi Verma",
+    "roll": "2101020",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vedprakash Singh",
+    "roll": "2101022",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ritik Raj",
+    "roll": "2101023",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Mandeep Singh Saluja",
+    "roll": "2101024",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rahul Kumar",
+    "roll": "2101025",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Akkireddi Kumari",
+    "roll": "2101029",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ankita Singh",
+    "roll": "2101030",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Tejasvee Mina",
+    "roll": "2101031",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Harshit Patel",
+    "roll": "2101032",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Neeraj Kumar Sharma",
+    "roll": "2101033",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ayush Kumar",
+    "roll": "2101034",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sunil Kumar",
+    "roll": "2101038",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Harshit Raj",
+    "roll": "2101039",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anshul Kumar Upadhyay",
+    "roll": "2101041",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ayush Kumar Dhanuk",
+    "roll": "2101042",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Asad Rahman",
+    "roll": "2101043",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": "Director\u2019s Gold Medal (Mechanical Engineering)",
+    "image": null
+  },
+  {
+    "name": "Archi",
+    "roll": "2101045",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Tripti Singh",
+    "roll": "2101046",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Deepu Kumar Gupta",
+    "roll": "2101047",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Chirag Kumar",
+    "roll": "2101048",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhishek Raj",
+    "roll": "2101049",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Om Mishra",
+    "roll": "2101050",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ravi Raj",
+    "roll": "2101051",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ankita Sakeet",
+    "roll": "2101052",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Devashish Chandra",
+    "roll": "2101053",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Bandana Yadav",
+    "roll": "2101054",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ashish Kumar",
+    "roll": "2101056",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aditya Kumar",
+    "roll": "2101057",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Pratham Mayur",
+    "roll": "2101058",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Aditya Keshav",
+    "roll": "2101059",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anand Kumar Upadhyay",
+    "roll": "2101060",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ankit Raj",
+    "roll": "2101061",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anubhav Nikhra",
+    "roll": "2101062",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Kismat Kumar",
+    "roll": "2101063",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rohan Bhawsar",
+    "roll": "2101064",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Kushagra Agarwal",
+    "roll": "2101066",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Pranshu Gupta",
+    "roll": "2101067",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vikash Kumar Singh",
+    "roll": "2101068",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Mohammed Misbah Alam",
+    "roll": "2101072",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Giri Sanskruti Sharat",
+    "roll": "2101073",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anushka Rai",
+    "roll": "2101074",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Samridhi Shrivastava",
+    "roll": "2101075",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vaibhav Sinha",
+    "roll": "2101076",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Kumar Aman",
+    "roll": "2101077",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhinav Kumawat",
+    "roll": "2101078",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Praveen Nuwal",
+    "roll": "2101079",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Samala Sathwik",
+    "roll": "2101080",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Rathod Niharika",
+    "roll": "2101082",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Darshit Kashyap",
+    "roll": "2101083",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Akash Rastogi",
+    "roll": "2101084",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Prachi Yadav",
+    "roll": "2101085",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sumit Singh",
+    "roll": "2101087",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Varsha Priya",
+    "roll": "2101088",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ashutosh Chaubey",
+    "roll": "2101089",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Samrat Brajesh",
+    "roll": "2101090",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Medasari Sunil Kumar",
+    "roll": "2101092",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ayush Gautam",
+    "roll": "2101095",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Gummidi Poorna Chandu",
+    "roll": "2101096",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Bablu Kumar",
+    "roll": "2101098",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sripada Viswanath Kalyan",
+    "roll": "2101099",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhishek Kumar",
+    "roll": "2101100",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Supriya Pandey",
+    "roll": "2101101",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Muskan",
+    "roll": "2101102",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Abhay Kumar Singh",
+    "roll": "2101103",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Utkarsh Shukla",
+    "roll": "2101104",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Lagnesh Kumar Pratap",
+    "roll": "2101105",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Raja Kumar",
+    "roll": "2101106",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Vishal Kumar Ram",
+    "roll": "2101107",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Kritika Kumari",
+    "roll": "2101108",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Chandan Kumar",
+    "roll": "2101109",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ram Krishna",
+    "roll": "2101110",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Ratan Kumar",
+    "roll": "2101111",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Nishant Kumar",
+    "roll": "2101112",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Saurav Kumar",
+    "roll": "2101113",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Gonaboyina Venkateswarlu",
+    "roll": "2101115",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anish Kumar",
+    "roll": "2101120",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shivam Prajapati",
+    "roll": "2101121",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Lipi Aditi",
+    "roll": "2101124",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sumit Kumar",
+    "roll": "2101125",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Paritosh Raj",
+    "roll": "2101126",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shristy Kumari",
+    "roll": "2101128",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shubham Saurav",
+    "roll": "2101129",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Pawni Chauhan",
+    "roll": "2101131",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Saurabh Patel",
+    "roll": "2101132",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Anshupriya",
+    "roll": "2101133",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Shivam Jaiswal",
+    "roll": "2101134",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Nishant Raj",
+    "roll": "2101135",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Sirigudi Shyam Srinivas",
+    "roll": "2101139",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Raj Abhimanyu Rajak",
+    "roll": "2101140",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  },
+  {
+    "name": "Asha Kumari",
+    "roll": "2101118",
+    "prog": "B.Tech",
+    "dept": "Mechanical Engineering",
+    "honor": null,
+    "image": null
+  }
+]

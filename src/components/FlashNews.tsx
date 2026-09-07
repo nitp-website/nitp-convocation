@@ -20,10 +20,11 @@ export default function FlashNews() {
   };
 
   const newsItems = [
-    "XXIII Convocation 2025 Photograph Link.",
-    "XXII Convocation 2024 Photograph Link.",
-    "XXIV Convocation 2026 Photograph Link.",
-    "Important Notice regarding Registration Deadline.",
+    { title: "XIV Convocation 2025 to be held on Saturday, Dec 27 at Main Campus.", link: "/#schedule" },
+    { title: "Shri Nitish Kumar, Hon’ble CM of Bihar addresses graduating batch as Chief Guest.", link: "/dignitaries" },
+    { title: "Bihta Campus (125 Acres) Dedicated to the Nation by Hon’ble PM Narendra Modi.", link: "/dignitaries" },
+    { title: "NIT Patna ranked 53rd in India (NIRF 2025 Engineering Rankings).", link: "/#recipients" },
+    { title: "985 Degree Recipients & 136 Ph.D Scholars directory now searchable online.", link: "/graduates" },
   ];
 
   return (
@@ -46,18 +47,18 @@ export default function FlashNews() {
           </div>
         </div>
 
-        {/* Scrolling/Draggable Content */}
+        {/* Scrolling Content */}
         <div 
           ref={scrollContainerRef}
           className="flex-1 h-full overflow-x-auto hide-scrollbar flex items-center scroll-smooth px-6"
           style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
         >
-          <div className="flex items-center space-x-14 whitespace-nowrap min-w-max">
+          <div className="flex items-center space-x-12 whitespace-nowrap min-w-max">
             {newsItems.map((item, idx) => (
-              <div key={idx} className="flex items-center space-x-3 group cursor-pointer">
-                <span className="text-red-500 font-bold text-lg leading-none transition-transform group-hover:rotate-90 duration-300">+</span>
-                <Link href="#" className="text-slate-600 group-hover:text-blue-700 text-[13px] font-semibold transition-colors duration-200">
-                  {item}
+              <div key={idx} className="flex items-center space-x-2.5 group cursor-pointer">
+                <span className="text-red-500 font-bold text-base leading-none transition-transform group-hover:rotate-90 duration-300">+</span>
+                <Link href={item.link} className="text-slate-600 group-hover:text-blue-700 text-xs sm:text-[13px] font-semibold transition-colors duration-200">
+                  {item.title}
                 </Link>
               </div>
             ))}

@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import { MapPin, Mail, Phone, ExternalLink } from "lucide-react";
+import { ExternalLink, Download, MapPin } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -15,10 +15,10 @@ export default function Footer() {
           {/* Column 1: Institutional Identity */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <div className="w-12 h-12 rounded-full bg-white p-1 flex items-center justify-center shadow-md shrink-0">
+              <div className="w-12 h-12 rounded-2xl bg-white p-1 flex items-center justify-center shadow-md shrink-0">
                 <img
                   src="/logo.png"
-                  alt="Institute Logo"
+                  alt="NIT Patna Logo"
                   className="w-full h-full object-contain"
                 />
               </div>
@@ -27,12 +27,12 @@ export default function Footer() {
                   National Institute of Technology Patna
                 </h4>
                 <p className="text-[11px] text-blue-400 font-bold tracking-widest uppercase mt-0.5">
-                  NIT Patna
+                  XIV Convocation 2025
                 </p>
               </div>
             </div>
             <p className="text-[13px] text-slate-400 leading-relaxed font-sans">
-              An Institution of National Importance under the Ministry of Education, Government of India.
+              An Institution of National Importance under Ministry of Education, Government of India. India&apos;s 6th oldest engineering institute (Est. 1886). NIRF Rank #53 (2025).
             </p>
           </div>
 
@@ -44,12 +44,22 @@ export default function Footer() {
             <ul className="space-y-2.5 text-[13px] text-slate-400 font-medium">
               <li>
                 <Link href="/" className="hover:text-white transition-colors duration-200">
-                  Home
+                  Home &bull; XIV Edition
+                </Link>
+              </li>
+              <li>
+                <Link href="/dignitaries" className="hover:text-white transition-colors duration-200">
+                  Dignitaries on Dais &amp; Committees
+                </Link>
+              </li>
+              <li>
+                <Link href="/awards" className="hover:text-white transition-colors duration-200">
+                  Medals &amp; Roll of Honour
                 </Link>
               </li>
               <li>
                 <Link href="/graduates" className="hover:text-white transition-colors duration-200">
-                  Search Graduate Directory
+                  Graduate &amp; Ph.D Directory (985)
                 </Link>
               </li>
             </ul>
@@ -58,9 +68,19 @@ export default function Footer() {
           {/* Column 3: Resources */}
           <div className="space-y-4">
             <h5 className="text-white font-sans font-bold text-sm uppercase tracking-widest">
-              Resources
+              Resources &amp; Downloads
             </h5>
             <ul className="space-y-2.5 text-[13px] text-slate-400 font-medium">
+              <li>
+                <Link href="/#schedule" className="hover:text-white transition-colors duration-200">
+                  Order of Ceremony &amp; Timetable
+                </Link>
+              </li>
+              <li>
+                <Link href="/wdc" className="hover:text-white transition-colors duration-200">
+                  Web Development Cell (WDC)
+                </Link>
+              </li>
               <li>
                 <a href="https://www.nitp.ac.in" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors duration-200 inline-flex items-center space-x-1.5 group">
                   <span>Official Institute Website</span>
@@ -70,46 +90,49 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Column 4: Contact */}
+          {/* Column 4: Location Map */}
           <div className="space-y-4">
             <h5 className="text-white font-sans font-bold text-sm uppercase tracking-widest">
-              Contact
+              Location
             </h5>
-            <div className="space-y-3 text-[13px] text-slate-400">
-              <p className="flex items-center space-x-3">
-                <Mail className="w-4 h-4 text-blue-500" />
-                <a href="mailto:convocation@nitp.ac.in" className="hover:text-white transition-colors duration-200 font-medium">convocation@nitp.ac.in</a>
-              </p>
-              <p className="flex items-center space-x-3">
-                <Phone className="w-4 h-4 text-blue-500" />
-                <span className="font-medium">+91 612 237 1715</span>
-              </p>
-              <div className="flex items-start space-x-3">
-                <MapPin className="w-4 h-4 text-blue-500 shrink-0 mt-0.5" />
-                <span className="leading-relaxed">
-                  Ashok Rajpath, Mahendru<br />
-                  Patna, Bihar — 800005, India
-                </span>
+            <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden border border-slate-700/80 shadow-lg group bg-slate-900">
+              <iframe
+                title="NIT Patna Location Map"
+                src="https://maps.google.com/maps?q=National%20Institute%20of%20Technology%20Patna,%20Ashok%20Rajpath,%20Patna&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                className="w-full h-full border-0 filter contrast-105 opacity-90 group-hover:opacity-100 transition-opacity"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+              <div className="absolute top-2.5 left-2.5 z-10">
+                <a
+                  href="https://maps.google.com/?q=National+Institute+of+Technology+Patna"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center space-x-1.5 bg-white/95 hover:bg-white text-slate-900 text-[11px] font-bold px-2.5 py-1 rounded-lg shadow-md hover:shadow-lg transition-all border border-slate-200 cursor-pointer"
+                >
+                  <MapPin className="w-3 h-3 text-red-600" />
+                  <span>Open in Maps</span>
+                  <ExternalLink className="w-3 h-3 text-slate-500" />
+                </a>
               </div>
             </div>
+            {/* <p className="text-[12px] text-slate-400 leading-snug">
+              NIT Patna, Ashok Rajpath, Mahendru, Patna, Bihar &ndash; 800 005
+            </p> */}
           </div>
 
         </div>
 
         {/* Bottom Credits & Copyright */}
         <div className="pt-8 flex flex-col sm:flex-row justify-between items-center text-[11px] sm:text-xs text-slate-500 gap-4 font-medium tracking-wide">
-          <p>
-            &copy; {new Date().getFullYear()} National Institute of Technology Patna. All Rights Reserved.
-          </p>
-          <p className="text-slate-400">
-            Developed by{" "}
-            <Link 
-              href="/wdc" 
-              className="text-slate-200 hover:text-white font-semibold underline underline-offset-4 decoration-blue-500/40 hover:decoration-blue-400 transition-colors"
-            >
-              WDC, NIT Patna
+          <div>
+            &copy; 2026 National Institute of Technology Patna. All Rights Reserved.
+          </div>
+          <div className="flex items-center space-x-4">
+            <Link href="/wdc" className="hover:text-blue-400 transition-colors">
+              Designed &amp; Developed by Web Development Cell (WDC), NIT Patna
             </Link>
-          </p>
+          </div>
         </div>
 
       </div>

@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import Link from "next/link";
 import { 
   Award, 
   GraduationCap, 
@@ -11,8 +10,7 @@ import {
   MapPin, 
   ShieldAlert, 
   FileText,
-  ChevronRight,
-  RotateCw
+  Download
 } from "lucide-react";
 import { INSTITUTE_INFO } from "@/lib/souvenirData";
 
@@ -32,76 +30,90 @@ export default function HeroSection() {
           {/* Left Column: Heading, Subtitle & Stat Cards */}
           <div className="lg:col-span-7 space-y-8 text-left">
             {/* Giant Display Title */}
-            <div className="space-y-4">
-              <h1 className="text-5xl sm:text-7xl font-sans font-extrabold tracking-tight leading-[1.05] text-slate-900">
-                Celebrating<br/>
-                <span className="bg-gradient-to-r from-blue-700 via-indigo-600 to-blue-800 bg-clip-text text-transparent">
+            <div className="space-y-3 sm:space-y-4">
+              <div className="text-2xl sm:text-3xl lg:text-4xl font-sans font-medium tracking-tight bg-gradient-to-r from-[#D97706] via-[#BE185D] to-[#3730A3] bg-clip-text text-transparent">
+                Convocation 2025
+              </div>
+
+              <h1 className="text-4xl sm:text-6xl lg:text-7xl font-serif font-black tracking-tight leading-[1.1] text-slate-950 flex flex-wrap items-baseline gap-x-3.5">
+                <span>Celebrating</span>
+                <span className="bg-gradient-to-r from-[#EA580C] via-[#E11D48] to-[#3730A3] bg-clip-text text-transparent">
                   Excellence
                 </span>
               </h1>
-              <p className="text-lg sm:text-xl font-sans font-medium text-slate-500 max-w-lg leading-relaxed">
+
+              <p className="text-base sm:text-xl lg:text-2xl font-sans italic tracking-normal pt-1">
+                <span className="text-[#4338CA] font-semibold">&ldquo;The Stage is set for the </span>
+                <span className="bg-gradient-to-r from-[#EA580C] via-[#DC2626] to-[#E11D48] bg-clip-text text-transparent font-bold">
+                  Leaders of Tomorrow
+                </span>
+                <span className="text-[#4338CA] font-semibold">&rdquo;</span>
+              </p>
+
+              <p className="text-sm sm:text-base font-sans font-medium text-slate-600 max-w-lg leading-relaxed pt-2">
                 Honouring the scholarly perseverance of doctoral, postgraduate, and undergraduate candidates at India&apos;s 6th oldest engineering institution.
               </p>
             </div>
 
-            {/* Three Metric / Stat Cards in a row */}
+            {/* Metric / Stat Cards */}
             <div className="grid grid-cols-3 gap-4 max-w-xl">
               {/* Card 1 */}
-              <div className="bg-white/70 backdrop-blur-xl rounded-2xl p-5 text-center shadow-sm border border-slate-200/60 hover:shadow-md transition-all duration-300 hover:-translate-y-1">
+              <div className="bg-white/80 backdrop-blur-xl rounded-2xl p-5 text-center shadow-sm border border-slate-200/80 hover:shadow-md transition-all duration-300 hover:-translate-y-1">
                 <div className="w-10 h-10 mx-auto mb-3 bg-blue-50 text-blue-700 rounded-xl flex items-center justify-center">
                   <Award className="w-5 h-5" />
                 </div>
                 <div className="text-2xl sm:text-3xl font-extrabold text-slate-900">
                   14th
                 </div>
-                <div className="text-xs sm:text-sm font-semibold text-slate-500 uppercase tracking-wider mt-1">
-                  Edition
+                <div className="text-xs font-semibold text-slate-500 uppercase tracking-wider mt-1">
+                  Convocation
                 </div>
               </div>
 
               {/* Card 2 */}
-              <div className="bg-white/70 backdrop-blur-xl rounded-2xl p-5 text-center shadow-sm border border-slate-200/60 hover:shadow-md transition-all duration-300 hover:-translate-y-1">
+              <div className="bg-white/80 backdrop-blur-xl rounded-2xl p-5 text-center shadow-sm border border-slate-200/80 hover:shadow-md transition-all duration-300 hover:-translate-y-1">
                 <div className="w-10 h-10 mx-auto mb-3 bg-blue-50 text-blue-700 rounded-xl flex items-center justify-center">
                   <GraduationCap className="w-5 h-5" />
                 </div>
                 <div className="text-2xl sm:text-3xl font-extrabold text-slate-900">
                   {INSTITUTE_INFO.totalGraduates}
                 </div>
-                <div className="text-xs sm:text-sm font-semibold text-slate-500 uppercase tracking-wider mt-1">
+                <div className="text-xs font-semibold text-slate-500 uppercase tracking-wider mt-1">
                   Graduates
                 </div>
               </div>
 
               {/* Card 3 */}
-              <div className="bg-white/70 backdrop-blur-xl rounded-2xl p-5 text-center shadow-sm border border-slate-200/60 hover:shadow-md transition-all duration-300 hover:-translate-y-1">
-                <div className="w-10 h-10 mx-auto mb-3 bg-blue-50 text-blue-700 rounded-xl flex items-center justify-center">
+              <div className="bg-white/80 backdrop-blur-xl rounded-2xl p-5 text-center shadow-sm border border-slate-200/80 hover:shadow-md transition-all duration-300 hover:-translate-y-1">
+                <div className="w-10 h-10 mx-auto mb-3 bg-amber-50 text-amber-700 rounded-xl flex items-center justify-center">
                   <Users className="w-5 h-5" />
                 </div>
                 <div className="text-2xl sm:text-3xl font-extrabold text-slate-900">
-                  {INSTITUTE_INFO.goldMedals}
+                  {INSTITUTE_INFO.phdScholars}
                 </div>
-                <div className="text-xs sm:text-sm font-semibold text-slate-500 uppercase tracking-wider mt-1">
-                  Medalists
+                <div className="text-xs font-semibold text-slate-500 tracking-wider mt-1">
+                  Ph.D Scholars
                 </div>
               </div>
             </div>
 
-            {/* Quick Action Links */}
-            <div className="flex flex-wrap gap-4 pt-4">
-              <Link
-                href="/graduates"
-                className="inline-flex items-center space-x-2 bg-[#0F172A] hover:bg-slate-800 text-white font-semibold px-6 py-3.5 rounded-xl shadow-lg shadow-slate-900/20 transition-all duration-200 cursor-pointer"
-              >
-                <span>Search Graduate Directory</span>
-                <ChevronRight className="w-4 h-4" />
-              </Link>
-            </div>
+
           </div>
 
           {/* Right Column: 3D Flipping Chief Guest Card */}
           <div className="lg:col-span-5 flex justify-center lg:justify-end">
-            <div className="relative w-full max-w-sm sm:max-w-md perspective-1000 group cursor-pointer"
-                 onClick={() => setIsFlipped(!isFlipped)}
+            <div 
+              className="relative w-full max-w-sm sm:max-w-md perspective-1000 group cursor-pointer select-none"
+              onClick={() => setIsFlipped(!isFlipped)}
+              role="button"
+              tabIndex={0}
+              aria-label="Toggle Chief Guest information card"
+              onKeyDown={(e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                  e.preventDefault();
+                  setIsFlipped(!isFlipped);
+                }
+              }}
             >
               {/* Outer Frosted Rounded Frame */}
               <div className="relative bg-white/80 backdrop-blur-xl rounded-[2.5rem] p-4 sm:p-5 shadow-[0_20px_50px_rgba(0,0,0,0.12)] border border-white/90 transition-all duration-300 group-hover:shadow-[0_25px_60px_rgba(0,0,0,0.18)]">
@@ -114,60 +126,77 @@ export default function HeroSection() {
                 >
                   
                   {/* FRONT FACE: Chief Guest Photo & Title */}
-                  <div className="absolute inset-0 backface-hidden rounded-[2rem] overflow-hidden bg-gradient-to-b from-slate-200 to-slate-300 shadow-inner">
+                  <div 
+                    className="absolute inset-0 backface-hidden rotate-y-0 rounded-[2rem] overflow-hidden bg-slate-950 shadow-inner z-10"
+                    style={{ WebkitBackfaceVisibility: "hidden", backfaceVisibility: "hidden" }}
+                  >
                     <div className="w-full h-full relative flex items-center justify-center overflow-hidden">
                       <img
-                        src="/images/souvenir/nitish_kumar_hd.png"
-                        alt="Dr. Abhay Karandikar - Chief Guest"
+                        src="/images/souvenir/nitish_kumar.png"
+                        alt="Shri Nitish Kumar - Chief Guest"
                         className="w-full h-full object-cover object-top scale-102"
                       />
 
                       {/* Dark gradient overlay at bottom of photo */}
-                      <div className="absolute inset-x-0 bottom-0 h-44 bg-gradient-to-t from-slate-950 via-slate-950/75 to-transparent" />
+                      <div className="absolute inset-x-0 bottom-0 h-44 bg-gradient-to-t from-slate-950 via-slate-950/80 to-transparent pointer-events-none" />
 
                       {/* Chief Guest Badge & Name on the image */}
-                      <div className="absolute bottom-5 left-5 right-5 text-left z-20">
-                        <span className="inline-block bg-[#F3A712] text-white font-extrabold text-[11px] tracking-wider uppercase px-3.5 py-1 rounded-full shadow-xs mb-2">
+                      <div className="absolute bottom-5 left-5 right-5 text-left pointer-events-none">
+                        <span className="inline-block bg-[#F3A712] text-slate-950 font-extrabold text-[11px] tracking-wider uppercase px-3.5 py-1 rounded-full shadow-xs mb-2">
                           CHIEF GUEST
                         </span>
-                        <h3 className="text-xl sm:text-2xl font-bold font-sans text-white leading-tight">
-                          Dr. Abhay Karandikar
+                        <h3 className="text-2xl sm:text-3xl font-bold font-serif text-white leading-tight">
+                          Shri Nitish Kumar
                         </h3>
+                        <p className="text-xs text-amber-300 font-semibold mt-1">
+                          Hon’ble Chief Minister of Bihar
+                        </p>
                       </div>
 
-                      {/* Subtle flip hint button */}
-                      <div className="absolute top-4 right-4 z-20 w-8 h-8 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white/90 border border-white/30 shadow-xs">
-                        <RotateCw className="w-4 h-4" />
-                      </div>
+
                     </div>
                   </div>
 
                   {/* BACK FACE: Chief Guest Biography & Vision */}
-                  <div className="absolute inset-0 backface-hidden rotate-y-180 rounded-[2rem] overflow-hidden bg-gradient-to-b from-[#0E204E] via-[#0B1A3E] to-[#07112B] text-white p-6 sm:p-7 flex flex-col shadow-2xl border border-blue-500/20">
-                    <div className="flex-1 space-y-4">
-                      <div>
-                        <h3 className="text-xl font-serif font-bold text-white leading-tight">
-                          Visionary Educator,
-                        </h3>
-                        <h3 className="text-xl font-serif font-bold bg-gradient-to-r from-orange-400 via-rose-400 to-red-500 bg-clip-text text-transparent leading-tight">
-                          Innovator &amp; Administrator
-                        </h3>
+                  <div 
+                    className="absolute inset-0 backface-hidden rotate-y-180 rounded-[2rem] overflow-hidden bg-gradient-to-b from-[#0E204E] via-[#0B1A3E] to-[#07112B] text-white p-6 sm:p-7 flex flex-col shadow-2xl border border-blue-500/20 justify-between"
+                    style={{ WebkitBackfaceVisibility: "hidden", backfaceVisibility: "hidden" }}
+                  >
+                    <div className="space-y-4">
+                      <div className="flex items-center justify-between">
+                        <span className="text-[10px] font-bold uppercase tracking-widest text-amber-400 bg-amber-400/10 px-2.5 py-1 rounded-full border border-amber-400/20">
+                          CHIEF GUEST ADDRESS
+                        </span>
+
                       </div>
 
-                      <ul className="space-y-3 pt-2 text-[13px] text-slate-200/95 leading-relaxed font-sans">
+                      <div>
+                        <h3 className="text-xl sm:text-2xl font-serif font-bold text-white leading-tight">
+                          Shri Nitish Kumar
+                        </h3>
+                        <h4 className="text-xs sm:text-sm font-medium text-amber-300 mt-0.5">
+                          Hon’ble Chief Minister of Bihar
+                        </h4>
+                      </div>
+
+                      <ul className="space-y-3 pt-2 text-[12px] sm:text-[13px] text-slate-200/95 leading-relaxed font-sans">
                         <li className="flex items-start">
-                          <span className="text-slate-400 mr-2 text-base leading-none">&bull;</span>
-                          <span>Indian Educator, Engineer, Innovator, and Administrator best known for his contributions to the Telecommunications and Technology Ecosystem in India.</span>
+                          <span className="text-amber-400 mr-2 text-base leading-none">&bull;</span>
+                          <span>Delivered the Convocation Keynote Address to the XIV graduating batch of NIT Patna.</span>
                         </li>
                         <li className="flex items-start">
-                          <span className="text-slate-400 mr-2 text-base leading-none">&bull;</span>
-                          <span>Serving as a full-time Member of NITI Aayog, the Government of India's premier policy think tank since May 2026.</span>
+                          <span className="text-amber-400 mr-2 text-base leading-none">&bull;</span>
+                          <span>Graced the historic Dedication of the 125-Acre Bihta Campus to the Nation on 4th October 2025.</span>
                         </li>
                         <li className="flex items-start">
-                          <span className="text-slate-400 mr-2 text-base leading-none">&bull;</span>
-                          <span>Served as the Secretary, Department of Science and Technology, Government of India from October 2023 to May 2026.</span>
+                          <span className="text-amber-400 mr-2 text-base leading-none">&bull;</span>
+                          <span>Distinguished Alumnus of Bihar College of Engineering (BCE, now NIT Patna - Electrical Engineering, Batch of 1972).</span>
                         </li>
                       </ul>
+                    </div>
+
+                    <div className="pt-4 border-t border-white/10 text-[11px] text-amber-200/80 font-mono">
+                      XIV Convocation &bull; NIT Patna
                     </div>
                   </div>
 
@@ -192,7 +221,7 @@ export default function HeroSection() {
                 IMPORTANT
               </div>
               <div className="text-sm font-bold leading-tight text-white">
-                Announcement
+                Official Notice
               </div>
             </div>
           </div>
@@ -201,7 +230,7 @@ export default function HeroSection() {
             className="inline-flex items-center space-x-1.5 bg-white/10 hover:bg-white/20 text-white font-bold px-3 py-1.5 rounded-lg text-xs transition-colors border border-white/10 cursor-pointer"
           >
             <FileText className="w-3.5 h-3.5" />
-            <span>View PDF</span>
+            <span>View Notice</span>
           </button>
         </div>
 
@@ -212,7 +241,7 @@ export default function HeroSection() {
           </div>
           <div>
             <div className="text-[10px] font-bold uppercase tracking-wider text-indigo-300">
-              FULL DRESS REHEARSAL
+              CEREMONY DATE
             </div>
             <div className="text-sm font-bold leading-tight text-white">
               Saturday, December 27, 2025
@@ -264,7 +293,7 @@ export default function HeroSection() {
               </div>
               <button
                 onClick={() => setShowPdfModal(false)}
-                className="text-slate-400 hover:text-slate-600 font-bold text-2xl"
+                className="text-slate-400 hover:text-slate-600 font-bold text-2xl cursor-pointer"
               >
                 &times;
               </button>
@@ -283,17 +312,11 @@ export default function HeroSection() {
             <div className="flex justify-end space-x-3 pt-2">
               <button
                 onClick={() => setShowPdfModal(false)}
-                className="px-4 py-2 rounded-xl text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200"
+                className="px-4 py-2 rounded-xl text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 cursor-pointer"
               >
                 Close
               </button>
-              <Link
-                href="/programme"
-                onClick={() => setShowPdfModal(false)}
-                className="px-4 py-2 rounded-xl text-xs font-semibold bg-blue-700 text-white hover:bg-blue-800"
-              >
-                View Full Programme
-              </Link>
+
             </div>
           </div>
         </div>

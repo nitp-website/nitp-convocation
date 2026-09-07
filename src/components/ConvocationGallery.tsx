@@ -35,14 +35,14 @@ export default function ConvocationGallery() {
     {
       id: 3,
       title: "Academic Procession of Dignitaries & Senate",
-      category: "Dignitaries on Dias",
+      category: "Dignitaries on Dais",
       aspect: "aspect-[4/3]",
       themeColor: "from-blue-800/80 to-indigo-950/90",
       svgScene: "procession",
     },
     {
       id: 4,
-      title: "Inspiring Convocation Address at the Dias",
+      title: "Inspiring Convocation Address at the Dais",
       category: "Ceremony Keynote",
       aspect: "aspect-[4/3]",
       themeColor: "from-amber-600/80 to-orange-800/90",
