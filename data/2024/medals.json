@@ -132,5 +132,16 @@
       "title": "Best Graduate Girl",
       "cash": "Letter of Appreciation"
     }
+  ],
+  "ENDOWMENT_AWARDS": [
+    {
+      "title": "K. N. & Arjun Rohatgi Gold Medal (2024)",
+      "awardee": "Mahi",
+      "roll": "2003131",
+      "dept": "Civil Engineering",
+      "citation": "Awarded to the branch topper of the Department of Civil Engineering.",
+      "badge": "Endowment Gold Medal",
+      "image": "/images/souvenir/2024/mahi.jpg"
+    }
   ]
 }

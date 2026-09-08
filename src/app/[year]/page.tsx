@@ -10,7 +10,6 @@ import AwardeesSection from "@/components/AwardeesSection";
 import DegreeRecipientsSection from "@/components/DegreeRecipientsSection";
 import ConvocationGallery from "@/components/ConvocationGallery";
 import CeremonySchedule from "@/components/CeremonySchedule";
-import DownloadsSection from "@/components/DownloadsSection";
 import HelpDeskSection from "@/components/HelpDeskSection";
 import Footer from "@/components/Footer";
 

@@ -8,6 +8,26 @@ const nextConfig: NextConfig = {
         destination: '/2025',
         permanent: false,
       },
+      {
+        source: '/admin',
+        destination: '/2025',
+        permanent: false,
+      },
+      {
+        source: '/admin/:path*',
+        destination: '/2025',
+        permanent: false,
+      },
+      {
+        source: '/student',
+        destination: '/2025',
+        permanent: false,
+      },
+      {
+        source: '/student/:path*',
+        destination: '/2025',
+        permanent: false,
+      },
     ];
   },
 };

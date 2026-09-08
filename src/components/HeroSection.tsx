@@ -1,6 +1,6 @@
-// @ts-nocheck
 "use client";
 
+import Image from "next/image";
 import React, { useState } from "react";
 import { 
   Award, 
@@ -17,7 +17,7 @@ import { useConvocation } from "@/context/ConvocationContext";
 
 export default function HeroSection() {
   const { data, year } = useConvocation();
-  const { INSTITUTE_INFO, PROGRAMME_EVENTS, STOLE_GUIDELINES } = data.info;
+  const { INSTITUTE_INFO } = data.info;
   const DIGNITARIES = data.dignitaries;
 
   const [showPdfModal, setShowPdfModal] = useState(false);
@@ -136,10 +136,13 @@ export default function HeroSection() {
                     style={{ WebkitBackfaceVisibility: "hidden", backfaceVisibility: "hidden" }}
                   >
                     <div className="w-full h-full relative flex items-center justify-center overflow-hidden">
-                      <img
+                      <Image
                         src={DIGNITARIES.find((d: any) => d.badge === "Chief Guest")?.image || "/images/default_avatar.png"}
                         alt={`${DIGNITARIES.find((d: any) => d.badge === "Chief Guest")?.name || "Chief Guest"} - Chief Guest`}
-                        className="w-full h-full object-cover object-top scale-102"
+                        fill
+                        className="object-cover object-top scale-102"
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                        priority
                       />
 
                       {/* Dark gradient overlay at bottom of photo */}
@@ -308,7 +311,7 @@ export default function HeroSection() {
               </p>
               <ul className="list-disc pl-5 space-y-1.5 text-xs text-slate-600">
                 <li><strong>Chief Guest:</strong> {(() => { const cg = DIGNITARIES.find((d: any) => d.badge === "Chief Guest"); return cg ? (cg.designation === "Chief Guest" ? cg.role : cg.designation) : ""; })()} {DIGNITARIES.find((d: any) => d.badge === "Chief Guest")?.name || "Chief Guest"}.</li>
-                <li><strong>Presided by:</strong> Shri Ashok Kumar Modi, Chairperson, BOG &amp; Prof. Pradip Kumar Jain, Director.</li>
+                <li><strong>Presided by:</strong> {DIGNITARIES.find((d: any) => d.badge === 'Chairperson' || d.badge === 'Presiding Officer' || d.name === 'Shri Ashok Kumar Modi')?.name || 'Chairperson, BOG'}, Chairperson, BOG &amp; {DIGNITARIES.find((d: any) => d.badge === 'Director' || d.badge === 'Chief Academic Officer' || d.name === 'Prof. Pradip Kumar Jain')?.name || 'Director'}, Director.</li>
                 <li><strong>Academic Dress Code:</strong> Traditional Indian attire with official ceremonial stole.</li>
                 <li><strong>Registration:</strong> Degree recipients must confirm in-person attendance to receive allocated seating and entry QR passes.</li>
               </ul>

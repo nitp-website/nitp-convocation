@@ -1,4 +1,3 @@
-// @ts-nocheck
 "use client";
 import { useConvocation } from "@/context/ConvocationContext";
 

@@ -1,63 +1,31 @@
 "use client";
 
 import React, { useState } from "react";
-import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { UserCheck, Star, Shield, Award, Sparkles, Building, Landmark, Users, ChevronDown, ChevronUp } from "lucide-react";
+import { Shield, Building, Users, ChevronDown, ChevronUp } from "lucide-react";
 
+interface Dignitary {
+  name: string;
+  designation: string;
+  role: string;
+  org: string;
+  image: string;
+  badge: string;
+  highlight?: boolean;
+}
 
-export default function DignitariesPageClient({ data, year }: { data: any, year: string }) {
-  const { DIGNITARIES } = { DIGNITARIES: data.dignitaries };
+interface Dean {
+  name: string;
+  designation: string;
+}
 
-  const hardcodedVIPs = [
-    {
-      "name": "Shrimati Droupadi Murmu",
-      "designation": "Hon'ble President of India",
-      "role": "Visitor, NIT Patna",
-      "org": "Government of India",
-      "image": "/images/souvenir/droupadi_murmu.png",
-      "highlight": true,
-      "badge": "Visitor"
-    },
-    {
-      "name": "Shri Narendra Modi",
-      "designation": "Hon'ble Prime Minister of India",
-      "role": "Dedicated Bihta Campus to the Nation (Oct 4, 2025)",
-      "org": "Government of India",
-      "image": "/images/souvenir/narendra_modi.jpg",
-      "highlight": true,
-      "badge": "Chief Patron"
-    },
-    {
-      "name": "Shri Dharmendra Pradhan",
-      "designation": "Hon'ble Minister of Education",
-      "role": "Ministry of Education",
-      "org": "Government of India",
-      "image": "/images/souvenir/dharmendra_pradhan.jpg",
-      "highlight": true,
-      "badge": "Patron"
-    }
-  ];
-
-  // Filter out any matching names from the JSON data to prevent duplicates
-  const jsonDignitaries = (DIGNITARIES || []).filter(
-    (d: any) => !hardcodedVIPs.some(vip => vip.name === d.name)
-  );
-
-  const ALL_DIGNITARIES = [...hardcodedVIPs, ...jsonDignitaries];
+export default function DignitariesPageClient({ data, year }: { data: { dignitaries: Dignitary[]; info: { INSTITUTE_INFO: { edition?: string; date?: string } }; committees: { committees: any[]; deans: Dean[] } }, year: string }) {
+  const ALL_DIGNITARIES: Dignitary[] = data.dignitaries || [];
+  const administrativeDeans: Dean[] = data.committees?.deans || [];
+  const commiteesList = data.committees?.committees || [];
 
   const [expandedCommittee, setExpandedCommittee] = useState<string | null>("degree_prep");
-
-  const administrativeDeans = [
-    { name: "Dr. Asit Narayan", designation: "Registrar & Member Secretary, Senate & BOG" },
-    { name: "Prof. M.P. Singh", designation: "Dean (Academic)" },
-    { name: "Prof. Ramesh Kumar", designation: "Dean (Research & Consultancy)" },
-    { name: "Prof. Prakash Chandra", designation: "Dean (Faculty Welfare)" },
-    { name: "Prof. Sanjeev Sinha", designation: "Dean (Planning & Development)" },
-    { name: "Prof. Prabhat Kumar", designation: "Dean (Student Welfare) & Head - CCIS" },
-    { name: "Dr. Sanjay Kumar", designation: "Dean (Outreach & Alumni Affairs)" }
-  ];
 
   return (
     <div className="min-h-screen bg-[#FBF9F5] flex flex-col font-sans text-slate-900">
@@ -168,12 +136,12 @@ export default function DignitariesPageClient({ data, year }: { data: any, year:
               <h3 className="text-2xl font-serif font-bold text-slate-900">
                 Convocation Coordination Committees
               </h3>
-              <p className="text-xs text-slate-500">Official sub-committees constituted for the 14th Convocation Ceremony</p>
+              <p className="text-xs text-slate-500">Official sub-committees constituted for the {data.info?.INSTITUTE_INFO?.edition || "14th Convocation Ceremony"}</p>
             </div>
           </div>
 
           <div className="space-y-4">
-            {data.committees?.map((comm: any) => {
+            {commiteesList.map((comm: any) => {
               const isExpanded = expandedCommittee === comm.id;
               return (
                 <div 

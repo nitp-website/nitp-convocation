@@ -1,6 +1,4 @@
-// @ts-nocheck
 "use client";
-// @ts-nocheck
 import { useConvocation } from "@/context/ConvocationContext";
 
 import React, { useState } from "react";

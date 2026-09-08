@@ -1,23 +1,24 @@
-// @ts-nocheck
 "use client";
 
 import React, { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+
 import { Award, Medal, ArrowRight, Sparkles } from "lucide-react";
 import { useConvocation } from "@/context/ConvocationContext";
 
 
 export default function AwardeesSection() {
   const { data, year } = useConvocation();
-  const { INSTITUTE_INFO, PROGRAMME_EVENTS, STOLE_GUIDELINES } = data.info;
-  const { UG_GOLD_MEDALISTS, PG_GOLD_MEDALISTS } = data.medals;
-  const DIGNITARIES = data.dignitaries;
-
+  const { INSTITUTE_INFO } = data.info;
   const pathname = usePathname();
+  const { UG_GOLD_MEDALISTS, PG_GOLD_MEDALISTS } = data.medals;
+  
+
+  
   const [activeTab, setActiveTab] = useState<"ug" | "pg">("ug");
 
-  const currentAwardees: Medalist[] = activeTab === "ug" ? UG_GOLD_MEDALISTS : PG_GOLD_MEDALISTS;
+  const currentAwardees: any[] = activeTab === "ug" ? UG_GOLD_MEDALISTS : PG_GOLD_MEDALISTS;
 
   return (
     <section id="awardees" className="pt-20 sm:pt-24 pb-20 sm:pb-24 bg-[#F8FAFC] text-slate-900 border-t border-slate-200/50">
@@ -78,7 +79,7 @@ export default function AwardeesSection() {
                     />
                   ) : (
                     <div className="w-full h-full flex items-center justify-center text-slate-400 font-sans text-xl font-bold bg-slate-100">
-                      {awardee.name.split(" ").map(n => n[0]).slice(0, 2).join("")}
+                      {awardee.name.split(" ").map((n: string) => n[0]).slice(0, 2).join("")}
                     </div>
                   )}
                 </div>

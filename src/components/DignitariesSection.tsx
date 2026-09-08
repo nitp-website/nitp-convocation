@@ -1,34 +1,12 @@
-// @ts-nocheck
 "use client";
 
+import Image from "next/image";
 import React from "react";
 import Link from "next/link";
-import { UserCheck, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { useConvocation } from "@/context/ConvocationContext";
 
-const dignitaries = [
-  {
-    name: "Shri Nitish Kumar",
-    role: "Chief Guest",
-    subrole: "Hon’ble Chief Minister of Bihar",
-    image: "/images/souvenir/nitish_kumar.jpg",
-    badge: "Chief Guest"
-  },
-  {
-    name: "Shri Ashok Kumar Modi",
-    role: "Chairperson, Board of Governors",
-    subrole: "NIT Patna & Eden Group",
-    image: "/images/souvenir/ashok_modi.jpg",
-    badge: "Presiding Officer"
-  },
-  {
-    name: "Prof. Pradip Kumar Jain",
-    role: "Director",
-    subrole: "NIT Patna",
-    image: "/images/souvenir/pradip_jain.jpg",
-    badge: "Chief Academic Officer"
-  }
-];
+
 
 export default function DignitariesSection() {
   const { data, year } = useConvocation();
@@ -63,7 +41,7 @@ export default function DignitariesSection() {
 
                 {/* Circular Image */}
                 <div className="relative w-36 h-36 rounded-2xl overflow-hidden mb-5 border-2 border-amber-300/80 shadow-lg bg-slate-100 group-hover:scale-105 transition-transform duration-300">
-                  <img src={person.image} alt={person.name} className="w-full h-full object-cover object-top" />
+                  <Image src={person.image} alt={person.name} fill className="object-cover object-top" sizes="(max-width: 768px) 100vw, 33vw" />
                 </div>
                 
                 {/* Text */}

@@ -1,7 +1,34 @@
 [
   {
+    "name": "Shrimati Droupadi Murmu",
+    "designation": "Hon’ble President of India",
+    "role": "Visitor, NIT Patna",
+    "org": "Government of India",
+    "image": "/images/souvenir/droupadi_murmu.png",
+    "highlight": true,
+    "badge": "Visitor"
+  },
+  {
+    "name": "Shri Narendra Modi",
+    "designation": "Hon’ble Prime Minister of India",
+    "role": "Prime Minister of India",
+    "org": "Government of India",
+    "image": "/images/souvenir/narendra_modi.jpg",
+    "highlight": true,
+    "badge": "Chief Patron"
+  },
+  {
+    "name": "Shri Dharmendra Pradhan",
+    "designation": "Hon’ble Minister of Education",
+    "role": "Ministry of Education",
+    "org": "Government of India",
+    "image": "/images/souvenir/dharmendra_pradhan.jpg",
+    "highlight": true,
+    "badge": "Patron"
+  },
+  {
     "name": "Shri Nitish Kumar",
-    "role": "Hon\u2019ble Chief Minister of Bihar",
+    "role": "Hon’ble Chief Minister of Bihar",
     "designation": "Chief Minister",
     "image": "/images/souvenir/nitish_kumar.jpg",
     "highlight": true,

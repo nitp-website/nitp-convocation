@@ -34,36 +34,7 @@ export default function AwardsPageClient({ data, year }: { data: any, year: stri
   // Academic Merit Certificates (Certificate of Excellence)
   const academicMeritCertificates = PG_GOLD_MEDALISTS.filter((m: any) => m.award?.includes("Certificate"));
 
-  const endowmentAwards = year === "2025" ? [
-    {
-      title: "K. N. Rohatgi Gold Medal (2025)",
-      awardee: "Ritika Kumari",
-      roll: "2103049",
-      dept: "Civil Engineering",
-      citation: "Awarded to the branch topper of the Department of Civil Engineering in honour of late Prof. K. N. Rohatgi.",
-      badge: "Endowment Gold Medal",
-      image: "/images/souvenir/ug_ritika_kumari.png"
-    },
-    {
-      title: "BCE-NITP Alumni Gold Medal (2025)",
-      awardee: "Ritika Kumari",
-      roll: "2103049",
-      dept: "Civil Engineering",
-      citation: "Conferred by the BCE-NITP Alumni Association to the distinguished topper of Civil Engineering.",
-      badge: "Alumni Association Gold Medal",
-      image: "/images/souvenir/ug_ritika_kumari.png"
-    }
-  ] : [
-    {
-      title: "K. N. & Arjun Rohatgi Gold Medal (2024)",
-      awardee: "Mahi",
-      roll: "2003131",
-      dept: "Civil Engineering",
-      citation: "Awarded to the branch topper of the Department of Civil Engineering.",
-      badge: "Endowment Gold Medal",
-      image: "/images/souvenir/2024/mahi.jpg"
-    }
-  ];
+  const endowmentAwards = medals.ENDOWMENT_AWARDS || [];
 
   const categories: { id: MedalCategory; label: string; count: number; icon: React.ElementType }[] = [
     { id: "ALL", label: "All Medals & Honours", count: 18, icon: Filter },

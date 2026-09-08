@@ -1,7 +1,7 @@
-// @ts-nocheck
 "use client";
 import { useConvocation } from "@/context/ConvocationContext";
 
+import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 import { ExternalLink, Download, MapPin } from "lucide-react";
@@ -22,11 +22,13 @@ export default function Footer() {
           {/* Column 1: Institutional Identity */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <div className="w-12 h-12 rounded-2xl bg-white p-1 flex items-center justify-center shadow-md shrink-0">
-                <img
+              <div className="w-12 h-12 relative rounded-2xl bg-white p-1 flex items-center justify-center shadow-md shrink-0 overflow-hidden">
+                <Image
                   src="/logo.png"
                   alt="NIT Patna Logo"
-                  className="w-full h-full object-contain"
+                  fill
+                  className="object-contain p-2.5"
+                  sizes="64px"
                 />
               </div>
               <div>

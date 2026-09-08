@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import React, { useState } from "react";
 import Link from "next/link";
 import { usePathname, useParams, useRouter } from "next/navigation";
@@ -7,7 +8,6 @@ import { ChevronDown } from "lucide-react";
 import { 
   Menu, 
   X,
-  Sparkles
 } from "lucide-react";
 
 export default function Navbar() {
@@ -37,10 +37,13 @@ export default function Navbar() {
           <Link href={`/${year}`} className="flex items-center space-x-3.5 group cursor-pointer">
             {/* Institute Emblem Logo */}
             <div className="relative w-14 h-14 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform duration-300">
-              <img
+              <Image
                 src="/logo.png"
                 alt="NIT Patna Crest"
-                className="w-full h-full object-contain"
+                fill
+                className="object-contain"
+                sizes="56px"
+                priority
               />
             </div>
 

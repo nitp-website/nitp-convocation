@@ -8,8 +8,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "XIV Convocation 2025 | National Institute of Technology Patna",
-  description: "Official Digital Management & Information Platform for the 14th Convocation Ceremony of NIT Patna.",
+  title: "Convocation | National Institute of Technology Patna",
+  description: "Official Digital Management & Information Platform for the Convocation Ceremonies of NIT Patna.",
   icons: {
     icon: "/favicon.ico",
   },
