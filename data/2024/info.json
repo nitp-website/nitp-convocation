@@ -1,0 +1,80 @@
+{
+  "INSTITUTE_INFO": {
+    "edition": "13th Annual Convocation Ceremony",
+    "editionRoman": "XIII CONVOCATION",
+    "date": "Saturday, December 28, 2024",
+    "totalGraduates": "1042",
+    "phdScholars": "141",
+    "ugGraduates": "730",
+    "pgGraduates": "120",
+    "nameHindi": "\u0930\u093e\u0937\u094d\u091f\u094d\u0930\u0940\u092f \u092a\u094d\u0930\u094c\u0926\u094d\u092f\u094b\u0917\u093f\u0915\u0940 \u0938\u0902\u0938\u094d\u0925\u093e\u0928 \u092a\u091f\u0928\u093e",
+    "nameEnglish": "National Institute of Technology Patna",
+    "reportingTime": "11:00 AM",
+    "venue": "Main Campus Auditorium, NIT Patna (Ashok Rajpath)",
+    "venueDetails": "NIT Patna, Mahendru, Ashok Rajpath, Patna \u2013 800 005 (Bihar)",
+    "bihtaCampus": "",
+    "nirfRank": "55th in India (Engineering - NIRF 2024)",
+    "patents": "300+ Patent Applications",
+    "goldMedals": "18",
+    "departmentsCount": "11 Academic Departments"
+  },
+  "PROGRAMME_EVENTS": [
+    {
+      "time": "11:00 AM",
+      "event": "Arrival of Academic Procession"
+    },
+    {
+      "time": "11:05 AM",
+      "event": "Saraswati Vandana"
+    },
+    {
+      "time": "11:07 AM",
+      "event": "Lighting of Lamp by Dignitaries on Dias"
+    },
+    {
+      "time": "11:10 AM",
+      "event": "Convocation to be declared \u201cOpen\u201d by the Chairperson, BOG, NIT Patna"
+    },
+    {
+      "time": "11:12 AM",
+      "event": "Welcome Address and Report by the Director, NIT Patna"
+    },
+    {
+      "time": "11:22 AM",
+      "event": "Address by Chairperson, BOG, NIT Patna"
+    },
+    {
+      "time": "11:35 AM",
+      "event": "Confirmation of Degrees"
+    },
+    {
+      "time": "11:40 AM",
+      "event": "Pledge by the Degree Recipients"
+    },
+    {
+      "time": "11:45 AM",
+      "event": "Address by the Guest of Honour"
+    },
+    {
+      "time": "12:05 PM",
+      "event": "Convocation Address by the Chief Guest"
+    },
+    {
+      "time": "12:35 PM",
+      "event": "Award of Gold Medals"
+    },
+    {
+      "time": "01:00 PM",
+      "event": "Award of Degrees by the Director, NIT Patna"
+    },
+    {
+      "time": "01:28 PM",
+      "event": "National Anthem"
+    },
+    {
+      "time": "01:30 PM",
+      "event": "Convocation to be declared \u201cClosed\u201d by the Chairperson, BOG, NIT Patna and Depart"
+    }
+  ],
+  "STOLE_GUIDELINES": []
+}

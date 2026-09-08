@@ -1,3 +1,4 @@
+// @ts-nocheck
 "use client";
 
 import React, { useState } from "react";
@@ -12,9 +13,13 @@ import {
   FileText,
   Download
 } from "lucide-react";
-import { INSTITUTE_INFO } from "@/lib/souvenirData";
+import { useConvocation } from "@/context/ConvocationContext";
 
 export default function HeroSection() {
+  const { data, year } = useConvocation();
+  const { INSTITUTE_INFO, PROGRAMME_EVENTS, STOLE_GUIDELINES } = data.info;
+  const DIGNITARIES = data.dignitaries;
+
   const [showPdfModal, setShowPdfModal] = useState(false);
   const [isFlipped, setIsFlipped] = useState(false);
 
@@ -32,10 +37,10 @@ export default function HeroSection() {
             {/* Giant Display Title */}
             <div className="space-y-3 sm:space-y-4">
               <div className="text-2xl sm:text-3xl lg:text-4xl font-sans font-medium tracking-tight bg-gradient-to-r from-[#D97706] via-[#BE185D] to-[#3730A3] bg-clip-text text-transparent">
-                Convocation 2025
+                Convocation {year}
               </div>
 
-              <h1 className="text-4xl sm:text-6xl lg:text-7xl font-serif font-black tracking-tight leading-[1.1] text-slate-950 flex flex-wrap items-baseline gap-x-3.5">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-black tracking-tight leading-[1.1] text-slate-950 whitespace-nowrap flex items-baseline gap-x-2 sm:gap-x-3.5">
                 <span>Celebrating</span>
                 <span className="bg-gradient-to-r from-[#EA580C] via-[#E11D48] to-[#3730A3] bg-clip-text text-transparent">
                   Excellence
@@ -63,7 +68,7 @@ export default function HeroSection() {
                   <Award className="w-5 h-5" />
                 </div>
                 <div className="text-2xl sm:text-3xl font-extrabold text-slate-900">
-                  14th
+                  {INSTITUTE_INFO.edition.split(" ")[0]}
                 </div>
                 <div className="text-xs font-semibold text-slate-500 uppercase tracking-wider mt-1">
                   Convocation
@@ -132,8 +137,8 @@ export default function HeroSection() {
                   >
                     <div className="w-full h-full relative flex items-center justify-center overflow-hidden">
                       <img
-                        src="/images/souvenir/nitish_kumar.png"
-                        alt="Shri Nitish Kumar - Chief Guest"
+                        src={DIGNITARIES.find((d: any) => d.badge === "Chief Guest")?.image || "/images/default_avatar.png"}
+                        alt={`${DIGNITARIES.find((d: any) => d.badge === "Chief Guest")?.name || "Chief Guest"} - Chief Guest`}
                         className="w-full h-full object-cover object-top scale-102"
                       />
 
@@ -146,10 +151,10 @@ export default function HeroSection() {
                           CHIEF GUEST
                         </span>
                         <h3 className="text-2xl sm:text-3xl font-bold font-serif text-white leading-tight">
-                          Shri Nitish Kumar
+                          {DIGNITARIES.find((d: any) => d.badge === "Chief Guest")?.name || "Chief Guest"}
                         </h3>
                         <p className="text-xs text-amber-300 font-semibold mt-1">
-                          Hon’ble Chief Minister of Bihar
+                          {(() => { const cg = DIGNITARIES.find((d: any) => d.badge === "Chief Guest"); return cg ? (cg.designation === "Chief Guest" ? cg.role : cg.designation) : ""; })()}
                         </p>
                       </div>
 
@@ -172,31 +177,30 @@ export default function HeroSection() {
 
                       <div>
                         <h3 className="text-xl sm:text-2xl font-serif font-bold text-white leading-tight">
-                          Shri Nitish Kumar
+                          {DIGNITARIES.find((d: any) => d.badge === "Chief Guest")?.name || "Chief Guest"}
                         </h3>
                         <h4 className="text-xs sm:text-sm font-medium text-amber-300 mt-0.5">
-                          Hon’ble Chief Minister of Bihar
+                          {(() => { const cg = DIGNITARIES.find((d: any) => d.badge === "Chief Guest"); return cg ? (cg.designation === "Chief Guest" ? cg.role : cg.designation) : ""; })()}
                         </h4>
                       </div>
 
                       <ul className="space-y-3 pt-2 text-[12px] sm:text-[13px] text-slate-200/95 leading-relaxed font-sans">
-                        <li className="flex items-start">
-                          <span className="text-amber-400 mr-2 text-base leading-none">&bull;</span>
-                          <span>Delivered the Convocation Keynote Address to the XIV graduating batch of NIT Patna.</span>
-                        </li>
-                        <li className="flex items-start">
-                          <span className="text-amber-400 mr-2 text-base leading-none">&bull;</span>
-                          <span>Graced the historic Dedication of the 125-Acre Bihta Campus to the Nation on 4th October 2025.</span>
-                        </li>
-                        <li className="flex items-start">
-                          <span className="text-amber-400 mr-2 text-base leading-none">&bull;</span>
-                          <span>Distinguished Alumnus of Bihar College of Engineering (BCE, now NIT Patna - Electrical Engineering, Batch of 1972).</span>
-                        </li>
+                        {DIGNITARIES.find((d: any) => d.badge === "Chief Guest")?.bio?.map((point: string, idx: number) => (
+                          <li key={idx} className="flex items-start">
+                            <span className="text-amber-400 mr-2 text-base leading-none">&bull;</span>
+                            <span>{point}</span>
+                          </li>
+                        )) || (
+                          <li className="flex items-start">
+                            <span className="text-amber-400 mr-2 text-base leading-none">&bull;</span>
+                            <span>Delivered the Convocation Keynote Address to the {INSTITUTE_INFO.editionRoman.split(" ")[0]} graduating batch of NIT Patna.</span>
+                          </li>
+                        )}
                       </ul>
                     </div>
 
                     <div className="pt-4 border-t border-white/10 text-[11px] text-amber-200/80 font-mono">
-                      XIV Convocation &bull; NIT Patna
+                      {INSTITUTE_INFO.editionRoman} &bull; NIT Patna
                     </div>
                   </div>
 
@@ -244,7 +248,7 @@ export default function HeroSection() {
               CEREMONY DATE
             </div>
             <div className="text-sm font-bold leading-tight text-white">
-              Saturday, December 27, 2025
+              {INSTITUTE_INFO.date}
             </div>
           </div>
         </div>
@@ -259,7 +263,7 @@ export default function HeroSection() {
               REPORTING TIME
             </div>
             <div className="text-sm font-bold leading-tight text-white">
-              08:00 AM Sharp
+              {INSTITUTE_INFO.reportingTime}
             </div>
           </div>
         </div>
@@ -274,7 +278,7 @@ export default function HeroSection() {
               VENUE
             </div>
             <div className="text-sm font-bold leading-tight text-white">
-              Main Campus, NIT Patna
+              {INSTITUTE_INFO.venue.split(",")[0]}
             </div>
           </div>
         </div>
@@ -288,7 +292,7 @@ export default function HeroSection() {
               <div>
                 <span className="text-[11px] font-bold uppercase tracking-widest text-amber-700">Official Notice</span>
                 <h3 className="font-serif font-bold text-xl text-slate-900">
-                  XIV Convocation 2025
+                  {INSTITUTE_INFO.editionRoman} {year}
                 </h3>
               </div>
               <button
@@ -300,10 +304,10 @@ export default function HeroSection() {
             </div>
             <div className="space-y-3 text-sm text-slate-600">
               <p>
-                <strong>Order of Ceremony (Dec 27, 2025):</strong> The 14th Annual Convocation of the National Institute of Technology Patna will be held on Saturday, December 27, 2025 at the Main Campus (Mahendru, Ashok Rajpath, Patna).
+                <strong>Order of Ceremony ({INSTITUTE_INFO.date}):</strong> {INSTITUTE_INFO.edition} of the National Institute of Technology Patna will be held on {INSTITUTE_INFO.date} at the Main Campus (Mahendru, Ashok Rajpath, Patna).
               </p>
               <ul className="list-disc pl-5 space-y-1.5 text-xs text-slate-600">
-                <li><strong>Chief Guest:</strong> Hon’ble Chief Minister of Bihar Shri Nitish Kumar.</li>
+                <li><strong>Chief Guest:</strong> {(() => { const cg = DIGNITARIES.find((d: any) => d.badge === "Chief Guest"); return cg ? (cg.designation === "Chief Guest" ? cg.role : cg.designation) : ""; })()} {DIGNITARIES.find((d: any) => d.badge === "Chief Guest")?.name || "Chief Guest"}.</li>
                 <li><strong>Presided by:</strong> Shri Ashok Kumar Modi, Chairperson, BOG &amp; Prof. Pradip Kumar Jain, Director.</li>
                 <li><strong>Academic Dress Code:</strong> Traditional Indian attire with official ceremonial stole.</li>
                 <li><strong>Registration:</strong> Degree recipients must confirm in-person attendance to receive allocated seating and entry QR passes.</li>

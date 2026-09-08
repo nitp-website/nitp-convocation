@@ -1,0 +1,239 @@
+Loading Part A...
+Part A: 255 paragraphs, 7 tables
+--- Table 0 (14 rows) ---
+Header: 11: 00 AM | Arrival of Academic Procession
+Row 1: 11: 05 AM | Saraswati Vandana
+
+--- Table 1 (3 rows) ---
+Header: Shrimati Droupadi Murmu                      Hon’ble President of India | Shri Narendra Modi Hon’ble Prime Minister of India
+Row 1: Shri Dharmendra Pradhan            Hon’ble Minister of Education | Shri Nitish Kumar       Hon’ble Chief Minister of Bihar
+
+--- Table 2 (46 rows) ---
+Header: Sl. No. | Degree | Branch of Specialisation | Year of Start | Duration
+Row 1: Graduation Program: | Graduation Program: | Graduation Program: | Graduation Program: | Graduation Program:
+
+--- Table 3 (9 rows) ---
+Header: Sl. No. | Name | Designation
+Row 1: 1. | Shri Ashok Kumar Modi Chief Managing Director, Eden Group, Kolkata | Chairperson
+
+--- Table 4 (29 rows) ---
+Header: Sl. No. | Name | Designation
+Row 1:  | Prof. Pradip Kumar Jain  Director, NIT Patna | Ex-Officio Chairman
+
+--- Table 5 (53 rows) ---
+Header: Sl. No. | Name | Designation
+Row 1:  | Prof. Pradip Kumar Jain | Director
+
+--- Table 6 (34 rows) ---
+Header:  | Dr. Antriksh Goswami Assistant Professor, CSE | Assistant Warden –  Kautilya Hostel
+Row 1:  | Dr. Vikash Kumar Raj | Sr. Medical Officer
+
+Loading Part B...
+Part B: 285 paragraphs, 95 tables
+--- Table 0 (3 rows) ---
+Header: Shailesh Singh Mechanical Engineering President’s Gold Medal and Director’s Gold Medal | Shailesh Singh Mechanical Engineering President’s Gold Medal and Director’s Gold Medal | Shailesh Singh Mechanical Engineering President’s Gold Medal and Director’s Gold Medal
+Row 1: Ashish Kumar Gaurav Civil Engineering Director’s Gold Medal |  | Sharayu Anand Jadhav Architecture & Planning Director’s Gold Medal
+
+--- Table 1 (4 rows) ---
+Header: Mahi Civil Engineering President's Gold Medal, Director's Gold Medal & K. N. & Arjun Rohatgi Gold Medal | Mahi Civil Engineering President's Gold Medal, Director's Gold Medal & K. N. & Arjun Rohatgi Gold Medal | Mahi Civil Engineering President's Gold Medal, Director's Gold Medal & K. N. & Arjun Rohatgi Gold Medal | Mahi Civil Engineering President's Gold Medal, Director's Gold Medal & K. N. & Arjun Rohatgi Gold Medal
+Row 1: Sagar Gupta Mechanical Engineering Director’s Gold Medal | Smita Kumari Computer Science & Engineering Director’s Gold Medal | Smita Kumari Computer Science & Engineering Director’s Gold Medal | Nihal Soni Electronics & Communication Engineering Director’s Gold Medal
+
+--- Table 2 (1 rows) ---
+Header: Kandula Manikanta Reddy Mechanical Engineering Best Graduate Boy | Deeplaxmi B. Arch Best Graduate Girl
+
+--- Table 3 (2 rows) ---
+Header: Branch | Roll Number | Name
+Row 1: Mechanical Engineering | 2236008 | Shailesh Singh
+
+--- Table 4 (6 rows) ---
+Header: Branch | Roll Number | Name
+Row 1: Mechanical Engineering | 2236008 | Shailesh Singh
+
+--- Table 5 (2 rows) ---
+Header: Branch | Roll Number | Name
+Row 1: Civil Engineering | 2003131 | Mahi
+
+--- Table 6 (10 rows) ---
+Header: Branch | Roll Number | Name
+Row 1: Civil Engineering | 2003131 | Mahi
+
+--- Table 7 (3 rows) ---
+Header: Branch | Roll Number | Name
+Row 1: Mechanical Engineering | 2001049 | Kandula Manikanta Reddy
+
+--- Table 8 (2 rows) ---
+Header: Branch | Roll Number | Name
+Row 1: Civil Engineering | 2003131 | Mahi
+
+--- Table 9 (2 rows) ---
+Header: Branch | Roll Number | Name
+Row 1: Civil Engineering | 2003009 | Harsh Kumar
+
+--- Table 10 (5 rows) ---
+Header: Rakesh Kumar 165AR05 rakeshk.phd16.ar@nitp.ac.in | Supriya Kumari 195AR02 supriyak.phd19.ar@nitp.ac.in | Smita Sunil Burrewar 205AR003 smitab.phd20.ar@nitp.ac.in
+Row 1: Sandeep Kumar 205AR012 sandeepk.phd20.ar@nitp.ac.in | Tapaswini Mohapatra 205AR025 tapaswinim.ph21.ar@nitp.ac.in | Somi Sareen 215AR002 somis.ph21.ar@nitp.ac.in
+
+--- Table 11 (5 rows) ---
+Header: Ishu Sharma 195CE20 ishus.phd19.ce@nitp.ac.in | Jitendra Pratap Singh 195CE21 jitendras.phd19.ce@nitp.ac.in | Md Saeb Sufyan 195CE29 mds.phd19.ce@nitp.ac.in
+Row 1: Zeenat Ara 195CE47 zeenata.phd19.ce@nitp.ac.in | Amit Kumar 195CE51 amitk.phd19.ce@nitp.ac.in | Aftab Alam 195CE53 aftaba.phd19.ce@nitp.ac.in
+
+--- Table 12 (5 rows) ---
+Header: Pradip Das 185CH03 pradipd.phd18.ch@nitp.ac.in | Awadesh Kumar Dwivedi 195CH03 awadeshk.phd19.ch@nitp.ac.in | Darakshan 195CH09 darakshan.phd19.ch@nitp.ac.in
+Row 1: Sunil Kumar 205CH002 sunilk.phd20.ch@nitp.ac.in | Aprajita 205CH003 aprajita.phd20.ch@nitp.ac.in | Vipin Kumar Pandey 165CS04 vipin.cse16@nitp.ac.in
+
+--- Table 13 (5 rows) ---
+Header: Sangjukta Das 205CS006 sangjuktad.phd20.cs@nitp.ac.in | Anita Murmu 205CS007 anitam.phd20.cs@nitp.ac.in | Monu Singh 205CS032 monus.phd20.cs@nitp.ac.in
+Row 1: Himanshu Kumar Singh 215CS001 himanshus.ph21.cs@nitp.ac.in | Govindam Sharma 175EC02 govindam.ec17@nitp.ac.in | Akash Kumar Gupta 185EC04 akash.ec18@nitp.ac.in
+
+--- Table 14 (5 rows) ---
+Header: Sanat Kumar Pandey 205EC023 sanatp.phd20.ec@nitp.ac.in | Aakansha Garg 205EC029 aakanshag.phd20.ec@nitp.ac.in | A. Theja 205EC035 at.phd20.ec@nitp.ac.in
+Row 1: Narendra Pal 205EC057 narendrap.ph21.ec@nitp.ac.in | Rohit Sharma 205EC060 rohits.ph21.ec@nitp.ac.in | Pamarthi Venkatasivarambabu 205EC072 pamarthiv.ph21.ec@nitp.ac.in
+
+--- Table 15 (5 rows) ---
+Header: Mrinal Ranjan 195EE06 mrinalr.phd19.ee@nitp.ac.in | Md Atiqur Rahman 195EE18 mdr.phd19.ee@nitp.ac.in | Swapan Santra 195EE26 swapans.phd19.ee@nitp.ac.in
+Row 1: Anurag Tiwari 205EE001 anuragt.phd20.ee@nitp.ac.in | Pritam Kumar 205EE006 pritamk.phd20.ee@nitp.ac.in | Parshuram Singh 205EE019 parshurams.ph21.ee@nitp.ac.in
+
+--- Table 16 (5 rows) ---
+Header: Rani Kumari 195MA07 ranik.phd19.ma@nitp.ac.in | Sunny Kumar 195MA08 sunnyk.phd19.ma@nitp.ac.in | Mainakh Das 175ME01 mainakhd.phd17.me@nitp.ac.in
+Row 1: Rajnish Kumar 175ME05 rajnish.me17@nitp.ac.in | Kumar Gaurav 185ME03 kumarg.phd18.me@nitp.ac.in | Pushpraj Singh 185ME10 pushprajs.phd18.me@nitp.ac.in
+
+--- Table 17 (5 rows) ---
+Header: Vibhooti Narayan Mishra 205ME053 vibhootim.ph21.me@nitp.ac.in | Shivdayal Kumar 17ME001 shivdayal.me17@nitp.ac.in | Naveen Kumar 185PH03 naveen.ph18@nitp.ac.in
+Row 1: Sipun Mohanty 195PH01 sipunm.phd19.ph@nitp.ac.in | Biswaranjan Pattanayak  185EC23 biswaranjan.ec18@nitp.ac.in | Prashant Kumar 18CE005 prashant.ce18@nitp.ac.in
+
+--- Table 18 (5 rows) ---
+Header: Mukesh Chandra 205ME050 mukeshc.ph21.me@nitp.ac.in | Shradha Roy 205PH013 shradhar.ph21.ph@nitp.ac.in | Manoj Kumar Poddar 195ME14 manojp.phd19.me@nitp.ac.in
+Row 1: Shalu Kumari 185HS01 shaluk.phd18.hs@nitp.ac.in | Narayan Kumar 185ME08 narayank.phd18.me@nitp.ac.in | Sunil Maity 195MA02 sunil.ma19@nitp.ac.in
+
+--- Table 19 (2 rows) ---
+Header: Ravi Kumar 18ME002 ravikumar.pg18.me@nitp.ac.in | Rajiv Ranjan  205CS020 rajivr.phd20.cs@nitp.ac.in | Nitin Kumar 18ME001 nitink.pg18.me@nitp.ac.in
+Row 1: Puspendu Ghosh 195EE15 puspendug.phd19.ee@nitp.ac.in | Vishal Gupta 195HS07 vishalg.hs19.phd@nitp.ac.in | Krishna Pandey 205EC017 krishnap.phd20.ec@nitp.ac.in
+
+--- Table 20 (6 rows) ---
+Header: Roquaiya PGPAP 2230001 roquaiya.pg22.ar@nitp.ac.in | Ruchita Rashmi PGPAP 2230002 ruchitar.pg22.ar@nitp.ac.in | Alka Sobhi P M PGPAP 2230003 alkam.pg22.ar@nitp.ac.in
+Row 1: Shubhraj Sharma PGPAP 2230004 shubhrajs.pg22.ar@nitp.ac.in | Rishikesh Anand PGPAP 2230005 rishikesha.pg22.ar@nitp.ac.in | Akash Mitra PGPAP 2230006 akashm.pg22.ar@nitp.ac.in
+
+--- Table 21 (5 rows) ---
+Header: Vikash Kumar Jha M.Tech-CE 2223001 vikashj.pg22.ce@nitp.ac.in | Kundan Kumar M.Tech-CE 2223002 kundankkr.pg22.ce@nitp.ac.in | Udbhav Siddharth M.Tech-CE 2223003 udbhavs.pg22.ce@nitp.ac.in
+Row 1: Vishal Kumar M.Tech-CE 2223004 vishalk.pg22.ce@nitp.ac.in | Abhimanu Kumar M.Tech-CE 2223005 abhimanuk.pg22.ce@nitp.ac.in | Rosy M.Tech-CE 2223006 rosy.pg22.ce@nitp.ac.in
+
+--- Table 22 (5 rows) ---
+Header: Hemant Mishra M.Tech-CE 2223016 hemantm.pg22.ce@nitp.ac.in | Aman Kumar M.Tech-CE 2223017 amankkr.pg22.ce@nitp.ac.in | Ayushi Priya M.Tech-CE 2223018 ayuship.pg22.ce@nitp.ac.in
+Row 1: Diwesh Kumar Tiwary M.Tech-CE 2223019 diwesht.pg22.ce@nitp.ac.in | Gyan Prakash M.Tech-CE 2223020 gyanp.pg22.ce@nitp.ac.in | Ujjwal Kumar M.Tech-CE 2223021 ujjwalk.pg22.ce@nitp.ac.in
+
+--- Table 23 (5 rows) ---
+Header: Ritika M.Tech-CE 2224011 ritika.pg22.ce@nitp.ac.in | Vikash Kumar M.Tech-CE 2224012 vikashk.pg22.ce@nitp.ac.in | Nikhil Kumar Suman M.Tech-CE 2224014 nikhils.pg22.ce@nitp.ac.in
+Row 1: Saurav Kishor M.Tech-CE 2224015 sauravk.pg22.ce@nitp.ac.in | Anubhav Kumar Lokesh M.Tech-CE 2224016 anubhavl.pg22.ce@nitp.ac.in | Raja Kumar M.Tech-CE 2224017 rajak.pg22.ce@nitp.ac.in
+
+--- Table 24 (5 rows) ---
+Header: Ashu Kumar M.Tech-CE 2231001 ashuk.pg22.ce@nitp.ac.in | Pawnesh Mishra M.Tech-CE 2231002 pawneshm.pg22.ce@nitp.ac.in | Prince Raj M.Tech-CE 2231003 princer128.pg22.ce@nitp.ac.in
+Row 1: Sakshi M.Tech-CE 2231004 sakshi.pg22.ce@nitp.ac.in | Deepak Kumar Kashyap M.Tech-CE 2231005 deepakk.pg22.ce@nitp.ac.in | Rahul Kumar Sahu M.Tech-CE 2231006 rahuls.pg22.ce@nitp.ac.in
+
+--- Table 25 (5 rows) ---
+Header: Sagar Shekhar M.Tech-CE 2231017 sagars.pg22.ce@nitp.ac.in | Amit Kumar Varma M.Tech-CE 2231018 amitkr.pg22.ce@nitp.ac.in | Namit Jaiswal M.Tech-CE 2233001 namitj.pg22.ce@nitp.ac.in
+Row 1: Adarsh Kumar M.Tech-CE 2233002 adarshk.pg22.ce@nitp.ac.in | Rajranjan Kumar M.Tech-CE 2233003 rajranjank.pg22.ce@nitp.ac.in | Sophia Khatoon M.Tech-CE 2233004 sophiak.pg22.ce@nitp.ac.in
+
+--- Table 26 (1 rows) ---
+Header: Mukesh Kumar M.Tech-CE 2233015 mukeshk.pg22.ce@nitp.ac.in | Alok Kumar M.Tech-CE 2233016 alokk.pg22.ce@nitp.ac.in | Madhav Kumar Jha M.Tech-CE 2233017 madhavj.pg22.ce@nitp.ac.in
+
+--- Table 27 (2 rows) ---
+Header: Sansriti Suman M.Tech-ECE 2229001 sansritis.pg22.ec@nitp.ac.in | Ajit Kumar M.Tech-ECE 2229002 ajitk.pg22.ec@nitp.ac.in | Aalekh M.Tech-ECE 2229003 aalekh.pg22.ec@nitp.ac.in
+Row 1:  |  | 
+
+--- Table 28 (4 rows) ---
+Header: Vivek Kumar Pandey M.Tech-EE 2221001 vivekp.pg22.ee@nitp.ac.in | Saumya Sinha M.Tech-EE 2221002 saumyas.pg22.ee@nitp.ac.in | Abhishek M.Tech-EE 2221003 abhishek.pg22.ee@nitp.ac.in
+Row 1: Amit Bharti M.Tech-EE 2221004 amitb.pg22.ee@nitp.ac.in | Om Prakash M.Tech-EE 2221005 omp.pg22.ee@nitp.ac.in | Aman Kumar M.Tech-EE 2221006 amank.pg22.ee@nitp.ac.in
+
+--- Table 29 (5 rows) ---
+Header: Roshan Kumar Jha M.Tech-ME 2234002 roshanj.pg22.me@nitp.ac.in | Shubham Kumar M.Tech-ME 2234003 shubhamk.pg22.me@nitp.ac.in | Kumar Gaurav M.Tech-ME 2234004 kumarg.pg22.me@nitp.ac.in
+Row 1: Alok Kumar M.Tech-ME 2234005 alokk.pg22.me@nitp.ac.in | Mithun Kumar M.Tech-ME 2234006 mithunk.pg22.me@nitp.ac.in | Abhishek Tripathi M.Tech-ME 2234007 abhishekt.pg22.me@nitp.ac.in
+
+--- Table 30 (4 rows) ---
+Header: Pranav Kumar M.Tech-ME 2236005 pranavk.pg22.me@nitp.ac.in | Sanjay Kumar M.Tech-ME 2236006 sanjayk.pg22.me@nitp.ac.in | Ajeet Kumar M.Tech-ME 2236007 ajeetk.pg22.me@nitp.ac.in
+Row 1: Shailesh Singh M.Tech-ME 2236008 shaileshs.pg22.me@nitp.ac.in | Himanshu Singh M.Tech-ME 2236009 himanshus.pg22.me@nitp.ac.in | Sanoj Kumar M.Tech-ME 2236010 sanojk.pg22.me@nitp.ac.in
+
+--- Table 31 (5 rows) ---
+Header: Deeplaxmi B.Arch 1905001 deeplaxmi.ug19.ar@nitp.ac.in | Aayush Kumar B.Arch 1905002 aayushk.ug19.ar@nitp.ac.in | Purnendu Priyadarshi B.Arch 1905003 purnendup.ug19.ar@nitp.ac.in
+Row 1: Shreya Sinha B.Arch 1905004 shreyas.ug19.ar@nitp.ac.in | Harshit Raj B.Arch 1905005 harshitr.ug19.ar@nitp.ac.in | Badal Kumar B.Arch 1905006 badalk.ug19.ar@nitp.ac.in
+
+--- Table 32 (5 rows) ---
+Header: Sanober Bano B.Arch 1905016 sanoberb.ug19.ar@nitp.ac.in | B V S Chinmayee B.Arch 1905017 bc.ug19.ar@nitp.ac.in | Navneet Kumar B.Arch 1905018 navneetk.ug19.ar@nitp.ac.in
+Row 1: Vidya Kumari Prajapati B.Arch 1905019 vidyap.ug19.ar@nitp.ac.in | Syed Mohammed Sameed Uddin B.Arch 1905020 syedu.ug19.ar@nitp.ac.in | Madhushree Yadav B.Arch 1905021 madhusreey.ug19.ar@nitp.ac.in
+
+--- Table 33 (2 rows) ---
+Header: T Nadamuni B.Arch 1905033 tn.ug19.ar@nitp.ac.in | Nagaram Dinesh B.Arch 1905034 nagaramd.ug19.ar@nitp.ac.in | Pendli Vamshi B.Arch 1905035 pendliv.ug19.ar@nitp.ac.in
+Row 1:  |  | 
+
+--- Table 34 (5 rows) ---
+Header: Rukmani Meena B.Tech-CE 2003002 rukmanim.ug20.ce@nitp.ac.in | Santosh Kumar B.Tech-CE 2003003 santoshk.ug20.ce@nitp.ac.in | Ashutosh Sinha B.Tech-CE 2003004 ashutoshs.ug20.ce@nitp.ac.in
+Row 1: Arpana B.Tech-CE 2003005 arpana.ug20.ce@nitp.ac.in | Priyanshu Shekhar B.Tech-CE 2003006 priyanshus.ug20.ce@nitp.ac.in | Suraj Kumar B.Tech-CE 2003007 surajk.ug20.ce@nitp.ac.in
+
+--- Table 35 (5 rows) ---
+Header: Mukesh Kumar Singh B.Tech-CE 2003017 mukeshs.ug20.ce@nitp.ac.in | Rahul Kumar B.Tech-CE 2003018 rahulk.ug20.ce@nitp.ac.in | Sneha Kumari B.Tech-CE 2003019 snehak.ug20.ce@nitp.ac.in
+Row 1: Prince Gaurav B.Tech-CE 2003020 princeg.ug20.ce@nitp.ac.in | Ayush Kumar B.Tech-CE 2003022 ayushkk.ug20.ce@nitp.ac.in | Radha Kumari B.Tech-CE 2003023 radhak.ug20.ce@nitp.ac.in
+
+--- Table 36 (5 rows) ---
+Header: Mahendra Kumar Meena B.Tech-CE 2003033 mahendram.ug20.ce@nitp.ac.in | Ankit Kumar B.Tech-CE 2003034 ankitk.ug20.ce@nitp.ac.in | Shobhit Kumar B.Tech-CE 2003035 shobhitk.ug20.ce@nitp.ac.in
+Row 1: Guriya Kumari B.Tech-CE 2003036 guriyak.ug20.ce@nitp.ac.in | Amit Meena B.Tech-CE 2003037 amitm.ug20.ce@nitp.ac.in | Uma Kumari B.Tech-CE 2003038 umak.ug20.ce@nitp.ac.in
+
+--- Table 37 (5 rows) ---
+Header: Gudepu Lohith Reddy B.Tech-CE 2003050 gudepur.ug20.ce@nitp.ac.in | Md Dilshad Alam B.Tech-CE 2003051 mda.ug20.ce@nitp.ac.in | Aman Kumar Vats B.Tech-CE 2003052 amanv.ug20.ce@nitp.ac.in
+Row 1: Durgesh Kumar B.Tech-CE 2003053 durgeshk.ug20.ce@nitp.ac.in | Riti Raj B.Tech-CE 2003054 ritir.ug20.ce@nitp.ac.in | Sonu Kumar Meena B.Tech-CE 2003055 sonum.ug20.ce@nitp.ac.in
+
+--- Table 38 (5 rows) ---
+Header: Akshat Suryavanshi B.Tech-CE 2003068 akshats.ug20.ce@nitp.ac.in | Korada Joshi B.Tech-CE 2003069 koradaj.ug20.ce@nitp.ac.in | Raman Kumar Pandit B.Tech-CE 2003070 ramanp.ug20.ce@nitp.ac.in
+Row 1: Neil Tripathi B.Tech-CE 2003071 neilt.ug20.ce@nitp.ac.in | Nisha Yadav B.Tech-CE 2003073 nishay.ug20.ce@nitp.ac.in | Abhay Kumar B.Tech-CE 2003074 abhayk.ug20.ce@nitp.ac.in
+
+--- Table 39 (5 rows) ---
+Header: Madduri Hemadruthi B.Tech-CE 2003087 maddurih.ug20.ce@nitp.ac.in | Rahul Rai B.Tech-CE 2003088 rahulr.ug20.ce@nitp.ac.in | Rohit Kumar B.Tech-CE 2003089 rohitk.ug20.ce@nitp.ac.in
+Row 1: Vivek Kumar B.Tech-CE 2003090 vivekk.ug20.ce@nitp.ac.in | Shubham Kumar B.Tech-CE 2003091 shubhamk.ug20.ce@nitp.ac.in | Shivam Kumar B.Tech-CE 2003092 shivamk.ug20.ce@nitp.ac.in
+
+--- Table 40 (5 rows) ---
+Header: Jatin Chauhan B.Tech-CE 2003103 jatinc.ug20.ce@nitp.ac.in | Pushkar Kumar B.Tech-CE 2003105 pushkark.ug20.ce@nitp.ac.in | Ravindra Singh Gaur B.Tech-CE 2003106 ravindrag.ug20.ce@nitp.ac.in
+Row 1: Virendra Kumar Yadav B.Tech-CE 2003108 virendray.ug20.ce@nitp.ac.in | Sandeep Saini B.Tech-CE 2003109 sandeeps.ug20.ce@nitp.ac.in | Darla S Raj Jaya Krishna B.Tech-CE 2003110 darlak.ug20.ce@nitp.ac.in
+
+--- Table 41 (2 rows) ---
+Header: Shashank Kumar B.Tech-CE 2003127 shashankk.ug20.ce@nitp.ac.in | Jitendra Kumar B.Tech-CE 2003128 jitendrak.ug20.ce@nitp.ac.in | Saurabh Kumar B.Tech-CE 2003129 saurabhk.ug20.ce@nitp.ac.in
+Row 1: Devendra Kumar Meena B.Tech-CE 2003130 devendram.ug20.ce@nitp.ac.in |  | Mahi B.Tech-CE 2003131 mahi.ug20.me@nitp.ac.in
+
+--- Table 42 (5 rows) ---
+Header: Rajan Kumar B.Tech-CSE 2006001 rajankk.ug20.cse@nitp.ac.in | Kush Kumar B.Tech-CSE 2006002 kushk.ug20.cse@nitp.ac.in | Nilesh Kumar B.Tech-CSE 2006003 nileshk.ug20.cse@nitp.ac.in
+Row 1: Dhirendra Kumar B.Tech-CSE 2006004 dhirendrak.ug20.cse@nitp.ac.in | Tanishk Raj B.Tech-CSE 2006005 tanishkr.ug20.cse@nitp.ac.in | Shivam Jha B.Tech-CSE 2006006 shivamjk.ug20.cse@nitp.ac.in
+
+--- Table 43 (5 rows) ---
+Header: Alokkumar Bharti B.Tech-CSE 2006018 alokkumarb.ug20.cse@nitp.ac.in | Pushpam Kumar Jha B.Tech-CSE 2006020 pushpamj.ug20.cse@nitp.ac.in | Safi Ku Poonam Shree Zagru Safi B.Tech-CSE 2006021 safis.ug20.cse@nitp.ac.in
+Row 1: Abhishek Kumar B.Tech-CSE 2006022 abhishek.ug20.cse@nitp.ac.in | Aditya Kumar Kashyap B.Tech-CSE 2006023 adityak.ug20.cse@nitp.ac.in | Arnav Sharan B.Tech-CSE 2006024 arnavs.ug20.cse@nitp.ac.in
+
+--- Table 44 (5 rows) ---
+Header: Pulkit Kumar Agarwal B.Tech-CSE 2006036 pulkita.ug20.cse@nitp.ac.in | Amar Ram B.Tech-CSE 2006037 amarr.ug20.cse@nitp.ac.in | Annu B.Tech-CSE 2006038 annu.ug20.cse@nitp.ac.in
+Row 1: Anshu Kumari B.Tech-CSE 2006039 anshuk.ug20.cse@nitp.ac.in | Abhishek Ranjan B.Tech-CSE 2006040 abhishekr.ug20.cse@nitp.ac.in | Rakesh Kumar B.Tech-CSE 2006041 rakeshk.ug20.cse@nitp.ac.in
+
+--- Table 45 (5 rows) ---
+Header: Sneh Kumar B.Tech-CSE 2006052 snehk.ug20.cse@nitp.ac.in | Ankit Kumar B.Tech-CSE 2006053 ankitkk.ug20.cse@nitp.ac.in | Yuvraj Pandey B.Tech-CSE 2006054 yuvrajp.ug20.cse@nitp.ac.in
+Row 1: Ganesh B.Tech-CSE 2006055 ganesh.ug20.cse@nitp.ac.in | Anubhav Kamboj B.Tech-CSE 2006056 anubhavk.ug20.cse@nitp.ac.in | Anand Kumar B.Tech-CSE 2006057 anandk.ug20.cse@nitp.ac.in
+
+--- Table 46 (5 rows) ---
+Header: Taufik Ali B.Tech-CSE 2006068 taufika.ug20.cse@nitp.ac.in | Paras Punjabi B.Tech-CSE 2006069 parasp.ug20.cse@nitp.ac.in | Aditya Raj B.Tech-CSE 2006070 adityark.ug20.cse@nitp.ac.in
+Row 1: Inzemamul Haque B.Tech-CSE 2006071 inzemamulh.ug20.cse@nitp.ac.in | Sumit Pingale B.Tech-CSE 2006072 sumitp.ug20.cse@nitp.ac.in | Shashwat Shekhar B.Tech-CSE 2006073 shashwats.ug20.cse@nitp.ac.in
+
+--- Table 47 (5 rows) ---
+Header: Abhishek Singh B.Tech-CSE 2006083 abhisheks.ug20.cse@nitp.ac.in | Khushi Kumari B.Tech-CSE 2006084 khushik.ug20.cse@nitp.ac.in | Bollina Kavya Sri B.Tech-CSE 2006085 bollinas.ug20.cse@nitp.ac.in
+Row 1: Md Armaan B.Tech-CSE 2006086 mda.ug20.cse@nitp.ac.in | Vikash Kumar B.Tech-CSE 2006087 vikashk.ug20.cse@nitp.ac.in | Sweta Kumari B.Tech-CSE 2006088 swetak.ug20.cse@nitp.ac.in
+
+--- Table 48 (5 rows) ---
+Header: Muskan Kumari B.Tech-CSE 2006098 muskank.ug20.cse@nitp.ac.in | Kethavath Sundar B.Tech-CSE 2006099 kethavaths.ug20.cse@nitp.ac.in | Shailendra Singh Shekhawat B.Tech-CSE 2006100 shailendras.ug20.cse@nitp.ac.in
+Row 1: Shivam Jaiswal B.Tech-CSE 2006101 shivamj.ug20.cse@nitp.ac.in | Amitesh Kumar B.Tech-CSE 2006102 amiteshk.ug20.cse@nitp.ac.in | Ankit Kumar Singh B.Tech-CSE 2006103 ankits.ug20.cse@nitp.ac.in
+
+--- Table 49 (5 rows) ---
+Header: Shekhar Giri B.Tech-CSE 2006113 shekharg.ug20.cse@nitp.ac.in | Ankit Kumar B.Tech-CSE 2006115 ankitk.ug20.cse@nitp.ac.in | Vikas Kumar Gond B.Tech-CSE 2006116 vikasg.ug20.cse@nitp.ac.in
+Row 1: Rajdeep Nagar B.Tech-CSE 2006117 rajdeepn.ug20.cse@nitp.ac.in | Smriti Gupta B.Tech-CSE 2006118 smritig.ug20.cse@nitp.ac.in | Aadarsh Chourasia B.Tech-CSE 2006119 aadarshc.ug20.cse@nitp.ac.in
+
+--- Table 50 (5 rows) ---
+Header: Ravi Teja Lankapalli B.Tech-CSE 2006131 ravil.ug20.cse@nitp.ac.in | Meda Venkata Jayanth B.Tech-CSE 2006133 medaj.ug20.cse@nitp.ac.in | Amit Kumar Gupta B.Tech-CSE 2006134 amitg.ug20.cse@nitp.ac.in
+Row 1: Shivam B.Tech-CSE 2006135 shivam.ug20.cse@nitp.ac.in | Safdar Nazir B.Tech-CSE 2006136 safdarn.ug20.cse@nitp.ac.in | Wankar Apoorv Prakash B.Tech-CSE 2006137 wankarp.ug20.cse@nitp.ac.in
+
+--- Table 51 (5 rows) ---
+Header: Vonteddu Chaithra B.Tech-CSE 2006148 vontedduc.ug20.cse@nitp.ac.in | Aman B.Tech-CSE 2006149 aman.ug20.cse@nitp.ac.in | Himanshu Rai B.Tech-CSE 2006150 himanshur.ug20.cse@nitp.ac.in
+Row 1: Shreyash Bapuchand Karmankar B.Tech-CSE 2006151 shreyashk.ug20.cse@nitp.ac.in | Rajnish Kumar B.Tech-CSE 2006152 rajnishk.ug20.cse@nitp.ac.in | Prashant Kumar B.Tech-CSE 2006153 prashantk.ug20.cse@nitp.ac.in
+
+... stopping after 50 tables

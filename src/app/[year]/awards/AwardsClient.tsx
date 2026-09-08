@@ -14,28 +14,29 @@ import {
   ScrollText,
   Filter
 } from "lucide-react";
-import { 
-  UG_GOLD_MEDALISTS, 
-  PG_GOLD_MEDALISTS, 
-  BEST_GRADUATES 
-} from "@/lib/souvenirData";
+
 
 type MedalCategory = "ALL" | "PRESIDENT" | "INSTITUTE" | "MERIT" | "BEST_GRAD" | "ENDOWMENT";
 
-export default function AwardsPage() {
+export default function AwardsPageClient({ data, year }: { data: any, year: string }) {
+  const { medals, info } = data;
+  const { UG_GOLD_MEDALISTS, PG_GOLD_MEDALISTS, BEST_GRADUATES } = medals;
+
   const [activeCategory, setActiveCategory] = useState<MedalCategory>("ALL");
   const [instituteSubTab, setInstituteSubTab] = useState<"ALL" | "UG" | "PG">("ALL");
 
   // Filter Institute Gold Medalists (UG branch toppers + PG branch toppers that received Institute Gold Medal)
   const ugInstituteMedalists = UG_GOLD_MEDALISTS;
-  const pgInstituteMedalists = PG_GOLD_MEDALISTS.filter(m => m.badge.includes("Gold Medal"));
+  const pgInstituteMedalists = PG_GOLD_MEDALISTS.filter((m: any) => m.award?.includes("Gold Medal"));
   
+  const ugPresidentMedalist = UG_GOLD_MEDALISTS.find((m: any) => m.award?.includes("President"));
+  const pgPresidentMedalist = PG_GOLD_MEDALISTS.find((m: any) => m.award?.includes("President"));
   // Academic Merit Certificates (Certificate of Excellence)
-  const academicMeritCertificates = PG_GOLD_MEDALISTS.filter(m => m.badge.includes("Certificate"));
+  const academicMeritCertificates = PG_GOLD_MEDALISTS.filter((m: any) => m.award?.includes("Certificate"));
 
-  const endowmentAwards = [
+  const endowmentAwards = year === "2025" ? [
     {
-      title: "K. N. Rohatgi Gold Medal (2024–25)",
+      title: "K. N. Rohatgi Gold Medal (2025)",
       awardee: "Ritika Kumari",
       roll: "2103049",
       dept: "Civil Engineering",
@@ -44,13 +45,23 @@ export default function AwardsPage() {
       image: "/images/souvenir/ug_ritika_kumari.png"
     },
     {
-      title: "BCE-NITP Alumni Gold Medal (2024–25)",
+      title: "BCE-NITP Alumni Gold Medal (2025)",
       awardee: "Ritika Kumari",
       roll: "2103049",
       dept: "Civil Engineering",
       citation: "Conferred by the BCE-NITP Alumni Association to the distinguished topper of Civil Engineering.",
       badge: "Alumni Association Gold Medal",
       image: "/images/souvenir/ug_ritika_kumari.png"
+    }
+  ] : [
+    {
+      title: "K. N. & Arjun Rohatgi Gold Medal (2024)",
+      awardee: "Mahi",
+      roll: "2003131",
+      dept: "Civil Engineering",
+      citation: "Awarded to the branch topper of the Department of Civil Engineering.",
+      badge: "Endowment Gold Medal",
+      image: "/images/souvenir/2024/mahi.jpg"
     }
   ];
 
@@ -85,7 +96,7 @@ export default function AwardsPage() {
       <div className="sticky top-16 z-30 bg-[#FBF9F5]/95 backdrop-blur-md border-b border-amber-200/60 py-3 shadow-xs">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-2 overflow-x-auto no-scrollbar py-1">
-            {categories.map((cat) => {
+            {categories.map((cat: any) => {
               const Icon = cat.icon;
               const isActive = activeCategory === cat.id;
               return (
@@ -118,7 +129,7 @@ export default function AwardsPage() {
       <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-16 flex-1 w-full">
 
         {/* 1. PRESIDENT'S GOLD MEDAL */}
-        {(activeCategory === "ALL" || activeCategory === "PRESIDENT") && (
+        {(activeCategory === "ALL" || activeCategory === "PRESIDENT") && (ugPresidentMedalist || pgPresidentMedalist) && (
           <section id="president-gold-medal" className="scroll-mt-32">
             <div className="bg-gradient-to-br from-amber-500/10 via-amber-100/40 to-amber-500/5 rounded-3xl p-6 sm:p-8 border border-amber-300/90 shadow-sm relative overflow-hidden">
               <div className="flex items-center space-x-3.5 mb-6">
@@ -140,81 +151,83 @@ export default function AwardsPage() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {/* UG Overall Topper */}
+                                {ugPresidentMedalist && (
                 <div className="bg-white rounded-2xl p-6 border border-amber-200/90 shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col sm:flex-row items-center sm:items-start gap-5 group">
                   <div className="w-24 h-28 rounded-2xl overflow-hidden bg-slate-100 shrink-0 border-2 border-amber-400 shadow-md group-hover:scale-105 transition-transform duration-200">
                     <img
-                      src="/images/souvenir/ug_harsh_nandan_verma.png"
-                      alt="Harsh Nandan Verma"
+                      src={ugPresidentMedalist.image || "/images/default_graduate.png"}
+                      alt={ugPresidentMedalist.name}
                       className="w-full h-full object-cover object-top"
                     />
                   </div>
-                  <div className="space-y-1.5 text-center sm:text-left flex-1">
-                    <span className="text-[10px] font-bold text-amber-900 bg-amber-100 px-2.5 py-0.5 rounded-md border border-amber-200 inline-block uppercase tracking-wider">
-                      OVERALL TOPPER &bull; UNDERGRADUATE (UG)
+                  <div className="flex-1 text-center sm:text-left">
+                    <span className="inline-block px-2.5 py-0.5 text-[9px] font-bold tracking-widest text-amber-900 bg-amber-100 uppercase rounded-md mb-2">
+                      OVERALL TOPPER • UNDERGRADUATE (UG)
                     </span>
-                    <h4 className="text-xl font-bold text-slate-900 font-serif">
-                      Harsh Nandan Verma
+                    <h4 className="text-lg font-serif font-bold text-slate-900 leading-tight">
+                      {ugPresidentMedalist.name}
                     </h4>
-                    <p className="text-xs font-mono font-semibold text-slate-500">
-                      Roll No: 2106216
+                    <p className="text-xs font-mono font-semibold text-slate-500 mt-1 mb-2">
+                      Roll No: {ugPresidentMedalist.roll}
                     </p>
-                    <p className="text-sm font-bold text-blue-800">
-                      Computer Science &amp; Engineering (B.Tech)
+                    <p className="text-sm font-bold text-blue-800 pb-3 border-b border-amber-100">
+                      {ugPresidentMedalist.dept} (B.Tech / B.Arch)
                     </p>
-                    <div className="pt-2 border-t border-slate-100 text-xs text-amber-900 font-semibold">
-                      Recipient of <span className="font-extrabold">President&apos;s Gold Medal</span> &amp; <span className="font-extrabold">Director&apos;s Gold Medal</span>
-                    </div>
+                    <p className="text-xs font-medium text-amber-800 mt-3 leading-relaxed">
+                      Recipient of {ugPresidentMedalist.award}
+                    </p>
                   </div>
                 </div>
-
-                {/* PG Overall Topper */}
+                )}
+                {pgPresidentMedalist && (
                 <div className="bg-white rounded-2xl p-6 border border-amber-200/90 shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col sm:flex-row items-center sm:items-start gap-5 group">
                   <div className="w-24 h-28 rounded-2xl overflow-hidden bg-slate-100 shrink-0 border-2 border-amber-400 shadow-md group-hover:scale-105 transition-transform duration-200">
                     <img
-                      src="/images/souvenir/pg_dhiresh_kumar.png"
-                      alt="Dhiresh Kumar"
+                      src={pgPresidentMedalist.image || "/images/default_graduate.png"}
+                      alt={pgPresidentMedalist.name}
                       className="w-full h-full object-cover object-top"
                     />
                   </div>
-                  <div className="space-y-1.5 text-center sm:text-left flex-1">
-                    <span className="text-[10px] font-bold text-amber-900 bg-amber-100 px-2.5 py-0.5 rounded-md border border-amber-200 inline-block uppercase tracking-wider">
-                      OVERALL TOPPER &bull; POSTGRADUATE (PG)
+                  <div className="flex-1 text-center sm:text-left">
+                    <span className="inline-block px-2.5 py-0.5 text-[9px] font-bold tracking-widest text-amber-900 bg-amber-100 uppercase rounded-md mb-2">
+                      OVERALL TOPPER • POSTGRADUATE (PG)
                     </span>
-                    <h4 className="text-xl font-bold text-slate-900 font-serif">
-                      Dhiresh Kumar
+                    <h4 className="text-lg font-serif font-bold text-slate-900 leading-tight">
+                      {pgPresidentMedalist.name}
                     </h4>
-                    <p className="text-xs font-mono font-semibold text-slate-500">
-                      Roll No: 2323010
+                    <p className="text-xs font-mono font-semibold text-slate-500 mt-1 mb-2">
+                      Roll No: {pgPresidentMedalist.roll}
                     </p>
-                    <p className="text-sm font-bold text-blue-800">
-                      Civil Engineering (M.Tech)
+                    <p className="text-sm font-bold text-blue-800 pb-3 border-b border-amber-100">
+                      {pgPresidentMedalist.dept} (M.Tech / M.Arch / MURP)
                     </p>
-                    <div className="pt-2 border-t border-slate-100 text-xs text-amber-900 font-semibold">
-                      Recipient of <span className="font-extrabold">President&apos;s Gold Medal</span> &amp; <span className="font-extrabold">Director&apos;s Gold Medal</span>
-                    </div>
+                    <p className="text-xs font-medium text-amber-800 mt-3 leading-relaxed">
+                      Recipient of {pgPresidentMedalist.award}
+                    </p>
                   </div>
                 </div>
+                )}
               </div>
             </div>
           </section>
         )}
-
+        
         {/* 2. INSTITUTE GOLD MEDAL */}
-        {(activeCategory === "ALL" || activeCategory === "INSTITUTE") && (
+        {(activeCategory === "ALL" || activeCategory === "INSTITUTE") && (ugInstituteMedalists.length > 0 || pgInstituteMedalists.length > 0) && (
           <section id="institute-gold-medal" className="scroll-mt-32 space-y-6">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-200 pb-4">
-              <div className="flex items-center space-x-3.5">
-                <div className="w-11 h-11 rounded-2xl bg-amber-100 flex items-center justify-center text-amber-700 shadow-xs">
-                  <Medal className="w-6 h-6 text-amber-600" />
-                </div>
-                <div>
-                  <h3 className="text-2xl sm:text-3xl font-serif font-bold text-slate-900">
+            <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 pb-4 border-b border-slate-200">
+              <div>
+                <div className="flex items-center gap-3 mb-2">
+                  <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-amber-200 to-amber-100 text-amber-800 flex items-center justify-center font-bold shadow-sm">
+                    <Medal className="w-5 h-5" />
+                  </div>
+                  <h3 className="text-2xl font-serif font-bold text-slate-900">
                     Institute Gold Medal
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-500">
-                    Awarded to branch toppers of each undergraduate and postgraduate discipline (Director&apos;s Gold Medal).
-                  </p>
                 </div>
+                <p className="text-sm text-slate-500 max-w-2xl">
+                  Awarded to branch toppers of each undergraduate and postgraduate discipline (Director's Gold Medal).
+                </p>
               </div>
 
               {/* Sub-filter tabs */}
@@ -261,7 +274,7 @@ export default function AwardsPage() {
                   </span>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                  {ugInstituteMedalists.map((med, idx) => (
+                  {ugInstituteMedalists.map((med: any, idx: any) => (
                     <div
                       key={idx}
                       className="bg-white rounded-3xl shadow-sm border border-slate-200/90 p-6 flex flex-col justify-between hover:shadow-xl hover:border-amber-300 transition-all duration-200 group"
@@ -276,13 +289,11 @@ export default function AwardsPage() {
                             />
                           </div>
                           <div className="flex-1 min-w-0">
-                            <span className="text-[10px] font-bold text-amber-900 bg-amber-50 px-2 py-0.5 rounded-md border border-amber-200/70 block mb-1 truncate">
-                              {med.badge}
-                            </span>
+                            {med.badge && <span className="text-[10px] font-bold text-amber-900 bg-amber-50 px-2 py-0.5 rounded-md border border-amber-200/70 block mb-1 truncate">{med.badge}</span>}
                             <h4 className="text-base font-bold text-slate-900 font-serif leading-snug truncate">
                               {med.name}
                             </h4>
-                            <p className="text-xs font-mono text-slate-400">Roll: {med.roll}</p>
+                            {med.roll && <p className="text-xs font-mono text-slate-400">Roll: {med.roll}</p>}
                           </div>
                         </div>
                         
@@ -310,7 +321,7 @@ export default function AwardsPage() {
                   </span>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                  {pgInstituteMedalists.map((med, idx) => (
+                  {pgInstituteMedalists.map((med: any, idx: any) => (
                     <div
                       key={idx}
                       className="bg-white rounded-3xl shadow-sm border border-slate-200/90 p-6 flex flex-col justify-between hover:shadow-xl hover:border-amber-300 transition-all duration-200 group"
@@ -325,13 +336,11 @@ export default function AwardsPage() {
                             />
                           </div>
                           <div className="flex-1 min-w-0">
-                            <span className="text-[10px] font-bold text-amber-900 bg-amber-50 px-2 py-0.5 rounded-md border border-amber-200/70 block mb-1 truncate">
-                              {med.badge}
-                            </span>
+                            {med.badge && <span className="text-[10px] font-bold text-amber-900 bg-amber-50 px-2 py-0.5 rounded-md border border-amber-200/70 block mb-1 truncate">{med.badge}</span>}
                             <h4 className="text-base font-bold text-slate-900 font-serif leading-snug truncate">
                               {med.name}
                             </h4>
-                            <p className="text-xs font-mono text-slate-400">Roll: {med.roll}</p>
+                            {med.roll && <p className="text-xs font-mono text-slate-400">Roll: {med.roll}</p>}
                           </div>
                         </div>
                         
@@ -353,7 +362,7 @@ export default function AwardsPage() {
         )}
 
         {/* 3. ACADEMIC MERIT CERTIFICATE */}
-        {(activeCategory === "ALL" || activeCategory === "MERIT") && (
+        {(activeCategory === "ALL" || activeCategory === "MERIT") && academicMeritCertificates.length > 0 && (
           <section id="academic-merit-certificate" className="scroll-mt-32 space-y-6">
             <div className="flex items-center space-x-3.5 border-b border-slate-200 pb-4">
               <div className="w-11 h-11 rounded-2xl bg-indigo-100 flex items-center justify-center text-indigo-700 shadow-xs">
@@ -370,7 +379,7 @@ export default function AwardsPage() {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {academicMeritCertificates.map((med, idx) => (
+              {academicMeritCertificates.map((med: any, idx: any) => (
                 <div
                   key={idx}
                   className="bg-white rounded-3xl p-6 shadow-sm border border-indigo-200/80 hover:shadow-xl hover:border-indigo-400 transition-all duration-200 flex flex-col sm:flex-row items-center sm:items-start gap-5 group"
@@ -383,15 +392,11 @@ export default function AwardsPage() {
                     />
                   </div>
                   <div className="space-y-1.5 flex-1 text-center sm:text-left">
-                    <span className="text-[10px] font-bold text-indigo-900 bg-indigo-50 px-2.5 py-0.5 rounded-md border border-indigo-200 inline-block uppercase tracking-wider">
-                      {med.badge}
-                    </span>
+                    {med.badge && <span className="text-[10px] font-bold text-indigo-900 bg-indigo-50 px-2.5 py-0.5 rounded-md border border-indigo-200 inline-block uppercase tracking-wider">{med.badge}</span>}
                     <h4 className="text-xl font-bold text-slate-900 font-serif leading-tight">
                       {med.name}
                     </h4>
-                    <p className="text-xs font-mono font-semibold text-slate-500">
-                      Roll No: {med.roll}
-                    </p>
+                    {med.roll && <p className="text-xs font-mono font-semibold text-slate-500">Roll No: {med.roll}</p>}
                     <p className="text-sm font-bold text-blue-800">
                       {med.dept}
                     </p>
@@ -406,7 +411,7 @@ export default function AwardsPage() {
         )}
 
         {/* 4. BEST GRADUATE STUDENTS (BOY & GIRL) */}
-        {(activeCategory === "ALL" || activeCategory === "BEST_GRAD") && (
+        {(activeCategory === "ALL" || activeCategory === "BEST_GRAD") && BEST_GRADUATES.length > 0 && (
           <section id="best-graduate-students" className="scroll-mt-32 space-y-6">
             <div className="flex items-center space-x-3.5 border-b border-slate-200 pb-4">
               <div className="w-11 h-11 rounded-2xl bg-amber-100 flex items-center justify-center text-amber-700 shadow-xs">
@@ -414,7 +419,7 @@ export default function AwardsPage() {
               </div>
               <div>
                 <h3 className="text-2xl sm:text-3xl font-serif font-bold text-slate-900">
-                  Best Graduate Students (Boy &amp; Girl), 2024–25
+                  Best Graduate Students (Boy &amp; Girl), {year}
                 </h3>
                 <p className="text-xs sm:text-sm text-slate-500">
                   Conferred with a sum of Rs. 10,001/- along with an Official Letter of Appreciation.
@@ -423,7 +428,7 @@ export default function AwardsPage() {
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {BEST_GRADUATES.map((bg, idx) => (
+              {BEST_GRADUATES.map((bg: any, idx: any) => (
                 <div
                   key={idx}
                   className="bg-white rounded-3xl p-7 shadow-sm border border-amber-200/90 hover:shadow-xl transition-all duration-300 relative overflow-hidden flex flex-col sm:flex-row items-center sm:items-start gap-6 group"
@@ -438,15 +443,11 @@ export default function AwardsPage() {
                   </div>
 
                   <div className="flex-1 text-center sm:text-left space-y-1.5">
-                    <span className="inline-block text-[11px] font-bold uppercase tracking-wider text-amber-900 bg-amber-100 px-3 py-1 rounded-full">
-                      {bg.title}
-                    </span>
+                    {bg.title && <span className="inline-block text-[11px] font-bold uppercase tracking-wider text-amber-900 bg-amber-100 px-3 py-1 rounded-full">{bg.title}</span>}
                     <h4 className="text-2xl font-bold text-slate-900 font-serif leading-tight">
                       {bg.name}
                     </h4>
-                    <p className="text-xs font-mono font-bold text-slate-500">
-                      Roll No: {bg.roll}
-                    </p>
+                    {bg.roll && <p className="text-xs font-mono font-bold text-slate-500">Roll No: {bg.roll}</p>}
                     <p className="text-sm font-semibold text-blue-800">
                       {bg.dept}
                     </p>
@@ -462,7 +463,7 @@ export default function AwardsPage() {
         )}
 
         {/* 5. K. N. ROHATGI MEDAL & ENDOWMENT MEDALS */}
-        {(activeCategory === "ALL" || activeCategory === "ENDOWMENT") && (
+        {(activeCategory === "ALL" || activeCategory === "ENDOWMENT") && endowmentAwards.length > 0 && (
           <section id="kn-rohatgi-endowments" className="scroll-mt-32 space-y-6">
             <div className="flex items-center space-x-3.5 border-b border-slate-200 pb-4">
               <div className="w-11 h-11 rounded-2xl bg-rose-100 flex items-center justify-center text-rose-700 shadow-xs">
@@ -479,7 +480,7 @@ export default function AwardsPage() {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {endowmentAwards.map((endow, idx) => (
+              {endowmentAwards.map((endow: any, idx: any) => (
                 <div
                   key={idx}
                   className="bg-white rounded-3xl p-6 shadow-sm border border-slate-200/90 hover:shadow-xl transition-all duration-200 flex flex-col sm:flex-row items-center sm:items-start gap-5 group"
@@ -492,9 +493,7 @@ export default function AwardsPage() {
                     />
                   </div>
                   <div className="space-y-1.5 flex-1 text-center sm:text-left">
-                    <span className="text-[10px] font-bold text-rose-800 bg-rose-50 px-2.5 py-0.5 rounded-md border border-rose-200 inline-block uppercase tracking-wider">
-                      {endow.badge}
-                    </span>
+                    {endow.badge && <span className="text-[10px] font-bold text-rose-800 bg-rose-50 px-2.5 py-0.5 rounded-md border border-rose-200 inline-block uppercase tracking-wider">{endow.badge}</span>}
                     <h4 className="text-lg font-bold text-slate-900 font-serif leading-tight">
                       {endow.title}
                     </h4>

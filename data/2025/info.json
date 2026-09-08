@@ -1,0 +1,119 @@
+{
+  "INSTITUTE_INFO": {
+    "nameHindi": "राष्ट्रीय प्रौद्योगिकी संस्थान पटना",
+    "nameEnglish": "National Institute of Technology Patna",
+    "edition": "14th Annual Convocation Ceremony",
+    "editionRoman": "XIV CONVOCATION",
+    "date": "Saturday, December 27, 2025",
+    "reportingTime": "08:00 AM Sharp",
+    "venue": "Main Campus Auditorium, NIT Patna (Ashok Rajpath)",
+    "venueDetails": "NIT Patna, Mahendru, Ashok Rajpath, Patna – 800 005 (Bihar)",
+    "bihtaCampus": "Bihta Campus (125 Acres), Dedicated on 4th October 2025 by Hon’ble PM Narendra Modi",
+    "nirfRank": "53rd in India (Engineering - NIRF 2025)",
+    "patents": "371+ Patent Applications, 200+ Secured Patents",
+    "totalGraduates": "985",
+    "phdScholars": "136",
+    "pgGraduates": "111",
+    "ugGraduates": "738",
+    "goldMedals": "14",
+    "departmentsCount": "11 Academic Departments"
+  },
+  "PROGRAMME_EVENTS": [
+    {
+      "time": "08:00 AM",
+      "title": "Arrival & Reporting at Venue",
+      "description": "Graduating students and invited guests arrive at Main Campus for verification and robing."
+    },
+    {
+      "time": "09:00 AM",
+      "title": "Mandatory Full Dress Rehearsal",
+      "description": "Full ceremonial rehearsal with Director, Deans, Senate members, and all degree recipients."
+    },
+    {
+      "time": "12:00 PM",
+      "title": "Robing & Lunch Reception",
+      "description": "Collection of ceremonial convocation stoles and lunch in the guest dining enclosure."
+    },
+    {
+      "time": "02:15 PM",
+      "title": "Academic Procession Enters Hall",
+      "description": "Formal academic procession of Senate Members, Board of Governors, Director, and Hon’ble Chief Guest."
+    },
+    {
+      "time": "02:25 PM",
+      "title": "Lighting of Lamp & Saraswati Vandana",
+      "description": "Traditional lamp lighting ceremony by Dignitaries on Dais followed by Saraswati Vandana."
+    },
+    {
+      "time": "02:35 PM",
+      "title": "Declaration of Opening of Convocation",
+      "description": "Convocation is officially declared “Open” by Shri Ashok Kumar Modi, Chairperson, BOG, NIT Patna."
+    },
+    {
+      "time": "02:40 PM",
+      "title": "Address by Chief Guest Shri Nitish Kumar",
+      "description": "Keynote Convocation Address by Chief Guest, Hon’ble Chief Minister of Bihar Shri Nitish Kumar."
+    },
+    {
+      "time": "03:00 PM",
+      "title": "Award of Gold Medals & Certificates",
+      "description": "Presentation of President’s Gold Medals, Director’s Gold Medals, Endowment Medals, and Certificates."
+    },
+    {
+      "time": "03:30 PM",
+      "title": "Welcome Address & Director’s Report",
+      "description": "Presented by Prof. Pradip Kumar Jain, Director, NIT Patna, highlighting institutional growth and NIRF 53 rank."
+    },
+    {
+      "time": "03:50 PM",
+      "title": "Address by Chairperson, BOG",
+      "description": "Address by Shri Ashok Kumar Modi, Chairperson, Board of Governors, NIT Patna."
+    },
+    {
+      "time": "04:10 PM",
+      "title": "Confirmation of Degrees & Solemn Pledge",
+      "description": "Confirmation of Degrees and administration of the solemn Convocation Pledge (दीक्षान्त प्रतिज्ञा)."
+    },
+    {
+      "time": "04:30 PM",
+      "title": "Award of Degrees by Director",
+      "description": "Conferral of Ph.D, M.Tech, M.Arch, MURP, B.Tech, and B.Arch degrees."
+    },
+    {
+      "time": "05:45 PM",
+      "title": "National Anthem & Closing Declaration",
+      "description": "National Anthem followed by formal declaration of closing of Convocation and departure of Academic Procession."
+    },
+    {
+      "time": "06:15 PM",
+      "title": "Group Photography & High-Tea",
+      "description": "Departmental group photographs with Chief Guest and dignitaries, followed by celebratory high-tea."
+    }
+  ],
+  "STOLE_GUIDELINES": [
+    {
+      "degree": "Doctor of Philosophy (Ph.D)",
+      "color": "Royal Maroon Stole with Golden NITP Crest & Embellished Tassels",
+      "dressCode": "Male: White Kurta-Pyjama / Female: White Saree with Golden Border or White Salwar-Kurta",
+      "hex": "#800000"
+    },
+    {
+      "degree": "Master of Technology (M.Tech) / M.Arch / MURP",
+      "color": "Deep Navy Blue Stole with Silver NITP Crest",
+      "dressCode": "Male: White Kurta-Pyjama / Female: White Saree or White Salwar-Kurta",
+      "hex": "#1E3A8A"
+    },
+    {
+      "degree": "Bachelor of Technology (B.Tech) / B.Arch",
+      "color": "Golden Yellow Stole with Maroon NITP Crest",
+      "dressCode": "Male: White Kurta-Pyjama / Female: White Saree or White Salwar-Kurta",
+      "hex": "#D97706"
+    },
+    {
+      "degree": "Gold Medalists & Special Awardees",
+      "color": "Special Tri-color / Imperial Gold Stole with Gold Ribbon",
+      "dressCode": "Prescribed Indian Formal Attire with Official Stole",
+      "hex": "#EAB308"
+    }
+  ]
+}

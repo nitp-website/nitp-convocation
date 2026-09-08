@@ -29,9 +29,12 @@ interface Graduate {
   image?: string | null;
 }
 
-export default function GraduatesDirectory() {
-  const [graduates, setGraduates] = useState<Graduate[]>([]);
-  const [loading, setLoading] = useState(true);
+export default function GraduatesDirectoryClient({ data, year }: { data: any, year: string }) {
+  const graduatesData = data.graduates;
+  const { INSTITUTE_INFO } = data.info;
+
+  const [graduates, setGraduates] = useState<Graduate[]>(graduatesData);
+  const [loading, setLoading] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState<"ALL" | "PHD" | "PG" | "UG" | "MEDALIST">("ALL");
   const [selectedDept, setSelectedDept] = useState("ALL");
@@ -40,18 +43,7 @@ export default function GraduatesDirectory() {
   const [copiedRoll, setCopiedRoll] = useState(false);
   const pageSize = 30;
 
-  useEffect(() => {
-    fetch("/data/graduates_all.json")
-      .then((res) => res.json())
-      .then((data: Graduate[]) => {
-        setGraduates(data);
-        setLoading(false);
-      })
-      .catch((err) => {
-        console.error("Failed to load graduates:", err);
-        setLoading(false);
-      });
-  }, []);
+  
 
   const departments = useMemo(() => {
     const set = new Set<string>();
@@ -62,7 +54,7 @@ export default function GraduatesDirectory() {
   }, [graduates]);
 
   const filteredGraduates = useMemo(() => {
-    return graduates.filter((student) => {
+    return graduates.filter((student: any) => {
       const q = searchQuery.toLowerCase().trim();
       const matchesSearch =
         !q ||
@@ -130,11 +122,11 @@ export default function GraduatesDirectory() {
         <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3">
           {[
             { id: "ALL", label: "All Candidates", count: graduates.length, icon: <GraduationCap className="w-4 h-4" /> },
-            { id: "PHD", label: "Ph.D Scholars", count: 136, icon: <FlaskConical className="w-4 h-4" /> },
-            { id: "PG", label: "Postgraduates (M.Tech/M.Arch/MURP)", count: 111, icon: <BookOpen className="w-4 h-4" /> },
-            { id: "UG", label: "Undergraduates (B.Tech/B.Arch)", count: 738, icon: <Building2 className="w-4 h-4" /> },
-            { id: "MEDALIST", label: "Gold Medalists", count: 14, icon: <Medal className="w-4 h-4" /> },
-          ].map((tab) => (
+            { id: "PHD", label: "Ph.D Scholars", count: graduates.filter(g => g.prog === "Ph.D").length, icon: <FlaskConical className="w-4 h-4" /> },
+            { id: "PG", label: "Postgraduates (M.Tech/M.Arch/MURP)", count: graduates.filter(g => ["M.Tech", "M.Arch", "MURP"].includes(g.prog)).length, icon: <BookOpen className="w-4 h-4" /> },
+            { id: "UG", label: "Undergraduates (B.Tech/B.Arch)", count: graduates.filter(g => ["B.Tech", "B.Arch"].includes(g.prog)).length, icon: <Building2 className="w-4 h-4" /> },
+            { id: "MEDALIST", label: "Gold Medalists", count: graduates.filter(g => Boolean(g.honor)).length, icon: <Medal className="w-4 h-4" /> },
+          ].map((tab: any) => (
             <button
               key={tab.id}
               onClick={() => setSelectedCategory(tab.id as any)}
@@ -185,7 +177,7 @@ export default function GraduatesDirectory() {
               className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm outline-none bg-white focus:ring-2 focus:ring-blue-700 cursor-pointer"
             >
               <option value="ALL">All Departments ({departments.length})</option>
-              {departments.map((dept) => (
+              {departments.map((dept: any) => (
                 <option key={dept} value={dept}>
                   {dept}
                 </option>
@@ -216,7 +208,7 @@ export default function GraduatesDirectory() {
         {/* Loading Skeleton or Empty State */}
         {loading ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 py-10">
-            {[...Array(6)].map((_, i) => (
+            {[...Array(6)].map((_: any, i: any) => (
               <div key={i} className="bg-white rounded-3xl p-6 border border-slate-200 animate-pulse space-y-4">
                 <div className="w-16 h-16 bg-slate-200 rounded-2xl mx-auto" />
                 <div className="h-4 bg-slate-200 rounded w-3/4 mx-auto" />
@@ -235,7 +227,7 @@ export default function GraduatesDirectory() {
         ) : (
           /* Graduates Grid */
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {paginatedGraduates.map((student, idx) => (
+            {paginatedGraduates.map((student: any, idx: any) => (
               <div
                 key={student.roll + idx}
                 onClick={() => setSelectedStudent(student)}
@@ -265,7 +257,7 @@ export default function GraduatesDirectory() {
                         <span className={`text-[10px] font-extrabold px-2 py-0.5 rounded-md ${
                           student.prog === "Ph.D"
                             ? "bg-rose-50 text-rose-800 border border-rose-200"
-                            : (student.prog.startsWith("M.") || student.prog === "MURP")
+                            : ((student.prog || "").startsWith("M.") || student.prog === "MURP")
                             ? "bg-indigo-50 text-indigo-800 border border-indigo-200"
                             : "bg-blue-50 text-blue-800 border border-blue-200"
                         }`}>
@@ -359,7 +351,7 @@ export default function GraduatesDirectory() {
                   {selectedStudent.prog === "Ph.D" && !selectedStudent.name.startsWith("Dr.") ? `Dr. ${selectedStudent.name}` : selectedStudent.name}
                 </h3>
                 <p className="text-xs font-semibold text-slate-500">
-                  NIT Patna &bull; XIV Convocation 2025
+                  NIT Patna &bull; {data.info?.INSTITUTE_INFO?.editionRoman} {year}
                 </p>
               </div>
             </div>

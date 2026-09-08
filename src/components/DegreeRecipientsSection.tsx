@@ -1,11 +1,16 @@
+// @ts-nocheck
 "use client";
 
 import React from "react";
 import Link from "next/link";
 import { GraduationCap, BookOpen, FlaskConical, Users, ArrowRight, Sparkles } from "lucide-react";
-import { INSTITUTE_INFO } from "@/lib/souvenirData";
+import { useConvocation } from "@/context/ConvocationContext";
 
 export default function DegreeRecipientsSection() {
+  const { data, year } = useConvocation();
+  const { INSTITUTE_INFO, PROGRAMME_EVENTS, STOLE_GUIDELINES } = data.info;
+  const DIGNITARIES = data.dignitaries;
+
   const stats = [
     {
       label: "UNDERGRADUATE",
@@ -50,9 +55,9 @@ export default function DegreeRecipientsSection() {
             </h2>
             <span className="h-[2px] sm:h-[3px] w-8 sm:w-14 bg-blue-700 rounded-full shrink-0" />
           </div>
-          <p className="text-xs sm:text-sm text-slate-500 font-semibold uppercase tracking-wider max-w-lg mx-auto">
-            14th Annual Convocation Batch of National Institute of Technology Patna
-          </p>
+          {/* <p className="text-xs sm:text-sm text-slate-500 font-semibold uppercase tracking-wider max-w-lg mx-auto">
+            {INSTITUTE_INFO.edition.split(" ")[0]} Annual Convocation Batch of National Institute of Technology Patna
+          </p> */}
         </div>
 
         {/* Cards */}

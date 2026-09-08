@@ -5,9 +5,48 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { UserCheck, Star, Shield, Award, Sparkles, Building, Landmark, Users, ChevronDown, ChevronUp } from "lucide-react";
-import { DIGNITARIES, CONVOCATION_COMMITTEES } from "@/lib/souvenirData";
 
-export default function DignitariesPage() {
+
+export default function DignitariesPageClient({ data, year }: { data: any, year: string }) {
+  const { DIGNITARIES } = { DIGNITARIES: data.dignitaries };
+
+  const hardcodedVIPs = [
+    {
+      "name": "Shrimati Droupadi Murmu",
+      "designation": "Hon'ble President of India",
+      "role": "Visitor, NIT Patna",
+      "org": "Government of India",
+      "image": "/images/souvenir/droupadi_murmu.png",
+      "highlight": true,
+      "badge": "Visitor"
+    },
+    {
+      "name": "Shri Narendra Modi",
+      "designation": "Hon'ble Prime Minister of India",
+      "role": "Dedicated Bihta Campus to the Nation (Oct 4, 2025)",
+      "org": "Government of India",
+      "image": "/images/souvenir/narendra_modi.jpg",
+      "highlight": true,
+      "badge": "Chief Patron"
+    },
+    {
+      "name": "Shri Dharmendra Pradhan",
+      "designation": "Hon'ble Minister of Education",
+      "role": "Ministry of Education",
+      "org": "Government of India",
+      "image": "/images/souvenir/dharmendra_pradhan.jpg",
+      "highlight": true,
+      "badge": "Patron"
+    }
+  ];
+
+  // Filter out any matching names from the JSON data to prevent duplicates
+  const jsonDignitaries = (DIGNITARIES || []).filter(
+    (d: any) => !hardcodedVIPs.some(vip => vip.name === d.name)
+  );
+
+  const ALL_DIGNITARIES = [...hardcodedVIPs, ...jsonDignitaries];
+
   const [expandedCommittee, setExpandedCommittee] = useState<string | null>("degree_prep");
 
   const administrativeDeans = [
@@ -32,7 +71,7 @@ export default function DignitariesPage() {
             Distinguished Dignitaries
           </h1>
           <p className="text-slate-300 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
-            Presiding over the 14th Convocation Ceremony of National Institute of Technology Patna (December 27, 2025).
+            Presiding over the {data.info?.INSTITUTE_INFO?.edition || "Annual Convocation Ceremony"} of National Institute of Technology Patna ({data.info?.INSTITUTE_INFO?.date || "2024"}).
           </p>
         </div>
       </section>
@@ -44,7 +83,7 @@ export default function DignitariesPage() {
 
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {DIGNITARIES.map((person, idx) => (
+            {ALL_DIGNITARIES.map((person: any, idx: any) => (
               <div
                 key={idx}
                 className="bg-white rounded-3xl shadow-sm border border-slate-200/90 p-7 flex flex-col items-center text-center relative hover:shadow-xl hover:border-amber-400/60 transition-all duration-200 group overflow-hidden"
@@ -70,6 +109,7 @@ export default function DignitariesPage() {
         </section>
 
         {/* Bihta Campus Dedication Highlight Banner */}
+        {year === "2025" && (
         <section className="bg-gradient-to-r from-amber-50 via-orange-50 to-amber-50 rounded-3xl p-8 border border-amber-200/80 shadow-sm flex flex-col md:flex-row items-center gap-6">
           <div className="w-16 h-16 rounded-2xl bg-amber-500/20 flex items-center justify-center text-amber-800 shrink-0 shadow-xs">
             <Building className="w-8 h-8" />
@@ -88,6 +128,7 @@ export default function DignitariesPage() {
             </p>
           </div>
         </section>
+        )}
 
         {/* Administrative Deans */}
         <section className="bg-white rounded-3xl p-8 shadow-sm border border-slate-200/90">
@@ -103,7 +144,7 @@ export default function DignitariesPage() {
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {administrativeDeans.map((dean, idx) => (
+            {administrativeDeans.map((dean: any, idx: any) => (
               <div
                 key={idx}
                 className="flex items-center justify-between p-4 bg-slate-50 rounded-2xl border border-slate-100 hover:border-blue-300 transition-colors"
@@ -132,7 +173,7 @@ export default function DignitariesPage() {
           </div>
 
           <div className="space-y-4">
-            {CONVOCATION_COMMITTEES.map((comm) => {
+            {data.committees?.map((comm: any) => {
               const isExpanded = expandedCommittee === comm.id;
               return (
                 <div 
@@ -160,7 +201,7 @@ export default function DignitariesPage() {
                             BRIEF DUTIES
                           </span>
                           <ul className="list-disc pl-5 text-xs text-slate-600 space-y-1">
-                            {comm.duties.map((duty, dIdx) => (
+                            {comm.duties.map((duty: any, dIdx: any) => (
                               <li key={dIdx}>{duty}</li>
                             ))}
                           </ul>
@@ -172,7 +213,7 @@ export default function DignitariesPage() {
                           COMMITTEE MEMBERS
                         </span>
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2.5">
-                          {comm.members.map((m, mIdx) => (
+                          {comm.members.map((m: any, mIdx: any) => (
                             <div key={mIdx} className="p-2.5 bg-slate-50 rounded-xl border border-slate-100 text-xs">
                               <span className="font-bold text-slate-900 block">{m.name}</span>
                               <span className="text-slate-500 block text-[11px]">{m.designation}</span>

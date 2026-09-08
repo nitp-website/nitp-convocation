@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Shri Nitish Kumar",
+    "role": "Hon\u2019ble Chief Minister of Bihar",
+    "designation": "Chief Minister",
+    "image": "/images/souvenir/nitish_kumar.jpg",
+    "highlight": true,
+    "badge": "Chief Minister",
+    "org": "Govt of Bihar"
+  },
+  {
+    "name": "Shri Arun Kumar Singh",
+    "role": "Chairman and CEO (ONGC)",
+    "designation": "Chief Guest",
+    "image": "/images/souvenir/2024/arun_kumar_singh.jpg",
+    "highlight": true,
+    "badge": "Chief Guest",
+    "org": "ONGC",
+    "bio": [
+      "Delivered the Convocation Keynote Address to the XIII graduating batch of NIT Patna.",
+      "Spearheading India's energy security initiatives as the Chairman and CEO of ONGC.",
+      "Distinguished leader with over 35 years of experience in the oil and gas sector."
+    ]
+  },
+  {
+    "name": "Shri Bijay Kumar, I.A.S. (Retd.)",
+    "role": "Retd. Additional Chief Secretary, Govt of Maharashtra",
+    "designation": "Distinguished Guest of Honour",
+    "image": "/images/default_graduate.png",
+    "highlight": true,
+    "badge": "Guest of Honour",
+    "org": "Govt of Maharashtra"
+  },
+  {
+    "name": "Shri Ashok Kumar Modi",
+    "role": "Chairperson, BOG, NIT Patna",
+    "designation": "Chairperson",
+    "image": "/images/souvenir/ashok_modi.jpg",
+    "highlight": false,
+    "badge": "Chairperson",
+    "org": "NIT Patna"
+  },
+  {
+    "name": "Prof. Pradip Kumar Jain",
+    "role": "Director, NIT Patna",
+    "designation": "Director",
+    "image": "/images/souvenir/pradip_jain.jpg",
+    "highlight": false,
+    "badge": "Director",
+    "org": "NIT Patna"
+  }
+]

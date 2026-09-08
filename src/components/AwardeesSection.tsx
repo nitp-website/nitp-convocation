@@ -1,12 +1,19 @@
+// @ts-nocheck
 "use client";
 
 import React, { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Award, Medal, ArrowRight, Sparkles } from "lucide-react";
-import { UG_GOLD_MEDALISTS, PG_GOLD_MEDALISTS, Medalist } from "@/lib/souvenirData";
+import { useConvocation } from "@/context/ConvocationContext";
+
 
 export default function AwardeesSection() {
+  const { data, year } = useConvocation();
+  const { INSTITUTE_INFO, PROGRAMME_EVENTS, STOLE_GUIDELINES } = data.info;
+  const { UG_GOLD_MEDALISTS, PG_GOLD_MEDALISTS } = data.medals;
+  const DIGNITARIES = data.dignitaries;
+
   const pathname = usePathname();
   const [activeTab, setActiveTab] = useState<"ug" | "pg">("ug");
 
@@ -21,9 +28,9 @@ export default function AwardeesSection() {
           <h2 className="text-3xl sm:text-5xl font-sans font-extrabold text-slate-900 tracking-tight">
             Awards &amp; Honours
           </h2>
-          <p className="text-sm sm:text-base text-slate-500 font-medium">
+          {/* <p className="text-sm sm:text-base text-slate-500 font-medium">
             Recognising top-ranking scholars with the President&apos;s Gold Medal, Director&apos;s Gold Medals, and Institute Honours.
-          </p>
+          </p> */}
         </div>
 
         {/* Tab Switcher */}

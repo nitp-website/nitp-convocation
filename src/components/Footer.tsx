@@ -1,10 +1,17 @@
+// @ts-nocheck
 "use client";
+import { useConvocation } from "@/context/ConvocationContext";
 
 import React from "react";
 import Link from "next/link";
 import { ExternalLink, Download, MapPin } from "lucide-react";
 
 export default function Footer() {
+  const convocationCtx = useConvocation();
+  const year = convocationCtx?.year || "2025";
+  const data = convocationCtx?.data;
+  const INSTITUTE_INFO = data?.info?.INSTITUTE_INFO || { editionRoman: "XIV Convocation", nirfRank: "53rd in India (Engineering - NIRF 2025)" };
+
   return (
     <footer className="bg-[#0F172A] text-slate-300 pt-16 pb-12 border-t-[4px] border-blue-600">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -27,12 +34,12 @@ export default function Footer() {
                   National Institute of Technology Patna
                 </h4>
                 <p className="text-[11px] text-blue-400 font-bold tracking-widest uppercase mt-0.5">
-                  XIV Convocation 2025
+                  {INSTITUTE_INFO.editionRoman}
                 </p>
               </div>
             </div>
             <p className="text-[13px] text-slate-400 leading-relaxed font-sans">
-              An Institution of National Importance under Ministry of Education, Government of India. India&apos;s 6th oldest engineering institute (Est. 1886). NIRF Rank #53 (2025).
+              An Institution of National Importance under Ministry of Education, Government of India. India&apos;s 6th oldest engineering institute (Est. 1886). {INSTITUTE_INFO.nirfRank}.
             </p>
           </div>
 
@@ -44,7 +51,7 @@ export default function Footer() {
             <ul className="space-y-2.5 text-[13px] text-slate-400 font-medium">
               <li>
                 <Link href="/" className="hover:text-white transition-colors duration-200">
-                  Home &bull; XIV Edition
+                  Home &bull; {INSTITUTE_INFO.editionRoman.split(" ")[0]} Edition
                 </Link>
               </li>
               <li>

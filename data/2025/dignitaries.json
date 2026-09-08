@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Shrimati Droupadi Murmu",
+    "designation": "Hon\u2019ble President of India",
+    "role": "Visitor, NIT Patna",
+    "org": "Government of India",
+    "image": "/images/souvenir/droupadi_murmu.png",
+    "highlight": true,
+    "badge": "Visitor"
+  },
+  {
+    "name": "Shri Narendra Modi",
+    "designation": "Hon\u2019ble Prime Minister of India",
+    "role": "Dedicated Bihta Campus to the Nation (Oct 4, 2025)",
+    "org": "Government of India",
+    "image": "/images/souvenir/narendra_modi.jpg",
+    "highlight": true,
+    "badge": "Chief Patron"
+  },
+  {
+    "name": "Shri Dharmendra Pradhan",
+    "designation": "Hon\u2019ble Minister of Education",
+    "role": "Ministry of Education",
+    "org": "Government of India",
+    "image": "/images/souvenir/dharmendra_pradhan.jpg",
+    "highlight": true,
+    "badge": "Patron"
+  },
+  {
+    "name": "Shri Nitish Kumar",
+    "designation": "Hon\u2019ble Chief Minister of Bihar",
+    "role": "Chief Guest, XIV Convocation",
+    "org": "Government of Bihar",
+    "image": "/images/souvenir/nitish_kumar.jpg",
+    "highlight": true,
+    "badge": "Chief Guest",
+    "bio": [
+      "Delivered the Convocation Keynote Address to the XIV graduating batch of NIT Patna.",
+      "Graced the historic Dedication of the 125-Acre Bihta Campus to the Nation on 4th October 2025.",
+      "Distinguished Alumnus of Bihar College of Engineering (BCE, now NIT Patna - Electrical Engineering, Batch of 1972)."
+    ]
+  },
+  {
+    "name": "Shri Ashok Kumar Modi",
+    "designation": "Chairperson, Board of Governors",
+    "role": "Presiding Officer, NIT Patna",
+    "org": "NIT Patna & Eden Group",
+    "image": "/images/souvenir/ashok_modi.jpg",
+    "highlight": false,
+    "badge": "Chairperson, BOG"
+  },
+  {
+    "name": "Prof. Pradip Kumar Jain",
+    "designation": "Director, NIT Patna",
+    "role": "Chief Academic Officer",
+    "org": "NIT Patna",
+    "image": "/images/souvenir/pradip_jain.jpg",
+    "highlight": false,
+    "badge": "Director"
+  }
+]

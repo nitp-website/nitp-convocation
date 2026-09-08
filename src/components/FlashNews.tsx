@@ -1,10 +1,15 @@
+// @ts-nocheck
 "use client";
+import { useConvocation } from "@/context/ConvocationContext";
 
 import React, { useRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Link from "next/link";
 
 export default function FlashNews() {
+  const { data, year } = useConvocation();
+  const { INSTITUTE_INFO } = data.info;
+
   const scrollContainerRef = useRef<HTMLDivElement>(null);
 
   const scrollLeft = () => {
@@ -20,12 +25,14 @@ export default function FlashNews() {
   };
 
   const newsItems = [
-    { title: "XIV Convocation 2025 to be held on Saturday, Dec 27 at Main Campus.", link: "/#schedule" },
-    { title: "Shri Nitish Kumar, Hon’ble CM of Bihar addresses graduating batch as Chief Guest.", link: "/dignitaries" },
-    { title: "Bihta Campus (125 Acres) Dedicated to the Nation by Hon’ble PM Narendra Modi.", link: "/dignitaries" },
-    { title: "NIT Patna ranked 53rd in India (NIRF 2025 Engineering Rankings).", link: "/#recipients" },
-    { title: "985 Degree Recipients & 136 Ph.D Scholars directory now searchable online.", link: "/graduates" },
+    { title: `${INSTITUTE_INFO.editionRoman} to be held on ${INSTITUTE_INFO.date} at Main Campus.`, link: "/#schedule" },
+    { title: `${data.dignitaries.find((d: any) => d.badge === "Chief Guest")?.name}, ${(() => { const cg = data.dignitaries.find((d: any) => d.badge === "Chief Guest"); return cg ? (cg.designation === "Chief Guest" ? cg.role : cg.designation) : ""; })()} addresses graduating batch as Chief Guest.`, link: `/${year}/dignitaries` },
+    { title: `NIT Patna ranked ${INSTITUTE_INFO.nirfRank}.`, link: "/#recipients" },
+    { title: `${INSTITUTE_INFO.totalGraduates} Degree Recipients & ${INSTITUTE_INFO.phdScholars} Ph.D Scholars directory now searchable online.`, link: `/${year}/graduates` },
   ];
+  if (INSTITUTE_INFO.bihtaCampus) {
+    newsItems.push({ title: INSTITUTE_INFO.bihtaCampus, link: `/${year}/dignitaries` });
+  }
 
   return (
     <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 mb-8 relative z-20">

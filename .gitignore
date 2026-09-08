@@ -44,3 +44,7 @@ next-env.d.ts
 css_guide.md
 db
 temp
+package-lock/json
+temp/
+.py
+scripts/

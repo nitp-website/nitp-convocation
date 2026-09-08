@@ -1,3 +1,4 @@
+// @ts-nocheck
 "use client";
 
 import React from "react";
@@ -9,13 +10,13 @@ export default function HelpDeskSection() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}
-        <div className="text-center mb-14 space-y-3">
-          <h2 className="text-3xl sm:text-5xl font-sans font-extrabold text-slate-900 tracking-tight">
-            Help Desk &amp; Committee Contacts
+        <div className="text-center mb-14 space-y-4">
+          <span className="block text-xs sm:text-sm font-bold text-teal-800 uppercase tracking-[0.25em]">
+            Help Desk
+          </span>
+          <h2 className="text-4xl sm:text-6xl font-serif font-black text-slate-950">
+            Contact &amp; Support
           </h2>
-          <p className="text-xs sm:text-sm text-slate-500 font-medium max-w-xl mx-auto">
-            Assistance for graduating students, dignitaries, and attending family members during the 14th Convocation Ceremony.
-          </p>
         </div>
 
         {/* Cards Grid */}

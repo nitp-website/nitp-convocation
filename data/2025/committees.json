@@ -1,0 +1,276 @@
+[
+  {
+    "id": "media",
+    "name": "Media & Publication Sub-Committee",
+    "duties": [
+      "Posters and flex preparation",
+      "Newspaper advertisements and press coverage",
+      "Printing and drafting of Convocation Souvenir 2025",
+      "Official photography and live stream documentation"
+    ],
+    "members": [
+      {
+        "name": "Dr. Mukesh Kumar",
+        "designation": "Asstt. Professor (CSE)",
+        "role": "Convenor"
+      },
+      {
+        "name": "Dr. Rajan Agrahari",
+        "designation": "Asstt. Professor (ECE)",
+        "role": "Co-Convenor"
+      },
+      {
+        "name": "Dr. Abhishek Kumar Bittu",
+        "designation": "Asstt. Professor (Arch. & Planning)",
+        "role": "Co-Convenor"
+      },
+      {
+        "name": "Prof. Prakash Chandra",
+        "designation": "Professor (MED) & Dean (FW)",
+        "role": "Member"
+      },
+      {
+        "name": "Prof. Samrat Mukherjee",
+        "designation": "Professor (APME)",
+        "role": "Member"
+      },
+      {
+        "name": "Dr. Sunil Singh Rana",
+        "designation": "Asstt. Professor (MED)",
+        "role": "Member"
+      },
+      {
+        "name": "Dr. Lakshmi Kushwaha",
+        "designation": "Asstt. Professor (CST)",
+        "role": "Member"
+      }
+    ]
+  },
+  {
+    "id": "degree_prep",
+    "name": "Degree Preparation Sub-Committee",
+    "duties": [
+      "Printing of Degrees, Certificates of merit & presenting them at the time of Award",
+      "Arranging Overall Topper and Branch Topper Medals in sequence",
+      "Arranging Best Boy & Best Girl prize (Rs. 10,001/-) in sequence",
+      "Arranging Degree folders & Convocation dress distribution and management",
+      "Organising the Pre-convocation rehearsal under guidance of Dean (Academic)"
+    ],
+    "members": [
+      {
+        "name": "Dr. Bikash Chandra Sahana",
+        "designation": "Assoc. Professor (ECE)",
+        "role": "Convenor"
+      },
+      {
+        "name": "Dr. Chetan Kumar Hirwani",
+        "designation": "Asstt. Professor (MED)",
+        "role": "Co-Convenor"
+      },
+      {
+        "name": "Dr. Banavath Balaji Naik",
+        "designation": "Asstt. Professor (CSE)",
+        "role": "Co-Convenor"
+      },
+      {
+        "name": "Dr. Shiv Shankar Kumar",
+        "designation": "Asstt. Professor (CED)",
+        "role": "Member"
+      },
+      {
+        "name": "Prof. A.R. Quaff",
+        "designation": "Professor (CED) & Assoc. Dean (Examinations)",
+        "role": "Member"
+      },
+      {
+        "name": "Prof. Anshuman Singh",
+        "designation": "Professor (CED)",
+        "role": "Member"
+      },
+      {
+        "name": "Dr. Golak Bihari Mahanta",
+        "designation": "Asstt. Professor (MAE)",
+        "role": "Member"
+      },
+      {
+        "name": "Mrs. Bobby",
+        "designation": "Dy. Registrar (Exam.)",
+        "role": "Member"
+      },
+      {
+        "name": "Shri Abhay Kumar",
+        "designation": "Asstt. Registrar (PG)",
+        "role": "Coordinator"
+      }
+    ]
+  },
+  {
+    "id": "registration",
+    "name": "Registration & MIS Sub-Committee",
+    "duties": [
+      "Management of degree recipients registration portal",
+      "Generation of digital attendance QR entry passes",
+      "Hall seating allocation and verification at entry gate"
+    ],
+    "members": [
+      {
+        "name": "Dr. Banavath Balaji Naik",
+        "designation": "Asstt. Professor (CSE) & WDC Lead",
+        "role": "Convenor"
+      },
+      {
+        "name": "Shri Akash Kumar",
+        "designation": "Tech. Asstt. (MIS)",
+        "role": "Member"
+      },
+      {
+        "name": "Shri Praveen Kr Chourasiya",
+        "designation": "Superintendent (Academic)",
+        "role": "Member"
+      },
+      {
+        "name": "Shri Aditya Abhinav",
+        "designation": "Superintendent (Academic)",
+        "role": "Member"
+      }
+    ]
+  },
+  {
+    "id": "it_services",
+    "name": "IT Services Management Committee",
+    "duties": [
+      "Convocation web portal and mobile responsive directory",
+      "Live streaming on YouTube and campus networks",
+      "Network connectivity, WiFi, and digital signage"
+    ],
+    "members": [
+      {
+        "name": "Prof. Prabhat Kumar",
+        "designation": "Professor (CSE) & Head (CCIS)",
+        "role": "Convenor"
+      },
+      {
+        "name": "Dr. Santosh Kumar",
+        "designation": "Scientific Officer",
+        "role": "Co-Convenor"
+      },
+      {
+        "name": "Mr. Ritesh Kumar",
+        "designation": "Technical Assistant, CCIS",
+        "role": "Member"
+      },
+      {
+        "name": "Mr. Paritosh Bhushan",
+        "designation": "Technical Assistant, CCIS",
+        "role": "Member"
+      },
+      {
+        "name": "Mr. Purushottam Kumar",
+        "designation": "Technical Assistant, CCIS",
+        "role": "Member"
+      }
+    ]
+  },
+  {
+    "id": "venue",
+    "name": "Venue & Seating Sub-Committee",
+    "duties": [
+      "Finalisation & Decoration of Venue inside and outside",
+      "Dais arrangement, backdrop, PA sound system, and Dais nameplates",
+      "Campus lighting of Institute Main Building & Central Library",
+      "Generator power backup and student seating coordination"
+    ],
+    "members": [
+      {
+        "name": "Dr. Mazharul Haque",
+        "designation": "Assoc. Professor (Arch. & Planning)",
+        "role": "Convenor"
+      },
+      {
+        "name": "Dr. Vimlesh Verma",
+        "designation": "Assoc. Professor (EED)",
+        "role": "Co-Convenor"
+      },
+      {
+        "name": "Dr. Ambarish Maurya",
+        "designation": "Asstt. Professor (MED)",
+        "role": "Co-Convenor"
+      },
+      {
+        "name": "Prof. Prakash Chandra",
+        "designation": "Professor & HoD (MED)",
+        "role": "Member"
+      },
+      {
+        "name": "Prof. Baboo Rai",
+        "designation": "Professor (CED) & EE (ESU)",
+        "role": "Member"
+      }
+    ]
+  },
+  {
+    "id": "transport",
+    "name": "Reception & Transport Sub-Committee",
+    "duties": [
+      "Reception of Hon’ble Guests and Dignitaries at Airport/Railway Station",
+      "Arrangement of protocol vehicular transportation and campus reception"
+    ],
+    "members": [
+      {
+        "name": "Dr. Bambam Kumar",
+        "designation": "Asstt. Professor (ECE)",
+        "role": "Convenor"
+      },
+      {
+        "name": "Dr. Anil Kumar Sharma",
+        "designation": "Asstt. Professor (CED)",
+        "role": "Co-Convenor"
+      },
+      {
+        "name": "Dr. Sonu Rajak",
+        "designation": "Asstt. Professor (MED)",
+        "role": "Member"
+      },
+      {
+        "name": "Dr. Mukesh Choudhary",
+        "designation": "Assoc. Professor (Chem.)",
+        "role": "Member"
+      },
+      {
+        "name": "Dr. Abhimanyu Kumar",
+        "designation": "Asstt. Professor (CSE)",
+        "role": "Member"
+      }
+    ]
+  },
+  {
+    "id": "food",
+    "name": "Food Arrangement Committee",
+    "duties": [
+      "Arrangement of Convocation Lunch/Dinner and Refreshments on rehearsal and Convocation Day",
+      "VIP lounge catering and student dining enclosure management"
+    ],
+    "members": [
+      {
+        "name": "Prof. Amit Kumar",
+        "designation": "Professor (MED)",
+        "role": "Convenor"
+      },
+      {
+        "name": "Dr. Omji Shukla",
+        "designation": "Asstt. Professor (MED)",
+        "role": "Co-Convenor"
+      },
+      {
+        "name": "Dr. Deepak Kr. Behera",
+        "designation": "Assoc. Professor (HSS)",
+        "role": "Co-Convenor"
+      },
+      {
+        "name": "Dr. Ajay Kumar Maurya",
+        "designation": "Asstt. Professor (ECE)",
+        "role": "Member"
+      }
+    ]
+  }
+]
