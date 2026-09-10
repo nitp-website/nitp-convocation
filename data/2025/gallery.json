@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "14th Convocation - Academic Procession",
+    "category": "Dignitaries on Dais",
+    "aspect": "aspect-[4/3]",
+    "themeColor": "from-blue-800/80 to-indigo-950/90",
+    "svgScene": "procession",
+    "image": null
+  },
+  {
+    "id": 2,
+    "title": "14th Convocation - Conferral of Gold Medal",
+    "category": "Awards & Honours",
+    "aspect": "aspect-[4/3]",
+    "themeColor": "from-amber-700/80 to-amber-900/90",
+    "svgScene": "medal",
+    "image": null
+  },
+  {
+    "id": 3,
+    "title": "14th Convocation - Presentation of Institutional Citation",
+    "category": "Ceremony Highlights",
+    "aspect": "aspect-[4/3]",
+    "themeColor": "from-slate-800/80 to-slate-950/90",
+    "svgScene": "citation",
+    "image": null
+  },
+  {
+    "id": 4,
+    "title": "14th Convocation - Address by Chief Guest",
+    "category": "Ceremony Keynote",
+    "aspect": "aspect-[4/3]",
+    "themeColor": "from-amber-600/80 to-orange-800/90",
+    "svgScene": "podium",
+    "image": null
+  },
+  {
+    "id": 5,
+    "title": "Dedication of Bihta Campus",
+    "category": "National Milestone",
+    "aspect": "aspect-[4/3]",
+    "themeColor": "from-rose-700/80 to-rose-900/90",
+    "svgScene": "carpet",
+    "image": null
+  },
+  {
+    "id": 6,
+    "title": "14th Convocation - Class of 2025",
+    "category": "Convocation Hall",
+    "aspect": "aspect-[4/3]",
+    "themeColor": "from-emerald-700/80 to-emerald-900/90",
+    "svgScene": "hall",
+    "image": null
+  }
+]

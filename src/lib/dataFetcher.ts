@@ -15,8 +15,9 @@ export function getConvocationData(year: string) {
     const medals = JSON.parse(fs.readFileSync(path.join(dataDir, 'medals.json'), 'utf8'));
     const committees = JSON.parse(fs.readFileSync(path.join(dataDir, 'committees.json'), 'utf8'));
     const graduates = JSON.parse(fs.readFileSync(path.join(dataDir, 'graduates.json'), 'utf8'));
+    const gallery = JSON.parse(fs.readFileSync(path.join(dataDir, 'gallery.json'), 'utf8'));
 
-    return { info, dignitaries, medals, committees, graduates };
+    return { info, dignitaries, medals, committees, graduates, gallery };
   } catch (error: any) {
     console.error(`[Data Fetcher] Error parsing JSON for year ${year}: ${error.message}`);
     return null;

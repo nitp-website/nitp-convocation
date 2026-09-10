@@ -2,7 +2,7 @@
 import { useConvocation } from "@/context/ConvocationContext";
 
 import React, { useState } from "react";
-import { Camera, Maximize2, X, ChevronLeft, ChevronRight, Award, Sparkles } from "lucide-react";
+import { Maximize2, X, ChevronLeft, ChevronRight } from "lucide-react";
 
 interface GalleryPhoto {
   id: number;
@@ -11,6 +11,7 @@ interface GalleryPhoto {
   aspect: string;
   themeColor: string;
   svgScene: "medal" | "carpet" | "procession" | "podium" | "citation" | "female_medal" | "hall";
+  image?: string | null;
 }
 
 export default function ConvocationGallery() {
@@ -19,72 +20,7 @@ export default function ConvocationGallery() {
 
   const [selectedPhoto, setSelectedPhoto] = useState<number | null>(null);
 
-  const galleryItems: GalleryPhoto[] = [
-    {
-      id: 1,
-      title: "Conferral of Gold Medal to Academic Topper",
-      category: "Awards & Honours",
-      aspect: "aspect-[4/3]",
-      themeColor: "from-amber-700/80 to-amber-900/90",
-      svgScene: "medal",
-    },
-    {
-      id: 2,
-      title: "Grand Ceremonial Entrance & Red Carpet",
-      category: "Campus & Ambience",
-      aspect: "aspect-[4/3]",
-      themeColor: "from-rose-700/80 to-rose-900/90",
-      svgScene: "carpet",
-    },
-    {
-      id: 3,
-      title: "Academic Procession of Dignitaries & Senate",
-      category: "Dignitaries on Dais",
-      aspect: "aspect-[4/3]",
-      themeColor: "from-blue-800/80 to-indigo-950/90",
-      svgScene: "procession",
-    },
-    {
-      id: 4,
-      title: "Inspiring Convocation Address at the Dais",
-      category: "Ceremony Keynote",
-      aspect: "aspect-[4/3]",
-      themeColor: "from-amber-600/80 to-orange-800/90",
-      svgScene: "podium",
-    },
-    {
-      id: 5,
-      title: "Presentation of Institute Memento to Chief Guest",
-      category: "Ceremony Highlights",
-      aspect: "aspect-[4/3]",
-      themeColor: "from-slate-800/80 to-slate-950/90",
-      svgScene: "citation",
-    },
-    {
-      id: 6,
-      title: "Conferral of Degrees & Certificates",
-      category: "Degree Conferral",
-      aspect: "aspect-[4/3]",
-      themeColor: "from-red-800/80 to-maroon-950/90",
-      svgScene: "female_medal",
-    },
-    {
-      id: 7,
-      title: "Assembly of Graduating Batch & Faculty",
-      category: "Convocation Hall",
-      aspect: "aspect-[4/3]",
-      themeColor: "from-indigo-900/80 to-slate-950/90",
-      svgScene: "hall",
-    },
-    {
-      id: 8,
-      title: "Celebratory Moments of the Class of {year}",
-      category: "Graduation Joy",
-      aspect: "aspect-[4/3]",
-      themeColor: "from-amber-700/80 to-orange-950/90",
-      svgScene: "medal",
-    },
-  ];
+  const galleryItems: GalleryPhoto[] = data?.gallery || [];
 
   return (
     <section id="gallery" className="py-20 bg-white text-slate-900 relative">

@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "13th Convocation - Conferral of Gold Medal",
+    "category": "Awards & Honours",
+    "aspect": "aspect-[4/3]",
+    "themeColor": "from-amber-700/80 to-amber-900/90",
+    "svgScene": "medal",
+    "image": null
+  },
+  {
+    "id": 2,
+    "title": "13th Convocation - Ceremonial Red Carpet",
+    "category": "Campus & Ambience",
+    "aspect": "aspect-[4/3]",
+    "themeColor": "from-rose-700/80 to-rose-900/90",
+    "svgScene": "carpet",
+    "image": null
+  },
+  {
+    "id": 3,
+    "title": "13th Convocation - Keynote Address",
+    "category": "Ceremony Keynote",
+    "aspect": "aspect-[4/3]",
+    "themeColor": "from-amber-600/80 to-orange-800/90",
+    "svgScene": "podium",
+    "image": null
+  },
+  {
+    "id": 4,
+    "title": "13th Convocation - Conferral of Degrees",
+    "category": "Degree Presentation",
+    "aspect": "aspect-[4/3]",
+    "themeColor": "from-indigo-700/80 to-indigo-900/90",
+    "svgScene": "female_medal",
+    "image": null
+  },
+  {
+    "id": 5,
+    "title": "13th Convocation - Assembly of Graduating Batch",
+    "category": "Convocation Hall",
+    "aspect": "aspect-[4/3]",
+    "themeColor": "from-emerald-700/80 to-emerald-900/90",
+    "svgScene": "hall",
+    "image": null
+  },
+  {
+    "id": 6,
+    "title": "Class of 2024 - Celebratory Moments",
+    "category": "Graduation Joy",
+    "aspect": "aspect-[4/3]",
+    "themeColor": "from-amber-700/80 to-orange-950/90",
+    "svgScene": "medal",
+    "image": null
+  }
+]
