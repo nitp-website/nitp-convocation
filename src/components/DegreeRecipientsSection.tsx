@@ -6,7 +6,8 @@ import { GraduationCap, BookOpen, FlaskConical, Users, ArrowRight, Sparkles } fr
 import { useConvocation } from "@/context/ConvocationContext";
 
 export default function DegreeRecipientsSection() {
-  const { data, year } = useConvocation();
+  const { data } = useConvocation();
+  if (!data) return null;
   const { INSTITUTE_INFO, PROGRAMME_EVENTS, STOLE_GUIDELINES } = data.info;
   const DIGNITARIES = data.dignitaries;
 

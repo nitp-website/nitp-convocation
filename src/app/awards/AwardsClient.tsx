@@ -18,21 +18,23 @@ import {
 
 type MedalCategory = "ALL" | "PRESIDENT" | "INSTITUTE" | "MERIT" | "BEST_GRAD" | "ENDOWMENT";
 
-export default function AwardsPageClient({ data, year }: { data: any, year: string }) {
+export default function AwardsPageClient({ data }: { data: any }) {
   const { medals, info } = data;
-  const { UG_GOLD_MEDALISTS, PG_GOLD_MEDALISTS, BEST_GRADUATES } = medals;
+  const UG_GOLD_MEDALISTS = medals?.UG_GOLD_MEDALISTS || [];
+  const PG_GOLD_MEDALISTS = medals?.PG_GOLD_MEDALISTS || [];
+  const BEST_GRADUATES = medals?.BEST_GRADUATES || [];
 
   const [activeCategory, setActiveCategory] = useState<MedalCategory>("ALL");
   const [instituteSubTab, setInstituteSubTab] = useState<"ALL" | "UG" | "PG">("ALL");
 
   // Filter Institute Gold Medalists (UG branch toppers + PG branch toppers that received Institute Gold Medal)
   const ugInstituteMedalists = UG_GOLD_MEDALISTS;
-  const pgInstituteMedalists = PG_GOLD_MEDALISTS.filter((m: any) => m.award?.includes("Gold Medal"));
+  const pgInstituteMedalists = (PG_GOLD_MEDALISTS || []).filter((m: any) => m.award?.includes("Gold Medal"));
   
-  const ugPresidentMedalist = UG_GOLD_MEDALISTS.find((m: any) => m.award?.includes("President"));
+  const ugPresidentMedalist = (UG_GOLD_MEDALISTS || []).find((m: any) => m.award?.includes("President"));
   const pgPresidentMedalist = PG_GOLD_MEDALISTS.find((m: any) => m.award?.includes("President"));
   // Academic Merit Certificates (Certificate of Excellence)
-  const academicMeritCertificates = PG_GOLD_MEDALISTS.filter((m: any) => m.award?.includes("Certificate"));
+  const academicMeritCertificates = (PG_GOLD_MEDALISTS || []).filter((m: any) => m.award?.includes("Certificate"));
 
   const endowmentAwards = medals.ENDOWMENT_AWARDS || [];
 
@@ -390,7 +392,7 @@ export default function AwardsPageClient({ data, year }: { data: any, year: stri
               </div>
               <div>
                 <h3 className="text-2xl sm:text-3xl font-serif font-bold text-slate-900">
-                  Best Graduate Students (Boy &amp; Girl), {year}
+                  Best Graduate Students (Boy &amp; Girl), 2025
                 </h3>
                 <p className="text-xs sm:text-sm text-slate-500">
                   Conferred with a sum of Rs. 10,001/- along with an Official Letter of Appreciation.

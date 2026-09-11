@@ -16,13 +16,13 @@ export default function Navbar() {
 
   const params = useParams();
   const router = useRouter();
-  const year = typeof params?.year === 'string' ? params.year : '2025';
+  
 
   const navLinks = [
-    { name: "Home", href: `/${year}` },
-    { name: "Dignitaries", href: `/${year}/dignitaries` },
-    { name: "Medals & Honours", href: `/${year}/awards` },
-    { name: "Graduate Directory", href: `/${year}/graduates` },
+    { name: "Home", href: "/" },
+    { name: "Dignitaries", href: "/dignitaries" },
+    { name: "Medals & Honours", href: "/awards" },
+    { name: "Graduate Directory", href: "/graduates" },
   ];
 
   const isActive = (path: string) => {
@@ -34,7 +34,7 @@ export default function Navbar() {
       <div className="px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Institute Logo and Bilingual Brand */}
-          <Link href={`/${year}`} className="flex items-center space-x-3.5 group cursor-pointer">
+          <Link href="/" className="flex items-center space-x-3.5 group cursor-pointer">
             {/* Institute Emblem Logo */}
             <div className="relative w-14 h-14 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform duration-300">
               <Image
@@ -56,7 +56,7 @@ export default function Navbar() {
                 National Institute of Technology Patna
               </span>
               <span className="text-[10px] text-amber-800 font-bold tracking-wider uppercase flex items-center space-x-1">
-                <span>{year === "2025" ? "XIV Convocation 2025" : "XIII Convocation 2024"}</span>
+                <span>"XIV Convocation 2025"</span>
               </span>
             </div>
           </Link>
@@ -83,26 +83,6 @@ export default function Navbar() {
               );
             })}
           </nav>
-          {/* Edition Selector */}
-          <div className="hidden lg:flex items-center space-x-3 border-l border-slate-200 pl-6 ml-2">
-            <div className="relative group">
-              <select 
-                value={year}
-                onChange={(e) => {
-                  const newYear = e.target.value;
-                  const currentPath = pathname.replace(`/${year}`, '') || '/';
-                  router.push(`/${newYear}${currentPath === '/' ? '' : currentPath}`);
-                }}
-                className="appearance-none bg-slate-50 border border-slate-200 text-slate-800 text-xs font-bold py-2 pl-3 pr-8 rounded-xl outline-none focus:ring-2 focus:ring-blue-500/30 cursor-pointer shadow-sm hover:bg-slate-100 transition-colors"
-              >
-                <option value="2025">14th Edition (2025)</option>
-                <option value="2024">13th Edition (2024)</option>
-              </select>
-              <ChevronDown className="absolute right-2.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-500 pointer-events-none" />
-            </div>
-          </div>
-
-
           {/* Mobile Menu Toggle Button */}
           <div className="flex lg:hidden items-center">
             <button

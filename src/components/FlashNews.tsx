@@ -6,7 +6,8 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import Link from "next/link";
 
 export default function FlashNews() {
-  const { data, year } = useConvocation();
+  const { data } = useConvocation();
+  if (!data) return null;
   const { INSTITUTE_INFO } = data.info;
 
   const scrollContainerRef = useRef<HTMLDivElement>(null);
@@ -25,12 +26,12 @@ export default function FlashNews() {
 
   const newsItems = [
     { title: `${INSTITUTE_INFO.editionRoman} to be held on ${INSTITUTE_INFO.date} at Main Campus.`, link: "/#schedule" },
-    { title: `${data.dignitaries.find((d: any) => d.badge === "Chief Guest")?.name}, ${(() => { const cg = data.dignitaries.find((d: any) => d.badge === "Chief Guest"); return cg ? (cg.designation === "Chief Guest" ? cg.role : cg.designation) : ""; })()} addresses graduating batch as Chief Guest.`, link: `/${year}/dignitaries` },
+    { title: `${data.dignitaries.find((d: any) => d.badge === "Chief Guest")?.name}, ${(() => { const cg = data.dignitaries.find((d: any) => d.badge === "Chief Guest"); return cg ? (cg.designation === "Chief Guest" ? cg.role : cg.designation) : ""; })()} addresses graduating batch as Chief Guest.`, link: `/$2025/dignitaries` },
     { title: `NIT Patna ranked ${INSTITUTE_INFO.nirfRank}.`, link: "/#recipients" },
-    { title: `${INSTITUTE_INFO.totalGraduates} Degree Recipients & ${INSTITUTE_INFO.phdScholars} Ph.D Scholars directory now searchable online.`, link: `/${year}/graduates` },
+    { title: `${INSTITUTE_INFO.totalGraduates} Degree Recipients & ${INSTITUTE_INFO.phdScholars} Ph.D Scholars directory now searchable online.`, link: `/$2025/graduates` },
   ];
   if (INSTITUTE_INFO.bihtaCampus) {
-    newsItems.push({ title: INSTITUTE_INFO.bihtaCampus, link: `/${year}/dignitaries` });
+    newsItems.push({ title: INSTITUTE_INFO.bihtaCampus, link: `/$2025/dignitaries` });
   }
 
   return (

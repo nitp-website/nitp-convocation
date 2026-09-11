@@ -20,7 +20,7 @@ interface Dean {
   designation: string;
 }
 
-export default function DignitariesPageClient({ data, year }: { data: { dignitaries: Dignitary[]; info: { INSTITUTE_INFO: { edition?: string; date?: string } }; committees: { committees: any[]; deans: Dean[] } }, year: string }) {
+export default function DignitariesPageClient({ data }: { data: { dignitaries: Dignitary[]; info: { INSTITUTE_INFO: { edition?: string; date?: string } }; committees: { committees: any[]; deans: Dean[] } },  }) {
   const ALL_DIGNITARIES: Dignitary[] = data.dignitaries || [];
   const administrativeDeans: Dean[] = data.committees?.deans || [];
   const commiteesList = data.committees?.committees || [];
@@ -77,7 +77,7 @@ export default function DignitariesPageClient({ data, year }: { data: { dignitar
         </section>
 
         {/* Bihta Campus Dedication Highlight Banner */}
-        {year === "2025" && (
+        
         <section className="bg-gradient-to-r from-amber-50 via-orange-50 to-amber-50 rounded-3xl p-8 border border-amber-200/80 shadow-sm flex flex-col md:flex-row items-center gap-6">
           <div className="w-16 h-16 rounded-2xl bg-amber-500/20 flex items-center justify-center text-amber-800 shrink-0 shadow-xs">
             <Building className="w-8 h-8" />
@@ -96,7 +96,6 @@ export default function DignitariesPageClient({ data, year }: { data: { dignitar
             </p>
           </div>
         </section>
-        )}
 
         {/* Administrative Deans */}
         <section className="bg-white rounded-3xl p-8 shadow-sm border border-slate-200/90">

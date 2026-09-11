@@ -16,8 +16,9 @@ import {
 import { useConvocation } from "@/context/ConvocationContext";
 
 export default function HeroSection() {
-  const { data, year } = useConvocation();
-  const { INSTITUTE_INFO } = data.info;
+  const { data } = useConvocation();
+  if (!data) return null;
+  const INSTITUTE_INFO = data.info?.INSTITUTE_INFO || {};
   const DIGNITARIES = data.dignitaries;
 
   const [showPdfModal, setShowPdfModal] = useState(false);
@@ -37,7 +38,7 @@ export default function HeroSection() {
             {/* Giant Display Title */}
             <div className="space-y-3 sm:space-y-4">
               <div className="text-2xl sm:text-3xl lg:text-4xl font-sans font-medium tracking-tight bg-gradient-to-r from-[#D97706] via-[#BE185D] to-[#3730A3] bg-clip-text text-transparent">
-                Convocation {year}
+                Convocation 2025
               </div>
 
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-black tracking-tight leading-[1.1] text-slate-950 whitespace-nowrap flex items-baseline gap-x-2 sm:gap-x-3.5">
@@ -68,7 +69,7 @@ export default function HeroSection() {
                   <Award className="w-5 h-5" />
                 </div>
                 <div className="text-2xl sm:text-3xl font-extrabold text-slate-900">
-                  {INSTITUTE_INFO.edition.split(" ")[0]}
+                  {INSTITUTE_INFO?.edition?.split(" ")[0]}
                 </div>
                 <div className="text-xs font-semibold text-slate-500 uppercase tracking-wider mt-1">
                   Convocation
@@ -81,7 +82,7 @@ export default function HeroSection() {
                   <GraduationCap className="w-5 h-5" />
                 </div>
                 <div className="text-2xl sm:text-3xl font-extrabold text-slate-900">
-                  {INSTITUTE_INFO.totalGraduates}
+                  {INSTITUTE_INFO?.totalGraduates}
                 </div>
                 <div className="text-xs font-semibold text-slate-500 uppercase tracking-wider mt-1">
                   Graduates
@@ -94,7 +95,7 @@ export default function HeroSection() {
                   <Users className="w-5 h-5" />
                 </div>
                 <div className="text-2xl sm:text-3xl font-extrabold text-slate-900">
-                  {INSTITUTE_INFO.phdScholars}
+                  {INSTITUTE_INFO?.phdScholars}
                 </div>
                 <div className="text-xs font-semibold text-slate-500 tracking-wider mt-1">
                   Ph.D Scholars
@@ -295,7 +296,7 @@ export default function HeroSection() {
               <div>
                 <span className="text-[11px] font-bold uppercase tracking-widest text-amber-700">Official Notice</span>
                 <h3 className="font-serif font-bold text-xl text-slate-900">
-                  {INSTITUTE_INFO.editionRoman} {year}
+                  {INSTITUTE_INFO.editionRoman} 2025
                 </h3>
               </div>
               <button

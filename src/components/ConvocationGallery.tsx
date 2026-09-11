@@ -15,7 +15,8 @@ interface GalleryPhoto {
 }
 
 export default function ConvocationGallery() {
-  const { data, year } = useConvocation();
+  const { data } = useConvocation();
+  if (!data) return null;
   const { INSTITUTE_INFO } = data?.info || { INSTITUTE_INFO: { editionRoman: "Convocation", date: "" } };
 
   const [selectedPhoto, setSelectedPhoto] = useState<number | null>(null);
@@ -117,7 +118,8 @@ export default function ConvocationGallery() {
 }
 
 function GalleryScene({ scene, title, isLarge = false }: { scene: string; title: string; isLarge?: boolean }) {
-  const { data, year } = useConvocation();
+  const { data } = useConvocation();
+  if (!data) return null;
   const { INSTITUTE_INFO } = data?.info || { INSTITUTE_INFO: { editionRoman: "XIV Convocation", date: "" } };
 
   return (
@@ -205,7 +207,7 @@ function GalleryScene({ scene, title, isLarge = false }: { scene: string; title:
           <rect width="400" height="300" fill="#FFFDF8" />
           {/* Backdrop Graphic */}
           <circle cx="320" cy="100" r="60" fill="#E0F2FE" />
-          <text x="320" y="110" fill="#0284C7" fontSize="28" fontWeight="bold" textAnchor="middle">{year}</text>
+          <text x="320" y="110" fill="#0284C7" fontSize="28" fontWeight="bold" textAnchor="middle">2025</text>
           {/* Speaker at Podium */}
           <circle cx="180" cy="100" r="22" fill="#FDE68A" />
           <path d="M140 220 C140 140 160 130 180 130 C200 130 220 140 220 220 Z" fill="#1E293B" />

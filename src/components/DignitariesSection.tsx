@@ -9,11 +9,12 @@ import { useConvocation } from "@/context/ConvocationContext";
 
 
 export default function DignitariesSection() {
-  const { data, year } = useConvocation();
-  const { INSTITUTE_INFO } = data.info;
-    const cm = data.dignitaries.find((d: any) => d.badge === 'Chief Minister' || d.name === 'Shri Nitish Kumar');
-  const chair = data.dignitaries.find((d: any) => d.badge === 'Chairperson' || d.badge === 'Presiding Officer' || d.name === 'Shri Ashok Kumar Modi');
-  const dir = data.dignitaries.find((d: any) => d.badge === 'Director' || d.badge === 'Chief Academic Officer' || d.name === 'Prof. Pradip Kumar Jain');
+  const { data } = useConvocation();
+  if (!data) return null;
+  const INSTITUTE_INFO = data.info?.INSTITUTE_INFO || {};
+    const cm = (data.dignitaries || []).find((d: any) => d.badge === 'Chief Minister' || d.name === 'Shri Nitish Kumar');
+  const chair = (data.dignitaries || []).find((d: any) => d.badge === 'Chairperson' || d.badge === 'Presiding Officer' || d.name === 'Shri Ashok Kumar Modi');
+  const dir = (data.dignitaries || []).find((d: any) => d.badge === 'Director' || d.badge === 'Chief Academic Officer' || d.name === 'Prof. Pradip Kumar Jain');
   const dignitariesList = [cm, chair, dir].filter(Boolean);
   return (
     <section id="dignitaries" className="pt-20 sm:pt-24 pb-20 sm:pb-24 bg-[#F8FAFC] text-slate-900 border-t border-slate-200/50">
@@ -25,7 +26,7 @@ export default function DignitariesSection() {
             Honourable <span className="text-blue-700">Dignitaries</span>
           </h2>
           <p className="text-xs sm:text-sm text-slate-500 font-medium max-w-xl mx-auto">
-            Presiding leadership and esteemed guests for the {INSTITUTE_INFO.edition.split(" ")[0]} Convocation Ceremony of NIT Patna.
+            Presiding leadership and esteemed guests for the {INSTITUTE_INFO?.edition?.split(" ")[0]} Convocation Ceremony of NIT Patna.
           </p>
         </div>
 

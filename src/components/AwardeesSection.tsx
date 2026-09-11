@@ -9,10 +9,12 @@ import { useConvocation } from "@/context/ConvocationContext";
 
 
 export default function AwardeesSection() {
-  const { data, year } = useConvocation();
-  const { INSTITUTE_INFO } = data.info;
+  const { data } = useConvocation();
+  if (!data) return null;
+  const INSTITUTE_INFO = data.info?.INSTITUTE_INFO || {};
   const pathname = usePathname();
-  const { UG_GOLD_MEDALISTS, PG_GOLD_MEDALISTS } = data.medals;
+  const UG_GOLD_MEDALISTS = data.medals?.UG_GOLD_MEDALISTS || [];
+  const PG_GOLD_MEDALISTS = data.medals?.PG_GOLD_MEDALISTS || [];
   
 
   
@@ -46,7 +48,7 @@ export default function AwardeesSection() {
               }`}
             >
               <Award className="w-4 h-4 text-amber-600" />
-              <span>Undergraduate Medalists ({UG_GOLD_MEDALISTS.length})</span>
+              <span>Undergraduate Medalists ({(UG_GOLD_MEDALISTS || []).length})</span>
             </button>
             <button
               onClick={() => setActiveTab("pg")}
@@ -57,7 +59,7 @@ export default function AwardeesSection() {
               }`}
             >
               <Medal className="w-4 h-4 text-indigo-600" />
-              <span>Postgraduate Medalists ({PG_GOLD_MEDALISTS.length})</span>
+              <span>Postgraduate Medalists ({(PG_GOLD_MEDALISTS || []).length})</span>
             </button>
           </div>
         </div>

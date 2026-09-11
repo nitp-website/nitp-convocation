@@ -29,7 +29,7 @@ interface Graduate {
   image?: string | null;
 }
 
-export default function GraduatesDirectoryClient({ data, year }: { data: any, year: string }) {
+export default function GraduatesDirectoryClient({ data }: { data: any }) {
   const graduatesData = data.graduates;
   const { INSTITUTE_INFO } = data.info;
 
@@ -351,7 +351,7 @@ export default function GraduatesDirectoryClient({ data, year }: { data: any, ye
                   {selectedStudent.prog === "Ph.D" && !selectedStudent.name.startsWith("Dr.") ? `Dr. ${selectedStudent.name}` : selectedStudent.name}
                 </h3>
                 <p className="text-xs font-semibold text-slate-500">
-                  NIT Patna &bull; {data.info?.INSTITUTE_INFO?.editionRoman} {year}
+                  NIT Patna &bull; {data.info?.INSTITUTE_INFO?.editionRoman} 2025
                 </p>
               </div>
             </div>

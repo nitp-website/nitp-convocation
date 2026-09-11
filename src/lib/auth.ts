@@ -15,6 +15,17 @@ export const authOptions: NextAuthOptions = {
           return null;
         }
 
+        // --- ADMIN LOGIN ---
+        if (credentials.rollNumber === "admin" && credentials.password === (process.env.ADMIN_PASSWORD || "nitp123")) {
+          return {
+            id: "admin_id",
+            name: "Super Admin",
+            email: "admin@nitp.ac.in",
+            role: "ADMIN"
+          };
+        }
+        // -------------------
+
         try {
           const students = await query<any[]>(
             'SELECT * FROM Students WHERE roll_number = ?',

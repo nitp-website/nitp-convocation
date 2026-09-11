@@ -1,25 +1,35 @@
 import fs from 'fs';
 import path from 'path';
 
-export function getConvocationData(year: string) {
-  const dataDir = path.join(process.cwd(), 'data', year);
+export async function getConvocationData() {
+  const dataDir = path.join(process.cwd(), 'data', 'data');
+  const tempDir = path.join(process.cwd(), 'temp', '2025');
   
   if (!fs.existsSync(dataDir)) {
-    console.error(`[Data Fetcher] Data directory for year ${year} does not exist: ${dataDir}`);
+    console.error(`[Data Fetcher] Data directory does not exist: ${dataDir}`);
     return null;
   }
   
-  try {
-    const info = JSON.parse(fs.readFileSync(path.join(dataDir, 'info.json'), 'utf8'));
-    const dignitaries = JSON.parse(fs.readFileSync(path.join(dataDir, 'dignitaries.json'), 'utf8'));
-    const medals = JSON.parse(fs.readFileSync(path.join(dataDir, 'medals.json'), 'utf8'));
-    const committees = JSON.parse(fs.readFileSync(path.join(dataDir, 'committees.json'), 'utf8'));
-    const graduates = JSON.parse(fs.readFileSync(path.join(dataDir, 'graduates.json'), 'utf8'));
-    const gallery = JSON.parse(fs.readFileSync(path.join(dataDir, 'gallery.json'), 'utf8'));
+  const readJson = (filePath: string) => {
+    try {
+      if (fs.existsSync(filePath)) {
+        return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+      }
+      return null;
+    } catch (e: any) {
+      console.error(`[Data Fetcher] Error reading ${filePath}: ${e.message}`);
+      return null;
+    }
+  };
 
-    return { info, dignitaries, medals, committees, graduates, gallery };
-  } catch (error: any) {
-    console.error(`[Data Fetcher] Error parsing JSON for year ${year}: ${error.message}`);
-    return null;
-  }
+  const info = readJson(path.join(dataDir, 'info.json')) || {};
+  const dignitaries = readJson(path.join(dataDir, 'dignitaries.json')) || [];
+  const medals = readJson(path.join(dataDir, 'medals.json')) || { UG_GOLD_MEDALISTS: [], PG_GOLD_MEDALISTS: [], BEST_GRADUATES: [] };
+  const committees = readJson(path.join(dataDir, 'committees.json')) || { deans: [], committees: [] };
+  const gallery = readJson(path.join(dataDir, 'gallery.json')) || [];
+
+  // Graduates fetched from temp endpoint for now
+  const graduates = readJson(path.join(tempDir, 'graduates.json')) || { degree_recipients: [] };
+
+  return { info, dignitaries, medals, committees, graduates, gallery };
 }

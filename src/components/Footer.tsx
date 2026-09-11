@@ -8,7 +8,7 @@ import { ExternalLink, Download, MapPin, GlobeIcon } from "lucide-react";
 
 export default function Footer() {
   const convocationCtx = useConvocation();
-  const year = convocationCtx?.year || "2025";
+  const year = "2025";
   const data = convocationCtx?.data;
   const INSTITUTE_INFO = data?.info?.INSTITUTE_INFO || { editionRoman: "XIV Convocation", nirfRank: "53rd in India (Engineering - NIRF 2025)" };
 

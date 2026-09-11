@@ -15,7 +15,7 @@ import {
 import { useConvocation } from "@/context/ConvocationContext";
 
 export default function CeremonySchedule() {
-  const { data, year } = useConvocation();
+  const { data } = useConvocation();
   const { INSTITUTE_INFO, PROGRAMME_EVENTS, STOLE_GUIDELINES } = data.info;
   const DIGNITARIES = data.dignitaries;
 
