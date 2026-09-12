@@ -7,7 +7,7 @@
       "award": "President\u2019s Gold Medal & Director\u2019s Gold Medal (Overall UG Topper & Branch Topper)",
       "category": "UG",
       "badge": "President & Director Gold Medal",
-      "image": "/images/souvenir/ug_harsh_nandan_verma.png",
+      "image": "/images/souvenir/2025/ug_harsh_nandan_verma.png",
       "gender": "m"
     },
     {
@@ -17,7 +17,7 @@
       "award": "Director\u2019s Gold Medal, K.N. Rohatgi Gold Medal & BCE-NITP Alumni Gold Medal (Triple Gold Medalist)",
       "category": "UG",
       "badge": "Triple Gold Medalist",
-      "image": "/images/souvenir/ug_ritika_kumari.png",
+      "image": "/images/souvenir/2025/ug_ritika_kumari.png",
       "gender": "f"
     },
     {
@@ -27,7 +27,7 @@
       "award": "Director\u2019s Gold Medal (Branch Topper)",
       "category": "UG",
       "badge": "Director Gold Medal",
-      "image": "/images/souvenir/ug_himanshu_sahu.png",
+      "image": "/images/souvenir/2025/ug_himanshu_sahu.png",
       "gender": "m"
     },
     {
@@ -37,7 +37,7 @@
       "award": "Director\u2019s Gold Medal (Branch Topper)",
       "category": "UG",
       "badge": "Director Gold Medal",
-      "image": "/images/souvenir/ug_asad_rahman.png",
+      "image": "/images/souvenir/2025/ug_asad_rahman.png",
       "gender": "m"
     },
     {
@@ -47,7 +47,7 @@
       "award": "Director\u2019s Gold Medal (Branch Topper)",
       "category": "UG",
       "badge": "Director Gold Medal",
-      "image": "/images/souvenir/ug_priya_mishra.png",
+      "image": "/images/souvenir/2025/ug_priya_mishra.png",
       "gender": "f"
     },
     {
@@ -57,7 +57,7 @@
       "award": "Director\u2019s Gold Medal (Branch Topper)",
       "category": "UG",
       "badge": "Director Gold Medal",
-      "image": "/images/souvenir/ug_dwibhashyam_pawan.png",
+      "image": "/images/souvenir/2025/ug_dwibhashyam_pawan.png",
       "gender": "m"
     }
   ],
@@ -69,7 +69,7 @@
       "award": "President\u2019s Gold Medal & Director\u2019s Gold Medal (Overall PG Topper & Branch Topper)",
       "category": "PG",
       "badge": "President & Director Gold Medal",
-      "image": "/images/souvenir/pg_dhiresh_kumar.png",
+      "image": "/images/souvenir/2025/pg_dhiresh_kumar.png",
       "gender": "m"
     },
     {
@@ -79,7 +79,7 @@
       "award": "Director\u2019s Gold Medal (Branch Topper)",
       "category": "PG",
       "badge": "Director Gold Medal",
-      "image": "/images/souvenir/pg_amit_kumar.png",
+      "image": "/images/souvenir/2025/pg_amit_kumar.png",
       "gender": "m"
     },
     {
@@ -89,7 +89,7 @@
       "award": "Director\u2019s Gold Medal (Branch Topper)",
       "category": "PG",
       "badge": "Director Gold Medal",
-      "image": "/images/souvenir/pg_prachi_maurya.png",
+      "image": "/images/souvenir/2025/pg_prachi_maurya.png",
       "gender": "f"
     },
     {
@@ -99,7 +99,7 @@
       "award": "Director\u2019s Gold Medal (Branch Topper)",
       "category": "PG",
       "badge": "Director Gold Medal",
-      "image": "/images/souvenir/pg_shipra_verma.png",
+      "image": "/images/souvenir/2025/pg_shipra_verma.png",
       "gender": "f"
     },
     {
@@ -109,7 +109,7 @@
       "award": "Certificate of Excellence (Branch Topper)",
       "category": "PG",
       "badge": "Certificate of Excellence",
-      "image": "/images/souvenir/pg_gautam_singh.png",
+      "image": "/images/souvenir/2025/pg_gautam_singh.png",
       "gender": "m"
     },
     {
@@ -119,7 +119,7 @@
       "award": "Certificate of Excellence (Branch Topper)",
       "category": "PG",
       "badge": "Certificate of Excellence",
-      "image": "/images/souvenir/pg_arunish_kumar.png",
+      "image": "/images/souvenir/2025/pg_arunish_kumar.png",
       "gender": "m"
     }
   ],
@@ -130,7 +130,7 @@
       "roll": "2106064",
       "title": "Best Graduate (Boy)",
       "cash": "Rs. 10,001/- with Letter of Appreciation",
-      "image": "/images/souvenir/best_grad_boy_thandava.png",
+      "image": "/images/souvenir/2025/best_grad_boy_thandava.png",
       "gender": "m"
     },
     {
@@ -139,7 +139,7 @@
       "roll": "2005021",
       "title": "Best Graduate (Girl)",
       "cash": "Rs. 10,001/- with Letter of Appreciation",
-      "image": "/images/souvenir/best_grad_girl_anand_setu.png",
+      "image": "/images/souvenir/2025/best_grad_girl_anand_setu.png",
       "gender": "f"
     }
   ],
@@ -151,7 +151,7 @@
       "dept": "Civil Engineering",
       "citation": "Awarded to the branch topper of the Department of Civil Engineering in honour of late Prof. K. N. Rohatgi.",
       "badge": "Endowment Gold Medal",
-      "image": "/images/souvenir/ug_ritika_kumari.png"
+      "image": "/images/souvenir/2025/ug_ritika_kumari.png"
     },
     {
       "title": "BCE-NITP Alumni Gold Medal (2025)",
@@ -160,7 +160,7 @@
       "dept": "Civil Engineering",
       "citation": "Conferred by the BCE-NITP Alumni Association to the distinguished topper of Civil Engineering.",
       "badge": "Alumni Association Gold Medal",
-      "image": "/images/souvenir/ug_ritika_kumari.png"
+      "image": "/images/souvenir/2025/ug_ritika_kumari.png"
     }
   ]
 }

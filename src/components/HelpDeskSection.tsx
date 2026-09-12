@@ -21,7 +21,7 @@ export default function HelpDeskSection() {
         {/* Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           
-          {/* Card 1: Registration & MIS */}
+          {/* Card 1: Digital & MIS */}
           <div className="bg-white rounded-3xl p-8 border border-slate-200/80 shadow-xl shadow-slate-200/40 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1.5 flex flex-col justify-between h-full group">
             <div>
               <div className="flex items-center space-x-4 mb-6">
@@ -31,19 +31,19 @@ export default function HelpDeskSection() {
                 <div>
                   <span className="text-[10px] font-bold uppercase text-blue-700 tracking-wider block">Sub-Committee</span>
                   <h3 className="font-sans font-bold text-xl text-slate-900">
-                    Registration &amp; MIS
+                    Digital &amp; MIS
                   </h3>
                 </div>
               </div>
               <p className="text-sm text-slate-500 leading-relaxed mb-6">
-                For issues regarding student registration, attendance verification, or digital QR entry passes:
+                For issues regarding the digital platform, graduate directory updates, or online data verification:
                 <br />
                 <span className="text-slate-800 font-semibold mt-1 block">itteam[at]nitp.ac.in</span>
                 <span className="text-slate-500 text-xs block mt-1">Convenor: Dr. B. Balaji Naik | MIS: Shri Akash Kumar</span>
               </p>
             </div>
             <div className="bg-blue-50/70 rounded-2xl px-4 py-3.5 w-full border border-blue-100">
-              <span className="text-blue-900 text-xs sm:text-sm font-bold tracking-wide flex items-center">
+              <span className="text-blue-900 text-xs sm:text-sm font-bold font-sans tabular-nums tracking-wide flex items-center">
                 <Phone className="w-4 h-4 mr-2 text-blue-700" />
                 Phone: +91-612-2371715 (Ext. 240)
               </span>
@@ -72,7 +72,7 @@ export default function HelpDeskSection() {
               </p>
             </div>
             <div className="bg-amber-50/70 rounded-2xl px-4 py-3.5 w-full border border-amber-100">
-              <span className="text-amber-900 text-xs sm:text-sm font-bold tracking-wide flex items-center">
+              <span className="text-amber-900 text-xs sm:text-sm font-bold font-sans tabular-nums tracking-wide flex items-center">
                 <Phone className="w-4 h-4 mr-2 text-amber-700" />
                 Phone: +91-612-2371920 (Ext. 115)
               </span>
@@ -101,7 +101,7 @@ export default function HelpDeskSection() {
               </p>
             </div>
             <div className="bg-indigo-50/70 rounded-2xl px-4 py-3.5 w-full border border-indigo-100">
-              <span className="text-indigo-900 text-xs sm:text-sm font-bold tracking-wide flex items-center">
+              <span className="text-indigo-900 text-xs sm:text-sm font-bold font-sans tabular-nums tracking-wide flex items-center">
                 <Phone className="w-4 h-4 mr-2 text-indigo-700" />
                 Phone: +91-612-2371715 (General)
               </span>

@@ -2,8 +2,8 @@ import fs from 'fs';
 import path from 'path';
 
 export async function getConvocationData() {
-  const dataDir = path.join(process.cwd(), 'data', 'data');
-  const tempDir = path.join(process.cwd(), 'temp', '2025');
+  const dataDir = path.join(process.cwd(), 'data');
+  const gradDir = path.join(process.cwd(), 'data', '2025');
   
   if (!fs.existsSync(dataDir)) {
     console.error(`[Data Fetcher] Data directory does not exist: ${dataDir}`);
@@ -29,7 +29,7 @@ export async function getConvocationData() {
   const gallery = readJson(path.join(dataDir, 'gallery.json')) || [];
 
   // Graduates fetched from temp endpoint for now
-  const graduates = readJson(path.join(tempDir, 'graduates.json')) || { degree_recipients: [] };
+  const graduates = readJson(path.join(gradDir, 'graduates.json')) || { degree_recipients: [] };
 
   return { info, dignitaries, medals, committees, graduates, gallery };
 }

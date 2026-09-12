@@ -314,7 +314,6 @@ export default function HeroSection() {
                 <li><strong>Chief Guest:</strong> {(() => { const cg = DIGNITARIES.find((d: any) => d.badge === "Chief Guest"); return cg ? (cg.designation === "Chief Guest" ? cg.role : cg.designation) : ""; })()} {DIGNITARIES.find((d: any) => d.badge === "Chief Guest")?.name || "Chief Guest"}.</li>
                 <li><strong>Presided by:</strong> {DIGNITARIES.find((d: any) => d.badge === 'Chairperson' || d.badge === 'Presiding Officer' || d.name === 'Shri Ashok Kumar Modi')?.name || 'Chairperson, BOG'}, Chairperson, BOG &amp; {DIGNITARIES.find((d: any) => d.badge === 'Director' || d.badge === 'Chief Academic Officer' || d.name === 'Prof. Pradip Kumar Jain')?.name || 'Director'}, Director.</li>
                 <li><strong>Academic Dress Code:</strong> Traditional Indian attire with official ceremonial stole.</li>
-                <li><strong>Registration:</strong> Degree recipients must confirm in-person attendance to receive allocated seating and entry QR passes.</li>
               </ul>
             </div>
             <div className="flex justify-end space-x-3 pt-2">

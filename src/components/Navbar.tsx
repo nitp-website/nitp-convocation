@@ -115,26 +115,7 @@ export default function Navbar() {
             );
           })}
 
-          {/* Mobile Edition Selector */}
-          <div className="px-4 py-3 border-t border-slate-100 mt-2">
-            <label className="text-xs font-bold text-slate-500 mb-1.5 block">Edition Archive</label>
-            <div className="relative">
-              <select 
-                value={year}
-                onChange={(e) => {
-                  const newYear = e.target.value;
-                  const currentPath = pathname.replace(`/${year}`, '') || '/';
-                  setMobileMenuOpen(false);
-                  router.push(`/${newYear}${currentPath === '/' ? '' : currentPath}`);
-                }}
-                className="w-full appearance-none bg-slate-50 border border-slate-200 text-slate-800 text-sm font-bold py-2.5 pl-3 pr-8 rounded-xl outline-none"
-              >
-                <option value="2025">14th Edition (2025)</option>
-                <option value="2024">13th Edition (2024)</option>
-              </select>
-              <ChevronDown className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-500 pointer-events-none" />
-            </div>
-          </div>
+          
         </div>
       )}
     </header>
