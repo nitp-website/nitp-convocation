@@ -102,8 +102,13 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-white transition-colors duration-200">
-                  Login
+                <Link href="/#helpdesk" className="hover:text-white transition-colors duration-200">
+                  Contact &amp; Support
+                </Link>
+              </li>
+              <li>
+                <Link href="/#gallery" className="hover:text-white transition-colors duration-200">
+                  Event Gallery
                 </Link>
               </li>
               <li>
@@ -151,11 +156,11 @@ export default function Footer() {
         {/* Bottom Credits & Copyright */}
         <div className="pt-8 flex flex-col sm:flex-row justify-between items-center text-[11px] sm:text-xs text-slate-500 gap-4 font-medium tracking-wide">
           <div>
-            &copy; 2026 National Institute of Technology Patna. All Rights Reserved.
+            &copy; National Institute of Technology Patna. All Rights Reserved.
           </div>
           <div className="flex items-center space-x-4">
             <Link href="/wdc" className="hover:text-blue-400 transition-colors">
-              Designed &amp; Developed by Web Development Cell (WDC), NIT Patna
+              Developed by WDC NIT Patna
             </Link>
           </div>
         </div>
