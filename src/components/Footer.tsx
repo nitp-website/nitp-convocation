@@ -159,9 +159,9 @@ export default function Footer() {
             &copy; National Institute of Technology Patna. All Rights Reserved.
           </div>
           <div className="flex items-center space-x-4">
-            <Link href="/wdc" className="hover:text-blue-400 transition-colors">
+            {/* <Link href="/wdc" className="hover:text-blue-400 transition-colors"> */}
               Developed by WDC NIT Patna
-            </Link>
+            {/* </Link> */}
           </div>
         </div>
 
