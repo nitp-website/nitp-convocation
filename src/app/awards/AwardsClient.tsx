@@ -39,12 +39,12 @@ export default function AwardsPageClient({ data }: { data: any }) {
   const endowmentAwards = medals.ENDOWMENT_AWARDS || [];
 
   const categories: { id: MedalCategory; label: string; count: number; icon: React.ElementType }[] = [
-    { id: "ALL", label: "All Medals & Honours", count: 18, icon: Filter },
-    { id: "PRESIDENT", label: "President's Gold Medal", count: 2, icon: Trophy },
-    { id: "INSTITUTE", label: "Institute Gold Medal", count: 10, icon: Medal },
-    { id: "MERIT", label: "Academic Merit Certificate", count: 2, icon: ScrollText },
-    { id: "BEST_GRAD", label: "Best Graduate (Boy & Girl)", count: 2, icon: Star },
-    { id: "ENDOWMENT", label: "K. N. Rohatgi & Endowments", count: 2, icon: Sparkles },
+    { id: "ALL", label: "All Medals & Honours", count: (UG_GOLD_MEDALISTS.length + PG_GOLD_MEDALISTS.length + BEST_GRADUATES.length), icon: Filter },
+    { id: "PRESIDENT", label: "President's Gold Medal", count: (ugPresidentMedalist ? 1 : 0) + (pgPresidentMedalist ? 1 : 0), icon: Trophy },
+    { id: "INSTITUTE", label: "Institute Gold Medal", count: (ugInstituteMedalists.length + pgInstituteMedalists.length), icon: Medal },
+    { id: "MERIT", label: "Academic Merit Certificate", count: academicMeritCertificates.length, icon: ScrollText },
+    { id: "BEST_GRAD", label: "Best Graduate (Boy & Girl)", count: BEST_GRADUATES.length, icon: Star },
+    { id: "ENDOWMENT", label: "K. N. Rohatgi & Endowments", count: endowmentAwards.length, icon: Sparkles },
   ];
 
   return (
@@ -392,7 +392,7 @@ export default function AwardsPageClient({ data }: { data: any }) {
               </div>
               <div>
                 <h3 className="text-2xl sm:text-3xl font-serif font-bold text-slate-900">
-                  Best Graduate Students (Boy &amp; Girl), 2025
+                  Best Graduate Students (Boy &amp; Girl), {data.year || "2025"}
                 </h3>
                 <p className="text-xs sm:text-sm text-slate-500">
                   Conferred with a sum of Rs. 10,001/- along with an Official Letter of Appreciation.

@@ -351,7 +351,7 @@ export default function GraduatesDirectoryClient({ data }: { data: any }) {
                   {selectedStudent.prog === "Ph.D" && !selectedStudent.name.startsWith("Dr.") ? `Dr. ${selectedStudent.name}` : selectedStudent.name}
                 </h3>
                 <p className="text-xs font-semibold text-slate-500">
-                  NIT Patna &bull; {data.info?.INSTITUTE_INFO?.editionRoman} 2025
+                  NIT Patna &bull; {data.info?.INSTITUTE_INFO?.editionRoman} {data.year || "2025"}
                 </p>
               </div>
             </div>

@@ -17,28 +17,28 @@ export default function DegreeRecipientsSection() {
       value: INSTITUTE_INFO.ugGraduates,
       subtext: "B.Tech & B.Arch Candidates",
       icon: <GraduationCap className="w-6 h-6" />,
-      badge: "738 Degrees"
+      badge: `${INSTITUTE_INFO.ugGraduates || 0} Degrees`
     },
     {
       label: "POSTGRADUATE",
       value: INSTITUTE_INFO.pgGraduates,
       subtext: "M.Tech, M.Arch and MURP Candidates",
       icon: <BookOpen className="w-6 h-6" />,
-      badge: "111 Degrees"
+      badge: `${INSTITUTE_INFO.pgGraduates || 0} Degrees`
     },
     {
       label: "DOCTORAL (Ph.D)",
       value: INSTITUTE_INFO.phdScholars,
       subtext: "Doctor of Philosophy Scholars",
       icon: <FlaskConical className="w-6 h-6" />,
-      badge: "136 Scholars"
+      badge: `${INSTITUTE_INFO.phdScholars || 0} Scholars`
     },
     {
       label: "TOTAL GRADUATES",
       value: INSTITUTE_INFO.totalGraduates,
       subtext: "Conferred Across 11 Departments",
       icon: <Users className="w-6 h-6" />,
-      badge: "985 Recipients"
+      badge: `${INSTITUTE_INFO.totalGraduates || 0} Recipients`
     }
   ];
 
@@ -92,10 +92,10 @@ export default function DegreeRecipientsSection() {
         {/* CTA Bar */}
         <div className="mt-12 text-center">
           <Link
-            href="/graduates"
+            href={data.year === "2024" ? "/2024/graduates" : "/graduates"}
             className="inline-flex items-center space-x-2 bg-blue-700 hover:bg-blue-800 text-white font-bold text-sm px-7 py-3.5 rounded-2xl shadow-lg shadow-blue-700/20 hover:shadow-xl transition-all duration-200 cursor-pointer"
           >
-            <span>Browse Full 985 Graduate &amp; Scholar Directory</span>
+            <span>Browse Full {INSTITUTE_INFO.totalGraduates || 0} Graduate &amp; Scholar Directory</span>
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>

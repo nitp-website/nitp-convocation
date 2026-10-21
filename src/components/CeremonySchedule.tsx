@@ -16,8 +16,8 @@ import { useConvocation } from "@/context/ConvocationContext";
 
 export default function CeremonySchedule() {
   const { data } = useConvocation();
-  const { INSTITUTE_INFO, PROGRAMME_EVENTS, STOLE_GUIDELINES } = data.info;
-  const DIGNITARIES = data.dignitaries;
+  const { INSTITUTE_INFO = {}, PROGRAMME_EVENTS = [], STOLE_GUIDELINES = [] } = data?.info || {};
+  const DIGNITARIES = data?.dignitaries || [];
 
   const [modalOpen, setModalOpen] = useState(false);
 
@@ -35,7 +35,7 @@ export default function CeremonySchedule() {
             Day of the <span className="bg-gradient-to-r from-amber-400 via-orange-400 to-rose-400 bg-clip-text text-transparent">Ceremony</span>
           </h2>
           <p className="text-slate-300 text-sm sm:text-base leading-relaxed max-w-2xl">
-            Official order of ceremonial proceedings for graduating students, guests, and families attending the {INSTITUTE_INFO.edition.split(" ")[0]} Convocation at Main Campus, NIT Patna.
+            Official order of ceremonial proceedings for graduating students, guests, and families attending the {(INSTITUTE_INFO?.edition || "Convocation").split(" ")[0]} Convocation at Main Campus, NIT Patna.
           </p>
         </div>
 
@@ -147,7 +147,7 @@ export default function CeremonySchedule() {
             <div className="flex justify-between items-center pb-4 border-b border-slate-800">
               <div>
                 <span className="text-xs font-bold text-amber-400 uppercase tracking-widest">
-                  {INSTITUTE_INFO.edition.split(" ")[0]} Convocation Programme (Official Souvenir Draft)
+                  {(INSTITUTE_INFO?.edition || "Convocation").split(" ")[0]} Convocation Programme (Official Souvenir Draft)
                 </span>
                 <h3 className="text-2xl font-serif font-bold text-white mt-1">
                   Ceremonial Order of Events

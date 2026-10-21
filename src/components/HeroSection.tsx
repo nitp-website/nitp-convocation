@@ -38,7 +38,7 @@ export default function HeroSection() {
             {/* Giant Display Title */}
             <div className="space-y-3 sm:space-y-4">
               <div className="text-2xl sm:text-3xl lg:text-4xl font-sans font-medium tracking-tight bg-gradient-to-r from-[#D97706] via-[#BE185D] to-[#3730A3] bg-clip-text text-transparent">
-                Convocation 2025
+                {INSTITUTE_INFO.edition || `Convocation ${data.year || '2025'}`}
               </div>
 
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-black tracking-tight leading-[1.1] text-slate-950 whitespace-nowrap flex items-baseline gap-x-2 sm:gap-x-3.5">
@@ -296,7 +296,7 @@ export default function HeroSection() {
               <div>
                 <span className="text-[11px] font-bold uppercase tracking-widest text-amber-700">Official Notice</span>
                 <h3 className="font-serif font-bold text-xl text-slate-900">
-                  {INSTITUTE_INFO.editionRoman} 2025
+                  {INSTITUTE_INFO.editionRoman || 'Convocation'} {data.year || '2025'}
                 </h3>
               </div>
               <button

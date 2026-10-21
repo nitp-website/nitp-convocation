@@ -24,14 +24,38 @@ export default function FlashNews() {
     }
   };
 
-  const newsItems = [
-    { title: `${INSTITUTE_INFO.editionRoman} to be held on ${INSTITUTE_INFO.date} at Main Campus.`, link: "/#schedule" },
-    { title: `${data.dignitaries.find((d: any) => d.badge === "Chief Guest")?.name}, ${(() => { const cg = data.dignitaries.find((d: any) => d.badge === "Chief Guest"); return cg ? (cg.designation === "Chief Guest" ? cg.role : cg.designation) : ""; })()} addresses graduating batch as Chief Guest.`, link: `/$2025/dignitaries` },
-    { title: `NIT Patna ranked ${INSTITUTE_INFO.nirfRank}.`, link: "/#recipients" },
-    { title: `${INSTITUTE_INFO.totalGraduates} Degree Recipients & ${INSTITUTE_INFO.phdScholars} Ph.D Scholars directory now searchable online.`, link: `/$2025/graduates` },
+  const year = data.year || "2025";
+  const dignitariesLink = year === "2024" ? "/2024/dignitaries" : "/dignitaries";
+  const graduatesLink = year === "2024" ? "/2024/graduates" : "/graduates";
+  const scheduleLink = year === "2024" ? "/2024#schedule" : "/#schedule";
+  const recipientsLink = year === "2024" ? "/2024#recipients" : "/#recipients";
+
+  const chiefGuest = data.dignitaries?.find((d: any) => d.badge === "Chief Guest");
+  const cgRole = chiefGuest ? (chiefGuest.designation === "Chief Guest" ? chiefGuest.role : chiefGuest.designation) : "";
+
+  const newsItems: { title: string; link: string }[] = [
+    { title: `${INSTITUTE_INFO.editionRoman || "Convocation"} - ${INSTITUTE_INFO.date} at Main Campus.`, link: scheduleLink },
   ];
+  if (chiefGuest) {
+    newsItems.push({
+      title: `${chiefGuest.name}, ${cgRole} addresses graduating batch as Chief Guest.`,
+      link: dignitariesLink
+    });
+  }
+  if (INSTITUTE_INFO.nirfRank) {
+    newsItems.push({
+      title: `NIT Patna ranked ${INSTITUTE_INFO.nirfRank}.`,
+      link: recipientsLink
+    });
+  }
+  if (INSTITUTE_INFO.totalGraduates) {
+    newsItems.push({
+      title: `${INSTITUTE_INFO.totalGraduates} Degree Recipients & ${INSTITUTE_INFO.phdScholars || 0} Ph.D Scholars directory now searchable online.`,
+      link: graduatesLink
+    });
+  }
   if (INSTITUTE_INFO.bihtaCampus) {
-    newsItems.push({ title: INSTITUTE_INFO.bihtaCampus, link: `/$2025/dignitaries` });
+    newsItems.push({ title: INSTITUTE_INFO.bihtaCampus, link: dignitariesLink });
   }
 
   return (

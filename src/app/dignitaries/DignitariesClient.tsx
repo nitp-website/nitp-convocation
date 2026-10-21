@@ -20,7 +20,7 @@ interface Dean {
   designation: string;
 }
 
-export default function DignitariesPageClient({ data }: { data: { dignitaries: Dignitary[]; info: { INSTITUTE_INFO: { edition?: string; date?: string } }; committees: { committees: any[]; deans: Dean[] } },  }) {
+export default function DignitariesPageClient({ data }: { data: { year?: string; dignitaries: Dignitary[]; info: { INSTITUTE_INFO: { edition?: string; date?: string; bihtaCampus?: string } }; committees: { committees: any[]; deans: Dean[] } } }) {
   const ALL_DIGNITARIES: Dignitary[] = data.dignitaries || [];
   const administrativeDeans: Dean[] = data.committees?.deans || [];
   const commiteesList = data.committees?.committees || [];
@@ -77,25 +77,26 @@ export default function DignitariesPageClient({ data }: { data: { dignitaries: D
         </section>
 
         {/* Bihta Campus Dedication Highlight Banner */}
-        
-        <section className="bg-gradient-to-r from-amber-50 via-orange-50 to-amber-50 rounded-3xl p-8 border border-amber-200/80 shadow-sm flex flex-col md:flex-row items-center gap-6">
-          <div className="w-16 h-16 rounded-2xl bg-amber-500/20 flex items-center justify-center text-amber-800 shrink-0 shadow-xs">
-            <Building className="w-8 h-8" />
-          </div>
-          <div className="space-y-1.5 flex-1">
-            <div className="flex items-center space-x-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-amber-900 bg-amber-100 px-2.5 py-0.5 rounded-md">
-                NATIONAL MILESTONE &bull; 4TH OCTOBER 2025
-              </span>
+        {data.info?.INSTITUTE_INFO?.bihtaCampus && (
+          <section className="bg-gradient-to-r from-amber-50 via-orange-50 to-amber-50 rounded-3xl p-8 border border-amber-200/80 shadow-sm flex flex-col md:flex-row items-center gap-6">
+            <div className="w-16 h-16 rounded-2xl bg-amber-500/20 flex items-center justify-center text-amber-800 shrink-0 shadow-xs">
+              <Building className="w-8 h-8" />
             </div>
-            <h3 className="text-xl sm:text-2xl font-serif font-bold text-slate-900">
-              125-Acre Bihta Campus Dedicated to the Nation
-            </h3>
-            <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-              The Bihta Campus of NIT Patna was dedicated to the Nation by Hon’ble Prime Minister <strong>Shri Narendra Modi</strong> on 4th October 2025 in the august presence of Minister of Education Shri Dharmendra Pradhan, Chief Minister of Bihar Shri Nitish Kumar, Union Minister Shri Jual Oram, Union MoS (IC) Shri Jayant Choudhary, Union MoS (Education) Shri Sukanta Majumdar, and Speaker Bihar Vidhan Sabha Shri Nand Kishor Yadav.
-            </p>
-          </div>
-        </section>
+            <div className="space-y-1.5 flex-1">
+              <div className="flex items-center space-x-2">
+                <span className="text-xs font-bold uppercase tracking-wider text-amber-900 bg-amber-100 px-2.5 py-0.5 rounded-md">
+                  NATIONAL MILESTONE &bull; 4TH OCTOBER 2025
+                </span>
+              </div>
+              <h3 className="text-xl sm:text-2xl font-serif font-bold text-slate-900">
+                125-Acre Bihta Campus Dedicated to the Nation
+              </h3>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
+                The Bihta Campus of NIT Patna was dedicated to the Nation by Hon’ble Prime Minister <strong>Shri Narendra Modi</strong> on 4th October 2025 in the august presence of Minister of Education Shri Dharmendra Pradhan, Chief Minister of Bihar Shri Nitish Kumar, Union Minister Shri Jual Oram, Union MoS (IC) Shri Jayant Choudhary, Union MoS (Education) Shri Sukanta Majumdar, and Speaker Bihar Vidhan Sabha Shri Nand Kishor Yadav.
+              </p>
+            </div>
+          </section>
+        )}
 
         {/* Administrative Deans */}
         <section className="bg-white rounded-3xl p-8 shadow-sm border border-slate-200/90">
