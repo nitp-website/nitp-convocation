@@ -1,23 +1,16 @@
-// @ts-nocheck
 "use client";
 
 import React, { useState } from "react";
-import Link from "next/link";
 import { 
   MapPin, 
   ShieldAlert, 
-  FileText, 
-  Clock, 
-  Download, 
-  Calendar, 
-  CheckCircle2 
+  FileText 
 } from "lucide-react";
 import { useConvocation } from "@/context/ConvocationContext";
 
 export default function CeremonySchedule() {
   const { data } = useConvocation();
-  const { INSTITUTE_INFO = {}, PROGRAMME_EVENTS = [], STOLE_GUIDELINES = [] } = data?.info || {};
-  const DIGNITARIES = data?.dignitaries || [];
+  const { INSTITUTE_INFO = {}, PROGRAMME_EVENTS = [] } = data?.info || {};
 
   const [modalOpen, setModalOpen] = useState(false);
 
@@ -113,7 +106,7 @@ export default function CeremonySchedule() {
           <div className="lg:col-span-7">
             <div className="relative pl-6 sm:pl-8 space-y-7 before:absolute before:left-[11px] sm:before:left-[15px] before:top-3 before:bottom-3 before:w-[2px] before:bg-gradient-to-b before:from-amber-400 before:via-blue-500 before:to-amber-500/20">
               
-              {PROGRAMME_EVENTS.slice(0, 7).map((item, idx) => (
+              {PROGRAMME_EVENTS.slice(0, 7).map((item: any, idx: number) => (
                 <div key={idx} className="relative group">
                   {/* Glowing Marker Dot */}
                   <div className="absolute -left-[19px] sm:-left-[23px] top-1.5 w-3.5 h-3.5 rounded-full bg-amber-400 ring-4 ring-amber-400/30 group-hover:scale-125 transition-transform" />
@@ -162,7 +155,7 @@ export default function CeremonySchedule() {
             </div>
 
             <div className="space-y-3 text-xs sm:text-sm text-slate-300">
-              {PROGRAMME_EVENTS.map((ev, i) => (
+              {PROGRAMME_EVENTS.map((ev: any, i: number) => (
                 <div key={i} className="p-3 bg-white/5 rounded-xl border border-white/10 flex items-start justify-between gap-4">
                   <div>
                     <div className="font-bold text-white font-serif text-sm sm:text-base">{i + 1}. {ev.title || ev.event}</div>

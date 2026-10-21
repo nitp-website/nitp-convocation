@@ -9,6 +9,7 @@ export interface ConvocationData {
   committees: any;
   graduates: any;
   gallery: any[];
+  notices?: any[];
 }
 
 interface ConvocationContextProps {
@@ -27,7 +28,7 @@ export const ConvocationProvider = ({
   year?: string;
   children: ReactNode;
 }) => {
-  const activeYear = year || data?.year || "2025";
+  const activeYear = year || data?.year || "2026";
   return (
     <ConvocationContext.Provider value={{ data, year: activeYear }}>
       {children}
@@ -37,7 +38,7 @@ export const ConvocationProvider = ({
 
 export const useConvocation = () => {
   const context = useContext(ConvocationContext);
-  if (context === undefined) { return { data: null, year: "2025" }; }
+  if (context === undefined) { return { data: null, year: "2026" }; }
   return context;
 };
 

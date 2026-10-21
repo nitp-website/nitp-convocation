@@ -16,10 +16,9 @@ interface GalleryPhoto {
 
 export default function ConvocationGallery() {
   const { data } = useConvocation();
-  if (!data) return null;
-  const { INSTITUTE_INFO } = data?.info || { INSTITUTE_INFO: { editionRoman: "Convocation", date: "" } };
-
   const [selectedPhoto, setSelectedPhoto] = useState<number | null>(null);
+
+  if (!data) return null;
 
   const galleryItems: GalleryPhoto[] = data?.gallery || [];
 
@@ -117,10 +116,10 @@ export default function ConvocationGallery() {
   );
 }
 
-function GalleryScene({ scene, title, isLarge = false }: { scene: string; title: string; isLarge?: boolean }) {
+function GalleryScene({ scene }: { scene: string; title?: string; isLarge?: boolean }) {
   const { data } = useConvocation();
   if (!data) return null;
-  const { INSTITUTE_INFO } = data?.info || { INSTITUTE_INFO: { editionRoman: "XIV Convocation", date: "" } };
+  const { INSTITUTE_INFO } = data?.info || { INSTITUTE_INFO: { editionRoman: "Convocation", date: "" } };
 
   return (
     <div className="w-full h-full relative flex items-center justify-center overflow-hidden">

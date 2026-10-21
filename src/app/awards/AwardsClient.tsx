@@ -1,28 +1,28 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { 
   Trophy, 
   Medal, 
-  Award, 
   Star, 
   Sparkles, 
-  GraduationCap, 
-  CheckCircle2, 
   ScrollText,
-  Filter
+  Filter,
+  ArrowRight
 } from "lucide-react";
 
 
 type MedalCategory = "ALL" | "PRESIDENT" | "INSTITUTE" | "MERIT" | "BEST_GRAD" | "ENDOWMENT";
 
 export default function AwardsPageClient({ data }: { data: any }) {
-  const { medals, info } = data;
+  const { medals } = data;
   const UG_GOLD_MEDALISTS = medals?.UG_GOLD_MEDALISTS || [];
   const PG_GOLD_MEDALISTS = medals?.PG_GOLD_MEDALISTS || [];
   const BEST_GRADUATES = medals?.BEST_GRADUATES || [];
+  const totalMedalists = UG_GOLD_MEDALISTS.length + PG_GOLD_MEDALISTS.length + BEST_GRADUATES.length;
 
   const [activeCategory, setActiveCategory] = useState<MedalCategory>("ALL");
   const [instituteSubTab, setInstituteSubTab] = useState<"ALL" | "UG" | "PG">("ALL");
@@ -66,41 +66,79 @@ export default function AwardsPageClient({ data }: { data: any }) {
       </section>
 
       {/* Category Navigation Bar */}
-      <div className="sticky top-16 z-30 bg-[#FBF9F5]/95 backdrop-blur-md border-b border-amber-200/60 py-3 shadow-xs">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center gap-2 overflow-x-auto no-scrollbar py-1">
-            {categories.map((cat: any) => {
-              const Icon = cat.icon;
-              const isActive = activeCategory === cat.id;
-              return (
-                <button
-                  key={cat.id}
-                  onClick={() => setActiveCategory(cat.id)}
-                  className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold whitespace-nowrap transition-all duration-200 cursor-pointer shrink-0 ${
-                    isActive
-                      ? "bg-amber-600 text-white shadow-sm shadow-amber-600/30 font-bold"
-                      : "bg-white text-slate-600 hover:text-slate-900 hover:bg-amber-50/70 border border-slate-200/80"
-                  }`}
-                >
-                  <Icon className={`w-4 h-4 ${isActive ? "text-white" : "text-amber-600"}`} />
-                  <span>{cat.label}</span>
-                  <span
-                    className={`text-[10px] px-1.5 py-0.5 rounded-full font-bold ${
-                      isActive ? "bg-white/20 text-white" : "bg-slate-100 text-slate-600"
+      {totalMedalists > 0 && (
+        <div className="sticky top-16 z-30 bg-[#FBF9F5]/95 backdrop-blur-md border-b border-amber-200/60 py-3 shadow-xs">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex items-center gap-2 overflow-x-auto no-scrollbar py-1">
+              {categories.map((cat: any) => {
+                const Icon = cat.icon;
+                const isActive = activeCategory === cat.id;
+                return (
+                  <button
+                    key={cat.id}
+                    onClick={() => setActiveCategory(cat.id)}
+                    className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold whitespace-nowrap transition-all duration-200 cursor-pointer shrink-0 ${
+                      isActive
+                        ? "bg-amber-600 text-white shadow-sm shadow-amber-600/30 font-bold"
+                        : "bg-white text-slate-600 hover:text-slate-900 hover:bg-amber-50/70 border border-slate-200/80"
                     }`}
                   >
-                    {cat.count}
-                  </span>
-                </button>
-              );
-            })}
+                    <Icon className={`w-4 h-4 ${isActive ? "text-white" : "text-amber-600"}`} />
+                    <span>{cat.label}</span>
+                    <span
+                      className={`text-[10px] px-1.5 py-0.5 rounded-full font-bold ${
+                        isActive ? "bg-white/20 text-white" : "bg-slate-100 text-slate-600"
+                      }`}
+                    >
+                      {cat.count}
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
           </div>
         </div>
-      </div>
+      )}
 
       {/* Main Detailed Award Directory */}
       <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-16 flex-1 w-full">
 
+        {totalMedalists === 0 ? (
+          <div className="bg-white rounded-3xl p-10 sm:p-16 border border-amber-200/90 shadow-xl shadow-slate-200/50 text-center max-w-3xl mx-auto space-y-6 my-8">
+            <div className="w-20 h-20 rounded-3xl bg-amber-50 border-2 border-amber-300 flex items-center justify-center mx-auto shadow-inner">
+              <Trophy className="w-10 h-10 text-amber-600 animate-pulse" />
+            </div>
+            <div className="space-y-3">
+              <span className="inline-block px-3.5 py-1 rounded-full bg-amber-100 text-amber-900 text-xs font-extrabold uppercase tracking-widest">
+                Under Senate Evaluation
+              </span>
+              <h2 className="text-3xl sm:text-4xl font-serif font-black text-slate-900">
+                Medals &amp; Honours Coming Soon
+              </h2>
+              <p className="text-slate-600 max-w-xl mx-auto text-sm sm:text-base leading-relaxed">
+                {medals?.message || `The official list of President's Gold Medalists, Director's Gold Medalists, and Institute Endowments for the 15th Convocation (${data.year || "2026"}) is currently being finalized following Senate clearance.`}
+              </p>
+            </div>
+            
+            <div className="pt-6 border-t border-slate-100 flex flex-wrap items-center justify-center gap-4 text-xs font-bold">
+              <Link
+                href="/2025/awards"
+                className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-slate-900 hover:bg-blue-900 text-white transition-colors"
+              >
+                <span>Browse 2025 Medalists &amp; Awardees</span>
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+              <Link
+                href="/2024/awards"
+                className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-200 transition-colors"
+              >
+                <span>Browse 2024 Medalists</span>
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+            </div>
+          </div>
+        ) : (
+          <>
         {/* 1. PRESIDENT'S GOLD MEDAL */}
         {(activeCategory === "ALL" || activeCategory === "PRESIDENT") && (ugPresidentMedalist || pgPresidentMedalist) && (
           <section id="president-gold-medal" className="scroll-mt-32">
@@ -199,7 +237,7 @@ export default function AwardsPageClient({ data }: { data: any }) {
                   </h3>
                 </div>
                 <p className="text-sm text-slate-500 max-w-2xl">
-                  Awarded to branch toppers of each undergraduate and postgraduate discipline (Director's Gold Medal).
+                  Awarded to branch toppers of each undergraduate and postgraduate discipline (Director&apos;s Gold Medal).
                 </p>
               </div>
 
@@ -484,6 +522,8 @@ export default function AwardsPageClient({ data }: { data: any }) {
               ))}
             </div>
           </section>
+        )}
+        </>
         )}
 
       </main>

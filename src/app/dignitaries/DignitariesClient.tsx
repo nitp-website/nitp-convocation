@@ -163,19 +163,6 @@ export default function DignitariesPageClient({ data }: { data: { year?: string;
 
                   {isExpanded && (
                     <div className="p-5 bg-white border-t border-slate-100 space-y-4">
-                      {comm.duties && (
-                        <div>
-                          <span className="text-[10px] font-extrabold uppercase text-slate-400 tracking-wider block mb-1.5">
-                            BRIEF DUTIES
-                          </span>
-                          <ul className="list-disc pl-5 text-xs text-slate-600 space-y-1">
-                            {comm.duties.map((duty: any, dIdx: any) => (
-                              <li key={dIdx}>{duty}</li>
-                            ))}
-                          </ul>
-                        </div>
-                      )}
-
                       <div>
                         <span className="text-[10px] font-extrabold uppercase text-slate-400 tracking-wider block mb-2">
                           COMMITTEE MEMBERS

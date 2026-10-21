@@ -1,0 +1,51 @@
+[
+  {
+    "id": "notice-2025-01",
+    "title": "Mandatory Full Dress Rehearsal & Academic Stole Distribution",
+    "date": "December 22, 2025",
+    "category": "Rehearsal & Stole",
+    "isNew": true,
+    "isUrgent": true,
+    "summary": "Full Dress Rehearsal is scheduled on Saturday, December 27, 2025 at 09:00 AM sharp in the Main Auditorium. Participation is mandatory for degree conferral on stage. Academic stoles will be issued against Institute ID from 08:00 AM to 12:00 PM.",
+    "fileUrl": "#",
+    "signedBy": "Dean (Academic Affairs) & Registrar",
+    "referenceNo": "NITP/ACAD/XIV-CONV/2025/104"
+  },
+  {
+    "id": "notice-2025-02",
+    "title": "Final List of Eligible Degree Recipients (UG, PG & Ph.D) for 14th Convocation",
+    "date": "December 18, 2025",
+    "category": "Degree Verification",
+    "isNew": true,
+    "isUrgent": false,
+    "summary": "The verified list of 985 graduating students (738 B.Tech/B.Arch, 111 M.Tech/MURP/M.Arch, and 136 Ph.D scholars) cleared by the Senate has been published. Please verify your Hindi and English name spellings in the Graduate Directory.",
+    "fileUrl": "#",
+    "signedBy": "Associate Dean (Examinations)",
+    "referenceNo": "NITP/EXAM/XIV-CONV/2025/089"
+  },
+  {
+    "id": "notice-2025-03",
+    "title": "Security Guidelines & Campus Entry Protocol for Accompanying Parents / Guests",
+    "date": "December 15, 2025",
+    "category": "Campus Protocol",
+    "isNew": false,
+    "isUrgent": false,
+    "summary": "Due to the august presence of Hon'ble Chief Minister of Bihar Shri Nitish Kumar (Chief Guest), strictly one parent/guardian pass will be permitted per degree recipient. Pre-registration of guest identity proof is mandatory by Dec 24.",
+    "fileUrl": "#",
+    "signedBy": "Security & Proctorial Board",
+    "referenceNo": "NITP/SEC/XIV-CONV/2025/042"
+  },
+  {
+    "id": "notice-2025-04",
+    "title": "Live Webcast & Virtual Telecast Details for XIV Convocation",
+    "date": "December 12, 2025",
+    "category": "Live Broadcast",
+    "isNew": false,
+    "isUrgent": false,
+    "summary": "The complete proceedings of the 14th Convocation Ceremony will be broadcast live in High Definition on the official Institute YouTube Channel and NITP Webcast portal starting at 02:00 PM on December 27, 2025.",
+    "fileUrl": "https://www.youtube.com/@NITPatnaOfficial",
+    "isExternal": true,
+    "signedBy": "Digital MIS & Web Sub-Committee",
+    "referenceNo": "NITP/MIS/XIV-CONV/2025/019"
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Shrimati Droupadi Murmu",
+    "designation": "Hon’ble President of India",
+    "role": "Visitor, NIT Patna",
+    "org": "Government of India",
+    "image": "/images/souvenir/droupadi_murmu.png",
+    "highlight": true,
+    "badge": "Visitor"
+  },
+  {
+    "name": "Shri Narendra Modi",
+    "designation": "Hon’ble Prime Minister of India",
+    "role": "Prime Minister of India",
+    "org": "Government of India",
+    "image": "/images/souvenir/narendra_modi.jpg",
+    "highlight": true,
+    "badge": "Chief Patron"
+  },
+  {
+    "name": "Shri Dharmendra Pradhan",
+    "designation": "Hon’ble Minister of Education",
+    "role": "Ministry of Education",
+    "org": "Government of India",
+    "image": "/images/souvenir/dharmendra_pradhan.jpg",
+    "highlight": true,
+    "badge": "Patron"
+  },
+  {
+    "name": "Hon’ble Chief Guest",
+    "designation": "Announcement Forthcoming",
+    "role": "Chief Guest, XV Convocation",
+    "org": "Ceremonial Dais",
+    "image": "/images/default_graduate.png",
+    "highlight": true,
+    "badge": "Chief Guest",
+    "bio": [
+      "The Distinguished Chief Guest for the 15th Annual Convocation will be officially announced following protocol confirmation.",
+      "The Chief Guest will deliver the Keynote Convocation Address to the graduating batch on Saturday, December 26, 2026.",
+      "Presentation of President’s Gold Medals and institutional honours will be conferred on the ceremonial dais."
+    ]
+  },
+  {
+    "name": "Shri Ashok Kumar Modi",
+    "designation": "Chairperson, Board of Governors",
+    "role": "Presiding Officer, NIT Patna",
+    "org": "NIT Patna & Eden Group",
+    "image": "/images/souvenir/ashok_modi.jpg",
+    "highlight": false,
+    "badge": "Chairperson, BOG"
+  },
+  {
+    "name": "Prof. Pradip Kumar Jain",
+    "designation": "Director, NIT Patna",
+    "role": "Chief Academic Officer",
+    "org": "NIT Patna",
+    "image": "/images/souvenir/pradip_jain.jpg",
+    "highlight": false,
+    "badge": "Director"
+  }
+]

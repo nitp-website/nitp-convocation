@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import React from "react";
 import Navbar from "@/components/Navbar";
 import FlashNews from "@/components/FlashNews";
+import NoticesSection from "@/components/NoticesSection";
 import HeroSection from "@/components/HeroSection";
 import DignitariesSection from "@/components/DignitariesSection";
 import AwardeesSection from "@/components/AwardeesSection";
@@ -14,11 +15,11 @@ import HelpDeskSection from "@/components/HelpDeskSection";
 import Footer from "@/components/Footer";
 
 export default async function Home() {
-  const data = await getConvocationData("2025");
+  const data = await getConvocationData("2026");
   if (!data) notFound();
   
   return (
-    <ConvocationProvider data={data} year="2025">
+    <ConvocationProvider data={data} year="2026">
     <div className="min-h-screen flex flex-col font-sans bg-[#F8FAFC] text-slate-900 selection:bg-blue-600 selection:text-white">
       {/* 1. Official Sticky Navbar */}
       <Navbar />
@@ -29,6 +30,9 @@ export default async function Home() {
         
         {/* Flash News Banner placed directly under Hero section */}
         <FlashNews />
+
+        {/* Official Notices & Circulars */}
+        <NoticesSection />
 
         {/* Dignitaries */}
         <DignitariesSection />

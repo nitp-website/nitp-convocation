@@ -1,7 +1,6 @@
 "use client";
 
-import React from "react";
-import { Briefcase, Mail, Phone, Users, ShieldCheck, MapPin } from "lucide-react";
+import { Briefcase, Mail, Phone, MapPin } from "lucide-react";
 
 export default function HelpDeskSection() {
   return (

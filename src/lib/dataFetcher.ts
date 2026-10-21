@@ -13,11 +13,18 @@ export interface ConvocationMetadata {
 export function getAvailableConvocations(): ConvocationMetadata[] {
   return [
     {
+      year: "2026",
+      edition: "15th Annual Convocation",
+      editionRoman: "XV Convocation",
+      date: "Saturday, December 26, 2026",
+      isCurrent: true,
+    },
+    {
       year: "2025",
       edition: "14th Annual Convocation",
       editionRoman: "XIV Convocation",
       date: "Saturday, December 27, 2025",
-      isCurrent: true,
+      isCurrent: false,
     },
     {
       year: "2024",
@@ -30,7 +37,7 @@ export function getAvailableConvocations(): ConvocationMetadata[] {
 }
 
 export async function getConvocationData(requestedYear?: string) {
-  const defaultYear = "2025";
+  const defaultYear = "2026";
   const year = requestedYear || defaultYear;
   
   const baseDir = path.join(process.cwd(), 'data');
@@ -73,6 +80,7 @@ export async function getConvocationData(requestedYear?: string) {
   };
   const gallery = readJson(path.join(yearDir, 'gallery.json')) || [];
   const graduates = readJson(path.join(yearDir, 'graduates.json')) || [];
+  const notices = readJson(path.join(yearDir, 'notices.json')) || [];
 
   return {
     year,
@@ -82,5 +90,6 @@ export async function getConvocationData(requestedYear?: string) {
     committees,
     graduates,
     gallery,
+    notices,
   };
 }

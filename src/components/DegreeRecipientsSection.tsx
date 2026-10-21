@@ -2,14 +2,13 @@
 
 import React from "react";
 import Link from "next/link";
-import { GraduationCap, BookOpen, FlaskConical, Users, ArrowRight, Sparkles } from "lucide-react";
+import { GraduationCap, BookOpen, FlaskConical, Users, ArrowRight } from "lucide-react";
 import { useConvocation } from "@/context/ConvocationContext";
 
 export default function DegreeRecipientsSection() {
   const { data } = useConvocation();
   if (!data) return null;
-  const { INSTITUTE_INFO, PROGRAMME_EVENTS, STOLE_GUIDELINES } = data.info;
-  const DIGNITARIES = data.dignitaries;
+  const { INSTITUTE_INFO } = data.info;
 
   const stats = [
     {
@@ -92,10 +91,14 @@ export default function DegreeRecipientsSection() {
         {/* CTA Bar */}
         <div className="mt-12 text-center">
           <Link
-            href={data.year === "2024" ? "/2024/graduates" : "/graduates"}
+            href={data.year === "2026" ? "/graduates" : `/${data.year}/graduates`}
             className="inline-flex items-center space-x-2 bg-blue-700 hover:bg-blue-800 text-white font-bold text-sm px-7 py-3.5 rounded-2xl shadow-lg shadow-blue-700/20 hover:shadow-xl transition-all duration-200 cursor-pointer"
           >
-            <span>Browse Full {INSTITUTE_INFO.totalGraduates || 0} Graduate &amp; Scholar Directory</span>
+            <span>
+              {INSTITUTE_INFO.isUpcoming 
+                ? "Browse Graduate Directory (Coming Soon)" 
+                : `Browse Full ${INSTITUTE_INFO.totalGraduates || 0} Graduate & Scholar Directory`}
+            </span>
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>

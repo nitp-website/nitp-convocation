@@ -4,7 +4,7 @@ import Image from "next/image";
 import React, { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { usePathname, useParams, useRouter } from "next/navigation";
-import { ChevronDown, ExternalLink, Calendar, Check, History } from "lucide-react";
+import { ChevronDown, Calendar, Check, History } from "lucide-react";
 import { Menu, X } from "lucide-react";
 import { useConvocation } from "@/context/ConvocationContext";
 
@@ -19,11 +19,18 @@ interface ConvocationArchiveItem {
 
 const ARCHIVE_EDITIONS: ConvocationArchiveItem[] = [
   {
+    year: "2026",
+    edition: "15th Convocation",
+    editionRoman: "XV",
+    date: "Dec 26, 2026",
+    isCurrent: true,
+  },
+  {
     year: "2025",
     edition: "14th Convocation",
     editionRoman: "XIV",
     date: "Dec 27, 2025",
-    isCurrent: true,
+    isCurrent: false,
   },
   {
     year: "2024",
@@ -42,23 +49,23 @@ export default function Navbar() {
 
   const params = useParams();
   const router = useRouter();
-  const { data, year: ctxYear } = useConvocation();
+  const { year: ctxYear } = useConvocation();
 
   const activeYear = typeof params?.year === "string" 
     ? params.year 
-    : (ctxYear || "2025");
+    : (ctxYear || "2026");
 
   // Determine section to preserve across year switches (e.g. /graduates, /awards, /dignitaries)
   const getSubSection = () => {
     if (!pathname) return "";
-    const clean = pathname.replace(/^\/(2024|2025|archive\/\d+)/, "");
+    const clean = pathname.replace(/^\/(2024|2025|2026|archive\/\d+)/, "");
     return clean.startsWith("/") ? clean : clean ? `/${clean}` : "";
   };
 
   const getTargetUrlForYear = (targetYear: string) => {
     const subSection = getSubSection();
-    if (targetYear === "2025") {
-      return subSection ? `/2025${subSection}` : "/";
+    if (targetYear === "2026") {
+      return subSection ? `/2026${subSection}` : "/";
     }
     return `/${targetYear}${subSection}`;
   };
@@ -77,19 +84,19 @@ export default function Navbar() {
   const navLinks = [
     { 
       name: "Home", 
-      href: activeYear === "2025" ? "/" : `/${activeYear}` 
+      href: activeYear === "2026" ? "/" : `/${activeYear}` 
     },
     { 
       name: "Dignitaries", 
-      href: activeYear === "2025" ? "/dignitaries" : `/${activeYear}/dignitaries` 
+      href: activeYear === "2026" ? "/dignitaries" : `/${activeYear}/dignitaries` 
     },
     { 
       name: "Medals & Honours", 
-      href: activeYear === "2025" ? "/awards" : `/${activeYear}/awards` 
+      href: activeYear === "2026" ? "/awards" : `/${activeYear}/awards` 
     },
     { 
       name: "Graduate Directory", 
-      href: activeYear === "2025" ? "/graduates" : `/${activeYear}/graduates` 
+      href: activeYear === "2026" ? "/graduates" : `/${activeYear}/graduates` 
     },
   ];
 
@@ -102,7 +109,9 @@ export default function Navbar() {
 
   const currentEditionDisplay = activeYear === "2024" 
     ? '"XIII Convocation 2024"' 
-    : '"XIV Convocation 2025"';
+    : activeYear === "2025"
+    ? '"XIV Convocation 2025"'
+    : '"XV Convocation 2026"';
 
   return (
     <header className="fixed top-4 left-4 right-4 z-50 bg-white/75 backdrop-blur-xl border border-white/50 shadow-lg shadow-black/5 rounded-2xl mx-auto max-w-7xl transition-all duration-300">
@@ -110,7 +119,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Institute Logo and Bilingual Brand */}
           <Link 
-            href={activeYear === "2025" ? "/" : `/${activeYear}`} 
+            href={activeYear === "2026" ? "/" : `/${activeYear}`} 
             className="flex items-center space-x-3.5 group cursor-pointer"
           >
             {/* Institute Emblem Logo */}

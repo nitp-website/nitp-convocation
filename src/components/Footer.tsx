@@ -4,7 +4,7 @@ import { useConvocation } from "@/context/ConvocationContext";
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
-import { ExternalLink, Download, MapPin, GlobeIcon } from "lucide-react";
+import { ExternalLink, MapPin, GlobeIcon } from "lucide-react";
 
 export default function Footer() {
   const convocationCtx = useConvocation();

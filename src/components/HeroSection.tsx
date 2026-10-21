@@ -10,19 +10,18 @@ import {
   Clock, 
   MapPin, 
   ShieldAlert, 
-  FileText,
-  Download
+  FileText
 } from "lucide-react";
 import { useConvocation } from "@/context/ConvocationContext";
 
 export default function HeroSection() {
   const { data } = useConvocation();
+  const [showPdfModal, setShowPdfModal] = useState(false);
+  const [isFlipped, setIsFlipped] = useState(false);
+
   if (!data) return null;
   const INSTITUTE_INFO = data.info?.INSTITUTE_INFO || {};
   const DIGNITARIES = data.dignitaries;
-
-  const [showPdfModal, setShowPdfModal] = useState(false);
-  const [isFlipped, setIsFlipped] = useState(false);
 
   return (
     <section className="relative overflow-hidden bg-[#F8FAFC] text-slate-900 pt-28 sm:pt-36 pb-0 border-b border-slate-200/50">
@@ -38,7 +37,7 @@ export default function HeroSection() {
             {/* Giant Display Title */}
             <div className="space-y-3 sm:space-y-4">
               <div className="text-2xl sm:text-3xl lg:text-4xl font-sans font-medium tracking-tight bg-gradient-to-r from-[#D97706] via-[#BE185D] to-[#3730A3] bg-clip-text text-transparent">
-                {INSTITUTE_INFO.edition || `Convocation ${data.year || '2025'}`}
+                {INSTITUTE_INFO.edition || `Convocation ${data.year || '2026'}`}
               </div>
 
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-black tracking-tight leading-[1.1] text-slate-950 whitespace-nowrap flex items-baseline gap-x-2 sm:gap-x-3.5">
@@ -144,6 +143,7 @@ export default function HeroSection() {
                         className="object-cover object-top scale-102"
                         sizes="(max-width: 768px) 100vw, 50vw"
                         priority
+                        loading="eager"
                       />
 
                       {/* Dark gradient overlay at bottom of photo */}
@@ -296,7 +296,7 @@ export default function HeroSection() {
               <div>
                 <span className="text-[11px] font-bold uppercase tracking-widest text-amber-700">Official Notice</span>
                 <h3 className="font-serif font-bold text-xl text-slate-900">
-                  {INSTITUTE_INFO.editionRoman || 'Convocation'} {data.year || '2025'}
+                  {INSTITUTE_INFO.editionRoman || 'Convocation'} {data.year || '2026'}
                 </h3>
               </div>
               <button

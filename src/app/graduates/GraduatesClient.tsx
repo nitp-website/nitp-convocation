@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useState, useEffect, useMemo } from "react";
+import React, { useState, useMemo } from "react";
+import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { 
@@ -10,14 +11,12 @@ import {
   BookOpen, 
   FlaskConical, 
   Building2, 
-  Sparkles, 
-  UserCheck, 
   X, 
   ChevronLeft, 
-  ChevronRight,
-  Copy,
-  Check,
-  Download
+  ChevronRight, 
+  Copy, 
+  Check, 
+  ArrowRight 
 } from "lucide-react";
 
 interface Graduate {
@@ -30,11 +29,10 @@ interface Graduate {
 }
 
 export default function GraduatesDirectoryClient({ data }: { data: any }) {
-  const graduatesData = data.graduates;
   const { INSTITUTE_INFO } = data.info;
 
-  const [graduates, setGraduates] = useState<Graduate[]>(graduatesData);
-  const [loading, setLoading] = useState(false);
+  const graduates: Graduate[] = useMemo(() => data.graduates || [], [data.graduates]);
+  const [loading] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState<"ALL" | "PHD" | "PG" | "UG" | "MEDALIST">("ALL");
   const [selectedDept, setSelectedDept] = useState("ALL");
@@ -79,11 +77,6 @@ export default function GraduatesDirectoryClient({ data }: { data: any }) {
     });
   }, [graduates, searchQuery, selectedCategory, selectedDept]);
 
-  // Reset page when filters change
-  useEffect(() => {
-    setCurrentPage(1);
-  }, [searchQuery, selectedCategory, selectedDept]);
-
   const totalPages = Math.ceil(filteredGraduates.length / pageSize);
   const paginatedGraduates = useMemo(() => {
     const start = (currentPage - 1) * pageSize;
@@ -110,14 +103,51 @@ export default function GraduatesDirectoryClient({ data }: { data: any }) {
             Directory of Degree Recipients
           </h1>
           <p className="text-slate-300 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
-            Search and verify all 985 degree recipients across Ph.D, Post-Graduate, and Under-Graduate programmes of NIT Patna.
+            {INSTITUTE_INFO.isUpcoming
+              ? `Official searchable directory of degree recipients across Ph.D, Post-Graduate, and Under-Graduate programmes of NIT Patna (${data.year || "2026"}).`
+              : `Search and verify all ${INSTITUTE_INFO.totalGraduates || graduates.length} degree recipients across Ph.D, Post-Graduate, and Under-Graduate programmes of NIT Patna.`}
           </p>
         </div>
       </section>
 
       {/* Search & Filters Area */}
       <main className="flex-1 py-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full space-y-8">
-        
+        {graduates.length === 0 ? (
+          <div className="bg-white rounded-3xl p-10 sm:p-16 border border-blue-200/90 shadow-xl shadow-slate-200/50 text-center max-w-3xl mx-auto space-y-6 my-8">
+            <div className="w-20 h-20 rounded-3xl bg-blue-50 border-2 border-blue-200 flex items-center justify-center mx-auto shadow-inner">
+              <GraduationCap className="w-10 h-10 text-blue-700 animate-pulse" />
+            </div>
+            <div className="space-y-3">
+              <span className="inline-block px-3.5 py-1 rounded-full bg-blue-100 text-blue-900 text-xs font-extrabold uppercase tracking-widest">
+                Degree Clearance &amp; Verification In Progress
+              </span>
+              <h2 className="text-3xl sm:text-4xl font-serif font-black text-slate-900">
+                Graduate Directory Coming Soon
+              </h2>
+              <p className="text-slate-600 max-w-xl mx-auto text-sm sm:text-base leading-relaxed">
+                The official directory of eligible degree recipients for B.Tech, B.Arch, M.Tech, MURP, and Ph.D programmes for the {INSTITUTE_INFO.editionRoman || "15th Convocation"} ({data.year || "2026"}) is currently being compiled by the Academic Section. Verification instructions will be posted under Official Notices.
+              </p>
+            </div>
+            
+            <div className="pt-6 border-t border-slate-100 flex flex-wrap items-center justify-center gap-4 text-xs font-bold">
+              <Link
+                href="/2025/graduates"
+                className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-slate-900 hover:bg-blue-900 text-white transition-colors"
+              >
+                <span>Browse 2025 Graduate Directory (985 Recipients)</span>
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+              <Link
+                href="/2024/graduates"
+                className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-blue-50 hover:bg-blue-100 text-blue-900 border border-blue-200 transition-colors"
+              >
+                <span>Browse 2024 Graduate Directory (1,042 Recipients)</span>
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+            </div>
+          </div>
+        ) : (
+          <>
         {/* Category Tabs */}
         <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3">
           {[
@@ -129,7 +159,10 @@ export default function GraduatesDirectoryClient({ data }: { data: any }) {
           ].map((tab: any) => (
             <button
               key={tab.id}
-              onClick={() => setSelectedCategory(tab.id as any)}
+              onClick={() => {
+                setSelectedCategory(tab.id as any);
+                setCurrentPage(1);
+              }}
               className={`inline-flex items-center space-x-2 px-4 py-2.5 rounded-2xl text-xs sm:text-sm font-bold transition-all duration-200 cursor-pointer shadow-xs ${
                 selectedCategory === tab.id
                   ? "bg-blue-700 text-white shadow-md shadow-blue-700/20 scale-102"
@@ -156,12 +189,18 @@ export default function GraduatesDirectoryClient({ data }: { data: any }) {
               type="text" 
               placeholder="Search by name, roll number, or department..." 
               value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
+              onChange={(e) => {
+                setSearchQuery(e.target.value);
+                setCurrentPage(1);
+              }}
               className="w-full pl-10 pr-4 py-2.5 rounded-xl border border-slate-300 text-sm focus:ring-2 focus:ring-blue-700 focus:border-blue-700 outline-none bg-slate-50/50"
             />
             {searchQuery && (
               <button
-                onClick={() => setSearchQuery("")}
+                onClick={() => {
+                  setSearchQuery("");
+                  setCurrentPage(1);
+                }}
                 className="absolute right-3.5 top-3 text-xs font-bold text-slate-400 hover:text-slate-600 cursor-pointer"
               >
                 Clear
@@ -173,7 +212,10 @@ export default function GraduatesDirectoryClient({ data }: { data: any }) {
           <div>
             <select 
               value={selectedDept}
-              onChange={(e) => setSelectedDept(e.target.value)}
+              onChange={(e) => {
+                setSelectedDept(e.target.value);
+                setCurrentPage(1);
+              }}
               className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm outline-none bg-white focus:ring-2 focus:ring-blue-700 cursor-pointer"
             >
               <option value="ALL">All Departments ({departments.length})</option>
@@ -197,6 +239,7 @@ export default function GraduatesDirectoryClient({ data }: { data: any }) {
                 setSearchQuery("");
                 setSelectedCategory("ALL");
                 setSelectedDept("ALL");
+                setCurrentPage(1);
               }}
               className="text-blue-700 hover:underline font-bold cursor-pointer"
             >
@@ -317,6 +360,8 @@ export default function GraduatesDirectoryClient({ data }: { data: any }) {
               <ChevronRight className="w-4 h-4" />
             </button>
           </div>
+        )}
+        </>
         )}
 
       </main>

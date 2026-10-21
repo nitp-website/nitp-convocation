@@ -7,10 +7,10 @@ import Link from "next/link";
 
 export default function FlashNews() {
   const { data } = useConvocation();
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
+
   if (!data) return null;
   const { INSTITUTE_INFO } = data.info;
-
-  const scrollContainerRef = useRef<HTMLDivElement>(null);
 
   const scrollLeft = () => {
     if (scrollContainerRef.current) {
@@ -24,23 +24,31 @@ export default function FlashNews() {
     }
   };
 
-  const year = data.year || "2025";
-  const dignitariesLink = year === "2024" ? "/2024/dignitaries" : "/dignitaries";
-  const graduatesLink = year === "2024" ? "/2024/graduates" : "/graduates";
-  const scheduleLink = year === "2024" ? "/2024#schedule" : "/#schedule";
-  const recipientsLink = year === "2024" ? "/2024#recipients" : "/#recipients";
+  const year = data.year || "2026";
+  const isCurrentYear = year === "2026";
+  const dignitariesLink = isCurrentYear ? "/dignitaries" : `/${year}/dignitaries`;
+  const graduatesLink = isCurrentYear ? "/graduates" : `/${year}/graduates`;
+  const scheduleLink = isCurrentYear ? "/#schedule" : `/${year}#schedule`;
+  const recipientsLink = isCurrentYear ? "/#recipients" : `/${year}#recipients`;
 
   const chiefGuest = data.dignitaries?.find((d: any) => d.badge === "Chief Guest");
   const cgRole = chiefGuest ? (chiefGuest.designation === "Chief Guest" ? chiefGuest.role : chiefGuest.designation) : "";
 
   const newsItems: { title: string; link: string }[] = [
-    { title: `${INSTITUTE_INFO.editionRoman || "Convocation"} - ${INSTITUTE_INFO.date} at Main Campus.`, link: scheduleLink },
+    { title: `${INSTITUTE_INFO.editionRoman || "Convocation"} - Scheduled for ${INSTITUTE_INFO.date} at Main Campus.`, link: scheduleLink },
   ];
   if (chiefGuest) {
-    newsItems.push({
-      title: `${chiefGuest.name}, ${cgRole} addresses graduating batch as Chief Guest.`,
-      link: dignitariesLink
-    });
+    if (chiefGuest.designation === "Announcement Forthcoming") {
+      newsItems.push({
+        title: `Distinguished Chief Guest for ${INSTITUTE_INFO.editionRoman || "XV Convocation"} to be announced soon.`,
+        link: dignitariesLink
+      });
+    } else {
+      newsItems.push({
+        title: `${chiefGuest.name}, ${cgRole} addresses graduating batch as Chief Guest.`,
+        link: dignitariesLink
+      });
+    }
   }
   if (INSTITUTE_INFO.nirfRank) {
     newsItems.push({
@@ -48,7 +56,12 @@ export default function FlashNews() {
       link: recipientsLink
     });
   }
-  if (INSTITUTE_INFO.totalGraduates) {
+  if (INSTITUTE_INFO.isUpcoming) {
+    newsItems.push({
+      title: `Degree verification & list of 2026 candidates currently under compilation.`,
+      link: graduatesLink
+    });
+  } else if (INSTITUTE_INFO.totalGraduates) {
     newsItems.push({
       title: `${INSTITUTE_INFO.totalGraduates} Degree Recipients & ${INSTITUTE_INFO.phdScholars || 0} Ph.D Scholars directory now searchable online.`,
       link: graduatesLink
