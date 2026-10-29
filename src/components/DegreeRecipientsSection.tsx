@@ -10,34 +10,44 @@ export default function DegreeRecipientsSection() {
   if (!data) return null;
   const { INSTITUTE_INFO } = data.info;
 
+  const isNumeric = (val: any) => {
+    if (typeof val === "number") return true;
+    if (typeof val === "string" && /^\d+[\d,]*\+?$/.test(val.trim())) return true;
+    return false;
+  };
+
   const stats = [
     {
       label: "UNDERGRADUATE",
       value: INSTITUTE_INFO.ugGraduates,
       subtext: "B.Tech & B.Arch Candidates",
       icon: <GraduationCap className="w-6 h-6" />,
-      badge: `${INSTITUTE_INFO.ugGraduates || 0} Degrees`
+      numericBadge: `${INSTITUTE_INFO.ugGraduates || 0} Degrees`,
+      pendingBadge: "B.Tech & B.Arch"
     },
     {
       label: "POSTGRADUATE",
       value: INSTITUTE_INFO.pgGraduates,
       subtext: "M.Tech, M.Arch and MURP Candidates",
       icon: <BookOpen className="w-6 h-6" />,
-      badge: `${INSTITUTE_INFO.pgGraduates || 0} Degrees`
+      numericBadge: `${INSTITUTE_INFO.pgGraduates || 0} Degrees`,
+      pendingBadge: "M.Tech / M.Arch"
     },
     {
       label: "DOCTORAL (Ph.D)",
       value: INSTITUTE_INFO.phdScholars,
       subtext: "Doctor of Philosophy Scholars",
       icon: <FlaskConical className="w-6 h-6" />,
-      badge: `${INSTITUTE_INFO.phdScholars || 0} Scholars`
+      numericBadge: `${INSTITUTE_INFO.phdScholars || 0} Scholars`,
+      pendingBadge: "Ph.D Research"
     },
     {
       label: "TOTAL GRADUATES",
       value: INSTITUTE_INFO.totalGraduates,
       subtext: "Conferred Across 11 Departments",
       icon: <Users className="w-6 h-6" />,
-      badge: `${INSTITUTE_INFO.totalGraduates || 0} Recipients`
+      numericBadge: `${INSTITUTE_INFO.totalGraduates || 0} Recipients`,
+      pendingBadge: "Class of 2026"
     }
   ];
 
@@ -54,38 +64,56 @@ export default function DegreeRecipientsSection() {
             </h2>
             <span className="h-[2px] sm:h-[3px] w-8 sm:w-14 bg-blue-700 rounded-full shrink-0" />
           </div>
-          {/* <p className="text-xs sm:text-sm text-slate-500 font-semibold uppercase tracking-wider max-w-lg mx-auto">
-            {INSTITUTE_INFO.edition.split(" ")[0]} Annual Convocation Batch of National Institute of Technology Patna
-          </p> */}
         </div>
 
         {/* Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
-          {stats.map((stat, idx) => (
-            <div 
-              key={idx}
-              className="bg-white border border-slate-200/80 rounded-3xl shadow-lg shadow-slate-200/40 p-7 flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-1.5 hover:shadow-2xl hover:border-blue-300 group"
-            >
-              <div className="w-full flex flex-col items-center">
-                <div className="text-slate-400 mb-4 bg-slate-50 p-3.5 rounded-2xl group-hover:bg-blue-50 group-hover:text-blue-600 transition-colors duration-300 shadow-xs">
-                  {stat.icon}
+          {stats.map((stat, idx) => {
+            const hasNumber = isNumeric(stat.value);
+            return (
+              <div 
+                key={idx}
+                className="bg-white border border-slate-200/80 rounded-3xl shadow-lg shadow-slate-200/40 p-6 sm:p-7 flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-1.5 hover:shadow-2xl hover:border-blue-300 group"
+              >
+                <div className="w-full flex flex-col items-center">
+                  <div className="text-slate-400 mb-4 bg-slate-50 p-3.5 rounded-2xl group-hover:bg-blue-50 group-hover:text-blue-600 transition-colors duration-300 shadow-xs">
+                    {stat.icon}
+                  </div>
+                  <div className="text-[10px] sm:text-[11px] font-bold text-slate-400 tracking-widest mb-1 uppercase">
+                    {stat.label}
+                  </div>
+                  
+                  {hasNumber ? (
+                    <div className="text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight my-2 font-mono">
+                      {stat.value}
+                    </div>
+                  ) : (
+                    <div className="my-2.5 py-2 px-3 rounded-2xl bg-amber-50/90 border border-amber-200/80 text-amber-900 flex items-center justify-center gap-1.5 shadow-xs w-full">
+                      <span className="relative flex h-2 w-2 shrink-0">
+                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+                        <span className="relative inline-flex rounded-full h-2 w-2 bg-amber-500"></span>
+                      </span>
+                      <span className="text-xs sm:text-sm font-bold tracking-tight text-center leading-snug">
+                        {stat.value || "Pending Clearance"}
+                      </span>
+                    </div>
+                  )}
+
+                  <p className="text-xs text-slate-500 font-medium mb-4">
+                    {stat.subtext}
+                  </p>
                 </div>
-                <div className="text-[10px] sm:text-[11px] font-bold text-slate-400 tracking-widest mb-1">
-                  {stat.label}
-                </div>
-                <div className="text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight my-1">
-                  {stat.value}
-                </div>
-                <p className="text-xs text-slate-500 font-medium mb-4">
-                  {stat.subtext}
-                </p>
+                
+                <span className={`inline-block text-[10px] font-bold px-2.5 py-1 rounded-full border ${
+                  hasNumber 
+                    ? "text-blue-700 bg-blue-50/80 border-blue-100" 
+                    : "text-amber-800 bg-amber-50 border-amber-200/70"
+                }`}>
+                  {hasNumber ? stat.numericBadge : stat.pendingBadge}
+                </span>
               </div>
-              
-              <span className="inline-block text-[10px] font-bold text-blue-700 bg-blue-50/80 px-2.5 py-1 rounded-full border border-blue-100">
-                {stat.badge}
-              </span>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         {/* CTA Bar */}

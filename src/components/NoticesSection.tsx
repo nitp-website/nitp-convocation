@@ -43,7 +43,7 @@ export default function NoticesSection() {
   }
 
   const { INSTITUTE_INFO } = data.info || {};
-  const isCurrentYear = year === "2025" || !year;
+  const isCurrentYear = year === "2026" || !year;
 
   // Extract unique categories
   const categories = ["All", ...Array.from(new Set(notices.map((n) => n.category)))];

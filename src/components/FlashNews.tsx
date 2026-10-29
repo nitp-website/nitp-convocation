@@ -34,9 +34,17 @@ export default function FlashNews() {
   const chiefGuest = data.dignitaries?.find((d: any) => d.badge === "Chief Guest");
   const cgRole = chiefGuest ? (chiefGuest.designation === "Chief Guest" ? chiefGuest.role : chiefGuest.designation) : "";
 
+  const awardsLink = isCurrentYear ? "/awards" : `/${year}/awards`;
+
   const newsItems: { title: string; link: string }[] = [
     { title: `${INSTITUTE_INFO.editionRoman || "Convocation"} - Scheduled for ${INSTITUTE_INFO.date} at Main Campus.`, link: scheduleLink },
   ];
+  if (data.medals?.UG_GOLD_MEDALISTS?.length > 0) {
+    newsItems.push({
+      title: `Overall & Branch Toppers for ${INSTITUTE_INFO.editionRoman || "Convocation"} declared (Ref: NITP/1210/2026).`,
+      link: awardsLink
+    });
+  }
   if (chiefGuest) {
     if (chiefGuest.designation === "Announcement Forthcoming") {
       newsItems.push({

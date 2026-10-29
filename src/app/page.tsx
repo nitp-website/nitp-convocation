@@ -29,10 +29,10 @@ export default async function Home() {
         <HeroSection />
         
         {/* Flash News Banner placed directly under Hero section */}
-        <FlashNews />
+        {/* <FlashNews /> */}
 
         {/* Official Notices & Circulars */}
-        <NoticesSection />
+        {/* <NoticesSection /> */}
 
         {/* Dignitaries */}
         <DignitariesSection />

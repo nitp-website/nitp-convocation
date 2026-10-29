@@ -70,7 +70,7 @@ export default function AwardsPageClient({ data }: { data: any }) {
         <div className="sticky top-16 z-30 bg-[#FBF9F5]/95 backdrop-blur-md border-b border-amber-200/60 py-3 shadow-xs">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center gap-2 overflow-x-auto no-scrollbar py-1">
-              {categories.map((cat: any) => {
+              {categories.filter((cat: any) => cat.id === "ALL" || cat.count > 0).map((cat: any) => {
                 const Icon = cat.icon;
                 const isActive = activeCategory === cat.id;
                 return (
@@ -294,7 +294,7 @@ export default function AwardsPageClient({ data }: { data: any }) {
                         <div className="flex items-center space-x-4 mb-4">
                           <div className="w-16 h-20 rounded-2xl overflow-hidden bg-slate-100 shrink-0 border-2 border-amber-300 shadow-sm group-hover:scale-105 transition-transform">
                             <img
-                              src={med.image}
+                              src={med.image || "/images/default_graduate.png"}
                               alt={med.name}
                               className="w-full h-full object-cover object-top"
                             />
@@ -341,7 +341,7 @@ export default function AwardsPageClient({ data }: { data: any }) {
                         <div className="flex items-center space-x-4 mb-4">
                           <div className="w-16 h-20 rounded-2xl overflow-hidden bg-slate-100 shrink-0 border-2 border-amber-300 shadow-sm group-hover:scale-105 transition-transform">
                             <img
-                              src={med.image}
+                              src={med.image || "/images/default_graduate.png"}
                               alt={med.name}
                               className="w-full h-full object-cover object-top"
                             />
@@ -397,7 +397,7 @@ export default function AwardsPageClient({ data }: { data: any }) {
                 >
                   <div className="w-20 h-24 rounded-2xl overflow-hidden bg-slate-100 shrink-0 border-2 border-indigo-400 shadow-sm group-hover:scale-105 transition-transform">
                     <img
-                      src={med.image}
+                      src={med.image || "/images/default_graduate.png"}
                       alt={med.name}
                       className="w-full h-full object-cover object-top"
                     />

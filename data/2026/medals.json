@@ -1,8 +1,128 @@
 {
-  "status": "coming_soon",
-  "message": "The official list of Gold Medalists and Special Awardees for the 15th Annual Convocation (2026) is currently under compilation by the Senate Academic Committee and will be published closer to December 2026.",
-  "UG_GOLD_MEDALISTS": [],
-  "PG_GOLD_MEDALISTS": [],
+  "UG_GOLD_MEDALISTS": [
+    {
+      "name": "Arpita Dwivedi",
+      "dept": "Computer Science & Engineering",
+      "roll": "2206243",
+      "award": "President’s Gold Medal & Director’s Gold Medal (Overall UG Topper & Branch Topper)",
+      "category": "UG",
+      "badge": "President & Director Gold Medal",
+      "image": "/images/default_graduate.png",
+      "gender": "f"
+    },
+    {
+      "name": "Kshitij",
+      "dept": "Electrical Engineering",
+      "roll": "2202012",
+      "award": "Director’s Gold Medal (Branch Topper)",
+      "category": "UG",
+      "badge": "Director Gold Medal",
+      "image": "/images/default_graduate.png",
+      "gender": "m"
+    },
+    {
+      "name": "Khushi Bharti",
+      "dept": "Civil Engineering",
+      "roll": "2203005",
+      "award": "Director’s Gold Medal (Branch Topper)",
+      "category": "UG",
+      "badge": "Director Gold Medal",
+      "image": "/images/default_graduate.png",
+      "gender": "f"
+    },
+    {
+      "name": "Sabbasani Tharakeswara Reddy",
+      "dept": "Electronics & Communication Engineering",
+      "roll": "2204080",
+      "award": "Director’s Gold Medal (Branch Topper)",
+      "category": "UG",
+      "badge": "Director Gold Medal",
+      "image": "/images/default_graduate.png",
+      "gender": "m"
+    },
+    {
+      "name": "Ashutosh Gupta",
+      "dept": "Mechanical Engineering",
+      "roll": "2201087",
+      "award": "Director’s Gold Medal (Branch Topper)",
+      "category": "UG",
+      "badge": "Director Gold Medal",
+      "image": "/images/default_graduate.png",
+      "gender": "m"
+    },
+    {
+      "name": "Sohini Shil",
+      "dept": "Architecture & Planning",
+      "roll": "2105013",
+      "award": "Director’s Gold Medal (Branch Topper)",
+      "category": "UG",
+      "badge": "Director Gold Medal",
+      "image": "/images/default_graduate.png",
+      "gender": "f"
+    }
+  ],
+  "PG_GOLD_MEDALISTS": [
+    {
+      "name": "Kandakatla Rahul",
+      "dept": "Civil Engineering",
+      "roll": "2425004",
+      "award": "President’s Gold Medal & Director’s Gold Medal (Overall PG Topper & Branch Topper)",
+      "category": "PG",
+      "badge": "President & Director Gold Medal",
+      "image": "/images/default_graduate.png",
+      "gender": "m"
+    },
+    {
+      "name": "Aditya Kumar Singh",
+      "dept": "Computer Science & Engineering",
+      "roll": "2455002",
+      "award": "Director’s Gold Medal (Branch Topper)",
+      "category": "PG",
+      "badge": "Director Gold Medal",
+      "image": "/images/default_graduate.png",
+      "gender": "m"
+    },
+    {
+      "name": "Rajdeep Kumar",
+      "dept": "Electrical Engineering",
+      "roll": "2421005",
+      "award": "Director’s Gold Medal (Branch Topper)",
+      "category": "PG",
+      "badge": "Director Gold Medal",
+      "image": "/images/default_graduate.png",
+      "gender": "m"
+    },
+    {
+      "name": "Shalini Kumari",
+      "dept": "Electronics & Communication Engineering",
+      "roll": "2440001",
+      "award": "Director’s Gold Medal (Branch Topper)",
+      "category": "PG",
+      "badge": "Director Gold Medal",
+      "image": "/images/default_graduate.png",
+      "gender": "f"
+    },
+    {
+      "name": "Shivam Pravin Pandit",
+      "dept": "Architecture & Planning (PGPAP)",
+      "roll": "2430004",
+      "award": "Director’s Gold Medal (Branch Topper)",
+      "category": "PG",
+      "badge": "Director Gold Medal",
+      "image": "/images/default_graduate.png",
+      "gender": "m"
+    },
+    {
+      "name": "Gauri Shankar Prasad",
+      "dept": "Mechanical Engineering",
+      "roll": "2434001",
+      "award": "Director’s Gold Medal (Branch Topper)",
+      "category": "PG",
+      "badge": "Director Gold Medal",
+      "image": "/images/default_graduate.png",
+      "gender": "m"
+    }
+  ],
   "BEST_GRADUATES": [],
   "ENDOWMENT_AWARDS": []
 }
