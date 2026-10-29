@@ -4,7 +4,6 @@ import { notFound } from "next/navigation";
 import React from "react";
 import Navbar from "@/components/Navbar";
 import FlashNews from "@/components/FlashNews";
-import NoticesSection from "@/components/NoticesSection";
 import HeroSection from "@/components/HeroSection";
 import DignitariesSection from "@/components/DignitariesSection";
 import AwardeesSection from "@/components/AwardeesSection";
@@ -38,7 +37,6 @@ export default async function YearHomePage({
         <main className="flex-1">
           <HeroSection />
           <FlashNews />
-          <NoticesSection />
           <DignitariesSection />
           <AwardeesSection />
           <DegreeRecipientsSection />

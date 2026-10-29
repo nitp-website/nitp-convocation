@@ -12,8 +12,7 @@ import {
   Sparkles, 
   X, 
   CheckCircle2, 
-  Building2,
-  Clock
+  Building2
 } from "lucide-react";
 
 export interface NoticeItem {
@@ -278,32 +277,29 @@ export default function NoticesSection() {
                 </h3>
 
                 <div className="bg-slate-50 rounded-2xl p-5 border border-slate-200/80 text-sm text-slate-700 leading-relaxed space-y-3">
-                  <p className="font-semibold text-slate-900">
+                  {/* <p className="font-semibold text-slate-900">
                     Official Executive Summary & Instructions:
-                  </p>
+                  </p> */}
                   <p className="leading-relaxed">
                     {selectedNotice.summary}
                   </p>
                 </div>
 
-                <div className="bg-blue-50/60 rounded-2xl p-4 border border-blue-100 flex items-start gap-3 text-xs text-blue-900">
-                  <Clock className="w-4 h-4 text-blue-700 shrink-0 mt-0.5" />
-                  <div>
-                    <span className="font-bold block">Important Compliance Note:</span>
-                    All graduating candidates are required to strictly adhere to the ceremonial protocol, stole decorum, and reporting timelines notified above.
-                  </div>
-                </div>
-
-                <div className="pt-4 border-t border-slate-100 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                  <div>
-                    <span className="text-[11px] uppercase tracking-wider text-slate-400 font-bold block">Signatory Authority</span>
-                    <span className="text-sm font-bold text-slate-900">{selectedNotice.signedBy || "Dean (Academic Affairs)"}</span>
-                    <span className="text-xs text-slate-500 block">NIT Patna Main Campus</span>
-                  </div>
-
+                <div className="pt-4 border-t border-slate-100 flex items-center justify-end gap-2">
+                  {selectedNotice.fileUrl && selectedNotice.fileUrl !== "#" && (
+                    <a
+                      href={selectedNotice.fileUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-xs transition-colors"
+                    >
+                      <Download className="w-3.5 h-3.5" />
+                      <span>Download Attachment</span>
+                    </a>
+                  )}
                   <button
                     onClick={() => setSelectedNotice(null)}
-                    className="px-5 py-2.5 rounded-xl bg-slate-900 hover:bg-blue-900 text-white font-semibold text-xs transition-colors self-end sm:self-auto cursor-pointer"
+                    className="px-5 py-2.5 rounded-xl bg-slate-900 hover:bg-blue-900 text-white font-semibold text-xs transition-colors cursor-pointer"
                   >
                     Close Notice
                   </button>

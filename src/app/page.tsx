@@ -3,8 +3,6 @@ import { getConvocationData } from "@/lib/dataFetcher";
 import { notFound } from "next/navigation";
 import React from "react";
 import Navbar from "@/components/Navbar";
-import FlashNews from "@/components/FlashNews";
-import NoticesSection from "@/components/NoticesSection";
 import HeroSection from "@/components/HeroSection";
 import DignitariesSection from "@/components/DignitariesSection";
 import AwardeesSection from "@/components/AwardeesSection";
@@ -25,14 +23,8 @@ export default async function Home() {
       <Navbar />
 
       <main className="flex-1">
-        {/* 2, 3, 4. Hero Section + Stats + Announcement Strip */}
+        {/* 2, 3, 4. Hero Section + Stats + Announcement Strip + Notice Board */}
         <HeroSection />
-        
-        {/* Flash News Banner placed directly under Hero section */}
-        {/* <FlashNews /> */}
-
-        {/* Official Notices & Circulars */}
-        {/* <NoticesSection /> */}
 
         {/* Dignitaries */}
         <DignitariesSection />

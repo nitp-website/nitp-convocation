@@ -87,6 +87,10 @@ export default function Navbar() {
       href: activeYear === "2026" ? "/" : `/${activeYear}` 
     },
     { 
+      name: "Notices", 
+      href: activeYear === "2026" ? "/notices" : `/${activeYear}/notices` 
+    },
+    { 
       name: "Dignitaries", 
       href: activeYear === "2026" ? "/dignitaries" : `/${activeYear}/dignitaries` 
     },

@@ -9,13 +9,21 @@ import { useConvocation } from "@/context/ConvocationContext";
 
 
 export default function DignitariesSection() {
-  const { data } = useConvocation();
+  const { data, year } = useConvocation();
   if (!data) return null;
   const INSTITUTE_INFO = data.info?.INSTITUTE_INFO || {};
-    const cm = (data.dignitaries || []).find((d: any) => d.badge === 'Chief Minister' || d.name === 'Shri Nitish Kumar');
-  const chair = (data.dignitaries || []).find((d: any) => d.badge === 'Chairperson' || d.badge === 'Presiding Officer' || d.name === 'Shri Ashok Kumar Modi');
-  const dir = (data.dignitaries || []).find((d: any) => d.badge === 'Director' || d.badge === 'Chief Academic Officer' || d.name === 'Prof. Pradip Kumar Jain');
-  const dignitariesList = [cm, chair, dir].filter(Boolean);
+  const currentYear = year || data.year || "2026";
+
+  const chiefGuest = (data.dignitaries || []).find((d: any) => 
+    d.badge === 'Chief Guest' || d.role?.toLowerCase().includes('chief guest') || d.designation === 'Chief Guest'
+  );
+  const chair = (data.dignitaries || []).find((d: any) => 
+    d.badge === 'Chairperson, BOG' || d.badge === 'Chairperson' || d.badge === 'Presiding Officer' || d.name === 'Shri Ashok Kumar Modi'
+  );
+  const dir = (data.dignitaries || []).find((d: any) => 
+    d.badge === 'Director' || d.badge === 'Chief Academic Officer' || d.name === 'Prof. Pradip Kumar Jain'
+  );
+  const dignitariesList = [chiefGuest, chair, dir].filter(Boolean);
   return (
     <section id="dignitaries" className="pt-20 sm:pt-24 pb-20 sm:pb-24 bg-[#F8FAFC] text-slate-900 border-t border-slate-200/50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -41,8 +49,14 @@ export default function DignitariesSection() {
 
 
                 {/* Circular Image */}
-                <div className="relative w-36 h-36 rounded-2xl overflow-hidden mb-5 border-2 border-amber-300/80 shadow-lg bg-slate-100 group-hover:scale-105 transition-transform duration-300">
-                  <Image src={person.image} alt={person.name} fill className="object-cover object-top" sizes="(max-width: 768px) 100vw, 33vw" />
+                <div className="relative w-36 h-36 rounded-2xl overflow-hidden mb-5 border-2 border-amber-300/80 shadow-lg bg-slate-100 group-hover:scale-105 transition-transform duration-300 flex items-center justify-center">
+                  <Image 
+                    src={person.image} 
+                    alt={person.name} 
+                    fill 
+                    className={person.image?.includes('default_graduate') ? "object-contain p-4 opacity-80" : "object-cover object-top"} 
+                    sizes="(max-width: 768px) 100vw, 33vw" 
+                  />
                 </div>
                 
                 {/* Text */}
@@ -57,13 +71,12 @@ export default function DignitariesSection() {
                 </p>
               </div>
 
-              {/* Action Button */}
-              {/* <Link 
-                href="/dignitaries" 
-                className="w-full py-2.5 bg-slate-50 hover:bg-blue-50 hover:text-blue-700 text-slate-700 text-xs font-bold uppercase tracking-wider rounded-xl transition-colors border border-slate-200 cursor-pointer block"
+              <Link 
+                href={currentYear === "2026" ? "/dignitaries" : `/${currentYear}/dignitaries`}
+                className="w-full py-2 bg-slate-50 hover:bg-blue-50 hover:text-blue-700 text-slate-600 text-xs font-bold uppercase tracking-wider rounded-xl transition-colors border border-slate-200 cursor-pointer block"
               >
                 View Dignitary Profile
-              </Link> */}
+              </Link>
             </div>
           ))}
         </div>
@@ -71,7 +84,7 @@ export default function DignitariesSection() {
         {/* Link to Full Dignitaries Page */}
         <div className="mt-12 text-center">
           <Link
-            href="/dignitaries"
+            href={currentYear === "2026" ? "/dignitaries" : `/${currentYear}/dignitaries`}
             className="inline-flex items-center space-x-2 text-sm font-bold text-blue-700 hover:text-blue-800 transition-colors group cursor-pointer"
           >
             <span>View All National Patrons, Deans &amp; Convocation Committees</span>

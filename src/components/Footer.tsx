@@ -72,22 +72,27 @@ export default function Footer() {
             </h5>
             <ul className="space-y-2.5 text-[13px] text-slate-400 font-medium">
               <li>
-                <Link href={year === "2024" ? "/2024" : "/"} className="hover:text-white transition-colors duration-200">
+                <Link href={year === "2026" ? "/" : `/${year}`} className="hover:text-white transition-colors duration-200">
                   Home &bull; {(INSTITUTE_INFO.editionRoman || "").split(" ")[0]} Edition
                 </Link>
               </li>
               <li>
-                <Link href={year === "2024" ? "/2024/dignitaries" : "/dignitaries"} className="hover:text-white transition-colors duration-200">
+                <Link href={year === "2026" ? "/notices" : `/${year}/notices`} className="hover:text-white transition-colors duration-200">
+                  Notices &amp; Circulars
+                </Link>
+              </li>
+              <li>
+                <Link href={year === "2026" ? "/dignitaries" : `/${year}/dignitaries`} className="hover:text-white transition-colors duration-200">
                   Dignitaries on Dais &amp; Committees
                 </Link>
               </li>
               <li>
-                <Link href={year === "2024" ? "/2024/awards" : "/awards"} className="hover:text-white transition-colors duration-200">
+                <Link href={year === "2026" ? "/awards" : `/${year}/awards`} className="hover:text-white transition-colors duration-200">
                   Medals &amp; Roll of Honour
                 </Link>
               </li>
               <li>
-                <Link href={year === "2024" ? "/2024/graduates" : "/graduates"} className="hover:text-white transition-colors duration-200">
+                <Link href={year === "2026" ? "/graduates" : `/${year}/graduates`} className="hover:text-white transition-colors duration-200">
                   Graduate &amp; Ph.D Directory ({INSTITUTE_INFO.totalGraduates || 0})
                 </Link>
               </li>
