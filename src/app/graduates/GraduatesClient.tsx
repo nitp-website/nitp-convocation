@@ -62,7 +62,7 @@ export default function GraduatesDirectoryClient({ data }: { data: any }) {
 
       let matchesCategory = true;
       if (selectedCategory === "PHD") {
-        matchesCategory = student.prog === "Ph.D";
+        matchesCategory = Boolean(student.prog?.startsWith("Ph.D"));
       } else if (selectedCategory === "PG") {
         matchesCategory = student.prog === "M.Tech" || student.prog === "M.Arch" || student.prog === "MURP";
       } else if (selectedCategory === "UG") {
@@ -104,8 +104,8 @@ export default function GraduatesDirectoryClient({ data }: { data: any }) {
           </h1>
           <p className="text-slate-300 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
             {INSTITUTE_INFO.isUpcoming
-              ? `Official searchable directory of degree recipients across Ph.D, Post-Graduate, and Under-Graduate programmes of NIT Patna (${data.year || "2026"}).`
-              : `Search and verify all ${INSTITUTE_INFO.totalGraduates || graduates.length} degree recipients across Ph.D, Post-Graduate, and Under-Graduate programmes of NIT Patna.`}
+              ? `Official searchable directory of degree recipients across Ph.D., Post-Graduate, and Under-Graduate programmes of NIT Patna (${data.year || "2026"}).`
+              : `Search and verify all ${INSTITUTE_INFO.totalGraduates || graduates.length} degree recipients across Ph.D., Post-Graduate, and Under-Graduate programmes of NIT Patna.`}
           </p>
         </div>
       </section>
@@ -125,7 +125,7 @@ export default function GraduatesDirectoryClient({ data }: { data: any }) {
                 Graduate Directory Coming Soon
               </h2>
               <p className="text-slate-600 max-w-xl mx-auto text-sm sm:text-base leading-relaxed">
-                The official directory of eligible degree recipients for B.Tech, B.Arch, M.Tech, MURP, and Ph.D programmes for the {INSTITUTE_INFO.editionRoman || "15th Convocation"} ({data.year || "2026"}) is currently being compiled by the Academic Section. Verification instructions will be posted under Official Notices.
+                The official directory of eligible degree recipients for B.Tech, B.Arch, M.Tech, MURP, and Ph.D. programmes for the {INSTITUTE_INFO.editionRoman || "15th Convocation"} ({data.year || "2026"}) is currently being compiled by the Academic Section. Verification instructions will be posted under Official Notices.
               </p>
             </div>
             
@@ -152,7 +152,7 @@ export default function GraduatesDirectoryClient({ data }: { data: any }) {
         <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3">
           {[
             { id: "ALL", label: "All Candidates", count: graduates.length, icon: <GraduationCap className="w-4 h-4" /> },
-            { id: "PHD", label: "Ph.D Scholars", count: graduates.filter(g => g.prog === "Ph.D").length, icon: <FlaskConical className="w-4 h-4" /> },
+            { id: "PHD", label: "Ph.D. Scholars", count: graduates.filter(g => g.prog?.startsWith("Ph.D")).length, icon: <FlaskConical className="w-4 h-4" /> },
             { id: "PG", label: "Postgraduates (M.Tech/M.Arch/MURP)", count: graduates.filter(g => ["M.Tech", "M.Arch", "MURP"].includes(g.prog)).length, icon: <BookOpen className="w-4 h-4" /> },
             { id: "UG", label: "Undergraduates (B.Tech/B.Arch)", count: graduates.filter(g => ["B.Tech", "B.Arch"].includes(g.prog)).length, icon: <Building2 className="w-4 h-4" /> },
             { id: "MEDALIST", label: "Gold Medalists", count: graduates.filter(g => Boolean(g.honor)).length, icon: <Medal className="w-4 h-4" /> },
@@ -298,13 +298,13 @@ export default function GraduatesDirectoryClient({ data }: { data: any }) {
                     <div className="flex-1 min-w-0 pr-2">
                       <div className="flex items-center space-x-2 mb-1">
                         <span className={`text-[10px] font-extrabold px-2 py-0.5 rounded-md ${
-                          student.prog === "Ph.D"
+                          student.prog?.startsWith("Ph.D")
                             ? "bg-rose-50 text-rose-800 border border-rose-200"
                             : ((student.prog || "").startsWith("M.") || student.prog === "MURP")
                             ? "bg-indigo-50 text-indigo-800 border border-indigo-200"
                             : "bg-blue-50 text-blue-800 border border-blue-200"
                         }`}>
-                          {student.prog}
+                          {student.prog?.startsWith("Ph.D") ? "Ph.D." : student.prog}
                         </span>
                         <span className="text-xs font-mono font-bold text-slate-500">
                           {student.roll}
@@ -312,7 +312,7 @@ export default function GraduatesDirectoryClient({ data }: { data: any }) {
                       </div>
                       
                       <h3 className="text-base font-bold text-slate-900 font-serif leading-snug group-hover:text-blue-700 transition-colors truncate">
-                        {student.prog === "Ph.D" && !student.name.startsWith("Dr.") ? `Dr. ${student.name}` : student.name}
+                        {student.prog?.startsWith("Ph.D") && !student.name.startsWith("Dr.") ? `Dr. ${student.name}` : student.name}
                       </h3>
 
                       {/* Branch Name below Student Name */}
@@ -390,10 +390,10 @@ export default function GraduatesDirectoryClient({ data }: { data: any }) {
               
               <div className="space-y-1">
                 <span className="text-[10px] font-extrabold bg-blue-50 text-blue-800 px-2.5 py-1 rounded-md border border-blue-200">
-                  {selectedStudent.prog}
+                  {selectedStudent.prog?.startsWith("Ph.D") ? "Ph.D." : selectedStudent.prog}
                 </span>
                 <h3 className="text-xl font-bold font-serif text-slate-900">
-                  {selectedStudent.prog === "Ph.D" && !selectedStudent.name.startsWith("Dr.") ? `Dr. ${selectedStudent.name}` : selectedStudent.name}
+                  {selectedStudent.prog?.startsWith("Ph.D") && !selectedStudent.name.startsWith("Dr.") ? `Dr. ${selectedStudent.name}` : selectedStudent.name}
                 </h3>
                 <p className="text-xs font-semibold text-slate-500">
                   NIT Patna &bull; {data.info?.INSTITUTE_INFO?.editionRoman} {data.year || "2025"}

@@ -7,7 +7,7 @@ This platform serves as the digital front-door for graduating students, faculty,
 ## 🌟 Key Features
 
 - **Awards & Honours Directory**: Showcases President's Gold Medalists, Director's Gold Medalists, and Institute Endowment Awardees.
-- **Graduate Search Engine**: A highly optimized, searchable registry of all Ph.D, PG, and UG degree recipients across batches.
+- **Graduate Search Engine**: A highly optimized, searchable registry of all Ph.D., PG, and UG degree recipients across batches.
 - **Event Information**: Real-time itinerary, Flash News updates, Help Desk contacts, and interactive Gallery.
 - **Dignitaries & Committees**: Profiles of Chief Guests, National Patrons, Deans, and Senate members.
 - **Responsive UI/UX**: Built with Next.js 16 App Router, Tailwind CSS v4, custom typography integration (Playfair Display), and modern web vitals optimizations.

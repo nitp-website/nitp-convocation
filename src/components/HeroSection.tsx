@@ -120,7 +120,7 @@ export default function HeroSection() {
                   </div>
                 )}
                 <div className="text-[11px] sm:text-xs font-semibold text-slate-500 tracking-wider mt-1">
-                  Ph.D Scholars
+                  Ph.D. Scholars
                 </div>
               </div>
             </div>

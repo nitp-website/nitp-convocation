@@ -34,12 +34,12 @@ export default function DegreeRecipientsSection() {
       pendingBadge: "M.Tech / M.Arch"
     },
     {
-      label: "DOCTORAL (Ph.D)",
+      label: "DOCTORAL (Ph.D.)",
       value: INSTITUTE_INFO.phdScholars,
       subtext: "Doctor of Philosophy Scholars",
       icon: <FlaskConical className="w-6 h-6" />,
       numericBadge: `${INSTITUTE_INFO.phdScholars || 0} Scholars`,
-      pendingBadge: "Ph.D Research"
+      pendingBadge: "Ph.D. Research"
     },
     {
       label: "TOTAL GRADUATES",

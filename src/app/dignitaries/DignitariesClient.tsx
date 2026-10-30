@@ -25,7 +25,7 @@ export default function DignitariesPageClient({ data }: { data: { year?: string;
   const administrativeDeans: Dean[] = data.committees?.deans || [];
   const commiteesList = data.committees?.committees || [];
 
-  const [expandedCommittee, setExpandedCommittee] = useState<string | null>("degree_prep");
+  const [expandedCommittee, setExpandedCommittee] = useState<string | null>(commiteesList[0]?.id || "management");
 
   return (
     <div className="min-h-screen bg-[#FBF9F5] flex flex-col font-sans text-slate-900">
@@ -98,96 +98,146 @@ export default function DignitariesPageClient({ data }: { data: { year?: string;
           </section>
         )}
 
-        {/* Administrative Deans */}
-        <section className="bg-white rounded-3xl p-8 shadow-sm border border-slate-200/90">
-          <div className="flex items-center space-x-3 mb-6">
-            <div className="w-10 h-10 rounded-2xl bg-blue-50 flex items-center justify-center text-blue-700 shadow-xs">
-              <Shield className="w-5 h-5" />
-            </div>
-            <div>
-              <h3 className="text-2xl font-serif font-bold text-slate-900">
-                Institute Administration &amp; Deans
-              </h3>
-              <p className="text-xs text-slate-500">Executive administration of NIT Patna</p>
-            </div>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {administrativeDeans.map((dean: any, idx: any) => (
-              <div
-                key={idx}
-                className="flex items-center justify-between p-4 bg-slate-50 rounded-2xl border border-slate-100 hover:border-blue-300 transition-colors"
-              >
-                <div>
-                  <h4 className="font-bold text-slate-900 text-sm">{dean.name}</h4>
-                  <p className="text-xs text-blue-700 font-medium mt-0.5">{dean.designation}</p>
-                </div>
+        {/* Administrative Deans (Rendered only when populated for archived editions) */}
+        {administrativeDeans && administrativeDeans.length > 0 && (
+          <section className="bg-white rounded-3xl p-8 shadow-sm border border-slate-200/90">
+            <div className="flex items-center space-x-3 mb-6">
+              <div className="w-10 h-10 rounded-2xl bg-blue-50 flex items-center justify-center text-blue-700 shadow-xs">
+                <Shield className="w-5 h-5" />
               </div>
-            ))}
-          </div>
-        </section>
-
-        {/* Convocation Coordination Committees from Booklet */}
-        <section className="bg-white rounded-3xl p-8 shadow-sm border border-slate-200/90 space-y-6">
-          <div className="flex items-center space-x-3 mb-2">
-            <div className="w-10 h-10 rounded-2xl bg-indigo-50 flex items-center justify-center text-indigo-700 shadow-xs">
-              <Users className="w-5 h-5" />
+              <div>
+                <h3 className="text-2xl font-serif font-bold text-slate-900">
+                  Institute Administration &amp; Deans
+                </h3>
+                <p className="text-xs text-slate-500">Executive administration of NIT Patna</p>
+              </div>
             </div>
-            <div>
-              <h3 className="text-2xl font-serif font-bold text-slate-900">
-                Convocation Coordination Committees
-              </h3>
-              <p className="text-xs text-slate-500">Official sub-committees constituted for the {data.info?.INSTITUTE_INFO?.edition || "14th Convocation Ceremony"}</p>
-            </div>
-          </div>
-
-          <div className="space-y-4">
-            {commiteesList.map((comm: any) => {
-              const isExpanded = expandedCommittee === comm.id;
-              return (
-                <div 
-                  key={comm.id} 
-                  className="border border-slate-200 rounded-2xl overflow-hidden transition-all"
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {administrativeDeans.map((dean: any, idx: any) => (
+                <div
+                  key={idx}
+                  className="flex items-center justify-between p-4 bg-slate-50 rounded-2xl border border-slate-100 hover:border-blue-300 transition-colors"
                 >
-                  <button
-                    onClick={() => setExpandedCommittee(isExpanded ? null : comm.id)}
-                    className="w-full flex items-center justify-between p-4 sm:p-5 bg-slate-50/70 hover:bg-slate-100/80 text-left transition-colors cursor-pointer"
-                  >
-                    <div>
-                      <h4 className="font-bold text-base text-slate-900">{comm.name}</h4>
-                      <p className="text-xs text-slate-500 mt-0.5">
-                        {comm.members.length} Members &bull; Convenor: {comm.members[0].name}
-                      </p>
-                    </div>
-                    {isExpanded ? <ChevronUp className="w-5 h-5 text-slate-400" /> : <ChevronDown className="w-5 h-5 text-slate-400" />}
-                  </button>
+                  <div>
+                    <h4 className="font-bold text-slate-900 text-sm">{dean.name}</h4>
+                    <p className="text-xs text-blue-700 font-medium mt-0.5">{dean.designation}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
 
-                  {isExpanded && (
-                    <div className="p-5 bg-white border-t border-slate-100 space-y-4">
-                      <div>
-                        <span className="text-[10px] font-extrabold uppercase text-slate-400 tracking-wider block mb-2">
-                          COMMITTEE MEMBERS
-                        </span>
-                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2.5">
-                          {comm.members.map((m: any, mIdx: any) => (
-                            <div key={mIdx} className="p-2.5 bg-slate-50 rounded-xl border border-slate-100 text-xs">
-                              <span className="font-bold text-slate-900 block">{m.name}</span>
-                              <span className="text-slate-500 block text-[11px]">{m.designation}</span>
-                              <span className={`inline-block mt-1 text-[10px] font-extrabold px-2 py-0.5 rounded-md ${
-                                m.role === 'Convenor' ? 'bg-blue-100 text-blue-800' : m.role === 'Co-Convenor' ? 'bg-indigo-100 text-indigo-800' : 'bg-slate-200 text-slate-700'
-                              }`}>
-                                {m.role}
-                              </span>
-                            </div>
-                          ))}
+        {/* Convocation Coordination Committees */}
+        {commiteesList && commiteesList.length > 0 && (
+          <section className="bg-white rounded-3xl p-6 sm:p-8 shadow-sm border border-slate-200/90 space-y-6">
+            <div className="flex items-center space-x-3 mb-2">
+              <div className="w-10 h-10 rounded-2xl bg-indigo-50 flex items-center justify-center text-indigo-700 shadow-xs">
+                <Users className="w-5 h-5" />
+              </div>
+              <div>
+                <h3 className="text-2xl font-serif font-bold text-slate-900">
+                  Convocation Coordination Committees
+                </h3>
+                <p className="text-xs text-slate-500">
+                  Official committees and sub-committees constituted for the {data.info?.INSTITUTE_INFO?.edition || `${data.year || '2026'} Convocation Ceremony`}
+                </p>
+              </div>
+            </div>
+
+            <div className="space-y-4">
+              {commiteesList.map((comm: any) => {
+                const isExpanded = expandedCommittee === comm.id;
+                const leadMember = comm.members?.find((m: any) => m.role === 'Chairman') || 
+                                   comm.members?.find((m: any) => m.role === 'Convenor' || m.role === 'Convener') || 
+                                   comm.members?.[0];
+
+                return (
+                  <div 
+                    key={comm.id} 
+                    className="border border-slate-200/90 rounded-2xl overflow-hidden transition-all shadow-xs"
+                  >
+                    <button
+                      onClick={() => setExpandedCommittee(isExpanded ? null : comm.id)}
+                      className="w-full flex items-center justify-between p-4 sm:p-5 bg-slate-50/80 hover:bg-slate-100/90 text-left transition-colors cursor-pointer"
+                    >
+                      <div className="pr-4">
+                        <h4 className="font-serif font-bold text-base sm:text-lg text-slate-900">
+                          {comm.name}
+                        </h4>
+                        <p className="text-xs text-slate-500 mt-1 font-sans">
+                          {comm.members?.length} Members &bull; {leadMember?.role || 'Lead'}: <span className="font-semibold text-slate-700">{leadMember?.name}</span>
+                        </p>
+                      </div>
+                      <div className="w-8 h-8 rounded-xl bg-white border border-slate-200 flex items-center justify-center text-slate-500 shrink-0">
+                        {isExpanded ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+                      </div>
+                    </button>
+
+                    {isExpanded && (
+                      <div className="p-4 sm:p-6 bg-white border-t border-slate-200/80 space-y-4">
+                        {/* Box Details Table matching official notification */}
+                        <div className="overflow-x-auto rounded-xl border border-slate-200">
+                          <table className="w-full text-left border-collapse text-xs sm:text-sm">
+                            <thead>
+                              <tr className="bg-slate-100 text-slate-700 border-b border-slate-200 text-[11px] sm:text-xs uppercase tracking-wider font-bold">
+                                <th className="py-3 px-3.5 sm:px-4 w-12 text-center">#</th>
+                                <th className="py-3 px-3.5 sm:px-4">Name</th>
+                                <th className="py-3 px-3.5 sm:px-4">Designation / Department</th>
+                                <th className="py-3 px-3.5 sm:px-4 w-36 text-center">Role</th>
+                              </tr>
+                            </thead>
+                            <tbody className="divide-y divide-slate-100 text-slate-800">
+                              {comm.members?.map((m: any, mIdx: number) => {
+                                const roleNormalized = (m.role || '').toLowerCase();
+                                const isChairman = roleNormalized === 'chairman';
+                                const isConvenor = roleNormalized === 'convenor' || roleNormalized === 'convener';
+                                const isCoConvenor = roleNormalized === 'co-convenor' || roleNormalized === 'co-convener';
+                                const isCoordinator = roleNormalized === 'coordinator';
+
+                                return (
+                                  <tr 
+                                    key={mIdx} 
+                                    className="hover:bg-blue-50/40 transition-colors"
+                                  >
+                                    <td className="py-3 px-3.5 sm:px-4 text-center font-mono text-xs text-slate-400 font-semibold">
+                                      {m.slNo || mIdx + 1}
+                                    </td>
+                                    <td className="py-3 px-3.5 sm:px-4 font-bold text-slate-900">
+                                      {m.name}
+                                    </td>
+                                    <td className="py-3 px-3.5 sm:px-4 text-slate-600">
+                                      {m.designation}
+                                    </td>
+                                    <td className="py-3 px-3.5 sm:px-4 text-center">
+                                      <span className={`inline-block text-[10px] sm:text-[11px] font-bold px-2.5 py-1 rounded-md ${
+                                        isChairman 
+                                          ? 'bg-amber-100 text-amber-900 border border-amber-300' 
+                                          : isConvenor 
+                                          ? 'bg-blue-100 text-blue-900 border border-blue-200' 
+                                          : isCoConvenor 
+                                          ? 'bg-indigo-100 text-indigo-900 border border-indigo-200' 
+                                          : isCoordinator 
+                                          ? 'bg-purple-100 text-purple-900 border border-purple-200' 
+                                          : 'bg-slate-100 text-slate-700 border border-slate-200'
+                                      }`}>
+                                        {m.role}
+                                      </span>
+                                    </td>
+                                  </tr>
+                                );
+                              })}
+                            </tbody>
+                          </table>
                         </div>
                       </div>
-                    </div>
-                  )}
-                </div>
-              );
-            })}
-          </div>
-        </section>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </section>
+        )}
       </main>
 
       {/* Footer */}

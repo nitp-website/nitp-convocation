@@ -1,308 +1,959 @@
 {
   "committees": [
     {
-      "id": "media",
-      "name": "Media & Publication Sub-Committee",
-      "duties": [
-        "Posters and flex preparation",
-        "Newspaper advertisements and press coverage",
-        "Printing and drafting of Convocation Souvenir 2025",
-        "Official photography and live stream documentation"
-      ],
+      "id": "management",
+      "name": "Management of the Convocation",
       "members": [
         {
-          "name": "Dr. Mukesh Kumar",
-          "designation": "Asstt. Professor (CSE)",
-          "role": "Convenor"
+          "slNo": 1,
+          "name": "Prof. P. K. Jain",
+          "designation": "Director",
+          "role": "Chairman"
         },
         {
-          "name": "Dr. Rajan Agrahari",
-          "designation": "Asstt. Professor (ECE)",
-          "role": "Co-Convenor"
+          "slNo": 2,
+          "name": "Prof. M P Singh",
+          "designation": "Professor (CSE) & Dean (Acad.)",
+          "role": "Member"
         },
         {
-          "name": "Dr. Abhishek Kumar Bittu",
-          "designation": "Asstt. Professor (Arch. & Planning)",
-          "role": "Co-Convenor"
+          "slNo": 3,
+          "name": "Prof. Ramesh Kumar",
+          "designation": "Professor (EED) & Dean (R & C)",
+          "role": "Member"
         },
         {
+          "slNo": 4,
           "name": "Prof. Prakash Chandra",
           "designation": "Professor (MED) & Dean (FW)",
           "role": "Member"
         },
         {
+          "slNo": 5,
+          "name": "Prof. Sanjeev Sinha",
+          "designation": "Professor (CED) & Dean (P&D)",
+          "role": "Member"
+        },
+        {
+          "slNo": 6,
+          "name": "Prof. Prabhat Kumar",
+          "designation": "Professor (CSE) & Dean (SW)",
+          "role": "Member"
+        },
+        {
+          "slNo": 7,
+          "name": "Dr. Sanjay Kumar",
+          "designation": "Assoc. Professor (CED) & Dean (Alumni)",
+          "role": "Member"
+        },
+        {
+          "slNo": 8,
           "name": "Prof. Samrat Mukherjee",
           "designation": "Professor (APME)",
           "role": "Member"
         },
         {
-          "name": "Dr. Sunil Singh Rana",
-          "designation": "Asstt. Professor (MED)",
+          "slNo": 9,
+          "name": "Prof. Manoj Kumar",
+          "designation": "Professor (Arch. & Planning)",
           "role": "Member"
         },
         {
+          "slNo": 10,
+          "name": "Prof. Anshuman Singh",
+          "designation": "Professor (CED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 11,
+          "name": "Prof. Sunita Kumari",
+          "designation": "Professor (CED) & HoD",
+          "role": "Member"
+        },
+        {
+          "slNo": 12,
+          "name": "Prof. A R Quaff",
+          "designation": "Professor (CED) & Associate Dean (Exam)",
+          "role": "Member"
+        },
+        {
+          "slNo": 13,
+          "name": "Prof. A K Sinha",
+          "designation": "Professor (CED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 14,
+          "name": "Prof. Baboo Rai",
+          "designation": "Professor (CED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 15,
+          "name": "Prof. L B Roy",
+          "designation": "Professor (CED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 16,
+          "name": "Prof. N S Maurya",
+          "designation": "Professor (CED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 17,
+          "name": "Prof. Ramakar Jha",
+          "designation": "Professor (CED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 18,
+          "name": "Prof. S S Mishra",
+          "designation": "Professor (CED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 19,
+          "name": "Prof. Pijush Samui",
+          "designation": "Professor (CED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 20,
+          "name": "Prof. Bharat Gupta",
+          "designation": "Professor (ECE)",
+          "role": "Member"
+        },
+        {
+          "slNo": 21,
+          "name": "Prof. A.N. Sinha",
+          "designation": "Professor (MED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 22,
+          "name": "Prof. Amit Kumar",
+          "designation": "Professor (MED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 23,
+          "name": "Prof. Om Prakash",
+          "designation": "Professor (MED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 24,
+          "name": "Dr. Asit Narayan",
+          "designation": "Registrar",
+          "role": "Convenor"
+        }
+      ]
+    },
+    {
+      "id": "invitation",
+      "name": "Invitation Committee",
+      "members": [
+        {
+          "slNo": 1,
+          "name": "Dr. Sanjay Kumar",
+          "designation": "Associate Professor (CED) & Dean (Alumni)",
+          "role": "Convenor"
+        },
+        {
+          "slNo": 2,
+          "name": "Dr. Ajay Kumar",
+          "designation": "Associate Professor (Arch & Plann.)",
+          "role": "Co-Convenor"
+        },
+        {
+          "slNo": 3,
+          "name": "Dr. S. K. Mandal",
+          "designation": "Associate Professor (Arch & Plann.)",
+          "role": "Co-Convenor"
+        },
+        {
+          "slNo": 4,
+          "name": "Dr. Supriya Kumari",
+          "designation": "Assistant Professor (Arch & Plann.)",
+          "role": "Member"
+        },
+        {
+          "slNo": 5,
+          "name": "Dr. Om Ji Shukla",
+          "designation": "Assistant Professor (MED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 6,
+          "name": "Dr. Ravish Kumar",
+          "designation": "Assistant Professor (Arch & Plann.)",
+          "role": "Member"
+        },
+        {
+          "slNo": 7,
+          "name": "Dr. Md. Danish",
+          "designation": "Assistant Professor (Arch & Plann.)",
+          "role": "Member"
+        },
+        {
+          "slNo": 8,
+          "name": "Dr. Vineet Singh",
+          "designation": "Assistant Professor (ECE)",
+          "role": "Member"
+        },
+        {
+          "slNo": 9,
+          "name": "Dr. Sanjeev Verma",
+          "designation": "Assistant Professor (CST)",
+          "role": "Member"
+        },
+        {
+          "slNo": 10,
+          "name": "Mr. Rajesh Kumar",
+          "designation": "Deputy Registrar",
+          "role": "Member"
+        },
+        {
+          "slNo": 11,
+          "name": "Mr. Shahzad Ahmad",
+          "designation": "Assistant Registrar",
+          "role": "Coordinator"
+        }
+      ]
+    },
+    {
+      "id": "publication",
+      "name": "Publication Sub-Committee",
+      "members": [
+        {
+          "slNo": 1,
+          "name": "Dr. Mukesh Kumar",
+          "designation": "Assistant Professor (CSE)",
+          "role": "Convenor"
+        },
+        {
+          "slNo": 2,
+          "name": "Dr. Rajan Agrahari",
+          "designation": "Assistant Professor (ECE)",
+          "role": "Co-Convenor"
+        },
+        {
+          "slNo": 3,
+          "name": "Dr. Abhishek Kumar Bittu",
+          "designation": "Assistant Professor (Arch. & Plng.)",
+          "role": "Co-Convenor"
+        },
+        {
+          "slNo": 4,
           "name": "Dr. Lakshmi Kushwaha",
-          "designation": "Asstt. Professor (CST)",
+          "designation": "Assistant Professor (CST)",
+          "role": "Member"
+        },
+        {
+          "slNo": 5,
+          "name": "Mr. Sunny Chaudhary",
+          "designation": "Assistant Registrar",
+          "role": "Member"
+        },
+        {
+          "slNo": 6,
+          "name": "Mr. Nitin Kumar Meena",
+          "designation": "Supdt.",
+          "role": "Member"
+        },
+        {
+          "slNo": 7,
+          "name": "Mr. Prince Kumar",
+          "designation": "Assistant Registrar",
+          "role": "Coordinator"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "Media Committee",
+      "members": [
+        {
+          "slNo": 1,
+          "name": "Prof. Prakash Chandra",
+          "designation": "Professor (MED)",
+          "role": "Convenor"
+        },
+        {
+          "slNo": 2,
+          "name": "Prof. Samrat Mukherjee",
+          "designation": "Professor (APME)",
+          "role": "Co-Convenor"
+        },
+        {
+          "slNo": 3,
+          "name": "Dr. Sunil Singh Rana",
+          "designation": "Assistant Professor (MED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 4,
+          "name": "Mr. J. P. Sharma",
+          "designation": "Assistant Registrar",
+          "role": "Member"
+        },
+        {
+          "slNo": 5,
+          "name": "Mr. Shahzad Ahmad",
+          "designation": "Assistant Registrar",
           "role": "Member"
         }
       ]
     },
     {
       "id": "degree_prep",
-      "name": "Degree Preparation Sub-Committee",
-      "duties": [
-        "Printing of Degrees, Certificates of merit & presenting them at the time of Award",
-        "Arranging Overall Topper and Branch Topper Medals in sequence",
-        "Arranging Best Boy & Best Girl prize (Rs. 10,001/-) in sequence",
-        "Arranging Degree folders & Convocation dress distribution and management",
-        "Organising the Pre-convocation rehearsal under guidance of Dean (Academic)"
-      ],
+      "name": "Degree Preparation & Distribution Sub-Committee",
       "members": [
         {
+          "slNo": 1,
           "name": "Dr. Bikash Chandra Sahana",
           "designation": "Assoc. Professor (ECE)",
-          "role": "Convenor"
+          "role": "Convener"
         },
         {
+          "slNo": 2,
           "name": "Dr. Chetan Kumar Hirwani",
           "designation": "Asstt. Professor (MED)",
           "role": "Co-Convenor"
         },
         {
+          "slNo": 3,
           "name": "Dr. Banavath Balaji Naik",
           "designation": "Asstt. Professor (CSE)",
           "role": "Co-Convenor"
         },
         {
-          "name": "Dr. Shiv Shankar Kumar",
-          "designation": "Asstt. Professor (CED)",
-          "role": "Member"
-        },
-        {
-          "name": "Prof. A.R. Quaff",
-          "designation": "Professor (CED) & Assoc. Dean (Examinations)",
-          "role": "Member"
-        },
-        {
-          "name": "Prof. Anshuman Singh",
-          "designation": "Professor (CED)",
-          "role": "Member"
-        },
-        {
+          "slNo": 4,
           "name": "Dr. Golak Bihari Mahanta",
           "designation": "Asstt. Professor (MAE)",
           "role": "Member"
         },
         {
+          "slNo": 5,
+          "name": "Dr. Ankur Chaurasia",
+          "designation": "Asstt. Professor (AP&ME)",
+          "role": "Member"
+        },
+        {
+          "slNo": 6,
+          "name": "Dr. Sumit",
+          "designation": "Asstt. Professor (MAE)",
+          "role": "Member"
+        },
+        {
+          "slNo": 7,
+          "name": "Dr. Shiv Shankar Kumar",
+          "designation": "Assistant Professor (CED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 8,
+          "name": "Prof. M. P. Singh",
+          "designation": "Professor (CSE) & Dean (Acad.)",
+          "role": "Member"
+        },
+        {
+          "slNo": 9,
+          "name": "Prof. A.R. Quaff",
+          "designation": "Professor (CED) & Associate Dean (Exam.)",
+          "role": "Member"
+        },
+        {
+          "slNo": 10,
+          "name": "Prof. Anshuman Singh",
+          "designation": "Professor (CED) & HoD",
+          "role": "Member"
+        },
+        {
+          "slNo": 11,
           "name": "Mrs. Bobby",
           "designation": "Dy. Registrar (Exam.)",
           "role": "Member"
         },
         {
-          "name": "Shri Abhay Kumar",
-          "designation": "Asstt. Registrar (PG)",
+          "slNo": 12,
+          "name": "Mr. Praveen Kr Chourasiya",
+          "designation": "Supdt. (Acad.)",
+          "role": "Member"
+        },
+        {
+          "slNo": 13,
+          "name": "Mr. Aditya Abhinav",
+          "designation": "Supdt. (Acad.)",
+          "role": "Member"
+        },
+        {
+          "slNo": 14,
+          "name": "Mr. Amardeep Kumar",
+          "designation": "Supdt. (Acad.)",
+          "role": "Member"
+        },
+        {
+          "slNo": 15,
+          "name": "Mr. Sagar Kumar",
+          "designation": "Jr. Asstt. (Acad.)",
+          "role": "Member"
+        },
+        {
+          "slNo": 16,
+          "name": "Mr. Rahul Kumar Singh",
+          "designation": "Jr. Asstt. (Acad.)",
+          "role": "Member"
+        },
+        {
+          "slNo": 17,
+          "name": "Mr. Dharmendra Kumar",
+          "designation": "Office Attendant (Acad.)",
+          "role": "Member"
+        },
+        {
+          "slNo": 18,
+          "name": "Mr. Prashant Meena",
+          "designation": "Jr. Asstt. (Exam.)",
+          "role": "Member"
+        },
+        {
+          "slNo": 19,
+          "name": "Mr. Rakesh Kumar Balmiki",
+          "designation": "Office Attendant (Exam.)",
+          "role": "Member"
+        },
+        {
+          "slNo": 20,
+          "name": "Mr. Vishwajeet Kumar",
+          "designation": "Office Assistant (Exam.)",
+          "role": "Member"
+        },
+        {
+          "slNo": 21,
+          "name": "Mr. Gaurav Kumar",
+          "designation": "Office Assistant (Exam.)",
+          "role": "Member"
+        },
+        {
+          "slNo": 22,
+          "name": "Mr. Lalan Kumar Jha",
+          "designation": "Office Assistant (Exam.)",
+          "role": "Member"
+        },
+        {
+          "slNo": 23,
+          "name": "Mr. Saurav Kumar",
+          "designation": "MTS (Acad.)",
+          "role": "Member"
+        },
+        {
+          "slNo": 24,
+          "name": "Mr. Abhay Kumar",
+          "designation": "Assistant Registrar",
           "role": "Coordinator"
         }
       ]
     },
     {
       "id": "registration",
-      "name": "Registration & MIS Sub-Committee",
-      "duties": [
-        "Management of degree recipients registration portal",
-        "Generation of digital attendance QR entry passes",
-        "Hall seating allocation and verification at entry gate"
-      ],
+      "name": "Registration Sub-Committee (for Degree Recipients)",
       "members": [
         {
-          "name": "Dr. Banavath Balaji Naik",
-          "designation": "Asstt. Professor (CSE) & WDC Lead",
+          "slNo": 1,
+          "name": "Dr. J.P. Singh",
+          "designation": "Assoc. Professor (CSE)",
           "role": "Convenor"
         },
         {
-          "name": "Shri Akash Kumar",
-          "designation": "Tech. Asstt. (MIS)",
+          "slNo": 2,
+          "name": "Dr. Balaji Naik",
+          "designation": "Asstt. Professor (CSE)",
+          "role": "Co-Convenor"
+        },
+        {
+          "slNo": 3,
+          "name": "Dr. Devarani Devi Ningombam",
+          "designation": "Asstt. Professor (CSE)",
           "role": "Member"
         },
         {
-          "name": "Shri Praveen Kr Chourasiya",
-          "designation": "Superintendent (Academic)",
+          "slNo": 4,
+          "name": "Prof. Prabhat Kumar",
+          "designation": "Professor (CSE)",
           "role": "Member"
         },
         {
-          "name": "Shri Aditya Abhinav",
-          "designation": "Superintendent (Academic)",
+          "slNo": 5,
+          "name": "Mr. Coomar Kislay",
+          "designation": "TA (CSE)",
+          "role": "Member"
+        },
+        {
+          "slNo": 6,
+          "name": "Mr. Aakash Kumar",
+          "designation": "TA (MIS)",
+          "role": "Member"
+        },
+        {
+          "slNo": 7,
+          "name": "Dr. Santosh Kumar",
+          "designation": "Scientific & Technical Officer",
+          "role": "Coordinator"
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "name": "Reception & Transport Committee",
+      "members": [
+        {
+          "slNo": 1,
+          "name": "Dr. Bambam Kumar",
+          "designation": "Assistant Professor (ECE)",
+          "role": "Convenor"
+        },
+        {
+          "slNo": 2,
+          "name": "Dr. Anil Kumar Sharma",
+          "designation": "Assistant Professor (CED)",
+          "role": "Co-Convenor"
+        },
+        {
+          "slNo": 3,
+          "name": "Dr. Sonu Rajak",
+          "designation": "Assistant Professor (MED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 4,
+          "name": "Dr. Mukesh Choudhary",
+          "designation": "Assoc. Professor (CST)",
+          "role": "Member"
+        },
+        {
+          "slNo": 5,
+          "name": "Dr. Abhimanyu Kumar",
+          "designation": "Assistant Professor (CSE)",
+          "role": "Member"
+        },
+        {
+          "slNo": 6,
+          "name": "Dr. Ravi Kumar",
+          "designation": "Assistant Professor (MED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 7,
+          "name": "Mr. J. P. Sharma",
+          "designation": "Assistant Registrar",
           "role": "Member"
         }
       ]
     },
     {
-      "id": "it_services",
-      "name": "IT Services Management Committee",
-      "duties": [
-        "Convocation web portal and mobile responsive directory",
-        "Live streaming on YouTube and campus networks",
-        "Network connectivity, WiFi, and digital signage"
-      ],
+      "id": "it_audio_video",
+      "name": "IT & Audio Video Committee",
       "members": [
         {
+          "slNo": 1,
           "name": "Prof. Prabhat Kumar",
-          "designation": "Professor (CSE) & Head (CCIS)",
+          "designation": "Professor (CSE)",
           "role": "Convenor"
         },
         {
+          "slNo": 2,
           "name": "Dr. Santosh Kumar",
-          "designation": "Scientific Officer",
+          "designation": "Sr. Scientific Officer",
           "role": "Co-Convenor"
         },
         {
+          "slNo": 3,
           "name": "Mr. Ritesh Kumar",
-          "designation": "Technical Assistant, CCIS",
+          "designation": "Technical Assistant",
           "role": "Member"
         },
         {
+          "slNo": 4,
           "name": "Mr. Paritosh Bhushan",
-          "designation": "Technical Assistant, CCIS",
+          "designation": "Technical Assistant",
           "role": "Member"
         },
         {
+          "slNo": 5,
           "name": "Mr. Purushottam Kumar",
-          "designation": "Technical Assistant, CCIS",
+          "designation": "Technical Assistant",
           "role": "Member"
         }
       ]
     },
     {
       "id": "venue",
-      "name": "Venue & Seating Sub-Committee",
-      "duties": [
-        "Finalisation & Decoration of Venue inside and outside",
-        "Dais arrangement, backdrop, PA sound system, and Dais nameplates",
-        "Campus lighting of Institute Main Building & Central Library",
-        "Generator power backup and student seating coordination"
-      ],
+      "name": "Venue Sub-Committee",
       "members": [
         {
+          "slNo": 1,
           "name": "Dr. Mazharul Haque",
-          "designation": "Assoc. Professor (Arch. & Planning)",
+          "designation": "Assoc. Professor (Arch. & Plng.)",
           "role": "Convenor"
         },
         {
+          "slNo": 2,
           "name": "Dr. Vimlesh Verma",
           "designation": "Assoc. Professor (EED)",
           "role": "Co-Convenor"
         },
         {
+          "slNo": 3,
           "name": "Dr. Ambarish Maurya",
           "designation": "Asstt. Professor (MED)",
           "role": "Co-Convenor"
         },
         {
-          "name": "Prof. Prakash Chandra",
-          "designation": "Professor & HoD (MED)",
+          "slNo": 4,
+          "name": "Dr. Mala De",
+          "designation": "Assoc. Professor (EED)",
           "role": "Member"
         },
         {
-          "name": "Prof. Baboo Rai",
-          "designation": "Professor (CED) & EE (ESU)",
+          "slNo": 5,
+          "name": "Dr. Abhishek Singh",
+          "designation": "Associate Professor (MED)",
           "role": "Member"
-        }
-      ]
-    },
-    {
-      "id": "transport",
-      "name": "Reception & Transport Sub-Committee",
-      "duties": [
-        "Reception of Hon’ble Guests and Dignitaries at Airport/Railway Station",
-        "Arrangement of protocol vehicular transportation and campus reception"
-      ],
-      "members": [
-        {
-          "name": "Dr. Bambam Kumar",
-          "designation": "Asstt. Professor (ECE)",
-          "role": "Convenor"
         },
         {
-          "name": "Dr. Anil Kumar Sharma",
+          "slNo": 6,
+          "name": "Dr. Lini Dev K",
           "designation": "Asstt. Professor (CED)",
-          "role": "Co-Convenor"
+          "role": "Member"
         },
         {
+          "slNo": 7,
+          "name": "Dr. Sandeep Kumar",
+          "designation": "Asstt. Professor (Arch. & Plng.)",
+          "role": "Member"
+        },
+        {
+          "slNo": 8,
+          "name": "Dr. Anand Bhushan",
+          "designation": "Assoc. Professor (MED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 9,
+          "name": "Dr. Gowrisankar S",
+          "designation": "Assoc. Professor (MCT)",
+          "role": "Member"
+        },
+        {
+          "slNo": 10,
+          "name": "Dr. Anushri Barman",
+          "designation": "Asstt. Professor (Arch. & Plng.)",
+          "role": "Member"
+        },
+        {
+          "slNo": 11,
+          "name": "Dr. Satyajit Mondal",
+          "designation": "Asstt. Professor (CED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 12,
+          "name": "Dr. Nishat Anwar",
+          "designation": "Asstt. Professor (EED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 13,
+          "name": "Dr. Govind Mohan",
+          "designation": "Asstt. Professor (CED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 14,
+          "name": "Ar. Abhishek Kumar Bittu",
+          "designation": "Asstt. Professor (Arch. & Plng.)",
+          "role": "Member"
+        },
+        {
+          "slNo": 15,
+          "name": "Dr. Seemanti Saha",
+          "designation": "Assoc. Professor (ECE)",
+          "role": "Member"
+        },
+        {
+          "slNo": 16,
+          "name": "Dr. Awadh Kisore",
+          "designation": "Asstt. Professor (CST)",
+          "role": "Member"
+        },
+        {
+          "slNo": 17,
+          "name": "Dr. Shiv Shankar Kumar",
+          "designation": "Asstt. Professor (CED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 18,
+          "name": "Dr. Anindya Malas",
+          "designation": "Asstt. Professor (MED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 19,
+          "name": "Dr. Piyush Kumar",
+          "designation": "Asstt. Professor (CSE)",
+          "role": "Member"
+        },
+        {
+          "slNo": 20,
+          "name": "Dr. Rakesh Ranjan",
+          "designation": "Assoc. Professor (ECE)",
+          "role": "Member"
+        },
+        {
+          "slNo": 21,
+          "name": "Dr. Sunil Singh Rana",
+          "designation": "Asstt. Professor (MED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 22,
+          "name": "Dr. Asim",
+          "designation": "Asstt. Professor (EED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 23,
           "name": "Dr. Sonu Rajak",
           "designation": "Asstt. Professor (MED)",
           "role": "Member"
         },
         {
-          "name": "Dr. Mukesh Choudhary",
-          "designation": "Assoc. Professor (Chem.)",
+          "slNo": 24,
+          "name": "Mr. Saket Narayan Choudhary",
+          "designation": "Asstt. Engineer (ESU)",
           "role": "Member"
         },
         {
-          "name": "Dr. Abhimanyu Kumar",
-          "designation": "Asstt. Professor (CSE)",
+          "slNo": 25,
+          "name": "Mr. Jawed Alam",
+          "designation": "Sr. Technician (ESU)",
           "role": "Member"
         }
       ]
     },
     {
-      "id": "food",
-      "name": "Food Arrangement Committee",
-      "duties": [
-        "Arrangement of Convocation Lunch/Dinner and Refreshments on rehearsal and Convocation Day",
-        "VIP lounge catering and student dining enclosure management"
-      ],
+      "id": "stage_management",
+      "name": "Stage Management Committee",
       "members": [
         {
+          "slNo": 1,
+          "name": "Dr. Amit Kumar Singh",
+          "designation": "Assoc. Professor (CSE)",
+          "role": "Convener"
+        },
+        {
+          "slNo": 2,
+          "name": "Dr. Anmesh Kr. Srivastava",
+          "designation": "Asstt. Professor (MED)",
+          "role": "Co-Convener"
+        },
+        {
+          "slNo": 3,
+          "name": "Dr. Preksha Gupta",
+          "designation": "Asstt. Professor (Arch. & Plng.)",
+          "role": "Member"
+        },
+        {
+          "slNo": 4,
+          "name": "Dr. Anjali Sharma",
+          "designation": "Asstt. Professor (Arch. & Plng.)",
+          "role": "Member"
+        },
+        {
+          "slNo": 5,
+          "name": "Dr. B Anil Kumar Naik",
+          "designation": "Asstt. Professor (CST)",
+          "role": "Member"
+        },
+        {
+          "slNo": 6,
+          "name": "Dr. Anushree Tripathi",
+          "designation": "Asstt. Professor (CSE)",
+          "role": "Member"
+        },
+        {
+          "slNo": 7,
+          "name": "Dr. Gaurav Varshney",
+          "designation": "Asstt. Professor (ECE)",
+          "role": "Member"
+        },
+        {
+          "slNo": 8,
+          "name": "Dr. Satyajit Mandal",
+          "designation": "Asstt. Professor (CED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 9,
+          "name": "Dr. Shiv Shankar Kumar",
+          "designation": "Asstt. Professor (CED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 10,
+          "name": "Dr. Ankur Chaurasia",
+          "designation": "Asstt. Professor (Arch. & Plng.)",
+          "role": "Member"
+        },
+        {
+          "slNo": 11,
+          "name": "Dr. Piyush Kumar",
+          "designation": "Asstt. Professor (CSE)",
+          "role": "Member"
+        },
+        {
+          "slNo": 12,
+          "name": "Dr. Somaraju Suvvari",
+          "designation": "Asstt. Professor (CSE)",
+          "role": "Member"
+        },
+        {
+          "slNo": 13,
+          "name": "Dr. Suddhasil De",
+          "designation": "Asstt. Professor (CSE)",
+          "role": "Member"
+        },
+        {
+          "slNo": 14,
+          "name": "Dr. Ritesh Kumar",
+          "designation": "Asstt. Professor (MAE)",
+          "role": "Member"
+        }
+      ]
+    },
+    {
+      "id": "food_arrangement",
+      "name": "Food Arrangement Committee",
+      "members": [
+        {
+          "slNo": 1,
           "name": "Prof. Amit Kumar",
           "designation": "Professor (MED)",
-          "role": "Convenor"
+          "role": "Convener"
         },
         {
-          "name": "Dr. Omji Shukla",
-          "designation": "Asstt. Professor (MED)",
-          "role": "Co-Convenor"
-        },
-        {
+          "slNo": 2,
           "name": "Dr. Deepak Kr. Behera",
-          "designation": "Assoc. Professor (HSS)",
-          "role": "Co-Convenor"
+          "designation": "Assoc. Prof (HSS)",
+          "role": "Co-Convener"
         },
         {
+          "slNo": 3,
+          "name": "Dr. Gowrisankar S",
+          "designation": "Assoc. Professor (MCT)",
+          "role": "Co-Convener"
+        },
+        {
+          "slNo": 4,
+          "name": "Dr. Abhishek Singh",
+          "designation": "Assoc. Professor (MED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 5,
+          "name": "Dr. Ambarisha Mishra",
+          "designation": "Asstt. Professor (EED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 6,
+          "name": "Dr. Ram Narayan Chauhan",
+          "designation": "Asstt. Professor (AP&ME)",
+          "role": "Member"
+        },
+        {
+          "slNo": 7,
           "name": "Dr. Ajay Kumar Maurya",
           "designation": "Asstt. Professor (ECE)",
+          "role": "Member"
+        },
+        {
+          "slNo": 8,
+          "name": "Dr. Sangeeta Singh",
+          "designation": "Asstt. Professor (ECE)",
+          "role": "Member"
+        },
+        {
+          "slNo": 9,
+          "name": "Dr. Sonu Rajak",
+          "designation": "Asstt. Professor (MED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 10,
+          "name": "Dr. Bhabani Shankar Das",
+          "designation": "Asstt. Professor (CED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 11,
+          "name": "Dr. Hari Narayan Singh Yadav",
+          "designation": "Asstt. Professor (MED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 12,
+          "name": "Dr. Govind Mohan",
+          "designation": "Asstt. Professor (CED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 13,
+          "name": "Dr. Pagidi Madhukar",
+          "designation": "Asstt. Professor (MED)",
+          "role": "Member"
+        },
+        {
+          "slNo": 14,
+          "name": "Dr. Sanjeev Verma",
+          "designation": "Asstt. Professor (CST)",
+          "role": "Member"
+        },
+        {
+          "slNo": 15,
+          "name": "Mr. Mani Shankar Singh",
+          "designation": "Joint Registrar (F & A)",
+          "role": "Member"
+        },
+        {
+          "slNo": 16,
+          "name": "Mr. Nitin Kumar Meena",
+          "designation": "Suptd. Procurement Section",
+          "role": "Member"
+        },
+        {
+          "slNo": 17,
+          "name": "Mr. Abhineet Chaudhary",
+          "designation": "Suptd. (F &A)",
+          "role": "Member"
+        },
+        {
+          "slNo": 18,
+          "name": "Mr. Gaurav Kuma Singh",
+          "designation": "J A Director's Office",
+          "role": "Member"
+        },
+        {
+          "slNo": 19,
+          "name": "Mr. Praneet Kumar Jha",
+          "designation": "J A Procurement Section",
           "role": "Member"
         }
       ]
     }
   ],
-  "deans": [
-    {
-      "name": "Dr. Asit Narayan",
-      "designation": "Registrar & Member Secretary, Senate & BOG"
-    },
-    {
-      "name": "Prof. M.P. Singh",
-      "designation": "Dean (Academic)"
-    },
-    {
-      "name": "Prof. Ramesh Kumar",
-      "designation": "Dean (Research & Consultancy)"
-    },
-    {
-      "name": "Prof. Prakash Chandra",
-      "designation": "Dean (Faculty Welfare)"
-    },
-    {
-      "name": "Prof. Sanjeev Sinha",
-      "designation": "Dean (Planning & Development)"
-    },
-    {
-      "name": "Prof. Prabhat Kumar",
-      "designation": "Dean (Student Welfare) & Head - CCIS"
-    },
-    {
-      "name": "Dr. Sanjay Kumar",
-      "designation": "Dean (Outreach & Alumni Affairs)"
-    }
-  ]
+  "deans": []
 }

@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-import { Award, Medal, ArrowRight, Sparkles } from "lucide-react";
+import { Award, Medal, ArrowRight } from "lucide-react";
 import { useConvocation } from "@/context/ConvocationContext";
 
 
@@ -28,10 +28,10 @@ export default function AwardeesSection() {
         
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto space-y-3 mb-12">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-50 border border-amber-200/70 text-amber-900 text-xs font-bold uppercase tracking-wider mb-2">
+          {/* <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-50 border border-amber-200/70 text-amber-900 text-xs font-bold uppercase tracking-wider mb-2">
             <Sparkles className="w-3.5 h-3.5 text-amber-600" />
             <span>Academic Honours • {data.year || "2026"}</span>
-          </div>
+          </div> */}
           <h2 className="text-3xl sm:text-5xl font-sans font-extrabold text-slate-900 tracking-tight">
             Awards &amp; Honours
           </h2>

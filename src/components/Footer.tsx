@@ -93,7 +93,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href={year === "2026" ? "/graduates" : `/${year}/graduates`} className="hover:text-white transition-colors duration-200">
-                  Graduate &amp; Ph.D Directory ({INSTITUTE_INFO.totalGraduates || 0})
+                  Graduate &amp; Ph.D. Directory ({INSTITUTE_INFO.totalGraduates || 0})
                 </Link>
               </li>
             </ul>

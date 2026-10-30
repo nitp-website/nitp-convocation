@@ -71,7 +71,7 @@ export default function FlashNews() {
     });
   } else if (INSTITUTE_INFO.totalGraduates) {
     newsItems.push({
-      title: `${INSTITUTE_INFO.totalGraduates} Degree Recipients & ${INSTITUTE_INFO.phdScholars || 0} Ph.D Scholars directory now searchable online.`,
+      title: `${INSTITUTE_INFO.totalGraduates} Degree Recipients & ${INSTITUTE_INFO.phdScholars || 0} Ph.D. Scholars directory now searchable online.`,
       link: graduatesLink
     });
   }
